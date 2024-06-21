@@ -3,47 +3,47 @@ enables player to use a console to enter commands in-game
 # Lord Console Commands
 k.setTreasury amount
 
-﻿﻿﻿﻿﻿﻿- set player Lord Treasury to specified amount
+﻿﻿﻿﻿﻿﻿- set player Lord Treasury to specified <ins>amount</ins>
 
-k.addTreasury amount
+k.addTreasury <ins>amount</ins>
 
-﻿﻿﻿- increase/decrease player Lord Treasury by specified amount (negate amount to decrease)
+﻿﻿﻿- increase/decrease player Lord Treasury by specified <ins>amount</ins> (negate <ins>amount</ins> to decrease)
 
-k.setInfluece amount
+k.setInfluece <ins>amount</ins>
 
-﻿﻿- set player Lord Influence to specified amount
+﻿﻿- set player Lord Influence to specified <ins>amount</ins>
 
-k.addInfluence amount
+k.addInfluence <ins>amount</ins>
 
-﻿﻿- increase/decrease player Lord Treasury by specified amount (negate amount to decrease)
+﻿﻿- increase/decrease player Lord Treasury by specified <ins>amount</ins> (negate <ins>amount</ins> to decrease)
 
-k.setKingsFavor amount﻿
+k.setKingsFavor <ins>amount</ins>
 
-﻿- set player Lord KingsFavor to specified amount
+﻿- set player Lord KingsFavor to specified <ins>amount</ins>
 
-k.addKingsFavor amount
+k.addKingsFavor <ins>amount</ins>
 
-﻿﻿- increase/decrease player Lord KingsFavor by specified amount (negate amount to decrease)
+﻿﻿- increase/decrease player Lord KingsFavor by specified <ins>amount</ins> (negate <ins>amount</ins> to decrease)
 
-k.layClaim regionName
+k.layClaim <ins>regionName</ins>
 
-﻿- lay a player claim on a region identified by specified regionName
+﻿- lay a player claim on a region identified by specified <ins>regionName</ins>
 
-﻿﻿﻿- regionName is case-insensitive
+﻿﻿﻿- <ins>regionName</ins> is case-insensitive
 
-k.layClaimForRegionOwner regionName targetRegionName
+k.layClaimForRegionOwner <ins>regionName</ins> <ins>targetRegionName</ins>
 
 ﻿﻿- lay a lord claim that owns the specified regionName on a region identified by specified targetRegionName
-﻿﻿﻿﻿- regionName is case-insensitive﻿﻿
-﻿﻿﻿﻿﻿- targetRegionName is case-insensitive
+﻿﻿﻿﻿- <ins>regionName</ins> is case-insensitive﻿﻿
+﻿﻿﻿﻿﻿- <ins>regionName</ins> is case-insensitive
 
 k.finalizeClaims
 
 ﻿- finalize all player claims
 
-k.finalizePlayerClaimOnRegion regionName
+k.finalizePlayerClaimOnRegion <ins>regionName</ins>
 
-﻿﻿﻿- finalize player claim on a region identified by specified regionName
+﻿﻿﻿- finalize player claim on a region identified by specified<ins>regionName</ins>
 
 k.refuteClaims
 
