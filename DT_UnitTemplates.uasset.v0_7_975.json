@@ -1,0 +1,1146 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UnitTemplates",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'UnitTemplate'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "bowMilitia": {
+        "name": "",
+        "descr": "",
+        "icon": 107,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_bows'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_bows.0"
+        },
+        "isMilitia": true,
+        "cost": 25.0,
+        "armours": [
+          52
+        ],
+        "weapons": [],
+        "shields": [
+          205
+        ],
+        "helmets": [
+          285
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          3,
+          4
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Militia_Archers'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Militia_Archers.0"
+        },
+        "portrait": null,
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka",
+          "archers",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 2,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "militiaFoot": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_swords'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_swords.0"
+        },
+        "isMilitia": true,
+        "cost": 100.0,
+        "armours": [
+          163,
+          52
+        ],
+        "weapons": [
+          177
+        ],
+        "shields": [
+          270
+        ],
+        "helmets": [
+          273
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          10
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Militia_Footmen'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Militia_Footmen.0"
+        },
+        "portrait": null,
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka"
+        ],
+        "requiredEquipment": [
+          {
+            "type": 177,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "type": 270,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "spearMilitia": {
+        "name": "",
+        "descr": "",
+        "icon": 105,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_spears'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_spears.0"
+        },
+        "isMilitia": true,
+        "cost": 0.0,
+        "armours": [
+          52,
+          163
+        ],
+        "weapons": [
+          133
+        ],
+        "shields": [
+          271
+        ],
+        "helmets": [
+          273
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          2
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Militia_Spearmen'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Militia_Spearmen.0"
+        },
+        "portrait": null,
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka",
+          "spearmen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 2,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "militiaPole": {
+        "name": "",
+        "descr": "",
+        "icon": 110,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad-hammer'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad-hammer.0"
+        },
+        "isMilitia": true,
+        "cost": 100.0,
+        "armours": [
+          52,
+          163
+        ],
+        "weapons": [
+          178
+        ],
+        "shields": [],
+        "helmets": [
+          273
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          10
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Polearm_Militia'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Polearm_Militia.0"
+        },
+        "portrait": null,
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "retinue_tier1": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": {
+          "ObjectName": "Texture2D'round-star'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/round-star.0"
+        },
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [
+          164
+        ],
+        "weapons": [
+          278,
+          250
+        ],
+        "shields": [
+          290
+        ],
+        "helmets": [
+          276
+        ],
+        "mounts": [],
+        "bonus": [
+          247
+        ],
+        "skills": [
+          0,
+          4,
+          11,
+          13,
+          9,
+          8
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Retinue__Tier_1_'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Retinue__Tier_1_.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "heavyInfantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 2.0,
+        "minArcheryTraining": 2.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "retinue_tier3": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": {
+          "ObjectName": "Texture2D'round-star'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/round-star.0"
+        },
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [
+          293
+        ],
+        "weapons": [
+          278,
+          250
+        ],
+        "shields": [
+          290
+        ],
+        "helmets": [
+          294
+        ],
+        "mounts": [],
+        "bonus": [
+          247
+        ],
+        "skills": [
+          0,
+          4,
+          11,
+          13,
+          9,
+          8
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Retinue__Tier_1_'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Retinue__Tier_1_.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "heavyInfantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 2.0,
+        "minArcheryTraining": 2.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "--------------------------": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [],
+        "weapons": [],
+        "shields": [],
+        "helmets": [],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": null,
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "brigands": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": {
+          "ObjectName": "Texture2D'wood-club'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/wood-club.0"
+        },
+        "isMilitia": true,
+        "cost": 25.0,
+        "armours": [
+          163
+        ],
+        "weapons": [
+          177,
+          213
+        ],
+        "shields": [
+          270
+        ],
+        "helmets": [
+          207,
+          288
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          7,
+          4,
+          12,
+          14
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Brigands'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Brigands.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "axemen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": false,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "brigandArchers": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_bows'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_bows.0"
+        },
+        "isMilitia": true,
+        "cost": 25.0,
+        "armours": [
+          163
+        ],
+        "weapons": [],
+        "shields": [
+          205
+        ],
+        "helmets": [
+          207,
+          288
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          7,
+          4,
+          12,
+          14
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Brigand_Archer'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Brigand_Archer.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "axemen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": false,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "mercenary_archers": {
+        "name": "",
+        "descr": "",
+        "icon": 107,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_bows'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_bows.0"
+        },
+        "isMilitia": false,
+        "cost": 25.0,
+        "armours": [
+          163,
+          311
+        ],
+        "weapons": [],
+        "shields": [
+          205
+        ],
+        "helmets": [
+          289
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          3,
+          4
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Mercenary_Archers'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Mercenary_Archers.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "bowmen"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "mercenary_heavy_archers": {
+        "name": "",
+        "descr": "",
+        "icon": 107,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_bows'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_bows.0"
+        },
+        "isMilitia": false,
+        "cost": 25.0,
+        "armours": [
+          163,
+          164
+        ],
+        "weapons": [],
+        "shields": [
+          205
+        ],
+        "helmets": [
+          289
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          3,
+          4
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Heavy_Mercenary_Archer'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Heavy_Mercenary_Archer.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "bowmen"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "mercenary_spearmen": {
+        "name": "",
+        "descr": "",
+        "icon": 105,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_spears'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_spears.0"
+        },
+        "isMilitia": false,
+        "cost": 25.0,
+        "armours": [
+          163
+        ],
+        "weapons": [
+          133
+        ],
+        "shields": [
+          271
+        ],
+        "helmets": [
+          289
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          2
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Heavy_Merc_Spearmen'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Heavy_Merc_Spearmen.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_kabooka",
+          "spearmen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "mercenary_infantry": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": {
+          "ObjectName": "Texture2D'squad_swords'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squad_swords.0"
+        },
+        "isMilitia": false,
+        "cost": 25.0,
+        "armours": [
+          163
+        ],
+        "weapons": [
+          177
+        ],
+        "shields": [
+          270
+        ],
+        "helmets": [
+          289
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          2
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Light_Merc_Infantry'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Light_Merc_Infantry.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_kabooka",
+          "spearmen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "--------------------------_0": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [],
+        "weapons": [],
+        "shields": [],
+        "helmets": [],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": null,
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "militia": {
+        "name": "Peasant Militia",
+        "descr": "Basic infantry equipped with whatever weapons they can muster.",
+        "icon": 109,
+        "iconTexture": null,
+        "isMilitia": true,
+        "cost": 0.0,
+        "armours": [
+          52,
+          238
+        ],
+        "weapons": [
+          158,
+          161,
+          223
+        ],
+        "shields": [],
+        "helmets": [
+          239,
+          240,
+          241,
+          246,
+          199,
+          0
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          7,
+          4
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'milit_peasant'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/milit_peasant.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'milit_peasant'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/milit_peasant.0"
+        },
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 0,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "basket": {
+        "name": "Basketmen",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 25.0,
+        "armours": [
+          129
+        ],
+        "weapons": [
+          34
+        ],
+        "shields": [],
+        "helmets": [
+          154
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'cardAxeman04_small01'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/cardAxeman04_small01.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'cardAxeman04_medium_01'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/cardAxeman04_medium_01.0"
+        },
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "axemen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "sherwoodBow": {
+        "name": "Sherwood Bowmen",
+        "descr": "Cheap missile infantry. Great against unshielded units.",
+        "icon": 107,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 25.0,
+        "armours": [
+          129,
+          52
+        ],
+        "weapons": [],
+        "shields": [
+          126
+        ],
+        "helmets": [
+          61,
+          130
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          3,
+          4
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'merc_sherwoodArch'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/merc_sherwoodArch.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'merc_sherwoodArch'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/merc_sherwoodArch.0"
+        },
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "bowmen"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "--------------------------_1": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [],
+        "weapons": [],
+        "shields": [],
+        "helmets": [],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": null,
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "wrong_unit_type": {
+        "name": "wrong_unit_type",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [],
+        "weapons": [],
+        "shields": [],
+        "helmets": [],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": null,
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "--------------------------_2": {
+        "name": "",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [],
+        "weapons": [],
+        "shields": [],
+        "helmets": [],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": null,
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "militiaFoot_testing": {
+        "name": "militiaFoot",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": true,
+        "cost": 100.0,
+        "armours": [
+          52,
+          163
+        ],
+        "weapons": [
+          177
+        ],
+        "shields": [
+          270
+        ],
+        "helmets": [
+          273
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          10
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'cardAxeman04_medium_01'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/cardAxeman04_medium_01.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'cardAxeman04_medium_01'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/cardAxeman04_medium_01.0"
+        },
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "spearMilitiaTesting": {
+        "name": "spearMilitia",
+        "descr": "",
+        "icon": 105,
+        "iconTexture": null,
+        "isMilitia": true,
+        "cost": 100.0,
+        "armours": [
+          52,
+          163
+        ],
+        "weapons": [
+          133
+        ],
+        "shields": [
+          270
+        ],
+        "helmets": [
+          273
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          2
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'milit_spear'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/milit_spear.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'milit_spear'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/milit_spear.0"
+        },
+        "maxSize": 32,
+        "audioTags": [
+          "eng_kabooka"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 1,
+        "combatExperience": 5.0
+      },
+      "brigands_old": {
+        "name": "Brigands",
+        "descr": "Basic infantry. Agile, good charge.",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": true,
+        "cost": 25.0,
+        "armours": [
+          196
+        ],
+        "weapons": [
+          34,
+          123,
+          248,
+          213
+        ],
+        "shields": [
+          119,
+          0
+        ],
+        "helmets": [
+          207,
+          131,
+          207,
+          272
+        ],
+        "mounts": [],
+        "bonus": [],
+        "skills": [
+          7,
+          4
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'merc_brigands'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/merc_brigands.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'merc_brigands'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/merc_brigands.0"
+        },
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "axemen",
+          "infantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": false,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "retinue_tier1_old": {
+        "name": "retinue_tier1",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [
+          164,
+          179,
+          164
+        ],
+        "weapons": [
+          123,
+          248,
+          249,
+          250,
+          122
+        ],
+        "shields": [
+          119,
+          251,
+          209,
+          210
+        ],
+        "helmets": [
+          131,
+          191
+        ],
+        "mounts": [
+          0,
+          247
+        ],
+        "bonus": [],
+        "skills": [
+          0,
+          4,
+          11,
+          13
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'cardAxeman04_small01'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/cardAxeman04_small01.0"
+        },
+        "portrait": {
+          "ObjectName": "Texture2D'cardAxeman04_small01'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/WIP/cardAxeman04_small01.0"
+        },
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "heavyInfantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 2.0,
+        "minArcheryTraining": 2.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "reginaldsRetinue": {
+        "name": "retinue_tier1",
+        "descr": "",
+        "icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [
+          164,
+          179,
+          164
+        ],
+        "weapons": [
+          278,
+          250
+        ],
+        "shields": [
+          119,
+          251
+        ],
+        "helmets": [
+          276
+        ],
+        "mounts": [],
+        "bonus": [
+          247
+        ],
+        "skills": [
+          0,
+          4,
+          11,
+          13,
+          9,
+          14
+        ],
+        "hideHeads": false,
+        "card": {
+          "ObjectName": "Texture2D'Retinue__Tier_1_'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/cards/Retinue__Tier_1_.0"
+        },
+        "portrait": null,
+        "maxSize": 60,
+        "audioTags": [
+          "eng_filmfinken",
+          "heavyInfantry"
+        ],
+        "requiredEquipment": [],
+        "minMeleeTraining": 2.0,
+        "minArcheryTraining": 2.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      }
+    }
+  }
+]
