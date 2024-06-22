@@ -1,0 +1,48 @@
+#ifndef UE4SS_SDK_generalMarketTradeWidget_HPP
+#define UE4SS_SDK_generalMarketTradeWidget_HPP
+
+class UgeneralMarketTradeWidget_C : public UUserWidget
+{
+    FPointerToUberGraphFrame UberGraphFrame;                                          // 0x0260 (size: 0x8)
+    class UButton* Add;                                                               // 0x0268 (size: 0x8)
+    class UHorizontalRadioSelect_C* categoryHorizontalRadioSelect;                    // 0x0270 (size: 0x8)
+    class UVerticalBox* goodsList_advanced;                                           // 0x0278 (size: 0x8)
+    class UVerticalBox* goodsList_basic;                                              // 0x0280 (size: 0x8)
+    class UHorizontalBox* HorizontalBox;                                              // 0x0288 (size: 0x8)
+    class UHorizontalBox* HorizontalBox_56;                                           // 0x0290 (size: 0x8)
+    class UHorizontalBox* HorizontalBox_72;                                           // 0x0298 (size: 0x8)
+    class UImage* Image;                                                              // 0x02A0 (size: 0x8)
+    class UImage* Image_1;                                                            // 0x02A8 (size: 0x8)
+    class UImage* Image_2;                                                            // 0x02B0 (size: 0x8)
+    class UImage* Image_3;                                                            // 0x02B8 (size: 0x8)
+    class UImage* Image_10;                                                           // 0x02C0 (size: 0x8)
+    class UImage* Image_40;                                                           // 0x02C8 (size: 0x8)
+    class UImage* Image_41;                                                           // 0x02D0 (size: 0x8)
+    class UImage* Image_47;                                                           // 0x02D8 (size: 0x8)
+    class UtargetStockWidget_tradeTarget_C* livestockMeter_Lamb;                      // 0x02E0 (size: 0x8)
+    class UtargetStockWidget_tradeTarget_C* livestockMeter_Lamb_1;                    // 0x02E8 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox;                                      // 0x02F0 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_0;                                    // 0x02F8 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_1;                                    // 0x0300 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_2;                                    // 0x0308 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_3;                                    // 0x0310 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_40;                                   // 0x0318 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_C_0;                                  // 0x0320 (size: 0x8)
+    class UlocalizedTextBox_C* localizedTextBox_C_1;                                  // 0x0328 (size: 0x8)
+    class UVerticalBox* main_vb;                                                      // 0x0330 (size: 0x8)
+    class UTextBlock* numTravellingTraders;                                           // 0x0338 (size: 0x8)
+    class UButton* Remove;                                                            // 0x0340 (size: 0x8)
+    class UHorizontalBox* target_inv_hb;                                              // 0x0348 (size: 0x8)
+    FString selectedCategory;                                                         // 0x0350 (size: 0x10)
+    class ASMBuildingMaster* building;                                                // 0x0360 (size: 0x8)
+
+    void filterCategory();
+    void respawnGoodList();
+    void BndEvt__generalMarketWidget_categoryHorizontalRadioSelect_K2Node_ComponentBoundEvent_0_RadioSelectedSignature__DelegateSignature(FString Value);
+    void BndEvt__generalMarketWidget_add_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature();
+    void BndEvt__generalMarketWidget_remove_K2Node_ComponentBoundEvent_2_OnButtonReleasedEvent__DelegateSignature();
+    void Construct();
+    void ExecuteUbergraph_generalMarketTradeWidget(int32 EntryPoint);
+}; // Size: 0x368
+
+#endif
