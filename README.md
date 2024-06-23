@@ -1,1 +1,1 @@
-enables player to use a console to enter commands in-game
+enables player to enter commands via console window in game
