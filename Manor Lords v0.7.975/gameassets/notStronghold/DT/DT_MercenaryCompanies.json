@@ -1,0 +1,232 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MercenaryCompanies",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MercenaryCompany'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "brotherhood_of_the_forest": {
+        "name": "brotherhood_of_the_forest",
+        "units": [
+          "mercenary_archers",
+          "brigands"
+        ],
+        "traits": [
+          "looters",
+          "criminals",
+          "hate_wealthy"
+        ],
+        "banner": {
+          "ObjectName": "Texture2D'merc_brotherhood_of_the_forest'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/merc_brotherhood_of_the_forest.0"
+        },
+        "cost": 60,
+        "colorA": 0,
+        "colorB": 0,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 5,
+        "arrivalRegion": null
+      },
+      "crazy_goose": {
+        "name": "crazy_goose",
+        "units": [
+          "mercenary_infantry",
+          "mercenary_spearmen",
+          "mercenary_archers"
+        ],
+        "traits": [],
+        "banner": {
+          "ObjectName": "Texture2D'flock_of_crazy_geese'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/flock_of_crazy_geese.0"
+        },
+        "cost": 90,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 3,
+        "arrivalRegion": null
+      },
+      "brigands": {
+        "name": "brigands",
+        "units": [
+          "brigands",
+          "brigands"
+        ],
+        "traits": [
+          "Criminals",
+          "Looters"
+        ],
+        "banner": {
+          "ObjectName": "Texture2D'brigands_for_hire'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/brigands_for_hire.0"
+        },
+        "cost": 30,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 5,
+        "arrivalRegion": null
+      },
+      "brigands_small": {
+        "name": "brigands_small",
+        "units": [
+          "brigands"
+        ],
+        "traits": [
+          "Criminals",
+          "Looters"
+        ],
+        "banner": {
+          "ObjectName": "Texture2D'local_thugs'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/local_thugs.0"
+        },
+        "cost": 15,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 5,
+        "arrivalRegion": null
+      },
+      "wayward_sons": {
+        "name": "wayward_sons",
+        "units": [
+          "mercenary_archers",
+          "mercenary_heavy_archers"
+        ],
+        "traits": [
+          "excellent_marksmen",
+          "melee_capable"
+        ],
+        "banner": {
+          "ObjectName": "Texture2D'wayward_sons'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/wayward_sons.0"
+        },
+        "cost": 45,
+        "colorA": 1,
+        "colorB": 3,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 3,
+        "arrivalRegion": null
+      },
+      "greencaps": {
+        "name": "greencaps",
+        "units": [
+          "mercenary_infantry",
+          "mercenary_infantry",
+          "mercenary_archers"
+        ],
+        "traits": [],
+        "banner": {
+          "ObjectName": "Texture2D'greencaps'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/greencaps.0"
+        },
+        "cost": 90,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 3,
+        "arrivalRegion": null
+      },
+      "vultures": {
+        "name": "vultures",
+        "units": [
+          "mercenary_infantry",
+          "mercenary_infantry",
+          "mercenary_infantry"
+        ],
+        "traits": [],
+        "banner": {
+          "ObjectName": "Texture2D'ravenous_vultures'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/ravenous_vultures.0"
+        },
+        "cost": 110,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 12,
+        "arrivalRegion": null
+      },
+      "battle_brothers": {
+        "name": "battle_brothers",
+        "units": [
+          "mercenary_spearmen",
+          "mercenary_infantry"
+        ],
+        "traits": [],
+        "banner": {
+          "ObjectName": "Texture2D'battlebrotheres'",
+          "ObjectPath": "ManorLords/Content/UWG/BannerSystem/RegimentSymbols/MercenaryCompanies/battlebrotheres.0"
+        },
+        "cost": 50,
+        "colorA": 4,
+        "colorB": 2,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 3,
+        "arrivalRegion": null
+      },
+      "hildebolts_army": {
+        "name": "hildebolts_army",
+        "units": [
+          "mercenary_infantry",
+          "mercenary_infantry",
+          "mercenary_archers",
+          "retinue_tier1",
+          "brigands"
+        ],
+        "traits": [
+          "questOnly"
+        ],
+        "banner": {
+          "ObjectName": "Texture2D'255_white_color'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Engine/255_white_color.0"
+        },
+        "cost": 90,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 3,
+        "arrivalRegion": null
+      },
+      "hildebolts_army_large": {
+        "name": "hildebolts_army_large",
+        "units": [
+          "retinue_tier3",
+          "mercenary_spearmen",
+          "mercenary_spearmen",
+          "mercenary_infantry",
+          "mercenary_infantry",
+          "mercenary_archers",
+          "mercenary_archers"
+        ],
+        "traits": [
+          "questOnly"
+        ],
+        "banner": {
+          "ObjectName": "Texture2D'255_white_color'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Engine/255_white_color.0"
+        },
+        "cost": 90,
+        "colorA": 1,
+        "colorB": 5,
+        "emblemA": 1,
+        "emblemB": 1,
+        "arrivesIn": 3,
+        "arrivalRegion": null
+      }
+    }
+  }
+]
