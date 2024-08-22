@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "EquipmentSlot",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "9D3A7AFA4A3FB4BA620C348D8F9EFFC7",
+            "SourceString": "Weapon",
+            "LocalizedString": "Weapon"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "22CD202D46591941527B989D3175CCFD",
+            "SourceString": "Shield",
+            "LocalizedString": "Shield"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "BADAC99541129E219CC6409172B21499",
+            "SourceString": "Armor",
+            "LocalizedString": "Armor"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "EC0E3E92493342475892CE8D8D2F83E7",
+            "SourceString": "Helmet",
+            "LocalizedString": "Helmet"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "EquipmentSlot::NewEnumerator0": 0,
+      "EquipmentSlot::NewEnumerator1": 1,
+      "EquipmentSlot::NewEnumerator2": 2,
+      "EquipmentSlot::NewEnumerator3": 3,
+      "EquipmentSlot::EquipmentSlot_MAX": 4
+    },
+    "CppForm": "Namespaced"
+  }
+]

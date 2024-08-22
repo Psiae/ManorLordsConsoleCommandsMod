@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bTangentSpaceNormal": false,
+      "bUseMaterialAttributes": true,
+      "StateId": "A5201CDD-B40BBD0F-996DD6CF-E62D3499",
+      "bIncludedInBaseGame": true
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'T_TilingNoise12'",
+        "ObjectPath": "ManorLords/Content/Assets/Effects/Textures/Noise/T_TilingNoise12.0"
+      },
+      {
+        "ObjectName": "Texture2D'fertility_colorblind_symbols_6'",
+        "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/fertility_colorblind_symbols_6.0"
+      },
+      {
+        "ObjectName": "Texture2D'redToGreenGradient'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Engine/redToGreenGradient.0"
+      },
+      {
+        "ObjectName": "Texture2D'WindTurblenceVectorAndGustMagnitude_Blurred'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Engine/WindTurblenceVectorAndGustMagnitude_Blurred.0"
+      },
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_Fertility'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Engine/RT_Fertility.0"
+      },
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_Desirability'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Road/RT_Desirability.0"
+      }
+    ]
+  }
+]

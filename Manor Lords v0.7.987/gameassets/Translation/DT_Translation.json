@@ -1,0 +1,2560 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'Struct_Translation'",
+        "ObjectPath": "ManorLords/Content/Translation/WIP/Struct_Translation.0"
+      }
+    },
+    "Rows": {
+      "role_0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Husband",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Mąż",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Wife",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Żona",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Son",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Syn",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Daughter",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Córka",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_5": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Soldier",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Żołnierz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_18": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sheep",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Owca",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "treasury": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Treasury (predicted monthly income)",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Skarbiec (przewidywany miesięczny dochód)",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "influence": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Influence",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wpływ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "kingsFavour": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "King's Favour",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Królewska Przysługa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "no_change": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No change",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Bez zmian",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "non": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "None",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "queue": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Construction queue",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kolejność budowy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "construction_workforce": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Workforce",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Siła robocza",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "construction_status": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Status",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Faza budowy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "transported_goods": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Goods transported",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Transport surowców",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "unassigned": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Unassigned Families",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nieprzydzielone rodziny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "assigned": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Assigned Families",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przydzielone Rodziny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "currentlyConstructing": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Currently constructing",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obecnie na budowie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "build_extension": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Construct Extension",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rozbuduj podwórze",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "extension_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Extensions provide a passive income for a variety of resources.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dobudówki dają pasywny przyrost różnego rodzaju surowców.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "conversion_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Convert this house to an artisan workshop. Peasants become skilled artisans, and are forever removed from the common workforce. {br}<img id=\"Warn\"/> Because there is no going back, a minimum of 1 extra peasant is required in the Region to enable construction.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Upgrade to Level 2 ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_2_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Required to increase the <h>SETTLEMENT LEVEL</>. Provides better fighting equipment if levied. {br}{br}All of the <h>REQUIREMENTS</> must be met.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_4": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Upgrade to a Town House",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Grants",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_6": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Upgrade to a Stone Church",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_6_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Grants a <img id=\"Dev\"/> <h>DEVELOPMENT POINT</>, provides living space for one more Family, and enables Artisan Conversions [Bakery/Brewery/Tailor/Blacksmith].",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_8": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Upgrade to a Large Granary",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_8_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Increases <h>PANTRY LIMIT</> to 1500 and provides 1 extra <img id=\"Cart\"/> <h>HANDCART</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_10": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Upgrade with Trading Carts",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przydziel Wozy Handlowe",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_10_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Trading carts allow to transport up to 20 goods in one trip. {br}{br}<r>WORK IN PROGRESS -LOCKED</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_11": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Ploughing Station",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Stanowisko z pługiem",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_11_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Adds a <img id=\"LivestockWorker\"/> <h>LIVESTOCK WORKER</> slot and enables ploughing large fields significantly faster.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_12": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Expand",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_12_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Grants living space for another family.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_13": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Order another ox",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_13_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Invites an off map trader to import a single <img id=\"Ox\"/> <h>OX</> to this town. Available once every 30 days.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_14": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Convert to a Small Stable",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_14_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Increases the <img id=\"Stable\"/> <h>STABLE SPACE</> of the building by 2.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_101": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Chicken Coop",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kurnik",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_101_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides <img id=\"ItemID_220\"/> <h>Eggs</>, consistently throughout the whole year.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_102": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Goat shed",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_102_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Produces 2 <img id=\"ItemID_3\"/> <h>PELTS</> a month.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_108": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Vegetable Garden",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "upgrade_108_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Produces <img id=\"ItemID_230\"/> <h>VEGETABLES</>. {br}Doesn't provide yields in the <img id=\"Winter\"/> <h>WINTER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "no_water_access": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No fresh water access",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak dostępu do świeżej wody",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "hunting_limit": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "HUNTING LIMIT",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "LIMIT ŁOWIECTWA",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "livestock_merchant": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Livestock Merchant",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Handlarz Bydłem",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "travelling_merchant": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Travelling Merchant",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wolny kupiec",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "travelling_distance": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Travelling distance",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odległość",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "priority": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Priority",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Priorytet",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "transporting": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Transporting resources",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Transport surowców",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "select_destination": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Select destination",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wybierz cel podroży",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "not_available": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No wares available",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak towaru",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "not_enough_workers": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "All workers busy / waiting its turn",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak rąk do pracy / czeka na swoją kolej",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "constructing": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "In progress",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Budowa w trakcie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "no_destination": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No destination",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Handel wstrzymany",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "Recent_death": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Recent death",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niedawna śmierć",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tax_collected": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tax collected",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zebrano podatki",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trees_overlapped": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Uprooted trees",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wykorzenione drzewa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "overlaps_habitat": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Warn\"/>Overlaps wild animal habitat. May cause migration!",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<img id=\"Warn\"/>Budynek nachodzi na tereny lęgowe zwierzyny łownej. To może spowodować migrację!",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "paused": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Halted",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zatrzymano",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "writeBack": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Write back",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odpowiedz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "endConv": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "End conversation",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zakończ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "autoSupply": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Auto supply",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kupuj automatycznie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "autoSupply_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "A worker will travel to the nearest <img id=\"Tradepoint\"/> <h>TRADEPOINT</> in order to buy whatever <img id=\"OccasionalNeeds\"/> <h>COMMODITES</> the peasants require. The region will pay in <img id=\"ItemID_0\"/> <h>SILVER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pracownik będzie podróżował do najbliższego <img id=\"PUNKTU HANDLOWEGO\"/> <h>Tradepoint</> w celu zakupu <img id=\"OccasionalGoods\"/> <h>TOWARÓW</> , których potrzebują mieszkańcy. Region zapłaci za to <img id=\"ItemID_0\"/> <h>SREBREM</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tip_newPlayers": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tips for new players",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Porady dla nowych graczy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tip_newPlayers_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasants need <img id=\"Food\"/> <h>FOOD</> and <img id=\"Wood\"/> <h>WOOD</> to survive. {br}{br} Farming takes time, so a good place to start is a <h>LOGGING CAMP</> and a <h>HUNTING CAMP</>. {br}{br} After you got the basic needs covered, try selling goods to the <h>TRAVELLING MERCHANTS</>, and upgrade your settlement. Good luck!",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tip_pressToReadTip": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Click here to read the tip",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kliknij tutaj, aby przeczytać wskazówkę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tip_winter": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "WINTER IS COMING",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "NADCHODZI ZIMA",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tip_food": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "How to get food?",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Jak zdobyć żywność?",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tip_food_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Food is important, without it, the peasants can starve and regions rebel. There are few food sources in Manor Lords: {br}{br}   <img id=\"ItemID_1\"/> Farming is slow, but provides a lot of food. It requires three buildings: <h>FIELD, FARM, BARN</>. {br}{br}   <img id=\"ItemID_147\"/> <img id=\"ItemID_4\"/> Hunters provide much less food, but also gather valuable hides. The only building required is the <h>HUNTING CAMP</> {br}{br}   <img id=\"ItemID_147\"/> <img id=\"ItemID_23\"/> Sheep can provide a bit more meat than hunting, and generate wool for sale. For this chain you need a <h>SHEEP FARM, PASTURE & SLAUGHTERHOUSE</>. {br}{br}Choose your own path. You can upgrade every chain via the <h>DEVELOPMENT TREE</>. You can also import food via the <h>MERCHANT</> building.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "focus_farming": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Agriculture focus",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Specjalizacja - uprawa roli",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "focus_farming_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "This mission will shift the production focus of this region into agricultural development. The final products of this chain include Bread, Fruit, Beer & Linen clothes.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wykonanie tego zadania nakieruje region na specjalizację w rolnictwie.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "focus_husbandry": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "focus_leather": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Leatherworking focus",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "focus_leather_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "This mission shifts the development region to leather production. The final products include Shoes, Belts and Saddles. It connects well with animal husbandry, as sheep can also be a great source of Pelts.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "task_backToHitchingPost": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Going back to the Hitching Post",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wraca do uprzęży",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "task_guideOx": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Guiding Ox",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Prowadzi Woła",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Waiting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Oczekuje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Constructing",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Buduje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Bringing resources",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niesie surowce",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Felling a tree",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ścina drzewo",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_4": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Transporting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Transportuje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_10": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Plowing",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Orze pole",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_11": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sowing",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Sieje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_12": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Harvesting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbiera",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_13": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Going to eat",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Idzie zjeść",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_17": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Going somewhere",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Idzie gdzieś",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_18": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hunting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Poluje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_19": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Waiting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Oczekuje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_20": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Lifting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podnosi surowce",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_21": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Skinning",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Oprawia zwierzynę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_22": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Transporting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niesie surowce",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_23": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Gathering",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbiera",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_24": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "In combat",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Walczy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_25": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Crafting",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Produkuje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_26": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peddling",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kupczy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_27": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Mining",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kopie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_30": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Procrastinating",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obija się",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_31": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Herb gathering",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbiera zioła",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_40": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Getting an animal",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Prowadzi zwierzę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_41": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Following",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Idzie za kimś",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_42": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Going to the Tradepoint",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zmierza do Punktu Handlowergo",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_46": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Ploughing (by hand)",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Orze pole (ręcznie)",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_47": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Putting the handcart back",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odstawia wózek",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_50": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Going to equip",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zmierza po ekwipunek",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_53": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Going inside",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Udaje się do domu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_55": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Rallying",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dołącza do oddziału",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taskID_56": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Placing a trap",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zastawia sidła",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Fallow",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ugór",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Emmer",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pszenica",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Flax",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Siemie lniane",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Barley",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Jęczmień",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_7": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Rye",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Żyto",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_0_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Press to select the crop type for this field.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_1_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"itemID_217\"/> <h>WHEAT</> can be processed into <img id=\"itemID_1\"/> <h>GRAIN</>, then into <h>FLOUR</> and <BREAD>, finally to be consumed as <img id=\"Food\"/> <h>FOOD</>, or processed further.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_2_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Flax\"/> <h>FLAX</> can be weaved into <img id=\"ItemID_12\"/> <h>LINEN</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_3_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Barley can be processed into <img id=\"ItemID_29\"/> <h>MALT</> and then into <h>ALE</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cropID_4_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peat can be used as fuel for warming up the cottages in the winter, and cooking meals.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_welcome": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>Welcome to the closed alpha of Manor Lords! </>{br}{br}The game has been going through  a lot of reworks, and a lot of the industries are temporarily disabled. {br}{br}In the <img id=\"Settings\"/> <h>SETTINGS</> panel below you will find an option to play a test battle. {br}{br}Thanks for all the help and patience, {br}{br}Slavic Magic",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_occasionalNeeds": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>This house requires a COMMODITY</>{br}If you're not producing this good in this region, it might be wise to build a <h>MERCHANT'S HOUSE</>. The merchant can travel to a nearest <img id=\"Tradepoint\"/> <h>TRADE POINT</> to aquire the nessecary goods in exchange for <img id=\"ItemID_0\"/> <h>SILVER</>..",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_taxation": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>REGIONAL WEALTH</> {br}This building has earned some <img id=\"Silver\"/><h> SILVER</>. {br}{br}You can use it to:{br}-Import goods to fulfill <img id=\"Commodity\"/> <h>COMMODITY REQUESTS</>{br}-Upgrade Housing to gain <img id=\"Dev\"/> <h>DEVELOPMENT POINTS</>{br}-Build a <h>TAX COLLECTOR</> to pay the <img id=\"RoyalTaxes\"/> <h>ROYAL TAXES</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_no_labour": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>ASSIGNING WORKERS</> {br}You can now select this building to add or remove workers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<t>PRZYDZIELANIE PRACOWNIKÓW</> {br}Kliknij na ten budynek, aby dodać lub odjąć pracowników.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_no_labour_field": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build <h>FARM</> to plow the field, only after it's ploughed assign workers in order to sow seeds.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbuduj farmę wołów, żeby zaorać pole. Potem przydziel pracowników, aby zasiać plony.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_construction_workers": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>Unassigned peasants</> <img id=\"Builders\"/> <t>automatically work on construction.</> {br}If there is nothing to construct, they will help work in buildings with <h>ENABLED IDLE LABOURERS</> switched on.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<t>Nieprzydzieleni do zawodów chłopi </><img id=\"Builders\"/><t> budują samodzielnie.</> {br} Jeżeli nie ma czego budowaĆ DOKOŃCZ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_timber": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>CAREFUL! YOU'RE ABOUT TO RUN OUT OF TIMBER AND BLOCK YOURSELF! </>{br}Make sure you have a Woodcutter Camp before placing more buildings.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<t>CAREFUL! YOU'RE ABOUT TO RUN OUT OF TIMBER AND BLOCK YOURSELF! </>{br}Woodcutter Camp chops <img id=\"itemID_16\"/> <h>WOOD</> and Carpenter Camp converts them to <img id=\"itemID_17\"/> <h> TIMBER</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_healers": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>IT'S GONNA BE TOUGH</>{br}Finding herbs during the winter is much harder than normal.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_stalls": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>SELLING GOODS</>{br}One Merchant Stall can sell only one type of good. {br}The maximum inventory limit is 10 goods per employed worker. ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_pops": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>WATCH OUT FOR SUPPLIES</>{br}Peasants are coming to your village! This is great, but watch out for your <img id=\"Supplies\"/> <h>SUPPLIES</>. Hungry and cold peasants can rebel.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_fieldPlacing": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Fields, Pastures & Residential Areas",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_fieldPlacing_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Some buildings have <img id=\"Area\"/> flexible borders. <h>Place 4 points</> to designate an area.{br}The cursor will snap to the roads and buildings, to try and create an organic shape.{br}You can leave more space for future <img id=\"Extension\"/> <h>EXTENSION UPGRADES</>. {br}{br}<h>First two points mark the front of the house by default.</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_continue": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Continue",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kontynuuj",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_spoilingFood": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build a <h>GRANARY</>. or employ more Granary workers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<img id=\"Spoil\"/> <t>SPOILING FOOD</>{br} Meat has to be storted in a <h>LARDER</>, and all other types of food in a <h>GRANARY</>. Otherwise - it will start to rot!",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_foodBerries": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>Low on food?</> {br}Try building a <h>FORAGER HUT</> near the <img id=\"Berries\"/> <h>BERRY DEPOSIT</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_foodHunting": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<t>Low on food?</>{br}Try building a <h>HUNTING CAMP</> near the <img id=\"Animals\"/> <h>WILD ANIMALS</> habitat.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_selling": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<h>SELLING GOODS</>{br}You can sell goods, for example <img id=\"Materials\"/> <h>MATERIALS</>, on the Town Square to gain <img id=\"ItemID_0\"/> <h>SILVER</>. {br}To create a Town Square, <h>BUILD MARKET STALLS NEAR THE WELL</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_royalTaxes": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Royal Taxes",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Królewska Danina",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_royalTaxes_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Since you've established a proper village, now the King will expect a payment every year. Check your <img id=\"RoyalTaxes\"/> <h>ROYAL TAX</> amount in the top right corner of the screen.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_firewood": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Firewood for the winter",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Drewno opałowe na zimę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_firewood_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Make sure to enable firewood production for the winter. After checking \"Produce firewood\", workers will convert Timber to Firewood so that people won't freeze. {br}{br}You can check your Supplies meter in the top bar to check if you have enough to survive.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_winning": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Winning the game",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_winning_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "To take other Lord's lands, you need <img id=\"Influence\"/> <h>Influence</>. The easiest way to gain Influence is to pay a type of tax called <h>Tithe</> to the Church.{br}{br}Once you have enough influence you can <h>press a Claim</> for a Region. To refute a Claim, the enemy Lord can <img id=\"contest\"/> <h>challenge you to a battle</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tutorial_regionView": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<h>The Region View shows you which Regions are under whose control </>{br}You can claim other regions when you gain enough <img id=\"Influence\"/> <h> INFLUENCE  </>. Claims can be refuted, or if a  <img id=\"contest\"/> <h>WAR</> is declared, blocked by the presence of an <h>ENEMY ARMY</>. {br}{br}<r>CONQUEST LOCKED IN THE DEMO</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "itemID_autoSupply": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Auto",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Auto",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Road",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Droga",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_1_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Increases walking speed by 10%. Peasants don't have to use roads, but they largely prefer it.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zwiększa prędkość poruszania o 10%. Chłopi nie muszą używać dróg, lecz znacznie je preferują.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Manorhouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dwór",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_2_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Must be built within a <h>BAILEY</>.{br}{br}Provides living space for 5 peasants. {br}{br}(FEATURES LOCKED IN THE DEMO) Unlocks <h>POLICIES</> in the region. Grants 150 <img id=\"Influence\"/><h>INFLUENCE</>. {br}{br}Provides garrison space for the Retinue. First Manor built grants a free Retinue squad of 12.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odblokowuje <h>POLITYKĘ REGIONALNĄ</>. Przyznaje 150 <img id=\"Influence\"/><h>WPŁYWU</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Burgage Plot",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Działka mieszkaniowa (Poziom 1)",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_3_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides living space for 2 <img id=\"Pop\"/><h>PEASANTS</>. {br}Must be close to a <h>WELL</>.  Can be upgraded to raise <h>DEVELOPMENT</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Gwarantuje miejsce zamieszkania dla 2 <img id=\"Pop\"/><h>CHŁOPÓW</>. {br}Musi być w okolicy <h>STUDNI</>. Może zostać ulepszona aby zwiększyć <h>POZIOM ROZWOJU</>/",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_4": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Logging Camp",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Chata Drwali",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_4_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Workers fell nearby trees to produce <img id=\"ItemID_16\"/> <h>TIMBER</> for construction.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_5": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Field",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pole",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_5_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Can produce various <img id=\"Crops\"/> <h>CROPS</>, including <img id=\"itemID_217\"/> <h>WHEAT</>, <img id=\"ItemID_11\"/> <h>FLAX</> & <img id=\"ItemID_165\"/> <H>BARLEY</>. {br}{br}To employ peasants on the Fields, you need to build a <h>FARM</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_6": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Trading Post",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Placówka Handlowa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": "Kupiec"
+      },
+      "buildingID_6_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sells surplus goods to passing <img id=\"Merchant\"/> <h>TRAVELLING MERCHANTS</>. {br}{br}Optionally, workers travel to the nearest <img id=\"Tradepoint\"/> <h>TRADEPOINT</> to buy or sell goods based on set stock targets. {br}{br}Trade is done using <img id=\"ItemID_0\"/> <h>REGIONAL WEALTH</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_7": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Mining pit",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wykopalisko",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_7_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Used to extract <img id=\"ItemID_14\"/> <h>IRON ORE</> from <img id=\"IronDeposit\"/> <h>IRON DEPOSITS</> and <img id=\"ItemID_146\"/> <h>CLAY</> from <img id=\"ClayDeposit\"/> <h>CLAY DEPOSITS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Umożliwia wydobycie <img id=\"ItemID_14\"/> <h>RUDY ŻELAZA</> ze <img id=\"IronDeposit\"/> <h>ZŁÓŻ ŻELAZA</>, oraz <img id=\"ItemID_146\"/> <h>GLINY</> ze <img id=\"ClayDeposit\"/> <h>ZŁÓŻ GLINY</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_8": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Burgage Plot (Lv 2)",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Chłopski dom (Poziom 2)",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_8_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides living space for Burghers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_10": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Pasture",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pastwisko",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_10_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides grazing space for <img id=\"Sheep\"/> <h>SHEEP</>. Without enough space they won't breed. {br}{br}Breeding requires the <h>SHEEPBEEDING</> development branch (LOCKED IN THE DEMO).",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Udostępnia miejsce do pasania <img id=\"Sheep\"/> <h>OWIEC</>. Bez odpowiedniej ilości miejsca na pastwisku, nie będą się rozmnażać.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_12": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Market stall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Stoisko",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_12_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "A <h>TOWN CENTER</> MODULE. {br}{br}Enables selling goods to passing <img id=\"FreeMerchant\"/> <h>TRAVELLING MERCHANTS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Moduł Centrum Miasta. Sprzedaje towar przejeżdżającym <img id=\"FreeMerchant\"/> <h>WOLONYM KUPCOM</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_13": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Marketplace",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rynek",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_13_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "An area for the <img id=\"Assigned\"/> <h>Assigned Families</> to distribute their produce. Citizens setup stalls automatically.{br}{br}When supply meets demand, <img id=\"Requirements\"/> <h>REQUIREMENTS</> of nearby houses are filled.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_14": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hunting camp",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obóz łowiecki",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_14_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Workers hunt <img id=\"Animals\"/> <h>WILD ANIMALS</> in the region. Produces <img id=\"ItemID_147\"/><h>MEAT</> and <img id=\"ItemID_3\"/><h>PELTS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Łowcy polują na <img id=\"Animals\"/> <h>DZIKIE ZWIERZĘTA</> w Regionie. Obóz produkuje <img id=\"ItemID_147\"/><h>MIĘSO</> i <img id=\"ItemID_3\"/><h>SKÓRY</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_17": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Barn",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Stodoła",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_17_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Threshers convert 1 <img id=\"itemID_217\"/> <h>WHEAT</> to 1 <img id=\"ItemID_1\"/> <h>GRAIN</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_18": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sawpit",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obóz cieśli",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_18_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_16\"/> <h>TIMBER</> into <img id=\"ItemID_17\"/> <h>PLANKS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przetwarza <img id=\"ItemID_16\"/> <h>BELKI</> w <img id=\"ItemID_17\"/> <h>DESKI</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_19": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Ox farm",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Hodowla wołów",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_19_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Enables <h>PLOUGHING</> up to 3 fields at the same time (one worker per field).",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Umożliwia <h>ZAORANIE</> do trzech pól na raz (jeden chłop na jedno pole).",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_20": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Windmill",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Młyn",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_20_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_1\"/> <h>GRAIN</> to <img id=\"ItemID_5\"/> <h>FLOUR</>. {br}{br}Works most efficiently on empty land, unobstructed by buildings or trees.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_21": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Well",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Studnia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_21_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides <img id=\"Water\"/> <h> WATER ACCESS</> to the <h>BURGAGE PLOTS</>. Enables <h>FIREFIGHTING</>. {br}{br}Must be built over a <h>WATER VEIN</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_22": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Townhouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dom mieszczański",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_23": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tailor Workshop",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Warsztat Krawiecki",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_25": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Smithy",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kuźnia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_25_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Uses <img id=\"ItemID_35\"/> <h>IRON SLABS</> and <img id=\"Fuel\"/> <h>FUEL</> to craft <img id=\"ItemID_6\"/> <h>TOOLS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_26": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Communal Oven",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Piec",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_26_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_5\"/> <h>FLOUR</> to <img id=\"ItemID_172\"/> <h>BREAD</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_27": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Workshop",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Warsztat",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_28": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tannery",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Garbarnia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_28_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_3\"/> <h>PELTS</> into <img id=\"ItemID_4\"/><h>LEATHER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_30": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hitching Post",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Uwięź dla wołów",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": "Otwarty magazyn / Storage Yard"
+      },
+      "buildingID_30_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Used to control <img id=\"Ox\"/> <h>OXEN</>. Oxen help in logistics by transporting construction <img id=\"ItemID_16\"/> <h>TIMBER</> and can help with moving harvested crops to the <h>GRANARY</> quicker.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_31": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sheep farm",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Hodowla owiec",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_31_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Harvests <img id=\"ItemID_23\"></> <h>WOOL</> from <img id=\"Sheep\"/> <h>SHEEP</> {br}{br}Sheep must first be imported via the <h>LIVESTOCK TRADER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbiera <img id=\"ItemID_23\"></> <h>WEŁNĘ</> z <img id=\"Sheep\"/> <h>OWIEC</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_32": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Charchoal kiln",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Piece do wypału węgla",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_33": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Weaver Workshop",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Warsztat tkacki",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_33_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_23\"/> <h>WOOL</> into <img id=\"ItemID_148\"/> <h>YARN</>, and <img id=\"ItemID_11\"/> <h>FLAX</> into <img id=\"ItemID_12\"/> <h>LINEN</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_34": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Church",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kościół",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_34_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Grants access to <img id=\"Faith\"/> <h>FAITH</> for the Burgage Plots.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_36": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Forager Hut",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Chata Zbieraczy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_36_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Foragers gather <img id=\"ItemID_171\"/> <h>BERRIES</> from the nearby <img id=\"Berries\"/> <h>BERRY DEPOSIT</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_37": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tavern",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Karczma",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_37_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Gives citizens of the Region access to <img id=\"ItemID_28\"/> <h>ALE</> . Lowers <img id=\"Order\"/> <h>PUBLIC ORDER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Daje dostęp do <img id=\"ItemID_28\"/> <h>ALE</> mieszkańcom regionu.  Źle wpływa na <img id=\"Order\"/> <h>PORZĄDEK PUBLICZNY</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_40": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Archery range",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Strzelnica łucznicza",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_41": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Brewery",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Piwowar",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_41_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_29\"/> <h>MALT</> to <img id=\"ItemID_28\"/> <h>ALE</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_42": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Stonecutter camp",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obóz kamieniarzy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_42_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Gathers <img id=\"ItemID_15\"/><h>STONE</> from nearby <img id=\"StoneDeposit\"/> <h>STONE DEPOSITS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbiera <img id=\"ItemID_15\"/><h>KAMIEŃ</> z pobliskich <img id=\"StoneDeposit\"/> <h>ZŁÓŻ KAMIENIA</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_43": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Bloomery",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Piece do wytopu żelaza",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_43_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts IRON ORE into IRON SLABS.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_44": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Armourer",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbrojmistrz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_46": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Trade point",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Punkt handlowy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_49": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Slaughterhouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ubojnia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_49_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"Sheep\"/> <h>SHEEP</> into <img id=\"ItemID_147\"/> <h>MEAT</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_50": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Bailey wall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_50_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Create a closed walled perimeter to designate the area for your <h>MANORHOUSE</>. {br}{br}Requires a <h>GATEHOUSE</> for construction to start. {br}{br}Construction cost depends on the wall length.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_51": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Apiary",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pasieka",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_51_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Used to gather honey. {br}{br} <img id=\"Warn\"/> Must be built on <H>FLOWER FIELDS</>. Check Regional map to see resource availability.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_52": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Salt mine",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kopalnia soli",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_52_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Used to mine salt. {br}{br} <img id=\"Warn\"/> Must be built on <H>SALT DEPOSITS</>. Check Regional map to see resource availability.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_53": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Rally point",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Punkt zbiórki",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_54": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Saddler's Workshop",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Warsztat Rymarski",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_55": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Salt house",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Magazyn soli",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_56": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Pasteler",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kucharz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_57": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Garrison Tower",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wieża Garnizonowa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": "Komnaty rycerskie"
+      },
+      "buildingID_57_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Extra accomodation for 12 Retainers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_58": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tax Collector",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Poborca podatkowy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_58_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Enables tax collection in the Region. Taxes transfer funds from <h>REGIONAL WEALTH</> into <h>PERSONAL TREASURY</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odblokowuje pobieranie podatków w Regionie.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_59": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Merchant's house",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dom kupca",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_60": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Large Townhouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wysoki Dom Mieszczański",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_61": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Malthouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Słodownia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_61_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Converts <img id=\"ItemID_165\"/> <h>BARLEY</> to <img id=\"ItemID_29\"/> <h>MALT</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przerabia <img id=\"ItemID_165\"/> <h>JĘCZMIEŃ</> na <img id=\"ItemID_29\"/> <h>SLÓD</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_62": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Training square",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Plac szkoleniowy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_64": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Spice Merchant",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Sklep z przyprawami",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_65": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Silk Merchant",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Sklep z jedwabiem",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_66": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hops Merchant",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Sklep z chmelem",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_68": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Large Granary",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Duży Spichlerz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_68_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Stores up to 1500 <h>FOOD</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_69": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Farm",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Gospodarstwo",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_69_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Used to employ Peasants on the <h>FIELDS</>. {br}Farm workers plough the fields as soon as the Winter passes, then sow them with the chosen crop, harvest them in September. {br}{br}Then the crops are transported to the Farm, and <img id=\"ItemID_217\"/> <h>Wheat</> is <h>THRESHED</> into <img id=\"ItemID_1\"/> <h>Grain</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_71": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Larder",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Spiżarnia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_71_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "[Building removed]",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_72": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Storehouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Magazyn",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_72_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides storage space for generic goods and logs to shield them from weather damage. {br}{br}Uses <img id=\"Cart\"/><h>HANDCARTS</> to supply non-food related <h>MARKET STALLS</> faster.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_73": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Burgage Plot",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Działka mieszkaniowa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_73_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides living space for 1 <img id=\"Pop\"/> <h>FAMILY</>. {br}{br}When upgraded, grants a <img id=\"Dev\"/> <h>DEVELOPMENT POINT</>, and extra living space. {br}{br}If large enough, has slots for <img id=\"Extension\"/> <h>EXTENSIONS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_74": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Livestock Market",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Targ Zwierzęcy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_74_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Allows buying and selling of <img id=\"Livestock\"/> <h>LIVESTOCK</> to passing <img id=\"LivestockMerchant\"/> <h>LIVESTOCK MERCHANTS</> for <img id=\"ItemID_0\"/> <h>SILVER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_75": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Rubble",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ruina",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_75_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Militia will rally here",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Tutaj zgromadzi się pospolite ruszenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_76": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Pollard Tree",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_76_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "After it's grown, periodically produces <img id=\"ItemID_255\"/> <h>BRUSHWOOD</>. It can be collected by Woodcutter's Lodge workers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_79": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Livestock Trading Post",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_79_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Allows importing and exporting of <img id=\"Livestock\"/> <h>LIVESTOCK</>  for <img id=\"ItemID_0\"/> <h>SILVER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_80": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Granary",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Spichlerz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_80_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Stores up to 500 <h>FOOD</>. Helps supply the <h>FOOD STALLS</> faster",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_84": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Shrine",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_84_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Cosmetic - for now",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_86": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Forester Hut",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Hata Leśnika",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_86_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Forester plants new trees.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_87": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Homeless Tents",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Namioty Bezdomnych",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_87_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "After all homeless find accomodation, they're automatically removed.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Powstają gdy mieszkańcy nie mają domostw. Po znalezieniu miejsca zamieszkania zostają usunięte.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_88": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Supplies",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_89": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Woodcutter Lodge",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_89_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Workers chop down nearby trees to produce <img id=\"ItemID_216\"/> <h>FIREWOOD</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_90": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Well (Town Square)",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Studnai (Rynek)",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_91": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Food Stall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Stoisko z Żywnością",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_91_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides easy access to <img id=\"Food\"/> <h>FOOD</> for <h>BURGAGE PLOTS</>. {br}{br}Must be placed within the <h>MARKETPLACE AREA</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_92": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Firewood Stall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Stoisko z Opałem",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_92_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides <img id=\"Fuel\"/> <h>FUEL</> to the <h>BURGAGE PLOTS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_93": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Clothing Stall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_93_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Distributes <img id=\"ItemID_12\"/> <h>CLOTH</>, <img id=\"ItemID_4\"/> <h>LEATHER</> and <img id=\"ItemID_148\"/> <h>YARN</> to the <h>BURGAGE PLOTS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_94": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Bailey",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dziedziniec",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_94_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Walled defensive area in which Manor buildings can be placed.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ogrodzony teren, w którym można budować moduły twierdzy.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_95": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Gatehouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_95_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Provides entrance point to the <h>BAILEY</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_96": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Gatherer's Camp",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_98": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Manor",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dwór",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_98_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Under rework - just decorative in the current build.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "buildingID_104": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Destroyed Windmill",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zniszczony Wiatrak",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "building_destroyed_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Can be rebuilt, or taken apart for resources.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Może zostać odbudowany, lub rozebrany na surowce.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "log_foodShortage": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Food stocks are low",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kończy się jedzenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "log_foodShortage_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "This region ran out of food stocks. If you don't do something, people are going to starve.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Jedzenie w tym regionie niedługo się skończy. Jeśli czegoś nie zrobimy, ludzie zaczną głodować.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "log_deerExtinction": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Wild animal population almost extinct",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Populacja zwierzyny bliska wytępienia",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "log_deerExtinction_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Due to overhunting the population of this animal may soon go extinct. Consider giving it some time to regrow.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przez intensywne polowanie populacja tych zwierząt może ulec wyginięciu. Być może warto pozostawić zwierzynę samą sobie, aby miała czas się odrodzić.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "msg_kingsFavourGained": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "King's Favour Granted",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przyznano królewską przysługę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "msg_newClaimPoint": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Territory Claim granted",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zdobyto Prawo do Terytorium",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "term_noNeedd": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Nothing needed",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niczego nie potrzeba",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "no_crop_selected": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No crop selected",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nie wybrano typu uprawy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "no_workers_assigned": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No workers assigned",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nie przydzielono pracowników",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "space": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": " ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": " ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": " "
+      },
+      "bracketA": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "(",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "(",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": "("
+      },
+      "bracketB": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": ")",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": ")",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ")"
+      },
+      "icon_itemID_6": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"IronTools\"/>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "icon_itemID_15": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Stone\"/>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "icon_itemID_17": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Timber\"/>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Geld",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podatek Pogłówny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_0_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Basic tax <h>collected per family</> on the first day of the each month.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podstawowy podatek liczony od rodziny każdego pierwszego dnia miesiąca.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Heregeld",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podatek na wojsko",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_1_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "A tax gathered for <h>upkeep of mercenaries</>. Collected when paying for a mercenary unit.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podatek na utrzymanie najemników. Zbierany za każdym razem, gdy płacisz jednostce najemników.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tithe",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dziesięcina",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_2_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Gives away a percentage of goods to the <img id=\"Church\"/> <h>CHURCH</>. It converts <img id=\"itemID_0\"/> <h>SILVER</> to <img id=\"Influence\"/><h>INFLUENCE</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Procent wszystkich dóbr z tego regionu przechodzi w posiadanie kościoła. W zamian otrzymujesz od kościoła taką samą ilość <img id=\"Influence/><h> WPŁYWU.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Banalities",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Banalitety",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_3_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Collected whenever <img id=\"itemID_1\"/> <h>GRAIN</> is milled to <img id=\"itemID_5\"/> <h>FLOUR</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_4": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Trade tax",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podatek handlowy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_4_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Calculated from every transaction at the <h>MARKET STALLS</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odliczany od każdej transakcji na <h>STOISKACH HANDLOWYCH</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_5": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "War tax",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Podatek wojenny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taxType_5_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Collected at the first day of the month only <h>in times of war</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pobierany na początku miesiąca <h>tylko w stanie wojny</>",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "category_next": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Next category",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Następna kategoria",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "category_prev": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Previous category",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Poprzednia kategoria",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_attractiveness": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Market attractiveness",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Atrakcyjność rynku",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_attractivenes_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Indicates how likely merchants are to travel through this Region. Depends on <h>amount of unique goods sold, with lowest prices</> compared to all the other Regions.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wskazuje jak chętnie kupcy wybierają drogę przez ten region. Zależy od <h>ilości unikatowych dóbr o najniższych cenach</> na mapie.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_housing": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Families / Housing",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rodziny / Domostwa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_housing_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasants will come to your village if you build more <h>COTTAGES</>. Immigration speed depends on <img id=\"Loyalty\"/><h> LOYALTY</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Chłopi będą imigrować do wioski, gdy zbudujesz więcej <h>CHAT</>. Szybkość imigracji zależy od <img id=\"Loyalty\"/><h> LOJANLOŚCI</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_developmentLevel": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Regional development level",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Poziom rozwoju regionu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_developmentLevel_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Press to open the <h>DEVELOPMENT TREE</>{br}{br}<h>Upgrade Cottages</> to raise the Development Level and unlock new <h>Development Branches</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kliknij by otworzyć <h>DRZEWKO ROZWOJU</>{br}{br}<h>Ulepszaj Chaty</> aby podnieść poziom rozwoju regionu i odblokować nowe <h>GAŁĘZIE ROZWOJU</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_developmentLevel_descr_nonClickable": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Spend silver on upgrading buildings in order to raise the Development Level and unlock new <h>Development Branches</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wydawaj srebro na ulepszanie chat, aby podnieść poziom rozwoju regionu i odblokować nowe <h>GAŁĘZIE ROZWOJU</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_influence": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Influence",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_influence_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Influence can be traded via the diplomacy system. Can be gained by giving taxes to the Church, rising population, building new Manors and improving the development.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_favour": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "King's Favour",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_favour_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Every year the most influential Lord or Lady is being awarded with the King's Favour. {br}{br}Can be spend to claim new territories (more options to come later).",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_challenge": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Battle Challenge",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_challenge_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The last man standing wins the Claim. If time runs out, the Claim is refuted.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_public_order": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Public Order",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Porządek Publiczny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tooltip_public_order_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Low public order causes crime and banditry. Influenced by alcohol consumption, prostitution, church presence, approval rate, unemployment and town watch patrols.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policySlot": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Regional policy",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Polityka regionu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policySlot_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Press to see policies available in this region.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kliknij aby zobaczyć dostępne opcje.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policySlot_locked": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Regional policy (locked)",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Polityka regionu (niedostępne)",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policySlot_locked_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build a <h>MANOR</> to enable enacting policies in this region.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zbuduj <h>TWIERDZĘ</>, aby odlbokować politykę regionalną.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policyID_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hardship",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zahartowanie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policyID_1_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasants eat half as often, in effect consuming less <img id=\"Food\"/> <h>FOOD</> and <img id=\"itemID_16\"/> <h>RAW WOOD</>. {br}{br} <img id=\"Loyalty\"/><r>Loyalty falls</> by 0.5% each day.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Chłopi dwa razy rzadziej jedzą posiłki, zużywając przez to mniej <img id=\"Food\"/> <h>JEDZENIA</>, oraz <img id=\"itemID_16\"/> <h>SUROWEGO DREWNA</>. {br}{br}<img id=\"Loyalty\"/> <r>LOJALNOŚĆ SPADA</> o 0.5% każdego dnia.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policyID_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hunting grounds",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Tereny łowieckie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policyID_2_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Animals\"/><h>WILD ANIMALS</> breed twice as fast.{br}{br}<img id=\"Warn\"/> <r>CROPS WILL GET DAMAGED</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<img id=\"Animals\"/><h>DZIKIE ZWIERZĘTA</> rozmnażają się dwa razy szybciej. {br}{br}<img id=\"Warn\"/> <r>PLONY BĘDA DEWASTOWANE.</>",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policyID_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Craftsmanship",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rzemieślnictwo",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "policyID_3_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Work in progress",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "W przygotowaniu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "region_development": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Region development",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rozwój regionu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "development_points": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Development points",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Punkty rozwoju",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "hireCompany": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hire this company?",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Czy chcesz zatrudnić tę drużynę?",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "companyHired": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "MERCENARY COMPANY HIRED",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "ZATRUDNIONO NAJEMNIKÓW",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "reequipped": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Retinue equipment changed",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dokonano zmiany rynsztunku",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "waiting_for_delivery": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Waiting for shipment",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Trwa oczekiwanie na dostawę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_legprotection": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Leg protection",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ochrona nóg",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_legprotection_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "+1 defense when mounted, +1 defense when in Spearwall, -1 stamina, -5% speed",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_bleed": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Bleeding damage",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Krwawienie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_bleed_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "+2 attack against lightly armoured troops.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_blunt": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Blunt damage",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Broń obuchowa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_blunt_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "+2 attack against unist with heavy armour.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Broń obuchowa",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_spearwall": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Spearwall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ściana włóczni",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_spearwall_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<h>SPECIAL ABILITY</> {br}Grants +10 defense when attacked from the front and self inflicts enemy's charge bonus. Immobile while in this stance.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_mounted": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Mounted",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Konnica",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_mounted_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "+1 attack, +1 defense, +10 charge. <h>Adds primary weapon - Lance. </>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_shieldbreaker": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Shieldbreaker",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niszczenie tarcz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_shieldbreaker_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "+1 attack against enemies with shields",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_shielded": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Large shield",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Duża tarcza",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_shielded_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "-1 stamina",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_heavyweight": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Heavy weight",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Obciążenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tag_heavyweight_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "-2 stamina, -10% speed",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "_of_": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "of",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "z",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "required_equipment": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "REQUIREMENTS",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "WYMAGANIA",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "no_equipment_required": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No requirements",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak wymagań",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "arrive_in": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Arrive in: ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przybędą do: ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "ETA": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Time of arrival: ",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Czas oczekiwania: ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "day": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "day",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "dzień",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "days": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "days",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "dni",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "recruitmentCost": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Recruitment cost",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Koszt rekrutacji",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "recruitmentCost_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Paid once upfront, then once every month (at the same day of the month as hired)",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Płacony jednokrotnie od ręki, a później każdego miesiąca (w tym samym dniu miesiąca, w którym zostali zrekrutowani).",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "noSellingGood": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "sells nothing",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "nic nie sprzedaje",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "selling": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "selling",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Towar: ",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "fertility": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Soil fertility",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Żyzność gleby",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "Tradeable_not_chosen": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tradeable not chosen",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nie wybrano towaru",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "expenses": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Predicted import expenses",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Szacunkowe wydatki na import",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "add_worker": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Assign Family",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Przypisz rodzinę",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "remove_worker": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Unassign Family",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Cofnij przypisanie rodziny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tiredness": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Fatigue",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zmęczenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cant_afford": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Not enough silver in the region",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Za mało srebra w regionie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "unity": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Unity",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zwarcie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "chaos": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Disorder",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dezorganizacja",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "factor_raining": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Raining",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Deszcz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "shooting_arrows": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Raining arrows",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Strzelają z łuków",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "taking_breath": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Resting inbetween volleys",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Odpoczywają przed salwą",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "factor_home": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Home region",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rodzime terytorium",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "terrain_slope": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Terrain slope",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nachylenie terenu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "high_ground": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "High ground",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wysoka pozycja",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "low_ground": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Low ground",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niska pozycja",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "total_advantage": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Total advantage",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Całkowita przewaga",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Disband",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "TIGHT FORMATION",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "ZWARTY SZYK",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill2_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "  <img id=\"Spacer\"/> Slows down the unit significantly {br}  <img id=\"Spacer\"/> Increases melee advantage due to higher <h>UNITY</> {br}  <img id=\"Spacer\"/> Grants <h>SHIELDWALL</> to shielded units: If a soldier has friends on his side, it adds their block to his.{br}  <img id=\"Spacer\"/> Grants <h>IMPALING</> to immobile spear units: Reflects the enemies charge attack.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Release at will",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Strzelanie bez rozkazu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill4": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "SPREAD OUT",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill5": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Split squad",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill8": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hold!",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Stać!",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill8_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Stops the unit in place and cancels its current target.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zatrzymuje jednostkę w miejscu i usuwa bieżący cel ataku.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill9": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Running mode",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Tryb biegu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill9_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Makes unit moves faster, causing more <h>FATIGUE</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill11": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Rally",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pospolite ruszenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill12": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Remove squad",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Usuń oddział",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "skill13": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Retinue Editor",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Edytor oddziału",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_shieldwall": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Shieldwall",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Ściana tarcz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_impaling": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Impaling",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nadziewanie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "stance_aggresive": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Aggresive Stance",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zachowanie ofensywne",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "newStance_Aggresive": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Aggresive Stance",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zachowanie ofensywne",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "surrounded": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Flanked",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Otoczeni",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "friendly_fire": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "FRIENDLY FIRE",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "friendly_fire_mode": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Allow friendly fire",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Zezwalaj na bratobójczy ostrzał",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "friendly_fire_mode_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Governs whether the soldiers should release arrows even if there's a possibility to hit a friend.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rozkazuje strzelać nawet jeżeli istnieje ryzyko trafienia swoich.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "spoiled_food": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Food is spoiling",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Jedzenie psuje się",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "spoiled_food_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"ItemID_147\"/> <h>MEAT</> has to be stored in a Larder, all other <img id=\"Food\"/> <h>FOOD</> in a Granary. Otherwise it can <img id=\"Spoil\"/> <h>SPOIL</>!",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "market_stalls": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Market Stall Count",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Liczba Stoisk",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hunger",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Głód",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_0_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "People require more <img id=\"Food\"/> <h>FOOD</>. Starved peasants may die.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_1": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Cold",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Mróz",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_1_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasants require <img id=\"Fuel\"/> <h>FUEL</> and <img id=\"Home\"/> <h>SHELTER</> in the Winter - otherwise they can get sick, or even freeze to death.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_3": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No workers employed",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak pracowników",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_3_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Select the building if you wish to assign Workers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_5": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No crop selected",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nie wybrano rodzaju plonów",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_8": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sickness",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Choroba",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_8_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sick villagers need to rest at home to recover. Consuming <h>HERBS</> speeds up the process.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_9": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Corpse needs burial",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nieboszczyk wymaga pochówku",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_9_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build a Church, and free up one family to handle the burial",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_13": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Not enough space on the Pastures",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak miejsca na Pastwiskach",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_13_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build more Open Pastures to sustain livestock population growth.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_14": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Nothing to do",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Nic do roboty",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_14_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "These workers have nothing to do. Perhaps it's best to assign them elsewhere?",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_15": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Not enough funds for import",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_16": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "You need more <img id=\"ItemID_0\"/> <h>SILVER</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_17": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Can't find resource",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_17_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasant wanting to craft or sell a resource can't find it in this Region",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_18": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Homeless Families",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Bezdomne rodziny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_18_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": " Build Cottages to provide them with shelter, or their <img id=\"Approval\"/> <h>APPROVAL</> will fall and they might freeze in the <img id=\"Winter\"/> <h>WINTER</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_19": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Spoiling Food",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Psujące się jedzenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_19_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Food\"/> <h>FOOD</> has to be moved to a <h>GRANARY</>, otherwise it has a chance to spoil.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<img id=\"ItemID_147\"/> <h>MEAT</> has to be stored in a <h>LARDER</>, and other types of <img id=\"Food\"/> <h>FOOD</> in a <h>GRANARY</>.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_20": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Ready to upgrade",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dostępne ulepszenie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_20_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "All Burgage Plot requirements for upgrading have been met.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_21": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Commodities requested",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Potrzeba Towarów",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_21_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasants may occasionally require <img id=\"Commodity\"/> <h>COMMODITIES</>. You need to import them via a <h>MERCHANT</>, or <img id=\"Loyalty\"/> <h>LOYALTY</> will fall.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_22": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Low on supplies!",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Kurczą się zapasy!",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_22_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Make sure you have enough <img id=\"Food\"/> <h>FOOD</> and <img id=\"Fuel\"/> <h>FUEL</> in storage.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_24": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No water access",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak dostępu do wody",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_24_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build a <h>TOWN SQUARE</> on a <h>WATER VEIN</> to provide water access in the Region.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_25": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No Farm building in the Region",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak budynku Farmy w Regionie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_26": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No Fields in the Region",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak Pól w Regionie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_27": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Extension Upgrades available",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Dostępne Ulepszenia Podwórza",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_27_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "You can spent <img id=\"ItemID_0\"/> <h>SILVER</> accumulated in this household to gain a passive resource income.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_28": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Work area empty",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Surowce się skończyły",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_28_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No more resources to gather in the work area.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_29": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Road not connected",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak połączenia z drogą",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_29_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "This building has no proper road connection. Handcarts and Merchants might not find a way to it. Make sure the <img id=\"roadpos\"/> <h>ROAD CONNECTION POINTS</> are properly connected.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_30": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Not connected to a trade route",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Brak połączenia ze szlakami handlowymi",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_30_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Merchants won't be able to find this Market Square. Make sure it's <img id=\"roadpos\"/> <h>ROAD CONNECTION POINT</> is properly connected to a Trade Road.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_31": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Storage limit reached",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_31_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build more Storehouses or employ more Storehouse workers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_32": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Pantry limit reached",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_32_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Build more Granaries or employ more Granary workers.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_33": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Exposed Stocks",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Narażone zapasy",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_33_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The stocks are exposed to the weather and can be destroyed by rainfall. Build a <h>Storehouse</> to avoid damage.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_34": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Exposed Food",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Narażony prowiant",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_34_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Food has to be moved to a <h>Granary</> or else it can be damaged by weather.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_36": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Bailey lacks a Gatehouse",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_36_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Peasants won't start constructing the wall until you attach the Gatehouse to the Bailey perimeter.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_37": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Animal lacks enclosure",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_37_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Small animals like <h>Sheep or Goats require Pastures and Pens</>. Large animals like <h>Oxen or Horses require Hitching Posts or Stables</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_38": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Low approval",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_38_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "People are unhappy and might leave the town.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_39": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Requirements not met",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "problemID_39_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "This residential plot has unfilled needs that cause a loss of <h>APPROVAL</>.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "branches_required": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Required Development Branches",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wymagane Gałęzie Rozwoju",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tier": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Tier",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Poz.",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "warn_higherLevelRequired": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Warn\"/> <r>HIGHER HOUSING LEVEL REQUIRED</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "field_too_big": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Not enough workforce yet for this field size!",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Może nie starczyć rąk do pracy, aby obrobić to pole!",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "rotting_crops": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Some crops have rotten away",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "rotting_crops_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "If crops aren't transported into the farm or granary for a long time, they tend to rot.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "not_enough_free_peasants": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Warn\"/> <r>Unassigned family required!</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "<img id=\"Warn\"/> <r>Brakuje nieprzydzielonej rodziny!</>",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "target_inventory": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Target Livestock inventory",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "target_inventory_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sell livestock if above threshold, try to buy if below threshold.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_11": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Ox",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Wół",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "role_17": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Lamb",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Jagnięta",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "back": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Return",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Cofnij",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "under_construction": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "under construction",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "w budowie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_criminals": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Criminals",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_criminals_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Lower influence by 100 with every payment.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_looters": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Looters",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_looters_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Their payment will be lowered by how much they looted. If the Lord has a \"Looter\" trait, the company is free.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_hate_wealthy": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hate wealthy",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "trait_hate_wealthy_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Won't fight for someone with wealth above 500s. If in conflict with someone with wealth above 500s. their payment is halved.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "not_enough_silver": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Not enough silver in the Treasury",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niewystarczająco dużo srebra w Skarbcu",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "moduleSet_market": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Town Square",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "mode_peaceful_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The AI never attacks. Good for learning the mechanics.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "mode_role_play_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The AI tries to behave humanlike, they might attack you if it serves their interests, but won't rush you.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "mode_competitive_descr": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "AI will try its best to win the game.",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cue_leadOx": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Leading an Ox",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Prowadzi Woła",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cue_homeless": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Homeless",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Bezdomny",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "cue_weather_sunny": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Sunny weather",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Słonecznie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "tradepoint": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "TRADEPOINT",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_0": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Hunger",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_2": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Cold",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_4": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Death",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_5": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Homelessness",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_6": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Marketplace - Not enough food variety",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_7": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Marketplace - No Fuel available",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_8": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Marketplace - Not enough Clothing items",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_9": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Marketplace - Not enough Leather",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_10": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "No water access",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_11": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_12": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Food variety on the Marketplace",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_13": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_14": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Well supplied Clothing market",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_15": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Low Approval",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Niskie poparcie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_16": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Drinking",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Pijaństwo",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_17": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Unemployment",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Bezrobocie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "approvalFactor_18": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Town guard patrols",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Patrole straży miejskiej",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "warn_no_deposit_in_range": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "<img id=\"Warn\"></> <r> No deposit in range!</>",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      }
+    }
+  }
+]

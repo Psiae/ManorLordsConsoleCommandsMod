@@ -1,0 +1,869 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ConstructionBPs",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ConstructionBP'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "20": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Cottage_Lv1_A_v4_UBeamFoundations.C_SG_Cottage_Lv1_A_v4_UBeamFoundations_C",
+          "SubPathString": ""
+        }
+      },
+      "22": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_WoodcuttersLodge_Cabin.C_SG_WoodcuttersLodge_Cabin_C",
+          "SubPathString": ""
+        }
+      },
+      "26": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_TradingPost_Ubeam_Combined_00.C_SG_TradingPost_Ubeam_Combined_00_C",
+          "SubPathString": ""
+        }
+      },
+      "27": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Cottage_LV2_A_UBeam.C_SG_Cottage_LV2_A_UBeam_C",
+          "SubPathString": ""
+        }
+      },
+      "40": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_outpost.C_outpost_C",
+          "SubPathString": ""
+        }
+      },
+      "33": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_marketStallA.c_marketStallA_C",
+          "SubPathString": ""
+        }
+      },
+      "35": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_campfire.c_campfire_C",
+          "SubPathString": ""
+        }
+      },
+      "39": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/NoobArchitecture/c_barn.c_barn_C",
+          "SubPathString": ""
+        }
+      },
+      "41": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/NoobArchitecture/C_Superfarm.C_Superfarm_C",
+          "SubPathString": ""
+        }
+      },
+      "43": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Windmill_Base.C_SG_Windmill_Base_C",
+          "SubPathString": ""
+        }
+      },
+      "44": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Well.C_SG_Well_C",
+          "SubPathString": ""
+        }
+      },
+      "45": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_townhouseWideA.c_townhouseWideA_C",
+          "SubPathString": ""
+        }
+      },
+      "49": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_Smithy_01.C_Smithy_01_C",
+          "SubPathString": ""
+        }
+      },
+      "50": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_BakeryAttachment.C_BakeryAttachment_C",
+          "SubPathString": ""
+        }
+      },
+      "70": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_TanneryCore.C_SG_TanneryCore_C",
+          "SubPathString": ""
+        }
+      },
+      "71": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_sheepFarm.c_sheepFarm_C",
+          "SubPathString": ""
+        }
+      },
+      "95": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Gatehouse_Lv1_adjusted.C_SG_Gatehouse_Lv1_adjusted_C",
+          "SubPathString": ""
+        }
+      },
+      "96": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Forager_Core.C_SG_Forager_Core_C",
+          "SubPathString": ""
+        }
+      },
+      "134": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_Carpenter2.C_Carpenter2_C",
+          "SubPathString": ""
+        }
+      },
+      "144": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Manor_Lv1_Palace_Ubeam.C_SG_Manor_Lv1_Palace_Ubeam_C",
+          "SubPathString": ""
+        }
+      },
+      "145": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/Prefabs/quarry_prefab_C.quarry_prefab_C_C",
+          "SubPathString": ""
+        }
+      },
+      "162": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/NoobArchitecture/C_TailorWorkshop01.C_TailorWorkshop01_C",
+          "SubPathString": ""
+        }
+      },
+      "167": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Manor_Keep_Lv1.C_SG_Manor_Keep_Lv1_C",
+          "SubPathString": ""
+        }
+      },
+      "58": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_TaxCollectorProper.C_SG_TaxCollectorProper_C",
+          "SubPathString": ""
+        }
+      },
+      "198": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Malthouse_Core.C_SG_Malthouse_Core_C",
+          "SubPathString": ""
+        }
+      },
+      "200": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Cottage_Lv2_B_UBeam_00.C_SG_Cottage_Lv2_B_UBeam_00_C",
+          "SubPathString": ""
+        }
+      },
+      "245": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Granary_Lv2_Ubeam.C_SG_Granary_Lv2_Ubeam_C",
+          "SubPathString": ""
+        }
+      },
+      "246": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Cottage_Lv1_B_Ubeam_00.C_SG_Cottage_Lv1_B_Ubeam_00_C",
+          "SubPathString": ""
+        }
+      },
+      "247": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_larder.C_larder_C",
+          "SubPathString": ""
+        }
+      },
+      "248": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Cottage_Lv1_C_UBeam.C_SG_Cottage_Lv1_C_UBeam_C",
+          "SubPathString": ""
+        }
+      },
+      "249": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_MarketStallB.c_MarketStallB_C",
+          "SubPathString": ""
+        }
+      },
+      "250": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_MarketStallC.c_MarketStallC_C",
+          "SubPathString": ""
+        }
+      },
+      "251": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/c_warehouse.c_warehouse_C",
+          "SubPathString": ""
+        }
+      },
+      "269": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/Extensions/C_Extension_Goat.C_Extension_Goat_C",
+          "SubPathString": ""
+        }
+      },
+      "273": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_OuthouseA.C_OuthouseA_C",
+          "SubPathString": ""
+        }
+      },
+      "285": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/Extensions/C_CobblerAttachment.C_CobblerAttachment_C",
+          "SubPathString": ""
+        }
+      },
+      "296": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Church_lv1_ubeam.C_SG_Church_lv1_ubeam_C",
+          "SubPathString": ""
+        }
+      },
+      "297": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_Grave.C_Grave_C",
+          "SubPathString": ""
+        }
+      },
+      "298": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/Megascans/3D_Assets/Modular_Fence_3_M_ufflaitdw/C_SG_WoodenGateSimple.C_SG_WoodenGateSimple_C",
+          "SubPathString": ""
+        }
+      },
+      "300": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_ShedA.C_SG_ShedA_C",
+          "SubPathString": ""
+        }
+      },
+      "303": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_shedB.C_SG_shedB_C",
+          "SubPathString": ""
+        }
+      },
+      "306": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_ShedC.C_SG_ShedC_C",
+          "SubPathString": ""
+        }
+      },
+      "400": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_OxShed_UBeam.C_SG_OxShed_UBeam_C",
+          "SubPathString": ""
+        }
+      },
+      "401": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_StickFenceSegment.C_SG_StickFenceSegment_C",
+          "SubPathString": ""
+        }
+      },
+      "402": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Farm_Core.C_SG_Farm_Core_C",
+          "SubPathString": ""
+        }
+      },
+      "403": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Farm_Barn.C_SG_Farm_Barn_C",
+          "SubPathString": ""
+        }
+      },
+      "404": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Stairs_Platform_High.C_SG_Stairs_Platform_High_C",
+          "SubPathString": ""
+        }
+      },
+      "405": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_FancyFenceSegment.C_SG_FancyFenceSegment_C",
+          "SubPathString": ""
+        }
+      },
+      "406": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Gate_Lv2.C_SG_Gate_Lv2_C",
+          "SubPathString": ""
+        }
+      },
+      "407": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_LivestockMerchant.C_SG_LivestockMerchant_C",
+          "SubPathString": ""
+        }
+      },
+      "408": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SkinningRack.C_SkinningRack_C",
+          "SubPathString": ""
+        }
+      },
+      "409": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_HuntersTent.C_HuntersTent_C",
+          "SubPathString": ""
+        }
+      },
+      "410": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_TatteredTentA.C_TatteredTentA_C",
+          "SubPathString": ""
+        }
+      },
+      "411": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_ShedLargeCrude.C_SG_ShedLargeCrude_C",
+          "SubPathString": ""
+        }
+      },
+      "412": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_GranarySmol.C_SG_GranarySmol_C",
+          "SubPathString": ""
+        }
+      },
+      "413": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Merchant_Storage.C_SG_Merchant_Storage_C",
+          "SubPathString": ""
+        }
+      },
+      "414": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Weaver_Workshop.C_SG_Weaver_Workshop_C",
+          "SubPathString": ""
+        }
+      },
+      "415": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Weaver_Core.C_SG_Weaver_Core_C",
+          "SubPathString": ""
+        }
+      },
+      "416": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "417": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Malthouse_Attachment.C_SG_Malthouse_Attachment_C",
+          "SubPathString": ""
+        }
+      },
+      "418": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_ShedC.C_SG_ShedC_C",
+          "SubPathString": ""
+        }
+      },
+      "419": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Manor_LV3_Palace.C_SG_Manor_LV3_Palace_C",
+          "SubPathString": ""
+        }
+      },
+      "420": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Gatehouse_LV3.C_SG_Gatehouse_LV3_C",
+          "SubPathString": ""
+        }
+      },
+      "421": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Tower_Lv3.C_SG_Tower_Lv3_C",
+          "SubPathString": ""
+        }
+      },
+      "422": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_Empty.C_Empty_C",
+          "SubPathString": ""
+        }
+      },
+      "423": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_PollardTree.C_PollardTree_C",
+          "SubPathString": ""
+        }
+      },
+      "424": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Cottage_LV2_C_UBeam.C_SG_Cottage_LV2_C_UBeam_C",
+          "SubPathString": ""
+        }
+      },
+      "425": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Forester.C_SG_Forester_C",
+          "SubPathString": ""
+        }
+      },
+      "426": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_PithouseA.C_SG_PithouseA_C",
+          "SubPathString": ""
+        }
+      },
+      "427": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_J_ShedA.C_SG_J_ShedA_C",
+          "SubPathString": ""
+        }
+      },
+      "428": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Shed_Granary.C_SG_Shed_Granary_C",
+          "SubPathString": ""
+        }
+      },
+      "429": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Tavern_MainBuilding.C_SG_Tavern_MainBuilding_C",
+          "SubPathString": ""
+        }
+      },
+      "430": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Shed_Large_planked.C_SG_Shed_Large_planked_C",
+          "SubPathString": ""
+        }
+      },
+      "431": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Shed_Small_Planked.C_SG_Shed_Small_Planked_C",
+          "SubPathString": ""
+        }
+      },
+      "432": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Gate_Lv2_A.C_SG_Gate_Lv2_A_C",
+          "SubPathString": ""
+        }
+      },
+      "433": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_WeaverCore_LV1.C_SG_WeaverCore_LV1_C",
+          "SubPathString": ""
+        }
+      },
+      "434": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Tannery_LV1.C_SG_Tannery_LV1_C",
+          "SubPathString": ""
+        }
+      },
+      "435": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Gatehouse_Lv1_adjusted.C_SG_Gatehouse_Lv1_adjusted_C",
+          "SubPathString": ""
+        }
+      },
+      "436": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_CrudePlatformA.C_SG_CrudePlatformA_C",
+          "SubPathString": ""
+        }
+      },
+      "437": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_BloomeryShed.C_SG_BloomeryShed_C",
+          "SubPathString": ""
+        }
+      },
+      "438": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Bloomery.C_SG_Bloomery_C",
+          "SubPathString": ""
+        }
+      },
+      "439": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Smithy.C_SG_Smithy_C",
+          "SubPathString": ""
+        }
+      },
+      "440": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Hearth.C_SG_Hearth_C",
+          "SubPathString": ""
+        }
+      },
+      "441": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_CommunalOven.C_SG_CommunalOven_C",
+          "SubPathString": ""
+        }
+      },
+      "442": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Bedchambers.C_SG_Bedchambers_C",
+          "SubPathString": ""
+        }
+      },
+      "443_cheapFence": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "444": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_Stairs_Wooden_100.C_Stairs_Wooden_100_C",
+          "SubPathString": ""
+        }
+      },
+      "445": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Church_Lv1_BackFoundationsSolo.C_SG_Church_Lv1_BackFoundationsSolo_C",
+          "SubPathString": ""
+        }
+      },
+      "446": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Church_Lv2_Butts.C_SG_Church_Lv2_Butts_C",
+          "SubPathString": ""
+        }
+      },
+      "447": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Church_Lv2_Core_WholeProcess.C_SG_Church_Lv2_Core_WholeProcess_C",
+          "SubPathString": ""
+        }
+      },
+      "448": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Sawpit_Ubeam.C_SG_Sawpit_Ubeam_C",
+          "SubPathString": ""
+        }
+      },
+      "449": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Storehouse_LV2_Ubeam.C_SG_Storehouse_LV2_Ubeam_C",
+          "SubPathString": ""
+        }
+      },
+      "450": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_Lv3_A_02.C_SG_Townhouse_Lv3_A_02_C",
+          "SubPathString": ""
+        }
+      },
+      "451": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_Lv3_C.C_SG_Townhouse_Lv3_C_C",
+          "SubPathString": ""
+        }
+      },
+      "452": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_Lv3_B.C_SG_Townhouse_Lv3_B_C",
+          "SubPathString": ""
+        }
+      },
+      "453": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_lv3_BPart_A.C_SG_Townhouse_lv3_BPart_A_C",
+          "SubPathString": ""
+        }
+      },
+      "454": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_Lv3_BPart_B.C_SG_Townhouse_Lv3_BPart_B_C",
+          "SubPathString": ""
+        }
+      },
+      "455": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_CharcoalKiln.C_SG_CharcoalKiln_C",
+          "SubPathString": ""
+        }
+      },
+      "456": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Beehive.C_SG_Beehive_C",
+          "SubPathString": ""
+        }
+      },
+      "457": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Guardhouse_lv1_Prison.C_SG_Guardhouse_lv1_Prison_C",
+          "SubPathString": ""
+        }
+      },
+      "458": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Windmill_Top.C_SG_Windmill_Top_C",
+          "SubPathString": ""
+        }
+      },
+      "459": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Lv3GateWall_700.C_SG_Lv3GateWall_700_C",
+          "SubPathString": ""
+        }
+      },
+      "460": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Lv3GateWall_350.C_SG_Lv3GateWall_350_C",
+          "SubPathString": ""
+        }
+      },
+      "461": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_LV3_E_Wide.C_SG_Townhouse_LV3_E_Wide_C",
+          "SubPathString": ""
+        }
+      },
+      "462": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_G_Medium.C_SG_Townhouse_G_Medium_C",
+          "SubPathString": ""
+        }
+      },
+      "463": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Townhouse_Lv3_H.C_SG_Townhouse_Lv3_H_C",
+          "SubPathString": ""
+        }
+      },
+      "464": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_EmptyBPart_1.C_SG_EmptyBPart_1_C",
+          "SubPathString": ""
+        }
+      },
+      "465": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_EmptyBPart_3_Wide.C_SG_EmptyBPart_3_Wide_C",
+          "SubPathString": ""
+        }
+      },
+      "466": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_RooftileFurnaceShed.C_SG_RooftileFurnaceShed_C",
+          "SubPathString": ""
+        }
+      },
+      "467": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/C_SG_FurnacePlatform.C_SG_FurnacePlatform_C",
+          "SubPathString": ""
+        }
+      },
+      "468": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_DryingShed.C_SG_DryingShed_C",
+          "SubPathString": ""
+        }
+      },
+      "below_are_gate_wall_and_stone_wall": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "469": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "470": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "471": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "walls_end": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "472": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Manor_Tower_Lv1_00.C_SG_Manor_Tower_Lv1_00_C",
+          "SubPathString": ""
+        }
+      },
+      "473": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/Extensions/C_SG_PithouseB.C_SG_PithouseB_C",
+          "SubPathString": ""
+        }
+      },
+      "474": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_Sawpit_Alt.C_SG_Sawpit_Alt_C",
+          "SubPathString": ""
+        }
+      },
+      "476": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_ShedC_Higher_Ubeam.C_SG_ShedC_Higher_Ubeam_C",
+          "SubPathString": ""
+        }
+      },
+      "477": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "/Game/CPP_BP/ConstructionBlueprints/C_SG_OuthouseHug_00.C_SG_OuthouseHug_00_C",
+          "SubPathString": ""
+        }
+      },
+      "478": {
+        "ConstructionBP": null,
+        "constructionAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

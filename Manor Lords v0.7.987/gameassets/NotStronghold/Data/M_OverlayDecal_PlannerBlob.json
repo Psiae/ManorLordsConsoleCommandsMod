@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal_PlannerBlob",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "DecalBlendMode": "EDecalBlendMode::DBM_Emissive",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bTangentSpaceNormal": false,
+      "bUseMaterialAttributes": true,
+      "StateId": "85FA5FCB-B83229C7-978919F6-54E169B6",
+      "bIncludedInBaseGame": true
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_castlePlannerBlob'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/RT_castlePlannerBlob.0"
+      }
+    ]
+  }
+]
