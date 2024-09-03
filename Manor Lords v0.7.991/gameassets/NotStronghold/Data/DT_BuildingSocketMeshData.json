@@ -1,0 +1,255 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildingSocketMeshData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'BuildingSocketMeshData'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "20": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_A.SMD_SG_Cottage_LV1_A",
+          "SubPathString": ""
+        }
+      },
+      "22": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/WoodcuttersCabin_SMD.WoodcuttersCabin_SMD",
+          "SubPathString": ""
+        }
+      },
+      "26": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TradingPost_Ubeam.SMD_SG_TradingPost_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "27": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Cottage_LV2_A_Ubeam.SMD_Cottage_LV2_A_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "33": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_MarketStall_Food.SMD_MarketStall_Food",
+          "SubPathString": ""
+        }
+      },
+      "35": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_FIreplace.SMD_FIreplace",
+          "SubPathString": ""
+        }
+      },
+      "43": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_windmillBase.SMD_windmillBase",
+          "SubPathString": ""
+        }
+      },
+      "44": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_Well_SMD.SG_Well_SMD",
+          "SubPathString": ""
+        }
+      },
+      "95": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Gatehouse_Lv1.SMD_SG_Gatehouse_Lv1",
+          "SubPathString": ""
+        }
+      },
+      "96": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Forager.SMD_SG_Forager",
+          "SubPathString": ""
+        }
+      },
+      "144": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Palace_LV1_UBeam.SMD_SG_Palace_LV1_UBeam",
+          "SubPathString": ""
+        }
+      },
+      "200": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Cottage_LV2_B_Ubeam.SMD_Cottage_LV2_B_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "245": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Granary_LV2_UBeam.SMD_SG_Granary_LV2_UBeam",
+          "SubPathString": ""
+        }
+      },
+      "246": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_B.SMD_SG_Cottage_LV1_B",
+          "SubPathString": ""
+        }
+      },
+      "248": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_C.SMD_SG_Cottage_LV1_C",
+          "SubPathString": ""
+        }
+      },
+      "296": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Church_lv1_Ubeam.SMD_Church_lv1_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "249": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/smd_marketStall_firewood.smd_marketStall_firewood",
+          "SubPathString": ""
+        }
+      },
+      "250": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_MarketStall_Cloth.SMD_MarketStall_Cloth",
+          "SubPathString": ""
+        }
+      },
+      "308": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_HitchingPost.SMD_HitchingPost",
+          "SubPathString": ""
+        }
+      },
+      "400": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_OxShed.SMD_OxShed",
+          "SubPathString": ""
+        }
+      },
+      "401": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_StickFenceSegment_SMD.SG_StickFenceSegment_SMD",
+          "SubPathString": ""
+        }
+      },
+      "402": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_FarmCore.SMD_SG_FarmCore",
+          "SubPathString": ""
+        }
+      },
+      "405": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_StickFenceSegment_SMD.SG_StickFenceSegment_SMD",
+          "SubPathString": ""
+        }
+      },
+      "409": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_HunterTent.SMD_HunterTent",
+          "SubPathString": ""
+        }
+      },
+      "412": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_GranarySmol.SMD_GranarySmol",
+          "SubPathString": ""
+        }
+      },
+      "426": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_PithouseA.SMD_SG_PithouseA",
+          "SubPathString": ""
+        }
+      },
+      "417": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Malthouse_Core.SMD_SG_Malthouse_Core",
+          "SubPathString": ""
+        }
+      },
+      "436": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_CrudePlatformMine.SMD_CrudePlatformMine",
+          "SubPathString": ""
+        }
+      },
+      "443": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_FenceCheap.SMD_FenceCheap",
+          "SubPathString": ""
+        }
+      },
+      "444": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_StairsWooden_100.SMD_StairsWooden_100",
+          "SubPathString": ""
+        }
+      },
+      "445": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Church_lv1_BACKONLY.SMD_SG_Church_lv1_BACKONLY",
+          "SubPathString": ""
+        }
+      },
+      "447": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Church_lv2_core.SMD_Church_lv2_core",
+          "SubPathString": ""
+        }
+      },
+      "448": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Sawpit.SMD_SG_Sawpit",
+          "SubPathString": ""
+        }
+      },
+      "449": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Storehouse_Lv2_Ubeam.SMD_SG_Storehouse_Lv2_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "450": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TownhouseA.SMD_SG_TownhouseA",
+          "SubPathString": ""
+        }
+      },
+      "461": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TownhouseE.SMD_SG_TownhouseE",
+          "SubPathString": ""
+        }
+      },
+      "463": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TownhouseH.SMD_SG_TownhouseH",
+          "SubPathString": ""
+        }
+      },
+      "470": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_PalisadeNarrow.SMD_PalisadeNarrow",
+          "SubPathString": ""
+        }
+      },
+      "475": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Sawpit_alt_ground.SMD_Sawpit_alt_ground",
+          "SubPathString": ""
+        }
+      },
+      "478": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SimplePond.SMD_SimplePond",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

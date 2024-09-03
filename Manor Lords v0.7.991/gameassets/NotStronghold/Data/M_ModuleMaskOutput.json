@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_ModuleMaskOutput",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "7256F452-A1D6F7DC-48182182-9CFFDC46",
+      "bIncludedInBaseGame": true
+    }
+  }
+]

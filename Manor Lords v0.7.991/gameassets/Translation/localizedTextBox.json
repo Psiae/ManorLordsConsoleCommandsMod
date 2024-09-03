@@ -1,0 +1,321 @@
+[
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'localizedTextBox_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'localizedTextBox_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.0"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'localizedTextBox_C:WidgetTree.TextBlock_16'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.7"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "changeText",
+    "Outer": "localizedTextBox_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "newKey",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_localizedTextBox",
+    "Outer": "localizedTextBox_C",
+    "Class": "UScriptClass'Function'",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "K2Node_CustomEvent_newKey",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Conv_IntToDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_SlateFontInfo",
+        "Flags": "RF_Public",
+        "ElementSize": 112,
+        "Struct": {
+          "ObjectName": "ScriptStruct'SlateFontInfo'",
+          "ObjectPath": "/Script/SlateCore"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_MakeStruct_Size_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "localizedTextBox_C",
+    "Class": "UScriptClass'Function'",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "IsDesignTime",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "translate",
+    "Outer": "localizedTextBox_C",
+    "Class": "UScriptClass'Function'",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "localizedTextBox_C",
+    "Name": "Default__localizedTextBox_C",
+    "Class": "WidgetBlueprintGeneratedClass'ManorLords/Content/Translation/localizedTextBox.localizedTextBox_C'",
+    "Properties": {
+      "UberGraphFrame": {},
+      "fontSize": 24,
+      "isMainUI": true,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_16",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "4A80828142B466850144B19CB37605B1",
+        "SourceString": "localized_text_block",
+        "LocalizedString": "localized_text_block"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'CombinedFont_SemiBold'",
+          "ObjectPath": "ManorLords/Content/UWG/fonts/CombinedFont_SemiBold.0"
+        },
+        "TypefaceFontName": "Medium"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'localizedTextBox_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.1"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "localizedTextBox_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'localizedTextBox_C:WidgetTree'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.9"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'localizedTextBox_C:ExecuteUbergraph_localizedTextBox'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'localizedTextBox_C:PreConstruct'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.4"
+      },
+      {
+        "ObjectName": "Function'localizedTextBox_C:translate'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.5"
+      },
+      {
+        "ObjectName": "Function'localizedTextBox_C:changeText'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.2"
+      },
+      {
+        "ObjectName": "Function'localizedTextBox_C:ExecuteUbergraph_localizedTextBox'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TextBlock_16",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | DisableEditOnInstance | InstancedReference | RepSkip | PersistentInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TextBlock'",
+          "ObjectPath": "/Script/UMG"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "fontSize",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "Translation Key",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "isMainUI",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Text to Upper",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_localizedTextBox": {
+        "ObjectName": "Function'localizedTextBox_C:ExecuteUbergraph_localizedTextBox'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.3"
+      },
+      "changeText": {
+        "ObjectName": "Function'localizedTextBox_C:changeText'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.2"
+      },
+      "translate": {
+        "ObjectName": "Function'localizedTextBox_C:translate'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'localizedTextBox_C:PreConstruct'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.4"
+      }
+    },
+    "ClassFlags": "CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "localizedTextBox_C'Default__localizedTextBox_C'",
+      "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "localizedTextBox_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'localizedTextBox_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "ManorLords/Content/Translation/localizedTextBox.0"
+      }
+    }
+  }
+]
