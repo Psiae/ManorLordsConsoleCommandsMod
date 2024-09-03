@@ -727,7 +727,7 @@ If you need futher assistance join the [discord server](https://discord.gg/NTvCT
   - by default, a **Shoal Of Fish** consist of 6 **group of fish** with random capacity between 10..30, rich type resource has double the capacity range
 
 
-- k.decreaseRegionShoalOfFishCapacity
+- k.decreaseRegionShoalOfFishCapacity <u>amount</u>
   - decrease the capacity of **Shoal Of Fish** resource in **current region** by <u>amount</u></br></br>
 
   - capacity decrease is distributed
