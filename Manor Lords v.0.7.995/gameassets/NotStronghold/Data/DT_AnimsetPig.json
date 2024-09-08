@@ -1,0 +1,85 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetPig",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Pig_IdleLookAround",
+            "spd": 0.8,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "ANIM_Pig_SniffleforFood",
+            "spd": 0.8,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "ANIM_Pig_IdleBreathe",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Pig_Walk",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Pig_Run",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death": {
+        "ID": 19,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Pig_Death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death_0": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Pig_Death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      }
+    }
+  }
+]

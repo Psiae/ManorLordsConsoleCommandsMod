@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CoatTextureData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CoatContentTexture'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "bear": {
+        "Texture": {
+          "AssetPathName": "/Game/UWG/CoatOfArms/Animals/bear.bear",
+          "SubPathString": ""
+        }
+      },
+      "axe": {
+        "Texture": {
+          "AssetPathName": "/Game/UWG/CoatOfArms/Items/axe.axe",
+          "SubPathString": ""
+        }
+      },
+      "no_symbol": {
+        "Texture": {
+          "AssetPathName": "/Game/UWG/ui_textures/emptyAlpha.emptyAlpha",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]
