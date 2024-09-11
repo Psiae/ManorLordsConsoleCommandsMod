@@ -116,7 +116,7 @@ If you have question, ask it in the community discord server: [discord server](h
 
 - k.releaseMercenaryById <u>mercenaryID</u>
     - release mercenary with given <u>mercenaryID</u>, making them available for hire <br/><br/>
-    - **mercenaryID** refer to the table key in the [DT_MercenaryCompanies.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_MercenaryCompanies.json)
+    - **mercenaryID** refer to the table key in the [DT_MercenaryCompanies.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_MercenaryCompanies.json)
     - e.g. to release "The Brotherhood of the Forest" (brotherhood\_of\_the\_forest): "k.releaseMercenaryById brotherhood\_of\_the\_forest"**
 
 
@@ -148,16 +148,16 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.addMilitiaToRegion <u>militiaID</u>
     - add new militia to current region<br/><br/>
 
-    - <u>militiaID</u> refers to the unit template key in the [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-    - display name translation here [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
+    - <u>militiaID</u> refers to the unit template key in the [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
+    - display name translation here [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
     - e.g. to add archer militia (bowMilitia): "k.addMilitiaToRegion bowMilitia"
 
 
 - k.addMilitiaToRegionByName <u>regionName</u> <u>militiaID</u>
     - add new militia by <u>militiaID</u> to the specified region by <u>regionName</u><br/><br/>
 
-    - <u>militiaID</u> refers to the unit template key in the [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-    - display name translation here [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
+    - <u>militiaID</u> refers to the unit template key in the [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
+    - display name translation here [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
 
 
 - k.healPlayerUnits
@@ -189,14 +189,14 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.retinueEditorSetArmorByID <u>ID</u>
     - set the rally armor of the retinue currently selected at the retinue editor to armor with given <u>ID</u><br/><br/>
 
-    - armor ID can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_Items.json)
+    - armor ID can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_Items.json)
     - use the retinue editor to select the variant of that set armor
 
 
 - k.retinueEditorSetWeaponByID <u>ID</u>
     - set the rally weapon of the retinue currently selected at the retinue editor to weapon with given <u>ID</u><br/><br/>
 
-    - weapon <u>ID</u>can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_Items.json)
+    - weapon <u>ID</u>can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_Items.json)
     - use the retinue editor to select the variant of that set weapon
     - for example, in the template of "retinue\_tier3", the weapons ID are 278 and 250, in the item data table "278" is a sidearm and "250" is a polearm. the template name suggest that those set of weapon are supposed to be for tier-3 retinue.
 
@@ -204,14 +204,14 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.retinueEditorSetShieldByID <u>ID</u>
     - set the rally shield of the retinue currently selected at the retinue editor to armor with given <u>ID</u></u><br/><br/>
 
-    - shield <u>ID</u> can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_Items.json)
+    - shield <u>ID</u> can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_Items.json)
     - use the retinue editor to select the variant of that set shield
 
 
 - k.retinueEditorSetHelmetByID <u>ID</u>
     - set the rally helmet of the retinue currently selected at the retinue editor to armor with given <u>ID</u><br/><br/>
 
-    - helmet <u>ID</u> can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_Items.json)
+    - helmet <u>ID</u> can be found on their [template here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_UnitTemplates.json), [item data here](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_Items.json)
     - use the retinue editor to select the variant of that set helmet
 
 
@@ -468,8 +468,8 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.addResourceToSelectedBuildings <u>typeId</u> <u>amount</u>
     - spawn/increase/decrease resource at the player selected buildings inventory (negate <u>amount</u> to decrease)</br></br>
 
-    - typeId refer to the table key in [DT_items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/NotStronghold/Data/DT_Items.json).
-    - display name translations here [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_Items.json). (typeId is a number, so remove "itemID_" prefix)
+    - typeId refer to the table key in [DT_items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/NotStronghold/Data/DT_Items.json).
+    - display name translations here [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_Items.json). (typeId is a number, so remove "itemID_" prefix)
     - e.g. To add 1000 Timber (wood: itemID_16): "k.addResourceToSelectedBuildings 16 1000"
 
 - k.spawnSelectedBuildingsConstructionResources
@@ -566,7 +566,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.setGenericStorageCapacityForRegionBuildingsOfType <u>typeID</u> <u>capacity</u>
     - set generic storage capacity for **current region** buildings with assigned <u>typeID</u> to <u>capacity</u></br></br>
 
-    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
+    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
     - <u>typeID</u> is a number so remove "buildingID\_" prefix
     - set value is not persisted to the save game
 
@@ -580,7 +580,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.setPantryStorageCapacityForRegionBuildingsOfType <u>typeID</u> <u>capacity</u>
     - set pantry storage capacity for **current region** buildings with assigned <u>typeID</u> to <u>capacity</u></br></br>
 
-    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
+    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
     - <u>typeID</u> is a number so remove "buildingID\_" prefix
     - set value is not persisted to the save game
 
@@ -594,7 +594,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.setGenericStorageCapacityForPlayerRegionsBuildingsOfType <u>typeID</u> <u>capacity</u>
     - set generic storage capacity for player owned regions buildings with assigned <u>typeID</u> to <u>capacity</u></br></br>
 
-    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
+    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
     - <u>typeID</u> is a number so remove "buildingID\_" prefix
     - set value is not persisted to the save game
 
@@ -608,7 +608,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.setPantryStorageCapacityForPlayerRegionsBuildingsOfType <u>typeID</u> <u>capacity</u>
     - set pantry storage capacity for player owned regions buildings with assigned <u>typeID</u> to <u>capacity</u></br></br>
 
-    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
+    - typeID name translation here [DT_Translation_BuildingNames](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_BuildingNames.json)
     - <u>typeID</u> is a number so remove "buildingID\_" prefix
     - set value is not persisted to the save game
 
@@ -841,7 +841,7 @@ If you have question, ask it in the community discord server: [discord server](h
     - this **foreign supply** influence the trade price each month
     - default supply amount for all items is 500
     - it will print the typeID and amount, e.g. Spears (itemID\_133): "typeID=133 amount=500"
-    - typeID display name translation here [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)
+    - typeID display name translation here [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)
 
 
 - k.addResourceToForeignSupply <u>typeID</u> <u>amount</u>
@@ -849,7 +849,7 @@ If you have question, ask it in the community discord server: [discord server](h
 
     - this **foreign supply** influence the trade price each month
     - default supply amount for all items is 500
-    - typeID display name translation here [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.7.987/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)
+    - typeID display name translation here [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v.0.7.995/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)
     - see "k.printForeignSupply" to see the current amount**
 
 
