@@ -12,7 +12,7 @@ class UupgradeWidget_C : public UUserWidget
     class ASMBuildingMaster* building;                                                // 0x0310 (size: 0x8)
     bool possible;                                                                    // 0x0318 (size: 0x1)
     bool Enabled;                                                                     // 0x0319 (size: 0x1)
-    class UInventory_C* daddy;                                                        // 0x0320 (size: 0x8)
+    class UInventory_C* Daddy;                                                        // 0x0320 (size: 0x8)
     TArray<int32> required;                                                           // 0x0328 (size: 0x10)
     TArray<FGood> requiredGoods;                                                      // 0x0338 (size: 0x10)
 

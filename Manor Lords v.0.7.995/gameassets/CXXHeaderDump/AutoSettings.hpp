@@ -29,10 +29,10 @@ class UAutoSettingWidget : public UUserWidget
     bool bUpdatingSettingSelection;                                                   // 0x032A (size: 0x1)
 
     void UpdateSelection(FString Value);
-    void save();
+    void Save();
     bool HasUnsavedChange();
     bool HasUnappliedChange();
-    void cancel();
+    void Cancel();
     void ApplySettingValue(FString Value, bool bSaveIfPossible);
     void Apply();
 }; // Size: 0x330

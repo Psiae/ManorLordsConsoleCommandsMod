@@ -14,7 +14,7 @@ class UStallEntry_C : public UUserWidget
     class UTextBlock* TextBlock_1;                                                    // 0x0320 (size: 0x8)
     class UComboBoxString* tradeable_CB;                                              // 0x0328 (size: 0x8)
     class ASMBuildingMaster* building;                                                // 0x0330 (size: 0x8)
-    class UInventory_C* daddy;                                                        // 0x0338 (size: 0x8)
+    class UInventory_C* Daddy;                                                        // 0x0338 (size: 0x8)
     int32 ID;                                                                         // 0x0340 (size: 0x4)
 
     void BndEvt__tradeable_CB_K2Node_ComponentBoundEvent_1_OnSelectionChangedEvent__DelegateSignature(FString SelectedItem, TEnumAsByte<ESelectInfo::Type> SelectionType);

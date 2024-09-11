@@ -22,7 +22,7 @@ class UbuildingCardWidget_C : public UNaviUi
     FName Name;                                                                       // 0x03C0 (size: 0x8)
     TArray<FGood> production;                                                         // 0x03C8 (size: 0x10)
     TArray<FTechRequirement> requiredTechs;                                           // 0x03D8 (size: 0x10)
-    bool WIP;                                                                         // 0x03E8 (size: 0x1)
+    bool wip;                                                                         // 0x03E8 (size: 0x1)
     TArray<int32> areaBuildings;                                                      // 0x03F0 (size: 0x10)
     class UMainUICPP_C* Main UI Ref;                                                  // 0x0400 (size: 0x8)
     TArray<int32> Required Buildings Constructed;                                     // 0x0408 (size: 0x10)

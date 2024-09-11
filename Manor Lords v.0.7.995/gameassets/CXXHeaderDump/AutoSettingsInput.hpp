@@ -238,7 +238,7 @@ class UBindCapturePrompt : public UUserWidget
 
     bool IsKeyAllowed(FKey PrimaryKey);
     FGameplayTag GetKeyGroup();
-    void cancel();
+    void Cancel();
 }; // Size: 0x348
 
 class UGlobalKeyIconTagManager : public UObject

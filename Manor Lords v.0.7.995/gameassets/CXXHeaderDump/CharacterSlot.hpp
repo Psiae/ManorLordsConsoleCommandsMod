@@ -5,7 +5,7 @@ class UCharacterSlot_C : public UUserWidget
 {
     FPointerToUberGraphFrame UberGraphFrame;                                          // 0x02E0 (size: 0x8)
     class UWidgetAnimation* enact;                                                    // 0x02E8 (size: 0x8)
-    class UImage* Bg;                                                                 // 0x02F0 (size: 0x8)
+    class UImage* bg;                                                                 // 0x02F0 (size: 0x8)
     class UImage* Icon;                                                               // 0x02F8 (size: 0x8)
     class ASMBuildingMaster* building;                                                // 0x0300 (size: 0x8)
     class UCharacterPortraitDragWidget_C* DraggedWidget;                              // 0x0308 (size: 0x8)

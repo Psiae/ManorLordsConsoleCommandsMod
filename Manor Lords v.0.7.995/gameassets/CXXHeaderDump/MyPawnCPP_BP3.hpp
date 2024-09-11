@@ -282,7 +282,7 @@ class AMyPawnCPP_BP3_C : public APawnCPP
     void playAlert(const int32& Type);
     void playBuildingSound(const int32& bType);
     void updateLogUI();
-    void play build sound(bool WithPlanks);
+    void play build sound(bool withPlanks);
     void playMarkerSound(const int32& snd);
     void showProgressUpdate(class ARegion* Region);
     void closeAllTabsAndInventories();

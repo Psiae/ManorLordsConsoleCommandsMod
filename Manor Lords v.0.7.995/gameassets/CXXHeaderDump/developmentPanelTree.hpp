@@ -148,7 +148,7 @@ class UdevelopmentPanelTree_C : public UNaviSubGrid
     double TierThres03;                                                               // 0x07D0 (size: 0x8)
     int32 numPointSpent;                                                              // 0x07D8 (size: 0x4)
     double treeZoomLv;                                                                // 0x07E0 (size: 0x8)
-    bool Dragging;                                                                    // 0x07E8 (size: 0x1)
+    bool dragging;                                                                    // 0x07E8 (size: 0x1)
     FVector2D prevMousePos2D;                                                         // 0x07F0 (size: 0x10)
     FVector2D treeOffset;                                                             // 0x0800 (size: 0x10)
     FString currentCategory;                                                          // 0x0810 (size: 0x10)

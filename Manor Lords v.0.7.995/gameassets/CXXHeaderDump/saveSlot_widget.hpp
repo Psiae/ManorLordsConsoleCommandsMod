@@ -28,7 +28,7 @@ class UsaveSlot_widget_C : public UUserWidget
 
     void ApplyEditableTextLimit(const FText& InText);
     void loadThumbnailTimeSliced();
-    void setSaveSlotData(FString Level Name, FString saveName, const FDateTime& date, FString ver);
+    void setSaveSlotData(FString Level Name, FString saveName, const FDateTime& date, FString Ver);
     void updateParentSaveSlots();
     void Completed_4B5ADD4543D344113E1E09B9C77C8494(class USaveGame* SaveGame, bool bSuccess);
     void Completed_6AB8DB6F4165D2E72520BFAFDA041E98(class USaveGame* SaveGame, bool bSuccess);

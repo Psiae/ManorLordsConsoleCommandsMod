@@ -70,7 +70,7 @@ class UBigTooltipUnit_C : public UUserWidget
     class UImage* unitPortrait;                                                       // 0x04E0 (size: 0x8)
     class UTextBlock* wage_txt;                                                       // 0x04E8 (size: 0x8)
     FName tempName;                                                                   // 0x04F0 (size: 0x8)
-    class UrecruitmentCard_C* daddy;                                                  // 0x04F8 (size: 0x8)
+    class UrecruitmentCard_C* Daddy;                                                  // 0x04F8 (size: 0x8)
     class UMaterialInstanceDynamic* dynamicCardMaterial;                              // 0x0500 (size: 0x8)
     bool isMilitia;                                                                   // 0x0508 (size: 0x1)
     double stat_att;                                                                  // 0x0510 (size: 0x8)

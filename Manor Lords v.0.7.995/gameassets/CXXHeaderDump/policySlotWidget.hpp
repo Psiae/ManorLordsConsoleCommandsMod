@@ -13,7 +13,7 @@ class UpolicySlotWidget_C : public UUserWidget
     class ARegion* Region;                                                            // 0x0318 (size: 0x8)
     bool possible;                                                                    // 0x0320 (size: 0x1)
     bool Enabled;                                                                     // 0x0321 (size: 0x1)
-    class URegionPanel_C* daddy;                                                      // 0x0328 (size: 0x8)
+    class URegionPanel_C* Daddy;                                                      // 0x0328 (size: 0x8)
     int32 cost;                                                                       // 0x0330 (size: 0x4)
     TArray<int32> required;                                                           // 0x0338 (size: 0x10)
     bool isRegionSlot;                                                                // 0x0348 (size: 0x1)

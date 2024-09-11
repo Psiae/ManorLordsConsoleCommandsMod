@@ -2638,7 +2638,7 @@ class APawnCPP : public APawn
     bool isRotationGizmoHovered;                                                      // 0x07A5 (size: 0x1)
     float rotationGizmo_smoothOpacity;                                                // 0x07A8 (size: 0x4)
     TMap<class FSegment, class FResampleCache> roadResampleCache;                     // 0x07B0 (size: 0x50)
-    TArray<FLogEntry> log;                                                            // 0x0800 (size: 0x10)
+    TArray<FLogEntry> Log;                                                            // 0x0800 (size: 0x10)
     bool isMainPlayer;                                                                // 0x0810 (size: 0x1)
     bool isUsingUI;                                                                   // 0x0818 (size: 0x1)
     TArray<int32> commandedSquads;                                                    // 0x0820 (size: 0x10)
@@ -3774,7 +3774,7 @@ class ARTSMultiEngineCPP : public AActor
     TArray<FVector> smoothOutFieldBorder(TArray<FFieldPoint>& fieldPoints, float snapDistSq, TArray<FFieldSnapPoint>& fieldSnapPoints, const TArray<FObstacle2D>& cachedObstacles, class ARTSMultiEngineCPP* masterPtr, EPlotCollisionCheck plotCollisionCheck);
     void slicePlotInHalf(const TArray<FVector>& SmoothBorder, const TArray<FVector>& borderCorners, const FSegment& slice, TArray<FVector>& partA, TArray<FVector>& partB, TArray<FVector>& partA_corners, TArray<FVector>& partB_corners, const FVector& areaCenter);
     void simplifyPolygon(TArray<FVector>& Vertices);
-    float Sign(FVector p1, FVector p2, FVector p3);
+    float sign(FVector p1, FVector p2, FVector p3);
     TArray<FVector> shrinkPolygon(const TArray<FVector>& Vertices, const TArray<FVector>& triangulated, const float& shrinkAmt);
     void showPP();
     void shiftEditCommandIndices_PPoints(int32 deletedIndex);

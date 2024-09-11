@@ -9,7 +9,7 @@ class UpopIcon_C : public UUserWidget
     class UButton* popIcon_button;                                                    // 0x02F8 (size: 0x8)
     class ASMBuildingMaster* building;                                                // 0x0300 (size: 0x8)
     int32 Type;                                                                       // 0x0308 (size: 0x4)
-    class UMainUICPP_C* daddy;                                                        // 0x0310 (size: 0x8)
+    class UMainUICPP_C* Daddy;                                                        // 0x0310 (size: 0x8)
 
     void Construct();
     void Tick(FGeometry MyGeometry, float InDeltaTime);

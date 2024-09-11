@@ -10,7 +10,7 @@ class UpawnButton_C : public UUserWidget
     class UImage* portrait_img;                                                       // 0x0300 (size: 0x8)
     class UButton* portraitButton;                                                    // 0x0308 (size: 0x8)
     class APawnCPP* Pawn;                                                             // 0x0310 (size: 0x8)
-    class UregionViewOverlay_C* daddy;                                                // 0x0318 (size: 0x8)
+    class UregionViewOverlay_C* Daddy;                                                // 0x0318 (size: 0x8)
     class UMaterialInstanceDynamic* coatMat;                                          // 0x0320 (size: 0x8)
 
     void translateNameAndSetTooltip(class APawnCPP* Pawn);

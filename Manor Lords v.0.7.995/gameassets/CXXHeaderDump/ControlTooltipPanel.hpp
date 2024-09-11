@@ -89,10 +89,10 @@ class UControlTooltipPanel_C : public UUserWidget
     void tooltip_Area(class APawnCPP* Pawn);
     void Translate();
     void tooltip_Home(class APawnCPP* Pawn);
-    void tooltip_roads(class AMyPawnCPP_BP3_C* PlayerPawn);
+    void tooltip_roads(class AMyPawnCPP_BP3_C* playerPawn);
     void fadeTooltipComponent(class UWidget* ToolTip, bool show);
-    void tooltip_buildingPlacement(class AMyPawnCPP_BP3_C* PlayerPawn);
-    void tooltip_cameraMovement(class AMyPawnCPP_BP3_C* PlayerPawn);
+    void tooltip_buildingPlacement(class AMyPawnCPP_BP3_C* playerPawn);
+    void tooltip_cameraMovement(class AMyPawnCPP_BP3_C* playerPawn);
     void globalFade();
     void Construct();
     void Tick(FGeometry MyGeometry, float InDeltaTime);

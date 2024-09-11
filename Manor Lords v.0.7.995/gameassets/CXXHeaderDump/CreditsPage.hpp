@@ -4,7 +4,7 @@
 class UCreditsPage_C : public UNaviSubGrid
 {
     FPointerToUberGraphFrame UberGraphFrame;                                          // 0x0350 (size: 0x8)
-    class UImage* Bg;                                                                 // 0x0358 (size: 0x8)
+    class UImage* bg;                                                                 // 0x0358 (size: 0x8)
     class UBorder* Border_128;                                                        // 0x0360 (size: 0x8)
     class UVerticalBox* credits;                                                      // 0x0368 (size: 0x8)
     class UImage* Grunge;                                                             // 0x0370 (size: 0x8)

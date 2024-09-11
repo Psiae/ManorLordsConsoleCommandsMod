@@ -4,7 +4,7 @@
 class UclaimProgress_C : public UUserWidget
 {
     FPointerToUberGraphFrame UberGraphFrame;                                          // 0x02E0 (size: 0x8)
-    class UImage* Bg;                                                                 // 0x02E8 (size: 0x8)
+    class UImage* bg;                                                                 // 0x02E8 (size: 0x8)
     class UBorder* claiming_border;                                                   // 0x02F0 (size: 0x8)
     class UProgressBar* claiming_progress;                                            // 0x02F8 (size: 0x8)
     class UTextBlock* Claiming_txt;                                                   // 0x0300 (size: 0x8)

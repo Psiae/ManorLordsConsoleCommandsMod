@@ -22,7 +22,7 @@ class AALS_AnimMan_CharacterBP_C : public AALS_Base_CharacterBP_C
     FLinearColor HandIK_Color;                                                        // 0x0BA4 (size: 0x10)
     class UMaterialInstanceDynamic* Head;                                             // 0x0BB8 (size: 0x8)
     class UMaterialInstanceDynamic* Torso;                                            // 0x0BC0 (size: 0x8)
-    class UMaterialInstanceDynamic* Pelvis;                                           // 0x0BC8 (size: 0x8)
+    class UMaterialInstanceDynamic* pelvis;                                           // 0x0BC8 (size: 0x8)
     class UMaterialInstanceDynamic* Feet;                                             // 0x0BD0 (size: 0x8)
     class UMaterialInstanceDynamic* Shoulder_L;                                       // 0x0BD8 (size: 0x8)
     class UMaterialInstanceDynamic* UpperArm_L;                                       // 0x0BE0 (size: 0x8)

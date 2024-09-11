@@ -16,7 +16,7 @@ class Ureward_dev_C : public UUserWidget
     class UImage* spacera_1;                                                          // 0x0330 (size: 0x8)
     class UTextBlock* townName_txt;                                                   // 0x0338 (size: 0x8)
     bool Completed;                                                                   // 0x0340 (size: 0x1)
-    class UgenericAchievement_EventMessage_C* daddy;                                  // 0x0348 (size: 0x8)
+    class UgenericAchievement_EventMessage_C* Daddy;                                  // 0x0348 (size: 0x8)
     class ARegion* Region;                                                            // 0x0350 (size: 0x8)
     double startingXp;                                                                // 0x0358 (size: 0x8)
     bool levelUp;                                                                     // 0x0360 (size: 0x1)

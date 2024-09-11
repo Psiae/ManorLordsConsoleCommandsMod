@@ -481,7 +481,7 @@ class UMainUICPP_C : public UNaviGrid
     void BndEvt__build_confirm_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature();
     void UpdateInventoryTabs();
     void RepawnTownName(class ARegion* Region);
-    void playBuildSound(FVector Pos, bool WithPlanks);
+    void playBuildSound(FVector Pos, bool withPlanks);
     void closeAllUnpinnedTabs();
     void playBuildingSound(int32 bType);
     void filterBuildingsByCategory();
