@@ -724,14 +724,14 @@ If you have question, ask it in the community discord server: [discord server](h
     - increase the capacity of **Shoal Of Fish** resource in **current region** by <u>amount</u></br></br>
 
     - capacity increase is distributed
-    - by default, a **Shoal Of Fish** consist of 6 **group of fish** with random capacity between 10..30, rich type resource has double the capacity range
+    - by default, a **Shoal Of Fish** consist of 11 **group of fish** with capacity of 32, rich type capacity is 65
 
 
 - k.decreaseRegionShoalOfFishCapacity <u>amount</u>
     - decrease the capacity of **Shoal Of Fish** resource in **current region** by <u>amount</u></br></br>
 
     - capacity decrease is distributed
-    - by default, a **Shoal Of Fish** consist of 6 **group of fish** with random capacity between 10..30, rich type resource has double the capacity range
+    - by default, a **Shoal Of Fish** consist of 11 **group of fish** with capacity of 32, rich type capacity is 65
 
 
 - k.refillRegionShoalOfFish
