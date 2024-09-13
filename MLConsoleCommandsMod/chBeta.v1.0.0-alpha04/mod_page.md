@@ -1059,5 +1059,6 @@ If you have question, ask it in the community discord server: [discord server](h
 allows me to keep the mods updated faster and better
 
 *   [Paypal](https://paypal.me/liamme07)
+    - If you decided to do so via that PayPal link, please do specify that it is a "Donation" in the message.
 *   [Patreon](https://www.patreon.com/psiae)
 *   [Ko-Fi](https://ko-fi.com/psiae)
