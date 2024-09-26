@@ -1,7 +1,12 @@
 ### Mod Page Description (chBeta.v1.0.0-alpha04)
+<br/><br/>
 
-If you'd like this to be maintained, consider tipping at the bottom of the page.
 
+[<img src="https://i.ibb.co.com/m8qh6Ph/support-me-on-patreon-300x81.png">](https://www.patreon.com/Psiae)
+<br/><br/>
+Consider supporting to keep the mods updated.
+
+<br/><br/>
 If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)
 
 #### How To Install:
@@ -1052,13 +1057,3 @@ If you have question, ask it in the community discord server: [discord server](h
 
 - **[NexusMods](https://www.nexusmods.com/manorlords/mods/203)**
 - **[CurseForge](https://www.curseforge.com/manor-lords/mods/manor-lords-console-commands)**
-
-
-###  **Donations**
-
-allows me to keep the mods updated faster and better
-
-*   [Paypal](https://paypal.me/liamme07)
-    - If you decided to do so via that PayPal link, please do specify that it is a "Donation" in the message.
-*   [Patreon](https://www.patreon.com/psiae)
-*   [Ko-Fi](https://ko-fi.com/psiae)
