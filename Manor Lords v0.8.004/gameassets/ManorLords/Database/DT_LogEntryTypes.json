@@ -1,0 +1,316 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LogEntryTypes",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'LogEntryFlair'",
+        "ObjectPath": "ManorLords/Content/ManorLords/Database/LogEntryFlair.0"
+      }
+    },
+    "Rows": {
+      "construction_finished": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'3d-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/3d-hammer.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'building_constructioncamp'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Sound/BuildingSignatures/building_constructioncamp.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "exposed_stocks_damaged_by_weather": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'brokenCrate'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/brokenCrate.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'supplies_broken'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/supplies_broken.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "storage_full": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'wooden-crate'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wooden-crate.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'storage_full'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/storage_full.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator1"
+      },
+      "pantry_full": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'wooden-crate'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wooden-crate.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'storage_full'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/storage_full.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator1"
+      },
+      "tip_winter": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'N_Winter'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Stylized/N_Winter.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'alert_winterIsComing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/alert_winterIsComing.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "rainfall": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "bandit_camp_sighted": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'skull-crossed-bones'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/skull-crossed-bones.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'banditCampSighted_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/banditCampSighted_cue.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "warn_supplies_food": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'exclam'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/exclam.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'Ambient_Game_Alert_War_Stab_4'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Elements/Alerts/Ambient_Game_Alert_War_Stab_4.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "warn_supplies_fuel": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'exclam'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/exclam.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'Ambient_Game_Alert_War_Stab_4'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Elements/Alerts/Ambient_Game_Alert_War_Stab_4.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "stocks_getting_soaked": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'cue_soaking'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Cues/Events/cue_soaking.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "missing_stall_slot": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'iconMarketStallFlat'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/iconMarketStallFlat.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator1"
+      },
+      "family_joins": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'iconPop_dudeplus'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/iconPop_dudeplus.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'new_pop_cue_LT'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Cues/Events/new_pop_cue_LT.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "new_family": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'iconPop_dudeplus'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/iconPop_dudeplus.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'new_pop_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Cues/Events/new_pop_cue.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "animal_migration": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'paw'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/paw.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'animal_migration_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/animal_migration_cue.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator1"
+      },
+      "no_builders": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'exclam'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/exclam.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'building_constructioncamp'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Sound/BuildingSignatures/building_constructioncamp.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "hunger": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'warningFood'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/warningFood.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'Ambient_Game_Alert_War_Stab_4'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Elements/Alerts/Ambient_Game_Alert_War_Stab_4.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "death_cold": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'skull-crossed-bones'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/skull-crossed-bones.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'deathA'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_snd/deathA.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "crop_rotated": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'cycle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cycle.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'cue_cropRotation'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Elements/Farming/cue_cropRotation.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "harvest_season_started": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'sickle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sickle.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'cue_cropRotation'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Elements/Farming/cue_cropRotation.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "harvest_season_ended": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'sickle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sickle.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'cue_cropRotation'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Elements/Farming/cue_cropRotation.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "livestock_ordered": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'silver'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/silver.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'cue_livestockOrder'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Cues/UI/cue_livestockOrder.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "treasury_changed": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'coins'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/coins.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundWave'Writing_9'",
+          "ObjectPath": "ManorLords/Content/Fantasy_Interface_SFX/wav/Writing_9.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "army_sighted": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'skull-crossed-bones'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/skull-crossed-bones.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'armySighted_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/armySighted_cue.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "unit__morale_broken": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'flag'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/flag.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "mercenaries_avalable": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'two-coins'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/two-coins.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "goods_stolen": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'skull-crossed-bones'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/skull-crossed-bones.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'resourceStolen_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/resourceStolen_cue.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      },
+      "mule_required_for_barter": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'Animal_Husbandry_R_mule'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Animal_Husbandry_R_mule.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator1"
+      },
+      "new_retinue_assembled": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'mounted-knight'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/mounted-knight.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": {
+          "ObjectName": "SoundCue'recruitment_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Cues/UI/recruitment_cue.0"
+        },
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+      },
+      "royal_tax_unpaid": {
+        "icon_2_92383A4B4030BEEC1B116D9629840733": {
+          "ObjectName": "Texture2D'royalTax'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/royalTax.0"
+        },
+        "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+        "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator2"
+      }
+    }
+  }
+]

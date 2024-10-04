@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "LogEntryTint",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "E3B53D0348C0A61B84E7D78A331225E9",
+            "SourceString": "Normal",
+            "LocalizedString": "Normal"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "F83E1EC048A2ACFF2848F0BB926CC38D",
+            "SourceString": "Warning",
+            "LocalizedString": "Warning"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "1848ABA141DD5A6D8B6C98B301886E04",
+            "SourceString": "Alert",
+            "LocalizedString": "Alert"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "LogEntryTint::NewEnumerator0": 0,
+      "LogEntryTint::NewEnumerator1": 1,
+      "LogEntryTint::NewEnumerator2": 2,
+      "LogEntryTint::LogEntryTint_MAX": 3
+    },
+    "CppForm": "Namespaced"
+  }
+]

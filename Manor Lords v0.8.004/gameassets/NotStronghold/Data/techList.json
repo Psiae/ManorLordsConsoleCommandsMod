@@ -1,0 +1,1568 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "techList",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Tech'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "1": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Locked",
+        "descr": "Work in progress",
+        "img": {
+          "ObjectName": "Texture2D'padlock'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/padlock.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 123,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "2": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Woodland Management",
+        "descr": "unlocks forester who replants trees",
+        "img": {
+          "ObjectName": "Texture2D'Woodworking_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Woodworking_R.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "3": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Beasts of Burden",
+        "descr": "Allows ox farmers to work at trade buildings.",
+        "img": null,
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "4": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Milling",
+        "descr": "<img id=\"Building\"/> <h>Windmill</> {br}{br} Converts 1 <img id=\"Grain\"/> <h>GRAIN</> to 2 <img id=\"Flour\"/> <h>FLOUR</>. {br}Flour can be consumed as <h>FOOD</>, sold, or combined with <img id=\"Honey\"/> <h>HONEY</> to produce <h>PASTRIES</>.",
+        "img": {
+          "ObjectName": "Texture2D'Machinery_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Machinery_R.0"
+        },
+        "nessecary": [
+          97
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "5": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "sheepbreeding",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'sheepRes'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/sheepRes.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "7": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Flax cultivation",
+        "descr": "Unlocks new crop: Flax. Flax can be later used to create cloth.",
+        "img": {
+          "ObjectName": "Texture2D'hb_t_07'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/hb_t_07.0"
+        },
+        "nessecary": [
+          54
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "8": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Charcoal burning",
+        "descr": "Unlocks new building: Charcoal burner",
+        "img": {
+          "ObjectName": "Texture2D'st_t_08'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/st_t_08.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "9": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Weaving",
+        "descr": "Unlocks new buildings: Weaver",
+        "img": {
+          "ObjectName": "Texture2D'Weawing_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Weawing_R.0"
+        },
+        "nessecary": [
+          5
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Partial"
+      },
+      "11": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Advanced skinning",
+        "descr": "Hunters produce 2 food more out of every animal.",
+        "img": {
+          "ObjectName": "Texture2D'Hunting_2_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Hunting_2_R.0"
+        },
+        "nessecary": [
+          105
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "12": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Fertilization",
+        "descr": "Increases all <h>CROP</> yields by 1.",
+        "img": {
+          "ObjectName": "Texture2D'fertilizationPoop'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/fertilizationPoop.0"
+        },
+        "nessecary": [
+          54
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "13": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Berry picking",
+        "descr": "Increases berry deposit capacity by 50%",
+        "img": {
+          "ObjectName": "Texture2D'Tex_herbs_11'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_herbs_11.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "14": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Carpentry",
+        "descr": "In Carpenter Camps every log produces 2 more timber.",
+        "img": {
+          "ObjectName": "Texture2D'wood-beam'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wood-beam.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "15": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Caravans",
+        "descr": "Unlocks new building: Trading post",
+        "img": {
+          "ObjectName": "Texture2D'trade'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/trade.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "16": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Tanning",
+        "descr": "Unlocks new building: Tannery",
+        "img": {
+          "ObjectName": "Texture2D'animal-hide'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/animal-hide.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "18": {
+        "tier": 1,
+        "maxTier": 4,
+        "Name": "Ironworking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'blacksmith'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/blacksmith.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "19": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "City planning",
+        "descr": "Unlocks new building: Town hall",
+        "img": null,
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "20": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Baking",
+        "descr": "baker conversion",
+        "img": {
+          "ObjectName": "Texture2D'7097'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/7097.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [
+          54
+        ],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Partial"
+      },
+      "21": {
+        "tier": 1,
+        "maxTier": 4,
+        "Name": "Leatherworking",
+        "descr": "Unlocks Tannery",
+        "img": {
+          "ObjectName": "Texture2D'Leather_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Leather_R.0"
+        },
+        "nessecary": [
+          105
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "22": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Tailoring",
+        "descr": "[WIP] T1: WEAVER T2: TAILOR EXTENSION",
+        "img": {
+          "ObjectName": "Texture2D'robin-hood-hat'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/robin-hood-hat.0"
+        },
+        "nessecary": [
+          9
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "23": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Markets",
+        "descr": "Market squares can attract villagers from neighbouring regions if price of sold goods is better than in their home region.",
+        "img": {
+          "ObjectName": "Texture2D'medieval-pavilion'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/medieval-pavilion.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "25": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Herbalism",
+        "descr": "The gatherers are able to harvest Herbs.",
+        "img": {
+          "ObjectName": "Texture2D'Tex_herbs_04'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_herbs_04.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "26": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Masonry",
+        "descr": "unlocks stone church upgrade [loyalty boost]",
+        "img": {
+          "ObjectName": "Texture2D'defensive-wall'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/defensive-wall.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "27": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Craftsmanship",
+        "descr": "workshops",
+        "img": {
+          "ObjectName": "Texture2D'cartwheel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cartwheel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "28": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Trading",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'divergence'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/divergence.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "29": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Spoked wheel",
+        "descr": "",
+        "img": null,
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "30": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Deep wells",
+        "descr": "Increases the range of wells",
+        "img": null,
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "31": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Crafting",
+        "descr": "<img id=\"Building\"/> <h>WORKSHOP</> {br}{br} Worshops produce <img id=\"WoodenParts\"/> <h> WOODEN PARTS</>.",
+        "img": {
+          "ObjectName": "Texture2D'cartwheel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cartwheel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "32": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Brewing",
+        "descr": "adds brewery conversion",
+        "img": {
+          "ObjectName": "Texture2D'beerOrSth'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/beerOrSth.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [
+          20
+        ],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Partial"
+      },
+      "34": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Wool",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'wool'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wool.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "35": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Horse breeding",
+        "descr": "COMING LATER",
+        "img": {
+          "ObjectName": "Texture2D'horse-head'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/horse-head.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "36": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Archery practice",
+        "descr": "<img id=\"Building\"></> <h>Archery range </>{br}{br} +1 ranged attack for all ranged units trained in a region if constructed. {br}{br} Peasants will occasionally go and train, leaving less time for work.",
+        "img": {
+          "ObjectName": "Texture2D'bullseye'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/bullseye.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "37": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Militia",
+        "descr": "<img id=\"Building\"></> <h>Drill square</> {br}{br} +1 melee attack and +1 morale for all melee units trained in a region if constructed. {br}{br} Peasants will occasionally go and train, leaving less time for work.",
+        "img": {
+          "ObjectName": "Texture2D'pikeman'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/pikeman.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "38": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Administration",
+        "descr": "Unlocks new policies",
+        "img": {
+          "ObjectName": "Texture2D'white-book'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/white-book.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "39": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Engineering",
+        "descr": "Buildings cost half as much materials.",
+        "img": {
+          "ObjectName": "Texture2D'crane'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/crane.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "40": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Logistics",
+        "descr": "When you construct a building, all needed materials are immediately transported to the construction site.",
+        "img": {
+          "ObjectName": "Texture2D'cartwheel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cartwheel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "41": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Scribes",
+        "descr": "Churches can hire scribes",
+        "img": {
+          "ObjectName": "Texture2D'scroll-quill'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/scroll-quill.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "42": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "gossip/rumours>?",
+        "descr": "fog of war around merchants?",
+        "img": null,
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "43": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Professional butchers",
+        "descr": "Slaughterhouses produce +1 meat out of every sheep.",
+        "img": {
+          "ObjectName": "Texture2D'7208'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/7208.0"
+        },
+        "nessecary": [
+          5
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "44": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Loyalty",
+        "descr": "Loyalty measures your people's attitude towards you. {br} <h>100%</> (work in progress) {br} <h>50%</> (work in progress) {br} <r>-100%</> Trigger rebellion and lose command of this Region.",
+        "img": {
+          "ObjectName": "Texture2D'meat-cleaver'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/meat-cleaver.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "45": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Mushroom gathering",
+        "descr": "Allows gathering mushrooms from the Rich Forest [WIP: berry] areas. Mushrooms usually grow after rainfall.",
+        "img": {
+          "ObjectName": "Texture2D'Tex_mushrooms_07'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_mushrooms_07.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "47": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Beekeeping",
+        "descr": "<img id=\"Building\"/> <h> Apiary</>{br}{br}Allows gathering ofCOMING SOON. <img id=\"Wax\"/><h>WAX</>. {br}<img id=\"Warn\"/> Requires a nearby <h>FLOWER FIELD</> (check regional map).",
+        "img": {
+          "ObjectName": "Texture2D'7149_honey2'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/7149_honey2.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "48": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Saddlemaking",
+        "descr": "<img id=\"Building\"/> <h> Saddlemaker</>{br}{br}Allows production of <img id=\"Saddle\"/><h>SADDLES</>.",
+        "img": {
+          "ObjectName": "Texture2D'saddle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/saddle.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "49": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Sheep skinning",
+        "descr": "WIP enables butchers. from previous ver: Butchers now also produce <img id=\"Hides\"/><h>HIDES</> from <h>SHEEP</>.",
+        "img": {
+          "ObjectName": "Texture2D'curvy-knife'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/curvy-knife.0"
+        },
+        "nessecary": [
+          5
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "50": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Master Tailors",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'sewing-needle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sewing-needle.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "51": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Food preservation",
+        "descr": "New building: Salthouse. Allows to combine meat and salt for a value export good.",
+        "img": {
+          "ObjectName": "Texture2D'meat'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/meat.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "52": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Cuisine",
+        "descr": "Combine herbs and food (or salt?) to produce awesome food?",
+        "img": {
+          "ObjectName": "Texture2D'meal'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/meal.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "53": {
+        "tier": 123,
+        "maxTier": 1,
+        "Name": "Medicine",
+        "descr": "COMING SOON. Allows the construction of Apothecary. Doctors combine Herbs and Honey to treat the Plague.",
+        "img": {
+          "ObjectName": "Texture2D'Tex_reagent_11'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_reagent_11.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 3,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "54": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Heavy plough",
+        "descr": "Ox Farm upgrade",
+        "img": {
+          "ObjectName": "Texture2D'Advanced_Farming_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Advanced_Farming_R.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "55": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Phlebotomy ",
+        "descr": "Doctors can now use Iron Tools to treat disease and plague, instead of using medicine.",
+        "img": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "56": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Peat farms",
+        "descr": "Unlocks a new crop: Peat. Peat can be used as fuel for warming up homes or smithing.",
+        "img": {
+          "ObjectName": "Texture2D'grass'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/grass.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "57": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Crop rotation",
+        "descr": "enables crops: flax, barley",
+        "img": {
+          "ObjectName": "Texture2D'sickle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sickle.0"
+        },
+        "nessecary": [
+          104
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "59": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Livestock Utilization",
+        "descr": "COMING SOON. Fallow fields can be used as pastures. This increases the next harvest by 1.",
+        "img": {
+          "ObjectName": "Texture2D'pig'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/pig.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "60": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Taverns",
+        "descr": "Each passing travelling merchant pays a small amount for a warm bed.",
+        "img": {
+          "ObjectName": "Texture2D'bed'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/bed.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "61": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Orchards",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'apples'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/apples.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "62": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Hoardings",
+        "descr": "Enables construction wooden Hoardings on the walls. Makes the Archers extremely hard to kill by incoming arrows.",
+        "img": {
+          "ObjectName": "Texture2D'defensive-wall'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/defensive-wall.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "63": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "City rights",
+        "descr": "New policy - city rights. Disables all farming in a region, but increases",
+        "img": {
+          "ObjectName": "Texture2D'village'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/village.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "64": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Artisanry",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'chisel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/chisel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "66": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Sewage disposal",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'rat'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/rat.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "67": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Pheasant",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'bird-twitter'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/bird-twitter.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "68": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Animal training",
+        "descr": "Allows upgrading Sheep Farms and Hunting Camps with Dogs.",
+        "img": {
+          "ObjectName": "Texture2D'labrador-head'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/labrador-head.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "69": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Water wheel",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'waterfall'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/waterfall.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "70": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Shipbuilding",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'caravel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/caravel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "71": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Monasteries",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'church'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/church.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "72": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Geoponika",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'white-book'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/white-book.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "74": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Jousting",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'mounted-knight'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/mounted-knight.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "75": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Backyard activity",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'carrot'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/carrot.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "76": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Trading docks",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'ship-wheel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/ship-wheel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "77": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Alchemy",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'cauldron'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cauldron.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "78": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Winemaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'amphora'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/amphora.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "79": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Guilds",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'cash'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cash.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "80": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Candlemaking",
+        "descr": "COMING SOON. New building: Candlemaker",
+        "img": {
+          "ObjectName": "Texture2D'Candle_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Candle_R.0"
+        },
+        "nessecary": [
+          47
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "81": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Beer flavouring",
+        "descr": "Unlocks Brewer Apprentice upgrade. {br}{br} Allows to produce Beer out of Malt, Hops and a Barrel. Hops must be imported from the TRADEPOINT.",
+        "img": {
+          "ObjectName": "Texture2D'hops'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/hops.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "82": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Coopery",
+        "descr": "Work in progress",
+        "img": {
+          "ObjectName": "Texture2D'barrel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/barrel.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "83": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Malt production",
+        "descr": "Work in progress",
+        "img": {
+          "ObjectName": "Texture2D'Tex_seeds_11_malt'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_seeds_11_malt.0"
+        },
+        "nessecary": [
+          97
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "84": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Mead production",
+        "descr": "Work in progress",
+        "img": {
+          "ObjectName": "Texture2D'beer-horn'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/beer-horn.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "85": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Farming tools adaptation",
+        "descr": "Provides new militia units - warscythes and billmen. These units do not need additional weapons.",
+        "img": {
+          "ObjectName": "Texture2D'T_showcase_c_bc'",
+          "ObjectPath": "ManorLords/Content/Poplar_Forest/TEXTURES/Other/T_showcase_c_bc.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "86": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Armour Making",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'gambeson'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/gambeson.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "87": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Basic Armormaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'Banded_01_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Banded_01_R.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "88": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Weapon Smithing",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'sword-smithing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sword-smithing.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "89": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Master Blacksmiths",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'blacksmith'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/blacksmith.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "90": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Boatmaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'wood-canoe'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wood-canoe.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "91": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Pottery",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'jug'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/jug.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "92": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Viticulture",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'grapes'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/grapes.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "93": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Dyes",
+        "descr": "Woad (blue), Madder (red,2-5 yrs)",
+        "img": {
+          "ObjectName": "Texture2D'elderberry'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/elderberry.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "94": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Cheesemaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'cheese-wedge'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cheese-wedge.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "95": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Meat curing",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'sausages-ribbon'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sausages-ribbon.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "96": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Intercropping",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'plant-roots'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/plant-roots.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 0,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "97": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Irrigation",
+        "descr": "Increases all <h>CROP</> yields by 1.",
+        "img": {
+          "ObjectName": "Texture2D'Irrigation_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Irrigation_R.0"
+        },
+        "nessecary": [
+          61
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "98": {
+        "tier": 2,
+        "maxTier": 1,
+        "Name": "Pastries",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'cake-slice'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cake-slice.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "99": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Blooming",
+        "descr": "Blah blah make iron slabs",
+        "img": {
+          "ObjectName": "Texture2D'flamer'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/flamer.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "100": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "EMPTY",
+        "descr": "",
+        "img": null,
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "101": {
+        "tier": 1,
+        "maxTier": 1,
+        "Name": "Smallholdings",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'carrot'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/carrot.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "102": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Sanitation",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "103": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Public order",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'stone-tower'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/stone-tower.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "104": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Rye cultivation",
+        "descr": "Enables Rye crop",
+        "img": {
+          "ObjectName": "Texture2D'rye'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/rye.0"
+        },
+        "nessecary": [
+          61
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "105": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Trapping",
+        "descr": "Hunters can place traps in the woods to generate passive income of Meat",
+        "img": {
+          "ObjectName": "Texture2D'Trapping_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Trapping_R.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "106": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "skinning",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'paw'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/paw.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "107": {
+        "tier": 1,
+        "maxTier": 4,
+        "Name": "Shoemaking",
+        "descr": "Unlocks Cobbler artisan conversion",
+        "img": {
+          "ObjectName": "Texture2D'Leather_Working_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Leather_Working_R.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "108": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Pollarding",
+        "descr": "Enables pollard trees to be planted which generate brushwood periodically.",
+        "img": {
+          "ObjectName": "Texture2D'Tex_wood_01'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_wood_01.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [
+          2,
+          54
+        ],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "109": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Goatkeeping",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'goaty'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/goaty.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "110": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "better deals",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'iconGold'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/iconGold.0"
+        },
+        "nessecary": [
+          115
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "111": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Foreign suppliers",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'supplies_combined'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/supplies_combined.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "112": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "peltmaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'animal-hide'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/animal-hide.0"
+        },
+        "nessecary": [
+          105
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::ToDo"
+      },
+      "113": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Advanced Armormaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'Chain_02_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Chain_02_R.0"
+        },
+        "nessecary": [
+          87
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "114": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Master armormaking",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'Plate1_02_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Plate1_02_R.0"
+        },
+        "nessecary": [
+          113
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "115": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Trade logistics",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'Wagon_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Wagon_R.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "116": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "deep mining",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'Advanced_Mining_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Advanced_Mining_R.0"
+        },
+        "nessecary": [
+          8
+        ],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "117": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "winter_fishing",
+        "descr": "",
+        "img": {
+          "ObjectName": "Texture2D'fishing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/fishing.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 1,
+        "wipStatus": "EWIPStatus::Full"
+      },
+      "200": {
+        "tier": 0,
+        "maxTier": 1,
+        "Name": "Unknown Branch",
+        "descr": "Locked during the early access. Work in progress",
+        "img": {
+          "ObjectName": "Texture2D'padlock'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/padlock.0"
+        },
+        "nessecary": [],
+        "techsUnlockingThis": [],
+        "cost": 123,
+        "wipStatus": "EWIPStatus::ToDo"
+      }
+    }
+  }
+]

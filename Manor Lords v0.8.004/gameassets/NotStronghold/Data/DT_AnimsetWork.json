@@ -1,0 +1,1207 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetWork",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_slow": {
+        "ID": 4,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_walk_50idle_50walk",
+            "spd": 2.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_walk_confident",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "work_walk_natural",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "build_ground": {
+        "ID": 6,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_construction_hammer",
+            "spd": 1.0,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 12
+      },
+      "putdown_shoulder": {
+        "ID": 9,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_putdown_shoulder",
+            "spd": 0.75,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "chop": {
+        "ID": 10,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_chop_tree",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 100
+      },
+      "sow": {
+        "ID": 11,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_sowing",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "harvest": {
+        "ID": 12,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_harvest",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "shoot_bow": {
+        "ID": 13,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_archer_volley",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "skinning": {
+        "ID": 14,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_skinning",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 10
+      },
+      "idle_cane": {
+        "ID": 15,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_staff_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "harvest_pickaxe": {
+        "ID": 16,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_chop_or_pickaxe",
+            "spd": 1.33,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 4
+      },
+      "pickup": {
+        "ID": 17,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_pickup_shoulder",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_carry": {
+        "ID": 18,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_carry_walk_shoulder",
+            "spd": 1.25,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "work_carry_walk_shoulderB",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_carry": {
+        "ID": 19,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_carry_idle_shoulder",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "work_idle_shoulderB",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "equipping": {
+        "ID": 20,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_tool_unseathing",
+            "spd": 0.7,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0
+      },
+      "build_standing": {
+        "ID": 21,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_hammer_standing",
+            "spd": 1.25,
+            "speedVariation": 0.05
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_sneak": {
+        "ID": 22,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle_stealth",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_sneak": {
+        "ID": 23,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_sneak",
+            "spd": 2.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_cane": {
+        "ID": 25,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_staff_walk",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_run",
+            "spd": 0.4,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Common_DeathA",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_Common_DeathB",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_plow": {
+        "ID": 43,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_plough_walk",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "carpenting": {
+        "ID": 46,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_small_axe_carpentry_or_chisel",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "laundry": {
+        "ID": 47,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_laundry",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 10
+      },
+      "sitting": {
+        "ID": 48,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_sitting",
+            "spd": 0.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 10
+      },
+      "harvesting_herbs": {
+        "ID": 49,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "broken",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "mounted_idle": {
+        "ID": 56,
+        "Tag": "work_mounted_idle",
+        "variations": [
+          {
+            "clipName": "mounted_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "mounted_walk": {
+        "ID": 57,
+        "Tag": "work_mounted_ride",
+        "variations": [
+          {
+            "clipName": "mounted_walk",
+            "spd": 1.05,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "mounted_run": {
+        "ID": 58,
+        "Tag": "work_mounted_ride",
+        "variations": [
+          {
+            "clipName": "mounted_walk",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "stonecarving": {
+        "ID": 63,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_small_axe_carpentry_or_chisel",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "hide": {
+        "ID": 67,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle_stealth",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "conversation": {
+        "ID": 76,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_conversationA",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run_cane": {
+        "ID": 106,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_run_spear",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_tool": {
+        "ID": 114,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_tool_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_tool": {
+        "ID": 115,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_walk_carry_tool_R",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run_tool": {
+        "ID": 116,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_run",
+            "spd": 0.45,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "digging": {
+        "ID": 117,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_digging",
+            "spd": 1.2,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 5
+      },
+      "idle_cart": {
+        "ID": 118,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_handcart_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_cart": {
+        "ID": 119,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_handcart_walk",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "peddle": {
+        "ID": 120,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_peddling",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0
+      },
+      "hoe": {
+        "ID": 121,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_hoe",
+            "spd": 1.4,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 3
+      },
+      "cart_pickup": {
+        "ID": 122,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_handcart_pickup",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "use_furnace": {
+        "ID": 123,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_baker_oven_shovelling",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_box": {
+        "ID": 125,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle_box",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_box": {
+        "ID": 126,
+        "Tag": "work_carry_walk_box",
+        "variations": [
+          {
+            "clipName": "work_carry_walk_box",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_bow": {
+        "ID": 139,
+        "Tag": "work_idle",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Idle_LookAround",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_bow": {
+        "ID": 140,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_archer",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_disease": {
+        "ID": 146,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_cold_sick",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_disease": {
+        "ID": 147,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_sick_wak",
+            "spd": 2.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "crossing_arms": {
+        "ID": 148,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle_Cross_Arms",
+            "spd": 0.8,
+            "speedVariation": 0.3
+          },
+          {
+            "clipName": "work_idle_kill_fly",
+            "spd": 0.8,
+            "speedVariation": 0.3
+          },
+          {
+            "clipName": "work_idle_shoulders",
+            "spd": 0.8,
+            "speedVariation": 0.3
+          },
+          {
+            "clipName": "work_idle_sweat",
+            "spd": 0.8,
+            "speedVariation": 0.3
+          },
+          {
+            "clipName": "work_idle_knuckles",
+            "spd": 0.8,
+            "speedVariation": 0.3
+          }
+        ],
+        "repetitions": 0
+      },
+      "pickup_box": {
+        "ID": 149,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_pickup_box",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "putdown_box": {
+        "ID": 150,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_putdown_box",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "stir": {
+        "ID": 151,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_stirring",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 20
+      },
+      "craft_sitting": {
+        "ID": 152,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_knitting",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 10
+      },
+      "smith_not_sure": {
+        "ID": 153,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_forge",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "gather_bucket": {
+        "ID": 154,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_forage_bucket",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_bucket": {
+        "ID": 155,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_walk_bucket",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "bucket_putdown": {
+        "ID": 156,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_putdown_bucket",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "dough": {
+        "ID": 157,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_rolling_pin",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "firefight": {
+        "ID": 158,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_putOutFire",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "craft_hammer": {
+        "ID": 159,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_crafting_hammer",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "pray": {
+        "ID": 160,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_praying",
+            "spd": 0.9,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 8
+      },
+      "threshing": {
+        "ID": 161,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_chop_or_pickaxe",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 6
+      },
+      "idlePeddle": {
+        "ID": 162,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle_Cross_Arms",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0
+      },
+      "bucket_pickup": {
+        "ID": 163,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_pickup",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "babySteps": {
+        "ID": 164,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0
+      },
+      "hang": {
+        "ID": 165,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0
+      },
+      "babyStepsWalk": {
+        "ID": 166,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0
+      },
+      "animalCare": {
+        "ID": 167,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_pet_horse",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "chopFirewood": {
+        "ID": 168,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_chop_or_pickaxe",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "putawayHorizontal": {
+        "ID": 169,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0
+      },
+      "drinkAle": {
+        "ID": 170,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_tavern_sitting",
+            "spd": 0.6,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 10
+      },
+      "listen": {
+        "ID": 171,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_conversationB",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "processTimberWithAxe": {
+        "ID": 172,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_small_axe_carpentry_or_chisel",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "hoeBloom": {
+        "ID": 173,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_hoe",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "smithing": {
+        "ID": 174,
+        "Tag": "work_forge",
+        "variations": [
+          {
+            "clipName": "work_forge",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 15
+      },
+      "washingSkins": {
+        "ID": 175,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_laundry",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 12
+      },
+      "sitting_long": {
+        "ID": 176,
+        "Tag": "work_sitting",
+        "variations": [
+          {
+            "clipName": "work_sitting",
+            "spd": 0.3,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 25
+      },
+      "usingWell_complex": {
+        "ID": 177,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_usingWell",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_female": {
+        "ID": 178,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_walk_female",
+            "spd": 1.3,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "drag_idle": {
+        "ID": 179,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_dragCarcass_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "drag_walk": {
+        "ID": 180,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_dragCarcass_walk",
+            "spd": 0.9,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "drag_pickupPutdownTemp": {
+        "ID": 181,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_dragCarcass_putDown_Temp",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_bucket": {
+        "ID": 182,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_idle_bucket",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0
+      },
+      "idle_plow": {
+        "ID": 183,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_plough_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_stoneBasket": {
+        "ID": 184,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_walk_stoneBasket",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "cart_loading": {
+        "ID": 185,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_handcart_load",
+            "spd": 1.4,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "cart_putdown": {
+        "ID": 186,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_handcart_putdown",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "cart_unloading": {
+        "ID": 187,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_handcart_action",
+            "spd": 1.4,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "digging_short": {
+        "ID": 188,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_digging",
+            "spd": 1.1,
+            "speedVariation": 0.3
+          }
+        ],
+        "repetitions": 2
+      },
+      "sawing": {
+        "ID": 189,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_sawing",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 20
+      },
+      "walk_archer": {
+        "ID": 190,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_archer",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk_barrel": {
+        "ID": 191,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_barrel_walk",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "barrel_pickup": {
+        "ID": 193,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_barrel_pickup",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "barrel_putdown": {
+        "ID": 194,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_barrel_putdown",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "barrel_idle": {
+        "ID": 195,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_barrel_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "fish": {
+        "ID": 196,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_Fishing",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 2
+      }
+    }
+  }
+]

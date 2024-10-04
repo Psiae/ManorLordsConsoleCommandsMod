@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "TranslationCategory",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "5B380BDC4AF6A1A3C80C7AA43AA14255",
+            "SourceString": "Generic",
+            "LocalizedString": "Generic"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "84A9B41B4982166F3E388B9D85CF79F7",
+            "SourceString": "Quest",
+            "LocalizedString": "Quest"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "46605F13499AF48B391B07871ABD6EEB",
+            "SourceString": "Diplomacy",
+            "LocalizedString": "Diplomacy"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "TranslationCategory::NewEnumerator0": 0,
+      "TranslationCategory::NewEnumerator1": 1,
+      "TranslationCategory::NewEnumerator2": 2,
+      "TranslationCategory::TranslationCategory_MAX": 3
+    },
+    "CppForm": "Namespaced"
+  }
+]

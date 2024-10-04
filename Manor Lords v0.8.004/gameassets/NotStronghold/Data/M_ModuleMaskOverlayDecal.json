@@ -1,0 +1,18 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_ModuleMaskOverlayDecal",
+    "Class": "UScriptClass'Material'",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "C3C89818-BA79BC9E-CD823DCC-2DC1799B",
+      "bIncludedInBaseGame": true
+    }
+  }
+]

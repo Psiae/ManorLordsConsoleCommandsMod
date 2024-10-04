@@ -1,0 +1,177 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HudIcons",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'HudIconData'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "res_shrooms": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'mushroom_textured'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Stylized/mushroom_textured.0"
+        }
+      },
+      "res_berries": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'berries-bowl'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/berries-bowl.0"
+        }
+      },
+      "res_bees": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'bee'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/bee.0"
+        }
+      },
+      "res_stone": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'stone-pile'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/stone-pile.0"
+        }
+      },
+      "res_fish": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'fishing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/fishing.0"
+        }
+      },
+      "res_wildAnimals": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'paw'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/paw.0"
+        }
+      },
+      "bandit_camp": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'camping-tent'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/camping-tent.0"
+        }
+      },
+      "bgTexture": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'texturedSphere'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/texturedSphere.0"
+        }
+      },
+      "res_progress": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'resourceDroppinCircular'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/resourceDroppinCircular.0"
+        }
+      },
+      "raiding": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'torchShaded'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/torchShaded.0"
+        }
+      },
+      "problemID_1": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'warningCOld'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/warningCOld.0"
+        }
+      },
+      "problemID_18": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'warningBarn'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/warningBarn.0"
+        }
+      },
+      "problemID_33": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'wooden-crate'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wooden-crate.0"
+        }
+      },
+      "problemID_34": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'basket'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/basket.0"
+        }
+      },
+      "problemID_39": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'thumb-down'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/thumb-down.0"
+        }
+      },
+      "squadShield": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'squadBgB'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squadBgB.0"
+        }
+      },
+      "squadHighlight": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'squadBg_selectedB'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/squadBg_selectedB.0"
+        }
+      },
+      "deposit_iron": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'war-pick'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/war-pick.0"
+        }
+      },
+      "deposit_clay": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'amphora'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/amphora.0"
+        }
+      },
+      "deposit_salt": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'powder'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/powder.0"
+        }
+      },
+      "ox": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'oxIconFlatCircle'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/oxIconFlatCircle.0"
+        }
+      },
+      "richDeposit": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'richDepositIcon'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Stylized/richDepositIcon.0"
+        }
+      },
+      "potential_veryLow": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'potential_veryLow'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/potential/potential_veryLow.0"
+        }
+      },
+      "potential_low": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'potential_low'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/potential/potential_low.0"
+        }
+      },
+      "potential_none": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'potential_none'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/potential/potential_none.0"
+        }
+      },
+      "potential_high": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'potential_high'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/potential/potential_high.0"
+        }
+      },
+      "potential_veryHigh": {
+        "iconTexture": {
+          "ObjectName": "Texture2D'potential_veryHigh'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/potential/potential_veryHigh.0"
+        }
+      }
+    }
+  }
+]

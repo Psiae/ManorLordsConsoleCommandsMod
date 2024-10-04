@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TranslationMercenaryCompanyNamesold",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'Struct_Translation'",
+        "ObjectPath": "ManorLords/Content/Translation/WIP/Struct_Translation.0"
+      }
+    },
+    "Rows": {
+      "brotherhood": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "The brotherhood of the forest",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Leśne bractwo",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "crazy_goose": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Flock of crazy goose",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Szalone gęsi",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      },
+      "brigands": {
+        "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "Brigands",
+        "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "Rabusie",
+        "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+      }
+    }
+  }
+]
