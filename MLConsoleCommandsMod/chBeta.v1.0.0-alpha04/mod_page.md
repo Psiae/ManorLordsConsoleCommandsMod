@@ -9,9 +9,14 @@ Consider supporting to keep the mods updated.
 <br/><br/>
 If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)
 
-#### How To Install:
-1. Download [RE-UE4SS](https://www.nexusmods.com/manorlords/mods/229) and follow the installation guide.
-2. Extract the downloaded Main File archive and drop the **MLConsoleCommandsMod** to the UE4SS **Mods** folder
+#### How To Install (option 1):
+1. Go To [https://www.nexusmods.com/manorlords/mods/229﻿)](https://www.nexusmods.com/manorlords/mods/229).
+2. If you doesn't have **RE-U4SS Mod Loader** installed, follow the **How To Install** section in that page
+3. Install this mod by following the **How To Install Mod** section in that page
+
+#### How To Install (option 2):
+1. Download RE-UE4SS and follow the installation guide.
+2. Extract the downloaded Main File archive and drop the MLConsoleCommandsMod to the UE4SS Mods folder
 3. The mod will be enabled automatically
 
 #### How To Disable / re-Enable:
