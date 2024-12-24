@@ -1,0 +1,351 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GameSetupPresets",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'GameSetupPreset'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "peaceful_citybuilding": {
+        "Thumbnail": {
+          "ObjectName": "Texture2D'mode_citybuilding'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/ScenariosAndModes/mode_citybuilding.0"
+        },
+        "isMainGameMode": true,
+        "customTags": [],
+        "mapOverride": "None",
+        "gameSetupData": [
+          {
+            "Key": "EGameDifficulty::Medium",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Growth",
+              "numGenericAILords": 0,
+              "adversary_baron": false,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 0,
+              "initialBanditCamps": 0,
+              "raidingFrequency": 0,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 1,
+              "armamentDelivery": false,
+              "loyaltyLossRate": 1.0,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 1.0,
+              "requirementDiscontentBias": 0,
+              "royalTaxMultiplier": 1,
+              "spoilage": 2,
+              "startingDay": 61,
+              "weatherDamage": 1
+            }
+          },
+          {
+            "Key": "EGameDifficulty::High",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Growth",
+              "numGenericAILords": 0,
+              "adversary_baron": false,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 0,
+              "initialBanditCamps": 0,
+              "raidingFrequency": 0,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 1,
+              "armamentDelivery": false,
+              "loyaltyLossRate": 1.0,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 0.5,
+              "requirementDiscontentBias": -1,
+              "royalTaxMultiplier": 2,
+              "spoilage": 3,
+              "startingDay": 336,
+              "weatherDamage": 2
+            }
+          },
+          {
+            "Key": "EGameDifficulty::Low",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Growth",
+              "numGenericAILords": 0,
+              "adversary_baron": false,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 0,
+              "initialBanditCamps": 0,
+              "raidingFrequency": 0,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": false,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 2,
+              "armamentDelivery": false,
+              "loyaltyLossRate": 0.5,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 1.0,
+              "requirementDiscontentBias": 1,
+              "royalTaxMultiplier": 1,
+              "spoilage": 0,
+              "startingDay": 61,
+              "weatherDamage": 0
+            }
+          }
+        ],
+        "currentGameSetup": {
+          "questsToTrigger": [],
+          "goals": "EGameGoals::Conquest",
+          "numGenericAILords": 0,
+          "adversary_baron": false,
+          "AI_aggressiveness": 0,
+          "maxBanditCamps": 3,
+          "initialBanditCamps": 3,
+          "raidingFrequency": 0,
+          "yearsUntilFirstRaid": 2,
+          "generateWaterVeins": true,
+          "resourcesRandomization": 0,
+          "startingSuppliesMultiplier": 1,
+          "armamentDelivery": true,
+          "loyaltyLossRate": 1.0,
+          "consumptionRate": 1.0,
+          "treeGrowthRate": 1.0,
+          "requirementDiscontentBias": 0,
+          "royalTaxMultiplier": 1,
+          "spoilage": 2,
+          "startingDay": 61,
+          "weatherDamage": 1
+        }
+      },
+      "baron": {
+        "Thumbnail": {
+          "ObjectName": "Texture2D'mode_baron2'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/ScenariosAndModes/mode_baron2.0"
+        },
+        "isMainGameMode": true,
+        "customTags": [],
+        "mapOverride": "None",
+        "gameSetupData": [
+          {
+            "Key": "EGameDifficulty::Medium",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Dominance",
+              "numGenericAILords": 0,
+              "adversary_baron": true,
+              "AI_aggressiveness": 1,
+              "maxBanditCamps": 3,
+              "initialBanditCamps": 1,
+              "raidingFrequency": 1,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 1,
+              "armamentDelivery": true,
+              "loyaltyLossRate": 1.0,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 1.0,
+              "requirementDiscontentBias": 0,
+              "royalTaxMultiplier": 1,
+              "spoilage": 2,
+              "startingDay": 61,
+              "weatherDamage": 1
+            }
+          },
+          {
+            "Key": "EGameDifficulty::High",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Dominance",
+              "numGenericAILords": 0,
+              "adversary_baron": true,
+              "AI_aggressiveness": 2,
+              "maxBanditCamps": 3,
+              "initialBanditCamps": 1,
+              "raidingFrequency": 1,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 1,
+              "armamentDelivery": false,
+              "loyaltyLossRate": 1.0,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 0.5,
+              "requirementDiscontentBias": -1,
+              "royalTaxMultiplier": 2,
+              "spoilage": 2,
+              "startingDay": 61,
+              "weatherDamage": 2
+            }
+          },
+          {
+            "Key": "EGameDifficulty::Low",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Dominance",
+              "numGenericAILords": 0,
+              "adversary_baron": true,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 1,
+              "initialBanditCamps": 0,
+              "raidingFrequency": 0,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": false,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 2,
+              "armamentDelivery": true,
+              "loyaltyLossRate": 0.5,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 1.0,
+              "requirementDiscontentBias": 1,
+              "royalTaxMultiplier": 1,
+              "spoilage": 0,
+              "startingDay": 61,
+              "weatherDamage": 0
+            }
+          }
+        ],
+        "currentGameSetup": {
+          "questsToTrigger": [],
+          "goals": "EGameGoals::Conquest",
+          "numGenericAILords": 0,
+          "adversary_baron": false,
+          "AI_aggressiveness": 0,
+          "maxBanditCamps": 3,
+          "initialBanditCamps": 3,
+          "raidingFrequency": 0,
+          "yearsUntilFirstRaid": 2,
+          "generateWaterVeins": true,
+          "resourcesRandomization": 0,
+          "startingSuppliesMultiplier": 1,
+          "armamentDelivery": true,
+          "loyaltyLossRate": 1.0,
+          "consumptionRate": 1.0,
+          "treeGrowthRate": 1.0,
+          "requirementDiscontentBias": 0,
+          "royalTaxMultiplier": 1,
+          "spoilage": 2,
+          "startingDay": 61,
+          "weatherDamage": 1
+        }
+      },
+      "survival": {
+        "Thumbnail": {
+          "ObjectName": "Texture2D'mode_burned'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/ScenariosAndModes/mode_burned.0"
+        },
+        "isMainGameMode": true,
+        "customTags": [],
+        "mapOverride": "None",
+        "gameSetupData": [
+          {
+            "Key": "EGameDifficulty::Medium",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Growth",
+              "numGenericAILords": 0,
+              "adversary_baron": false,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 3,
+              "initialBanditCamps": 0,
+              "raidingFrequency": 1,
+              "yearsUntilFirstRaid": 1,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 1,
+              "armamentDelivery": true,
+              "loyaltyLossRate": 1.0,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 1.0,
+              "requirementDiscontentBias": 0,
+              "royalTaxMultiplier": 1,
+              "spoilage": 2,
+              "startingDay": 61,
+              "weatherDamage": 1
+            }
+          },
+          {
+            "Key": "EGameDifficulty::High",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Growth",
+              "numGenericAILords": 0,
+              "adversary_baron": false,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 5,
+              "initialBanditCamps": 2,
+              "raidingFrequency": 2,
+              "yearsUntilFirstRaid": 1,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 1,
+              "armamentDelivery": false,
+              "loyaltyLossRate": 2.0,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 0.5,
+              "requirementDiscontentBias": -1,
+              "royalTaxMultiplier": 2,
+              "spoilage": 3,
+              "startingDay": 336,
+              "weatherDamage": 2
+            }
+          },
+          {
+            "Key": "EGameDifficulty::Low",
+            "Value": {
+              "questsToTrigger": [],
+              "goals": "EGameGoals::Growth",
+              "numGenericAILords": 0,
+              "adversary_baron": false,
+              "AI_aggressiveness": 0,
+              "maxBanditCamps": 3,
+              "initialBanditCamps": 0,
+              "raidingFrequency": 1,
+              "yearsUntilFirstRaid": 2,
+              "generateWaterVeins": true,
+              "resourcesRandomization": 0,
+              "startingSuppliesMultiplier": 2,
+              "armamentDelivery": true,
+              "loyaltyLossRate": 0.5,
+              "consumptionRate": 1.0,
+              "treeGrowthRate": 0.0,
+              "requirementDiscontentBias": 1,
+              "royalTaxMultiplier": 1,
+              "spoilage": 1,
+              "startingDay": 61,
+              "weatherDamage": 0
+            }
+          }
+        ],
+        "currentGameSetup": {
+          "questsToTrigger": [],
+          "goals": "EGameGoals::Conquest",
+          "numGenericAILords": 0,
+          "adversary_baron": false,
+          "AI_aggressiveness": 0,
+          "maxBanditCamps": 3,
+          "initialBanditCamps": 3,
+          "raidingFrequency": 0,
+          "yearsUntilFirstRaid": 2,
+          "generateWaterVeins": true,
+          "resourcesRandomization": 0,
+          "startingSuppliesMultiplier": 1,
+          "armamentDelivery": true,
+          "loyaltyLossRate": 1.0,
+          "consumptionRate": 1.0,
+          "treeGrowthRate": 1.0,
+          "requirementDiscontentBias": 0,
+          "royalTaxMultiplier": 1,
+          "spoilage": 2,
+          "startingDay": 61,
+          "weatherDamage": 1
+        }
+      }
+    }
+  }
+]

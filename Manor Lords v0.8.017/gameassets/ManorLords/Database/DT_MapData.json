@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MapData",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'MapDataStruct'",
+        "ObjectPath": "ManorLords/Content/ManorLords/Database/Structs/MapDataStruct.0"
+      }
+    },
+    "Rows": {
+      "Mission01_ROBBER": {
+        "thumbnailTexture_8_05A4368448BE5524C33B62BDEA3C7498": {
+          "AssetPathName": "/Game/ManorLords/UI/MapThumbnails/thumb_baronMap.thumb_baronMap",
+          "SubPathString": ""
+        },
+        "parchmentTexture_9_9D3EC1734CCC8E32CFE00787B67745E8": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "High_Peaks": {
+        "thumbnailTexture_8_05A4368448BE5524C33B62BDEA3C7498": {
+          "AssetPathName": "/Game/ManorLords/UI/MapThumbnails/thumb_swissValley.thumb_swissValley",
+          "SubPathString": ""
+        },
+        "parchmentTexture_9_9D3EC1734CCC8E32CFE00787B67745E8": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Winding_River": {
+        "thumbnailTexture_8_05A4368448BE5524C33B62BDEA3C7498": {
+          "AssetPathName": "/Game/ManorLords/UI/MapThumbnails/thumb_Winding_River.thumb_Winding_River",
+          "SubPathString": ""
+        },
+        "parchmentTexture_9_9D3EC1734CCC8E32CFE00787B67745E8": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

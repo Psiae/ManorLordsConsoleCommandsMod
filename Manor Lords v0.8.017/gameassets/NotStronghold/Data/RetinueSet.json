@@ -1,0 +1,173 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "RetinueSet",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Properties": {
+      "Guid": "F371F8D4-425A2DCC-BD062280-5297C6C5"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "name_15_072528D14BEEC84C0330FB9B946C2E59",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "slot_2_629BF78F472E81759551E8BEF888E7D7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "skeletalMesh_5_C7FAEF814F4B582E8689F0A3F9137D1B",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMesh'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "equipment_9_49F059494AD5678A9BE6E1BC09357F2C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 264,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'UnitTemplate'",
+          "ObjectPath": "/Script/ManorLords"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "price_12_A77B497A4AA24D2AB0C4A09DD580498B",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "variations_19_AEE86B7D4055C02AD0FA3A8DBE7B24F0",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "IntProperty",
+          "Name": "variations_19_AEE86B7D4055C02AD0FA3A8DBE7B24F0",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "twoHanded_21_E113B7FB4A7726F1CB796E93D0D90788",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "spearIdle_23_F2A064854FDB137382BF07AC4850E5DB",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "requiredEquipment_29_CF6CDE34472B174430DDA2A5B3827C6F",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "requiredEquipment_29_CF6CDE34472B174430DDA2A5B3827C6F",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Good'",
+            "ObjectPath": "/Script/ManorLords"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "tier_32_457B62C94AC25E4ACE232695997A02C4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "tags_36_9955ABE547C8DC0EC0CD7387A100485A",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "NameProperty",
+          "Name": "tags_36_9955ABE547C8DC0EC0CD7387A100485A",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "name_15_072528D14BEEC84C0330FB9B946C2E59": "",
+      "slot_2_629BF78F472E81759551E8BEF888E7D7": 0,
+      "skeletalMesh_5_C7FAEF814F4B582E8689F0A3F9137D1B": null,
+      "equipment_9_49F059494AD5678A9BE6E1BC09357F2C": {
+        "Name": "",
+        "descr": "",
+        "Icon": 104,
+        "iconTexture": null,
+        "isMilitia": false,
+        "cost": 100.0,
+        "armours": [],
+        "weapons": [],
+        "shields": [],
+        "helmets": [],
+        "mounts": [],
+        "bonus": [],
+        "skills": [],
+        "hideHeads": false,
+        "card": null,
+        "Portrait": null,
+        "MaxSize": 60,
+        "audioTags": [],
+        "requiredEquipment": [],
+        "minMeleeTraining": 0.0,
+        "minArcheryTraining": 0.0,
+        "minHouseLv": 1,
+        "hasBannerCarrier": true,
+        "concealmentLevel": 0,
+        "combatExperience": 5.0
+      },
+      "price_12_A77B497A4AA24D2AB0C4A09DD580498B": 0,
+      "variations_19_AEE86B7D4055C02AD0FA3A8DBE7B24F0": [
+        0
+      ],
+      "twoHanded_21_E113B7FB4A7726F1CB796E93D0D90788": false,
+      "spearIdle_23_F2A064854FDB137382BF07AC4850E5DB": false,
+      "requiredEquipment_29_CF6CDE34472B174430DDA2A5B3827C6F": [],
+      "tier_32_457B62C94AC25E4ACE232695997A02C4": 0,
+      "tags_36_9955ABE547C8DC0EC0CD7387A100485A": []
+    }
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_IndependentBuildingPartAssemblies",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'ClassPathData'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "20": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_Lv1_A.BM_SG_Cottage_Lv1_A_C",
+          "SubPathString": ""
+        }
+      },
+      "27": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_LV2_A.BM_SG_Cottage_LV2_A_C",
+          "SubPathString": ""
+        }
+      },
+      "200": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_LV2_B.BM_SG_Cottage_LV2_B_C",
+          "SubPathString": ""
+        }
+      },
+      "246": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_Lv1_B.BM_SG_Cottage_Lv1_B_C",
+          "SubPathString": ""
+        }
+      },
+      "424": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_LV2_C.BM_SG_Cottage_LV2_C_C",
+          "SubPathString": ""
+        }
+      },
+      "248": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_Lv1_C.BM_SG_Cottage_Lv1_C_C",
+          "SubPathString": ""
+        }
+      },
+      "450": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_A.BM_SG_Townhouse_LV3_A_C",
+          "SubPathString": ""
+        }
+      },
+      "451": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_C.BM_SG_Townhouse_LV3_C_C",
+          "SubPathString": ""
+        }
+      },
+      "452": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_B.BM_SG_Townhouse_LV3_B_C",
+          "SubPathString": ""
+        }
+      },
+      "453": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_BPart_A.BM_SG_Townhouse_LV3_BPart_A_C",
+          "SubPathString": ""
+        }
+      },
+      "454": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_BPart_B.BM_SG_Townhouse_LV3_BPart_B_C",
+          "SubPathString": ""
+        }
+      },
+      "461": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_E_Wide.BM_SG_Townhouse_LV3_E_Wide_C",
+          "SubPathString": ""
+        }
+      },
+      "462": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_G_StandardWide.BM_SG_Townhouse_LV3_G_StandardWide_C",
+          "SubPathString": ""
+        }
+      },
+      "463": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_H.BM_SG_Townhouse_LV3_H_C",
+          "SubPathString": ""
+        }
+      },
+      "464": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_EmptyBPart_1.BM_SG_Townhouse_LV3_EmptyBPart_1_C",
+          "SubPathString": ""
+        }
+      },
+      "465": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_EmptyBPart_3_Wide.BM_SG_Townhouse_LV3_EmptyBPart_3_Wide_C",
+          "SubPathString": ""
+        }
+      },
+      "466": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Townhouse_LV3_EmptyBPart_3_Narrow.BM_SG_Townhouse_LV3_EmptyBPart_3_Narrow_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_bakeryOven": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_Ext_BakeryOven.BM_SG_Ext_BakeryOven_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_narrowShed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_NarrowShed.BM_SG_NarrowShed_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_pithouse": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_PithouseB.BM_SG_PithouseB_C",
+          "SubPathString": ""
+        }
+      },
+      "smallShedPlanked": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_sg_smallShedPlanked.BM_sg_smallShedPlanked_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_wonkyShed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_WonkyShed.BM_SG_WonkyShed_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_tailorShed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_Ext_TailorShed.BM_SG_Ext_TailorShed_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_cobblerShed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_Ext_CobblerShed.BM_SG_Ext_CobblerShed_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_uglyShed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_UglyShed.BM_SG_UglyShed_C",
+          "SubPathString": ""
+        }
+      },
+      "shedLongNarrow": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_NarrowLongShed.BM_SG_NarrowLongShed_C",
+          "SubPathString": ""
+        }
+      },
+      "lv1_bPart_A": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_LV1_BPart_A.BM_SG_Cottage_LV1_BPart_A_C",
+          "SubPathString": ""
+        }
+      },
+      "lv1_bPart_B": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_LV1_BPart_B.BM_SG_Cottage_LV1_BPart_B_C",
+          "SubPathString": ""
+        }
+      },
+      "lv1_bPart_C": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_Cottage_LV1_BPart_C.BM_SG_Cottage_LV1_BPart_C_C",
+          "SubPathString": ""
+        }
+      },
+      "outhouse": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_Outhouse.BM_Outhouse_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_forge": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_Ext_Forge.BM_SG_Ext_Forge_C",
+          "SubPathString": ""
+        }
+      },
+      "herbsGarden": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/BM_SG_HerbsGarden.BM_SG_HerbsGarden_C",
+          "SubPathString": ""
+        }
+      },
+      "coopRoofed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_CoopRoofed.BM_SG_CoopRoofed_C",
+          "SubPathString": ""
+        }
+      },
+      "coopCage": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_CoopCage.BM_SG_CoopCage_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_animalFeeder": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_Ext_AnimalFeeder.BM_SG_Ext_AnimalFeeder_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_stableLow": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_StableLow.BM_SG_StableLow_C",
+          "SubPathString": ""
+        }
+      },
+      "extension_hayShed": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Extensions/BM_SG_Ext_HayShed.BM_SG_Ext_HayShed_C",
+          "SubPathString": ""
+        }
+      },
+      "lv2_bPart_A": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_House_LV2_Bpart_A.BM_SG_House_LV2_Bpart_A_C",
+          "SubPathString": ""
+        }
+      },
+      "lv2_bPart_B": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_House_LV2_Bpart_B.BM_SG_House_LV2_Bpart_B_C",
+          "SubPathString": ""
+        }
+      },
+      "lv2_bPart_C": {
+        "Path": {
+          "AssetPathName": "/Game/CPP_BP/BuildingMasterAssemble/Residential/BM_SG_House_LV2_Bpart_C.BM_SG_House_LV2_Bpart_C_C",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

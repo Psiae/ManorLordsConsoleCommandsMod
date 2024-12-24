@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "WikiSubjectData",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Properties": {
+      "Guid": "0E990914-44C81850-9A2690A0-75B987BD"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "translationKey_10_F64DDE5D4375D36901A70484C19DD807",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'DataTable'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "image_15_F97559E344418D02CBA5939639E0F84C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'Texture'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "None",
+      "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": null,
+      "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "None",
+      "image_15_F97559E344418D02CBA5939639E0F84C": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      }
+    }
+  }
+]

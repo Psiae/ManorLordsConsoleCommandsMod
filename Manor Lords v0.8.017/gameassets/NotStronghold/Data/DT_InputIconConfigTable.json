@@ -1,0 +1,843 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_InputIconConfigTable",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'InputIconConfigRow'",
+        "ObjectPath": "/Script/SystemCore"
+      }
+    },
+    "Rows": {
+      "XBO": {
+        "Platform": "EPlatformCategory::XBO",
+        "iconTextures": [
+          {
+            "Key": "EInputIconButton::Start",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_start_icon'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_start_icon.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Select",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_back_icon'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_back_icon.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Up",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_y'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_y.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_b'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_b.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Down",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_a'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_a.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_x'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_x.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Up",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_up'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_up.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_right'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_right.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Down",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_down'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_down.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_left'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_left.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_rt'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_rt.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_lt'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_lt.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_rb'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_rb.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_lb'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_lb.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_rs'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_rs.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_ls'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_ls.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_stick_r_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_stick_r_press.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_stick_l_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_stick_l_press.0"
+            }
+          }
+        ]
+      },
+      "XSX": {
+        "Platform": "EPlatformCategory::XSX",
+        "iconTextures": [
+          {
+            "Key": "EInputIconButton::Start",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_menu'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_menu.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Select",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_view'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_view.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Up",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_y'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_y.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_b'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_b.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Down",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_a'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_a.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_button_x'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_button_x.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Up",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_up'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_up.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_right'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_right.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Down",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_down'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_down.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_dpad_left'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_dpad_left.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_rt'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_rt.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_lt'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_lt.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_rb'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_rb.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_lb'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_lb.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_rs'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_rs.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_ls'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_ls.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Right",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_stick_r_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_stick_r_press.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Left",
+            "Value": {
+              "ObjectName": "Texture2D'xbox_stick_l_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Xbox/xbox_stick_l_press.0"
+            }
+          }
+        ]
+      },
+      "PS4": {
+        "Platform": "EPlatformCategory::Ps4",
+        "iconTextures": [
+          {
+            "Key": "EInputIconButton::Start",
+            "Value": {
+              "ObjectName": "Texture2D'playstation4_button_options'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation4_button_options.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Select",
+            "Value": {
+              "ObjectName": "Texture2D'playstation4_touchpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation4_touchpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Up",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_triangle'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_triangle.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_circle'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_circle.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Down",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_cross'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_cross.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_square'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_square.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Up",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_up_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_up_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_right_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_right_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Down",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_down_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_down_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_left_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_left_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_r2_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_r2_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_l2_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_l2_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_r1_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_r1_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_l1_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_l1_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_r3'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_r3.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_l3'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_l3.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_r_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_r_press.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_l_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_l_press.0"
+            }
+          }
+        ]
+      },
+      "PS5": {
+        "Platform": "EPlatformCategory::Ps5",
+        "iconTextures": [
+          {
+            "Key": "EInputIconButton::Start",
+            "Value": {
+              "ObjectName": "Texture2D'playstation5_button_options'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation5_button_options.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Select",
+            "Value": {
+              "ObjectName": "Texture2D'playstation5_touchpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation5_touchpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Up",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_triangle'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_triangle.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_circle'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_circle.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Down",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_cross'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_cross.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_square'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_square.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Up",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_up_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_up_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_right_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_right_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Down",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_down_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_down_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_dpad_left_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_dpad_left_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_r2_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_r2_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_l2_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_l2_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_r1_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_r1_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_trigger_l1_alternative'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_trigger_l1_alternative.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_r3'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_r3.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_l3'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_l3.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_r_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_r_press.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_l_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_l_press.0"
+            }
+          }
+        ]
+      },
+      "SWITCH": {
+        "Platform": "EPlatformCategory::Switch",
+        "iconTextures": [
+          {
+            "Key": "EInputIconButton::Start",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_plus'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_plus.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Select",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_minus'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_minus.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Up",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_x'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_x.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Right",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_a'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_a.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Down",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_b'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_b.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Left",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_y'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_y.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad",
+            "Value": {
+              "ObjectName": "Texture2D'switch_buttons'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_buttons.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Up",
+            "Value": {
+              "ObjectName": "Texture2D'switch_buttons_up_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_buttons_up_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Right",
+            "Value": {
+              "ObjectName": "Texture2D'switch_buttons_right_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_buttons_right_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Down",
+            "Value": {
+              "ObjectName": "Texture2D'switch_buttons_down_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_buttons_down_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Left",
+            "Value": {
+              "ObjectName": "Texture2D'switch_buttons_left_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_buttons_left_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Right",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_r'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_r.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Left",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_zl'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_zl.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Right",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_r'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_r.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Left",
+            "Value": {
+              "ObjectName": "Texture2D'switch_button_l'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Switch/switch_button_l.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_r3'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_r3.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_button_l3'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_button_l3.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_r_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_r_press.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_l_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_l_press.0"
+            }
+          }
+        ]
+      },
+      "STEAMDECK": {
+        "Platform": "EPlatformCategory::Steamdeck",
+        "iconTextures": [
+          {
+            "Key": "EInputIconButton::Start",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_options'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_options.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Select",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_view'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_view.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Up",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_y'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_y.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Right",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_b'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_b.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Down",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_a'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_a.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Face_Left",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_x'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_x.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_dpad'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_dpad.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Up",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_dpad_up_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_dpad_up_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Right",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_dpad_right_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_dpad_right_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Down",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_dpad_down_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_dpad_down_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::DPad_Left",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_dpad_left_outline'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_dpad_left_outline.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Right",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_r2'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_r2.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Trigger_Left",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_l2'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_l2.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Right",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_r1'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_r1.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Shoulder_Left",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_button_l1'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_button_l1.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Right",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_stick_top_r'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_stick_top_r.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::Analog_Left",
+            "Value": {
+              "ObjectName": "Texture2D'steamdeck_stick_top_l'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/Steamdeck/steamdeck_stick_top_l.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Right",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_r_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_r_press.0"
+            }
+          },
+          {
+            "Key": "EInputIconButton::AnalogPress_Left",
+            "Value": {
+              "ObjectName": "Texture2D'playstation_stick_l_press'",
+              "ObjectPath": "ManorLords/Content/Assets/InputIcons/PlayStation/playstation_stick_l_press.0"
+            }
+          }
+        ]
+      }
+    }
+  }
+]
