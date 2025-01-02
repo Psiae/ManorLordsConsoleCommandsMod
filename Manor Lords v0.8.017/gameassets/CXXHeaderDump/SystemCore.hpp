@@ -281,7 +281,7 @@ class ALandscapeHeightLoader : public AActor
     FIntPoint LandscapeVertexResolution;                                              // 0x02C8 (size: 0x8)
     FIntPoint HeightmapTextureResolution;                                             // 0x02D0 (size: 0x8)
 
-    void load();
+    void Load();
 }; // Size: 0x2D8
 
 class APoissonDiskSamplerTest : public AActor

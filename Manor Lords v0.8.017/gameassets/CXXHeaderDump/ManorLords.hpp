@@ -2632,7 +2632,7 @@ class APawnCPP : public APawn
     bool isRotationGizmoHovered;                                                      // 0x07A5 (size: 0x1)
     float rotationGizmo_smoothOpacity;                                                // 0x07A8 (size: 0x4)
     TMap<class FSegment, class FResampleCache> roadResampleCache;                     // 0x07B0 (size: 0x50)
-    TArray<FLogEntry> log;                                                            // 0x0800 (size: 0x10)
+    TArray<FLogEntry> Log;                                                            // 0x0800 (size: 0x10)
     bool isMainPlayer;                                                                // 0x0810 (size: 0x1)
     bool isUsingUI;                                                                   // 0x0818 (size: 0x1)
     TArray<int32> commandedSquads;                                                    // 0x0820 (size: 0x10)
@@ -5933,7 +5933,7 @@ class UImageHandler : public UObject
     bool WriteImageToDisk(class UTextureRenderTarget2D* TextureRenderTarget, FString SlotName);
     bool UseWrapper();
     class UTexture2D* ReadImageFromDisk(FString SlotName);
-    void log(FString Msg);
+    void Log(FString Msg);
     bool IsImageOnDisk(FString SlotName);
     bool DeleteImageOnDisk(FString SlotName);
     FString ComputeImageSlot(FString SlotName);

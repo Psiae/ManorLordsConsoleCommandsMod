@@ -2215,7 +2215,7 @@ class UALS_AnimBP_C : public UAnimInstance
     TEnumAsByte<ALS_MovementAction::Type> MovementAction;                             // 0x16E62 (size: 0x1)
     TEnumAsByte<ALS_RotationMode::Type> RotationMode;                                 // 0x16E63 (size: 0x1)
     TEnumAsByte<ALS_Gait::Type> Gait;                                                 // 0x16E64 (size: 0x1)
-    TEnumAsByte<ALS_Stance::Type> stance;                                             // 0x16E65 (size: 0x1)
+    TEnumAsByte<ALS_Stance::Type> Stance;                                             // 0x16E65 (size: 0x1)
     TEnumAsByte<ALS_ViewMode::Type> ViewMode;                                         // 0x16E66 (size: 0x1)
     TEnumAsByte<ALS_OverlayState::Type> OverlayState;                                 // 0x16E67 (size: 0x1)
     double BasePose_N;                                                                // 0x16E68 (size: 0x8)

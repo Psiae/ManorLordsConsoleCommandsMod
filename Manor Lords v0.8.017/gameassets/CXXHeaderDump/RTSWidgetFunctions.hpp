@@ -5,8 +5,8 @@ class URTSWidgetFunctions_C : public UBlueprintFunctionLibrary
 {
 
     void SetColorAndOpacityIfChanged(class UTextBlock* Text, FLinearColor NewColor, class UObject* __WorldContext);
-    void SetTextIfChanged(class UTextBlock* textWidget, FText NewText, class UObject* __WorldContext);
-    void openWikiSubject(FName translationKey, class UDataTable* TranslationDataTable, class UObject* __WorldContext);
+    void SetTextIfChanged(class UTextBlock* TextWidget, FText NewText, class UObject* __WorldContext);
+    void openWikiSubject(FName translationKey, class UDataTable* translationDataTable, class UObject* __WorldContext);
     void getItemData(int32 ItemId, class UObject* __WorldContext, FItem& itemData);
     void updateBorderTexturePositionRenderThread_DEPREC(class UBorder* borderWidget, class UUserWidget* Widget, class UObject* __WorldContext);
     void setBorderTexturePosition_DEPREC_1FRAMELAG(class UBorder*& borderWidget, class UUserWidget* Widget, class UObject* __WorldContext);

@@ -20,7 +20,7 @@ class UletterCreator_C : public UNaviSubGrid
     class UVerticalBox* letterparts;                                                  // 0x03C0 (size: 0x8)
     class UlocalizedTextBox_C* localizedTextBox_C_0;                                  // 0x03C8 (size: 0x8)
     class UlocalizedTextBox_C* localizedTextBox_relations;                            // 0x03D0 (size: 0x8)
-    class UVerticalBox* main_VB;                                                      // 0x03D8 (size: 0x8)
+    class UVerticalBox* main_vb;                                                      // 0x03D8 (size: 0x8)
     class UTextBlock* not_aquainted_txt;                                              // 0x03E0 (size: 0x8)
     class UVerticalBox* paragraph_list;                                               // 0x03E8 (size: 0x8)
     class UTextBlock* recipient;                                                      // 0x03F0 (size: 0x8)

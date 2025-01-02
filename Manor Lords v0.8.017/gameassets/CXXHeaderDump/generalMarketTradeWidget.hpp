@@ -29,7 +29,7 @@ class UgeneralMarketTradeWidget_C : public UUserWidget
     class UlocalizedTextBox_C* localizedTextBox_40;                                   // 0x0398 (size: 0x8)
     class UlocalizedTextBox_C* localizedTextBox_C_0;                                  // 0x03A0 (size: 0x8)
     class UlocalizedTextBox_C* localizedTextBox_C_1;                                  // 0x03A8 (size: 0x8)
-    class UVerticalBox* main_VB;                                                      // 0x03B0 (size: 0x8)
+    class UVerticalBox* main_vb;                                                      // 0x03B0 (size: 0x8)
     class UTextBlock* numTravellingTraders;                                           // 0x03B8 (size: 0x8)
     class UButton* Remove;                                                            // 0x03C0 (size: 0x8)
     class UHorizontalBox* target_inv_hb;                                              // 0x03C8 (size: 0x8)

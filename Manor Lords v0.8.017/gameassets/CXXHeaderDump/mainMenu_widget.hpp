@@ -35,7 +35,7 @@ class UmainMenu_widget_C : public UNaviGrid
     class UmenuButton_C* menuButton_restart;                                          // 0x0550 (size: 0x8)
     class UmenuButton_C* menuButton_save;                                             // 0x0558 (size: 0x8)
     class UmenuButton_C* menuButton_settings;                                         // 0x0560 (size: 0x8)
-    class UTextBlock* ver;                                                            // 0x0568 (size: 0x8)
+    class UTextBlock* Ver;                                                            // 0x0568 (size: 0x8)
     class UButton* wishlist_button;                                                   // 0x0570 (size: 0x8)
     UDLSSMode DLSS_used;                                                              // 0x0578 (size: 0x1)
     class UmainMenu_GameSetup_C* mainMenu_newGameSettingsWidget;                      // 0x0580 (size: 0x8)

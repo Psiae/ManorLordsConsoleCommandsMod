@@ -116,7 +116,7 @@ class UresidentialWidgetFull_C : public UUserWidget
     class UrequirementRating_C* requirementRating_helmet;                             // 0x0650 (size: 0x8)
     class UrequirementRating_C* requirementRating_prosperity;                         // 0x0658 (size: 0x8)
     class UrequirementRating_C* requirementRating_water;                              // 0x0660 (size: 0x8)
-    class UVerticalBox* requirements_VB;                                              // 0x0668 (size: 0x8)
+    class UVerticalBox* requirements_vb;                                              // 0x0668 (size: 0x8)
     class UlocalizedTextBox_C* text_occasionalNeeds;                                  // 0x0670 (size: 0x8)
     class UTextBlock* text_occasionalNeeds_1;                                         // 0x0678 (size: 0x8)
     class UTextBlock* text_occasionalNeeds_2;                                         // 0x0680 (size: 0x8)

@@ -11,7 +11,7 @@ class UDemolitionConfirm_C : public UNaviSubGrid
     class UlocalizedTextBox_C* choiceB;                                               // 0x0378 (size: 0x8)
     class UBorder* confirmation_border;                                               // 0x0380 (size: 0x8)
     class UMD_NaviAutoButton_C* naviBtn_Cancel;                                       // 0x0388 (size: 0x8)
-    class UMD_NaviAutoButton_C* naviBtn_demolish;                                     // 0x0390 (size: 0x8)
+    class UMD_NaviAutoButton_C* naviBtn_Demolish;                                     // 0x0390 (size: 0x8)
     class UlocalizedTextBox_C* question_txt;                                          // 0x0398 (size: 0x8)
     class UlocalizedTextBox_C* question_txt_1;                                        // 0x03A0 (size: 0x8)
     FDemolitionConfirm_CConfirmDemolish confirmDemolish;                              // 0x03A8 (size: 0x10)

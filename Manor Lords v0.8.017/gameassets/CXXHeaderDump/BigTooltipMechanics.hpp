@@ -11,7 +11,7 @@ class UBigTooltipMechanics_C : public UUserWidget
     class URichTextBlock* name_txt;                                                   // 0x0308 (size: 0x8)
     FName headerKey;                                                                  // 0x0310 (size: 0x8)
     FName mainTextKey;                                                                // 0x0318 (size: 0x8)
-    class UDataTable* TranslationDataTable;                                           // 0x0320 (size: 0x8)
+    class UDataTable* translationDataTable;                                           // 0x0320 (size: 0x8)
 
     void updateText(FName headerKey, FName mainTextKey);
     void Tick(FGeometry MyGeometry, float InDeltaTime);

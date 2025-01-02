@@ -63,7 +63,7 @@ class UmarketSupplyWidget_C : public UUserWidget
     class UTextBlock* OverstockAmtTxt;                                                // 0x04A8 (size: 0x8)
     class UTextBlock* regionName;                                                     // 0x04B0 (size: 0x8)
     class UButton* Remove;                                                            // 0x04B8 (size: 0x8)
-    class UVerticalBox* requirements_VB;                                              // 0x04C0 (size: 0x8)
+    class UVerticalBox* requirements_vb;                                              // 0x04C0 (size: 0x8)
     class UImage* spacer_bottom;                                                      // 0x04C8 (size: 0x8)
     class UImage* spacer_bottom_1;                                                    // 0x04D0 (size: 0x8)
     class UImage* spacer_header;                                                      // 0x04D8 (size: 0x8)

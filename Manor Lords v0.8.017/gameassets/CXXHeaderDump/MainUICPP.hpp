@@ -402,7 +402,7 @@ class UMainUICPP_C : public UNaviGrid
     FNaviPrimeGridLayout ComputePrimeGridLayout();
     void getVisitModeSkeletalMeshBasedOnPortrait(class APawnCPP* self2, TSoftObjectPtr<UObject>& Mesh);
     void allSelectedSquadsAreRanged(TArray<int32>& Array, class APawnCPP* pawnRef, bool& areRanged, bool& friendlyFireAllowed1);
-    void updateRecruitmentStock(class UTextBlock* textWidget, int32 goodID, class ARegion* currentRegion);
+    void updateRecruitmentStock(class UTextBlock* TextWidget, int32 goodID, class ARegion* currentRegion);
     void isChallengeStillRelevant(TArray<FChallenge>& relevantChallenges, FChallenge& challengeToCheck, bool& relevant);
     void updateHiredMercenaryCompaniesPanel();
     bool isBuildingWithinScreenBounds(class AActor* self2);

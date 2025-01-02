@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4332b2d6-cc87-4a84-ad18-efdfad7637b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALS_AnimBP.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ALS_AnimBP.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALS_Base_CharacterBP.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ALS_Base_CharacterBP.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoSettings.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/AutoSettings.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoSettingsInput.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/AutoSettingsInput.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBuildingTooltip.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/BigBuildingTooltip.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigTooltipMechanics.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/BigTooltipMechanics.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CharacterSlot.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/CharacterSlot.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControlTooltipPanel.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ControlTooltipPanel.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreditsPage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/CreditsPage.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemolitionConfirm.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/DemolitionConfirm.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD_NaviAutoFocusHighlight.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/MD_NaviAutoFocusHighlight.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLDebug_DisableJobWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/MLDebug_DisableJobWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainUICPP.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/MainUICPP.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManorLords.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ManorLords.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/None.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RTSWidgetFunctions.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/RTSWidgetFunctions.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SystemCore.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/SystemCore.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildingCardWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/buildingCardWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/census.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/census.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/claimProgress.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/claimProgress.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developmentPanelTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/developmentPanelTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generalMarketTradeWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/generalMarketTradeWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letterCreator.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/letterCreator.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/livestockMarketWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/livestockMarketWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/livestockTooltip.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/livestockTooltip.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMenu_widget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/mainMenu_widget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketSupplyTooltip.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/marketSupplyTooltip.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketSupplyWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/marketSupplyWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policyWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/policyWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regionIconWidget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/regionIconWidget.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/residentialWidgetFull.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/residentialWidgetFull.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retinueEditor.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/retinueEditor.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saveSlot_widget.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/saveSlot_widget.hpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2qeWYO2R740hkKgAVlahd4g2SyI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kyle/Documents/Modding/ManorLordsConsoleCommandsMod/ManorLordsConsoleCommandsMod/Manor Lords v0.8.017/gameassets/CXXHeaderDump&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4332b2d6-cc87-4a84-ad18-efdfad7637b8" name="Changes" comment="" />
+      <created>1735023568160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735023568160</updated>
+      <workItem from="1735023569335" duration="3495000" />
+      <workItem from="1735056771756" duration="48411000" />
+      <workItem from="1735144771136" duration="13016000" />
+      <workItem from="1735199086909" duration="44935000" />
+      <workItem from="1735810280948" duration="488000" />
+      <workItem from="1735810831976" duration="2511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

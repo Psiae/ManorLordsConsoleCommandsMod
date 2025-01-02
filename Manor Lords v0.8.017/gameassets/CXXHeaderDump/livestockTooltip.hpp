@@ -43,7 +43,7 @@ class UlivestockTooltip_C : public UUserWidget
     int32 stableAnimals;                                                              // 0x0404 (size: 0x4)
     int32 totalAnimals;                                                               // 0x0408 (size: 0x4)
 
-    void setLivestockAmt(int32 Type, class UTextBlock* textWidget, class ARegion* Region, bool includeUnassignedTxt);
+    void setLivestockAmt(int32 Type, class UTextBlock* TextWidget, class ARegion* Region, bool includeUnassignedTxt);
     void Update Livestock Stats(class ARegion* Region);
     void Tick(FGeometry MyGeometry, float InDeltaTime);
     void ExecuteUbergraph_livestockTooltip(int32 EntryPoint);

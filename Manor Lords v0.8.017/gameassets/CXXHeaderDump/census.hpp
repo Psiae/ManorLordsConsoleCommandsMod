@@ -14,7 +14,7 @@ class Ucensus_C : public UUserWidget
     class UTextBlock* TextBlock_61;                                                   // 0x0320 (size: 0x8)
     bool unassignedOnly;                                                              // 0x0328 (size: 0x1)
     bool Pinned;                                                                      // 0x0329 (size: 0x1)
-    bool Dragging;                                                                    // 0x032A (size: 0x1)
+    bool dragging;                                                                    // 0x032A (size: 0x1)
     FVector2D Offset;                                                                 // 0x0330 (size: 0x10)
     FVector2D LastPosition;                                                           // 0x0340 (size: 0x10)
     TArray<class UFamilyEntry_C*> obsoleteEntries;                                    // 0x0350 (size: 0x10)

@@ -22,7 +22,7 @@ class UBigBuildingTooltip_C : public UUserWidget
     class UTextBlock* name_txt;                                                       // 0x0360 (size: 0x8)
     class UHorizontalBox* relocation_hb;                                              // 0x0368 (size: 0x8)
     class UWrapBox* requirements_dev_wrapBox;                                         // 0x0370 (size: 0x8)
-    class UVerticalBox* requirements_VB;                                              // 0x0378 (size: 0x8)
+    class UVerticalBox* requirements_vb;                                              // 0x0378 (size: 0x8)
     class UWrapBox* requires_buildings_wrapBox;                                       // 0x0380 (size: 0x8)
     class UTextBlock* settlement_lv_txt;                                              // 0x0388 (size: 0x8)
     class UTextBlock* techRequirements_txt;                                           // 0x0390 (size: 0x8)

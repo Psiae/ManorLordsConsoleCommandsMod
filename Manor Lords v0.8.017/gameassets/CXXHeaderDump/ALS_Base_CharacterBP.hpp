@@ -16,7 +16,7 @@ class AALS_Base_CharacterBP_C : public ACharacter
     TEnumAsByte<ALS_RotationMode::Type> RotationMode;                                 // 0x069C (size: 0x1)
     TEnumAsByte<ALS_Gait::Type> DesiredGait;                                          // 0x069D (size: 0x1)
     TEnumAsByte<ALS_Gait::Type> Gait;                                                 // 0x069E (size: 0x1)
-    TEnumAsByte<ALS_Stance::Type> stance;                                             // 0x069F (size: 0x1)
+    TEnumAsByte<ALS_Stance::Type> Stance;                                             // 0x069F (size: 0x1)
     TEnumAsByte<ALS_ViewMode::Type> ViewMode;                                         // 0x06A0 (size: 0x1)
     FVector PreviousVelocity;                                                         // 0x06A8 (size: 0x18)
     FVector Acceleration;                                                             // 0x06C0 (size: 0x18)

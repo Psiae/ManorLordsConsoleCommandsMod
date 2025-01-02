@@ -9606,7 +9606,7 @@ class ALocationVolume : public AVolume
     FColor DebugColor;                                                                // 0x02D0 (size: 0x4)
 
     void Unload();
-    void load();
+    void Load();
     bool IsLoaded();
 }; // Size: 0x2D8
 
@@ -12537,7 +12537,7 @@ class UCancellableAsyncAction : public UBlueprintAsyncActionBase
 {
 
     bool IsActive();
-    void cancel();
+    void Cancel();
 }; // Size: 0x30
 
 class UCanvas : public UObject
@@ -15658,7 +15658,7 @@ class UKismetMathLibrary : public UBlueprintFunctionLibrary
     FBox2D MakeBox2D(FVector2D Min, FVector2D Max);
     FBox MakeBox(FVector Min, FVector Max);
     double Loge(double A);
-    double log(double A, double base);
+    double Log(double A, double base);
     bool LinePlaneIntersection_OriginNormal(const FVector& LineStart, const FVector& LineEnd, FVector PlaneOrigin, FVector PlaneNormal, float& T, FVector& Intersection);
     bool LinePlaneIntersection(const FVector& LineStart, const FVector& LineEnd, const FPlane& APlane, float& T, FVector& Intersection);
     FLinearColor LinearColorLerpUsingHSV(FLinearColor A, FLinearColor B, float Alpha);

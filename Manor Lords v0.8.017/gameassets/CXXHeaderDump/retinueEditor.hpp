@@ -13,7 +13,7 @@ class UretinueEditor_C : public UNaviSubGrid
     class UOverlay* armours_t1_4;                                                     // 0x0388 (size: 0x8)
     class UOverlay* armours_t1_5;                                                     // 0x0390 (size: 0x8)
     class UVerticalBox* armoury_vb;                                                   // 0x0398 (size: 0x8)
-    class UBorder* blackBg;                                                           // 0x03A0 (size: 0x8)
+    class UBorder* blackbg;                                                           // 0x03A0 (size: 0x8)
     class UHorizontalBox* bodyPattern_HB;                                             // 0x03A8 (size: 0x8)
     class UButton* Button_1;                                                          // 0x03B0 (size: 0x8)
     class UButton* cat_next_1;                                                        // 0x03B8 (size: 0x8)
@@ -237,8 +237,8 @@ class UretinueEditor_C : public UNaviSubGrid
     void upgradeCurrentRetainersArmor(bool buyLocally);
     void updateTreasury(class APawnCPP* playerRef);
     void updateExpertise();
-    void dressVAMPVariation(EEquipmentSlot Slot, int32 ItemId, class UVAISMController* VAISM, ELocomotionStance& stance);
-    void getItemVariationName(uint8 variationIndex, int32 ItemId, FName& VariationName, ELocomotionStance& stance);
+    void dressVAMPVariation(EEquipmentSlot Slot, int32 ItemId, class UVAISMController* VAISM, ELocomotionStance& Stance);
+    void getItemVariationName(uint8 variationIndex, int32 ItemId, FName& VariationName, ELocomotionStance& Stance);
     void redressPreviewGuyVAMP(bool bReinitPose);
     void setPreviewGuyHiddenInGame(bool NewHidden);
     void Update Hire Retinue and Upgrade Availability();
