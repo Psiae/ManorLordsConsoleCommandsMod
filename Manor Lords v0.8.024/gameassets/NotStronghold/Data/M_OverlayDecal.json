@@ -1,0 +1,529 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bTangentSpaceNormal": false,
+      "bUseMaterialAttributes": true,
+      "StateId": "4BFA3B59-4BAA7B6A-6F6C538C-13E0D735",
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "RuntimeEntries": {
+        "ParameterInfoSet": [
+          {
+            "Name": "fertilityGridSizeIRLHalf",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "stripeScale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "snow noise size",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "snow contrast",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "snow noise size far",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "macro_snow_level_variation",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "macro_snow_level_offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "veinDist",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "veinMipLv",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "veinBr",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "veinEdge",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "fertilityOpa",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "fertilityBase",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "mip",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "sd",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "speed",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "snowOpacityBooster",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "snowBrightnessMul",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "snowOpacityBooster_Water",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "mapSizeHalf",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "colorblind_symbol_scale",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "colorblind_texture_offset",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "colorbl_noise_size",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "colorbl_nois_amt",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          }
+        ]
+      },
+      "RuntimeEntries[1]": {
+        "ParameterInfoSet": [
+          {
+            "Name": "waterTint",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "color",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "colorblind_symbol_tiling",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          }
+        ]
+      },
+      "RuntimeEntries[2]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[3]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[4]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[5]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[6]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[7]": {
+        "ParameterInfoSet": []
+      },
+      "ScalarPrimitiveDataIndexValues": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "VectorPrimitiveDataIndexValues": [
+        -1,
+        -1,
+        -1
+      ],
+      "ScalarValues": [
+        111600.0,
+        192.0,
+        8000.0,
+        2.0,
+        45000.0,
+        0.8,
+        0.25,
+        28000.0,
+        1.0,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        3.0,
+        0.8,
+        0.1,
+        10.0,
+        0.5,
+        3.0,
+        112270.14,
+        2550.8684,
+        -0.084,
+        18000.0,
+        0.43619
+      ],
+      "StaticSwitchValues": [],
+      "DynamicSwitchValues": [],
+      "VectorValues": [
+        {
+          "R": 0.147933,
+          "G": 0.430338,
+          "B": 0.776042,
+          "A": 1.0,
+          "Hex": "6BAFE4"
+        },
+        {
+          "R": 0.163542,
+          "G": 0.139995,
+          "B": 0.091141,
+          "A": 1.0,
+          "Hex": "706855"
+        },
+        {
+          "R": 0.214285,
+          "G": 1.5,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "80FF00"
+        }
+      ],
+      "DoubleVectorValues": [],
+      "TextureValues": [],
+      "FontValues": [],
+      "FontPageValues": [],
+      "RuntimeVirtualTextureValues": [],
+      "SparseVolumeTextureValues": [],
+      "ReferencedTextures": [
+        {
+          "ObjectName": "TextureRenderTarget2D'RT_Fertility'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Engine/RT_Fertility.0"
+        },
+        {
+          "ObjectName": "Texture2D'redToGreenGradient'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Engine/redToGreenGradient.0"
+        },
+        {
+          "ObjectName": "Texture2D'T_TilingNoise12'",
+          "ObjectPath": "ManorLords/Content/Assets/Effects/Textures/Noise/T_TilingNoise12.0"
+        },
+        {
+          "ObjectName": "CanvasRenderTarget2D'RT_veins'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Road/RT_veins.0"
+        },
+        {
+          "ObjectName": "TextureRenderTarget2D'RT_Desirability'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Road/RT_Desirability.0"
+        },
+        {
+          "ObjectName": "RuntimeVirtualTexture'RVT_Landscape'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Landscape/RVT/RVT_Landscape.0"
+        },
+        {
+          "ObjectName": "CanvasRenderTarget2D'RT_RoadsNew'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Road/RT_RoadsNew.0"
+        },
+        {
+          "ObjectName": "Texture2D'fertility_colorblind_symbols_6'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/fertility_colorblind_symbols_6.0"
+        },
+        {
+          "ObjectName": "Texture2D'WindTurblenceVectorAndGustMagnitude_Blurred'",
+          "ObjectPath": "ManorLords/Content/NotStronghold/Engine/WindTurblenceVectorAndGustMagnitude_Blurred.0"
+        },
+        null
+      ],
+      "FunctionInfos": [
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "A063D73F-4FCD4885-7EA80CB5-067E1F86",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldCoords-XY'",
+            "ObjectPath": "ManorLords/Content/KiteDemo/Material/WorldCoords-XY.0"
+          }
+        },
+        {
+          "StateId": "6BB97146-49B75878-03A98399-9B3C01AF",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+          }
+        },
+        {
+          "StateId": "1F3C7ECC-4653CAFB-2A6AEE82-B1F2F3A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.0"
+          }
+        },
+        {
+          "StateId": "CD945D29-4CBAFC70-D2D4EAB8-D23E12F6",
+          "Function": {
+            "ObjectName": "MaterialFunction'HeightLerp'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/HeightLerp.0"
+          }
+        },
+        {
+          "StateId": "F04343BC-455CEBEC-A5140A88-54D935DD",
+          "Function": {
+            "ObjectName": "MaterialFunction'snowLevelLite'",
+            "ObjectPath": "ManorLords/Content/NotStronghold/WeatheryVoyage/snowLevelLite.0"
+          }
+        },
+        {
+          "StateId": "E167607B-486E82F0-96D835B9-AD858F98",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_VeinOverlay'",
+            "ObjectPath": "ManorLords/Content/NotStronghold/MLMaterialFunctions/MF_VeinOverlay.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "3161742E-4800C603-B145E1AF-56D3BE63",
+          "Function": {
+            "ObjectName": "MaterialFunction'TimeWithSpeedVariable'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/TimeWithSpeedVariable.0"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+          }
+        },
+        {
+          "StateId": "1F3C7ECC-4653CAFB-2A6AEE82-B1F2F3A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.0"
+          }
+        },
+        {
+          "StateId": "CD945D29-4CBAFC70-D2D4EAB8-D23E12F6",
+          "Function": {
+            "ObjectName": "MaterialFunction'HeightLerp'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/HeightLerp.0"
+          }
+        },
+        {
+          "StateId": "F04343BC-455CEBEC-A5140A88-54D935DD",
+          "Function": {
+            "ObjectName": "MaterialFunction'snowLevelLite'",
+            "ObjectPath": "ManorLords/Content/NotStronghold/WeatheryVoyage/snowLevelLite.0"
+          }
+        },
+        {
+          "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+          }
+        },
+        {
+          "StateId": "87C7614C-49801F93-5E8864A5-54296FFB",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldPosition-XY'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/WorldPosition-XY.0"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "A063D73F-4FCD4885-7EA80CB5-067E1F86",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldCoords-XY'",
+            "ObjectPath": "ManorLords/Content/KiteDemo/Material/WorldCoords-XY.0"
+          }
+        },
+        {
+          "StateId": "50EBF8C6-4FF5F3EF-E9520A92-C416A78F",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDirectionVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "CE8ACF6F-43E75FC5-98C8C79A-04CC3901",
+          "Function": {
+            "ObjectName": "MaterialFunction'SphereGradient-2D'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/SphereGradient-2D.0"
+          }
+        }
+      ],
+      "FunctionInfosStateCRC": 1545668100,
+      "ParameterCollectionInfos": [
+        {
+          "StateId": "89234CFB-4E40705B-DFAC4687-E09758A7",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'MPC_Overlays'",
+            "ObjectPath": "ManorLords/Content/NotStronghold/MPC/MPC_Overlays.0"
+          }
+        },
+        {
+          "StateId": "1ECF1002-4E152857-E501AEB8-DCC4D799",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'BuildingsMPC'",
+            "ObjectPath": "ManorLords/Content/NotStronghold/MPC/BuildingsMPC.0"
+          }
+        }
+      ],
+      "GrassTypes": [],
+      "MaterialLayers": {
+        "Layers": [],
+        "Blends": []
+      },
+      "DynamicParameterNames": [],
+      "QualityLevelsUsed": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "bHasMaterialLayers": false,
+      "bHasRuntimeVirtualTextureOutput": false,
+      "bHasSceneColor": false,
+      "bHasPerInstanceCustomData": false,
+      "bHasPerInstanceRandom": false,
+      "bHasVertexInterpolator": true,
+      "PropertyConnectedMask": 418
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'T_TilingNoise12'",
+        "ObjectPath": "ManorLords/Content/Assets/Effects/Textures/Noise/T_TilingNoise12.0"
+      },
+      {
+        "ObjectName": "Texture2D'fertility_colorblind_symbols_6'",
+        "ObjectPath": "ManorLords/Content/ManorLords/UI/Textures/fertility_colorblind_symbols_6.0"
+      },
+      {
+        "ObjectName": "Texture2D'redToGreenGradient'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Engine/redToGreenGradient.0"
+      },
+      {
+        "ObjectName": "Texture2D'WindTurblenceVectorAndGustMagnitude_Blurred'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Engine/WindTurblenceVectorAndGustMagnitude_Blurred.0"
+      },
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_Fertility'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Engine/RT_Fertility.0"
+      },
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_Desirability'",
+        "ObjectPath": "ManorLords/Content/NotStronghold/Road/RT_Desirability.0"
+      }
+    ]
+  }
+]

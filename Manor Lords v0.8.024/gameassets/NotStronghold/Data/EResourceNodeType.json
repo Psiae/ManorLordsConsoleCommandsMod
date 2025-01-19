@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "EResourceNodeType",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "7478F10E406D68AB1A096584D8094FEE",
+            "SourceString": "earlyFood",
+            "LocalizedString": "earlyFood"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "EEC57AF346465DA232AD7BA7D66676AF",
+            "SourceString": "forest",
+            "LocalizedString": "forest"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "E2A0AAB049198A6843ACF2A653D6BEED",
+            "SourceString": "open",
+            "LocalizedString": "open"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "EResourceNodeType::NewEnumerator0": 0,
+      "EResourceNodeType::NewEnumerator1": 1,
+      "EResourceNodeType::NewEnumerator2": 2,
+      "EResourceNodeType::EResourceNodeType_MAX": 3
+    },
+    "CppForm": "Namespaced"
+  }
+]

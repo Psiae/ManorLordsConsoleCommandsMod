@@ -1,0 +1,2821 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Para",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Paragraph'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "welcome_positive": {
+        "ID": "welcome",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "09BFB9E141C153C44F6D769C6BB24D35",
+          "SourceString": "Makes you Acquainted and grants further diplomatic options in the future.",
+          "LocalizedString": "Makes you Acquainted and grants further diplomatic options in the future."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_bad"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [
+          "acquainted"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain",
+          "bandit"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [
+          "illegitimate"
+        ],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_negative": {
+        "ID": "welcome_negative",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "AD202A024608A06222AFF69FB6D2A50E",
+          "SourceString": "Makes you Acquainted and grants further diplomatic options in the future.",
+          "LocalizedString": "Makes you Acquainted and grants further diplomatic options in the future."
+        },
+        "cost": 0,
+        "relations": -10,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_positive"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [
+          "acquainted"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [
+          "illegitimate"
+        ],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_hildebolt_open_positive": {
+        "ID": "welcome_hildebolt_open_positive",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_hildebolt_open_negative"
+        ],
+        "requiredTags": [
+          "WIP"
+        ],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [
+          "acquainted"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [
+          "illegitimate"
+        ],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_hildebolt_open_positive_followup_peaceful": {
+        "ID": "welcome_hildebolt_open_positive_followup",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome_hildebolt_open_positive"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_hildebolt_open_negative": {
+        "ID": "welcome_hildebolt_open_negative",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_hildebolt_open_positive"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [
+          "acquainted"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [
+          "illegitimate"
+        ],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_hildebolt_open_negative_followup": {
+        "ID": "welcome_hildebolt_open_negative_followup",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome_hildebolt_open_negative"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_from_hildebolt": {
+        "ID": "welcome_from_hildebolt",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [
+          "acquainted"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [
+          "illegitimate"
+        ],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_negative": {
+        "ID": "welcome_response_negative",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "0694EA1F405A76C2BB7BCCA62A283077",
+          "SourceString": "Worsens relations.",
+          "LocalizedString": "Worsens relations."
+        },
+        "cost": 0,
+        "relations": -20,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "pleasure_too",
+          "greeting_why_bad"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [
+          "welcome",
+          "welcome_bad"
+        ],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_mediating": {
+        "ID": "welcome_response_mediating",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_bad_too"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [
+          "welcome_bad"
+        ],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_escalating": {
+        "ID": "displeasure_too",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "0694EA1F405A76C2BB7BCCA62A283077",
+          "SourceString": "Worsens relations.",
+          "LocalizedString": "Worsens relations."
+        },
+        "cost": 0,
+        "relations": -20,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome_too"
+        ],
+        "forbiddenInText": [
+          "pleasure_too"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [
+          "welcome",
+          "welcome_bad"
+        ],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_positive": {
+        "ID": "welcome_response_positive",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "D954ED364136F1290801BCB76BFC4FA2",
+          "SourceString": "Enables more options",
+          "LocalizedString": "Enables more options"
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "only_me_accept",
+          "only_me_decline"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [
+          "welcome"
+        ],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_peace": {
+        "ID": "welcome_response_peace",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "46640840422FC713C003F9A538A82984",
+          "SourceString": "<h>ENSURES PEACE</> for next 6 months.",
+          "LocalizedString": "<h>ENSURES PEACE</> for next 6 months."
+        },
+        "cost": 10,
+        "relations": 20,
+        "useOnlyOnce": true,
+        "Effects": [
+          "peace_6"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome_too"
+        ],
+        "forbiddenInText": [
+          "only_me_accept",
+          "only_me_decline"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [
+          "welcome",
+          "welcome_bad"
+        ],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_to_hildebolt_positive": {
+        "ID": "welcome_response_hildebolt_positive",
+        "Category": 0,
+        "numTextVariations": 2,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_response_to_hildebolt_negative"
+        ],
+        "requiredTags": [
+          "acquainted",
+          "WIP"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [
+          "welcome_from_hildebolt"
+        ],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "welcome_response_to_hildebolt_negative": {
+        "ID": "welcome_response_hildebolt_negative",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "welcome_response_to_hildebolt_positive"
+        ],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [
+          "welcome_from_hildebolt"
+        ],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_offer": {
+        "ID": "peace_offer",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "6E2CAAD144189A18B44BC5A1979665CB",
+          "SourceString": "When accepted <img id=\"Peace\"/> <h>ENSURES PEACE</> for next <h>1 YEAR</>.",
+          "LocalizedString": "When accepted <img id=\"Peace\"/> <h>ENSURES PEACE</> for next <h>1 YEAR</>."
+        },
+        "cost": 0,
+        "relations": 10,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome"
+        ],
+        "forbiddenInText": [
+          "only_me",
+          "displeasure"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain",
+          "traitor",
+          "bandit"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [
+          "traitor",
+          "not_landed"
+        ],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "peace_offer_accept",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "peace_offer_reject",
+        "score": 0.0
+      },
+      "peace_offer_accept": {
+        "ID": "peace_offer_accept",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "1D8EF93E4D1AC09CCEB0A89FBC94B1E5",
+          "SourceString": "When accepted <img id=\"Peace\"/> <h>ENSURES PEACE</> for next <h>1 YEAR</>.",
+          "LocalizedString": "When accepted <img id=\"Peace\"/> <h>ENSURES PEACE</> for next <h>1 YEAR</>."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_offer_reject"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [
+          "peace_treaty"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_offer",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "peace_offer_fulfill",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_offer_reject": {
+        "ID": "peace_offer_reject",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "EE18907E419E3A629EA609BFF9C5F402",
+          "SourceString": "Rejects the offer.",
+          "LocalizedString": "Rejects the offer."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_offer_accept"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_offer",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_offer_fulfill": {
+        "ID": "peace_offer_fulfill",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "auto_send_only"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_offer_fulfill",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_offer_break": {
+        "ID": "peace_offer_break",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "acquainted",
+          "peace_treaty"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_offer_fulfill",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "antagonism": {
+        "ID": "antagonism",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "832841C246BFD7B500C91FAC48AD2AEF",
+          "SourceString": "Unless recipient declares war, reduces recipient's <img id=\"Influence\"/> <h>INFLUENCE</> by 50.",
+          "LocalizedString": "Unless recipient declares war, reduces recipient's <img id=\"Influence\"/> <h>INFLUENCE</> by 50."
+        },
+        "cost": 0,
+        "relations": -20,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome"
+        ],
+        "forbiddenInText": [
+          "pleasure"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [
+          "not_landed"
+        ],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "only_me": {
+        "ID": "only_me",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "I'm the true sovereign around here. I expect ot have your alliegence.",
+        "descr": {
+          "Namespace": "",
+          "Key": "AD09E0094D443E98133B00B2606ADE08",
+          "SourceString": "If recipient accepts, becomes a <img id=\"Vassal\"/> <h>VASSAL</>. If rejects, recipient loses 50 <img id=\"Influence\"/> <h>INFLUENCE</>.",
+          "LocalizedString": "If recipient accepts, becomes a <img id=\"Vassal\"/> <h>VASSAL</>. If rejects, recipient loses 50 <img id=\"Influence\"/> <h>INFLUENCE</>."
+        },
+        "cost": 50,
+        "relations": -10,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome",
+          "TEST"
+        ],
+        "forbiddenInText": [
+          "pleasure"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "insult": {
+        "ID": "insult",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "Namespace": "",
+          "Key": "0694EA1F405A76C2BB7BCCA62A283077",
+          "SourceString": "Worsens relations.",
+          "LocalizedString": "Worsens relations."
+        },
+        "cost": 15,
+        "relations": -20,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "pleasure_too"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [
+          "welcome",
+          "welcome_bad"
+        ],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "only_me_accept": {
+        "ID": "only_me_accept",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "You are the greatest Lord. I bow before you.",
+        "descr": {
+          "Namespace": "",
+          "Key": "526AC10F460464F08B70ABB7549F890C",
+          "SourceString": "<h>BECOME VASSAL</> <img id=\"Vasasl\"/>. {br} Must heed to all your sovereign's <h>REQUESTS</>. Becomes an <h>ALLY</>.",
+          "LocalizedString": "<h>BECOME VASSAL</> <img id=\"Vasasl\"/>. {br} Must heed to all your sovereign's <h>REQUESTS</>. Becomes an <h>ALLY</>."
+        },
+        "cost": 0,
+        "relations": 10,
+        "useOnlyOnce": true,
+        "Effects": [
+          "vassal"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "displeasure_too"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [
+          "only_me"
+        ],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "only_me_decline": {
+        "ID": "only_me_decline",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "I won't bow to you. Keep your hands off my fiefdom.",
+        "descr": {
+          "Namespace": "",
+          "Key": "132E2CF342C693493AFCBC80FB908512",
+          "SourceString": "Lowers relations. Can trigger war.",
+          "LocalizedString": "Lowers relations. Can trigger war."
+        },
+        "cost": 0,
+        "relations": -20,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [
+          "only_me"
+        ],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "war_surprise": {
+        "ID": "war_surprise",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "Your time has come!",
+        "descr": {
+          "Namespace": "",
+          "Key": "5CD2E1AB4214E73A6F32ECAB74BE4D2D",
+          "SourceString": "Declares <img id=\"War\"/><h>SURPRISE WAR</>.",
+          "LocalizedString": "Declares <img id=\"War\"/><h>SURPRISE WAR</>."
+        },
+        "cost": 500,
+        "relations": -100,
+        "useOnlyOnce": false,
+        "Effects": [
+          "war"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_treaty"
+        ],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [
+          "at_war"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [
+          "not_landed"
+        ],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "war_hate": {
+        "ID": "war_hate",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "I won't tolerate your insults. Our courage shall be tested in battle!",
+        "descr": {
+          "Namespace": "",
+          "Key": "9BF8C7274EBE00A70BAFCD80FA989701",
+          "SourceString": "Declares <img id=\"War\"/><h>OFFICIAL WAR</>.",
+          "LocalizedString": "Declares <img id=\"War\"/><h>OFFICIAL WAR</>."
+        },
+        "cost": 0,
+        "relations": -100,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "peace_treaty"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": -100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "need_inf": {
+        "ID": "need_inf",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "I need your support for my claims.",
+        "descr": {
+          "Namespace": "",
+          "Key": "04B0AC864B91BF2093BE7B951B2F76F4",
+          "SourceString": "Requests <img id=\"Influence\"/><h>INFLUENCE</>.",
+          "LocalizedString": "Requests <img id=\"Influence\"/><h>INFLUENCE</>."
+        },
+        "cost": 5,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "WIP"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [
+          "at_war"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "return_silver": {
+        "ID": "return_silver",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "In return I'm offering you a payment in silver.",
+        "descr": {
+          "Namespace": "",
+          "Key": "17DE4C494CDA34BC54658CB7F012A917",
+          "SourceString": "Offers <img id=\"Silver\"/> <h>SILVER</> in return.",
+          "LocalizedString": "Offers <img id=\"Silver\"/> <h>SILVER</> in return."
+        },
+        "cost": 5,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "need_inf"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "return_good": {
+        "ID": "return_good",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "In return for...",
+        "descr": {
+          "Namespace": "",
+          "Key": "F7DE79944DCA04A19CFE808D8785CA26",
+          "SourceString": "Gives goods in return.",
+          "LocalizedString": "Gives goods in return."
+        },
+        "cost": 5,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "TEST"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "throw_gauntlet": {
+        "ID": "throw_gauntlet",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "Disavow your filthy insults, or I shall meet you in battle.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": -100,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "WIP"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": -1,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "claim_press": {
+        "ID": "claim_press",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "I hereby declare to be the rightful heir to the lands of ",
+        "descr": {
+          "Namespace": "",
+          "Key": "E7C06543457BFA77CB575094DCDB6418",
+          "SourceString": "Presses a CLAIM towards a Region.",
+          "LocalizedString": "Presses a CLAIM towards a Region."
+        },
+        "cost": 500,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "claim_press"
+        ],
+        "requiredTags": [
+          "acquainted",
+          "WIP"
+        ],
+        "forbiddenTags": [
+          "peace_treaty"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::OthersRegion",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "claim_refute": {
+        "ID": "claim_refute",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "I refute your unfounded claim to the land of ",
+        "descr": {
+          "Namespace": "",
+          "Key": "7FD5442B4B93E7F59C201A8428ACDD0B",
+          "SourceString": "Rejects a foreign Claim",
+          "LocalizedString": "Rejects a foreign Claim"
+        },
+        "cost": 25,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::OthersClaim",
+        "paraRequirements": [
+          "EParaRequirement::RecipientPressedClaim"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "claim_accept": {
+        "ID": "claim_accept",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "I accept your claim to the lands of ",
+        "descr": {
+          "Namespace": "",
+          "Key": "B2728D5F48BAB29B083E2C9A21F29A5B",
+          "SourceString": "Give away the rights to a disputed Region.",
+          "LocalizedString": "Give away the rights to a disputed Region."
+        },
+        "cost": 25,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::OthersClaim",
+        "paraRequirements": [
+          "EParaRequirement::IPressedClaim"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "need_silver": {
+        "ID": "need_silver",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "I need some money.",
+        "descr": {
+          "Namespace": "",
+          "Key": "9093A5E44FEB789B9F35E480E64B0DBA",
+          "SourceString": "Requests funds.",
+          "LocalizedString": "Requests funds."
+        },
+        "cost": 5,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [
+          "at_war",
+          "requested_funds"
+        ],
+        "addTagsWhenSent": [
+          "requested_funds"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::Amt",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "respond_need_silver",
+        "forbiddenRecipientQuest": "respond_threat_silver",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver": {
+        "ID": "threat_silver",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "In return, nothing bad will happen to your cute little town.",
+        "descr": {
+          "Namespace": "",
+          "Key": "4DB74F7D43CAEB404DDC3A883EC809B6",
+          "SourceString": "If recipient declines, declares sender and the recipient as Enemies.",
+          "LocalizedString": "If recipient declines, declares sender and the recipient as Enemies."
+        },
+        "cost": 10,
+        "relations": -50,
+        "useOnlyOnce": false,
+        "Effects": [
+          "forceResponse_threat_silver"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "need_silver"
+        ],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "at_war"
+        ],
+        "addTagsWhenSent": [
+          "threat_silver"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "respond_threat_silver",
+        "forceResponse": "threat_silver_accept",
+        "forceResponse_abortParas": [
+          "threat_silver_need_time",
+          "threat_silver_cant"
+        ],
+        "forceResponse_autoResponse": "threat_silver_refuse",
+        "score": 0.0
+      },
+      "threat_silver_need_time": {
+        "ID": "threat_silver_need_time",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Fair... But I need time.",
+        "descr": {
+          "Namespace": "",
+          "Key": "9165FE5640F80613D1F43A8BE6FB00A1",
+          "SourceString": "Accepts a quest to gather funds.",
+          "LocalizedString": "Accepts a quest to gather funds."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "threat_silver_give_time",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "threat_silver_no_time",
+        "score": 0.0
+      },
+      "threat_silver_give_time": {
+        "ID": "threat_silver_give_time",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "I'm willing to give you more time, but don't fail me.",
+        "descr": {
+          "Namespace": "",
+          "Key": "FCE1D3D543666D594BF9FCA22008621F",
+          "SourceString": "If recipient accepts, it starts a quest to pay in a number of months.",
+          "LocalizedString": "If recipient accepts, it starts a quest to pay in a number of months."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_no_time"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::Time",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver_need_time",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "threat_silver_give_time_accept",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "threat_silver_give_time_decline",
+        "score": 0.0
+      },
+      "threat_silver_give_time_accept": {
+        "ID": "threat_silver_give_time_accept",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "I shall pay by this time. I promise.",
+        "descr": {
+          "Namespace": "",
+          "Key": "547BCDCA4B1C83978FEF4485B192CC99",
+          "SourceString": "After the agreed time passes, transfers Silver from your Treasury to the Recipient.",
+          "LocalizedString": "After the agreed time passes, transfers Silver from your Treasury to the Recipient."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "accept_pay",
+          "delay"
+        ],
+        "effectAmtParas": [
+          "need_silver",
+          "threat_silver_give_time"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [
+          "accepted_threat"
+        ],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver_give_time",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver_give_time_decline": {
+        "ID": "threat_silver_give_time_decline",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "It's not enough time for me. I can't accept.",
+        "descr": {
+          "Namespace": "",
+          "Key": "94F78F45429B5936EF185B8A6475D11B",
+          "SourceString": "Declines offer, provokes conflict.",
+          "LocalizedString": "Declines offer, provokes conflict."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "war_chance"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::HaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver_give_time",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver_no_time": {
+        "ID": "threat_silver_no_time",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Don't haggle with me, pay up now or you'll find yourself in a pickle.",
+        "descr": {
+          "Namespace": "",
+          "Key": "032342DA490CD9D9166A688ECCB1D4D6",
+          "SourceString": "Refuses to give additional time to pay.",
+          "LocalizedString": "Refuses to give additional time to pay."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_give_time"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver_need_time",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "threat_silver_no_time_accept",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "threat_silver_no_time_decline",
+        "score": 0.0
+      },
+      "threat_silver_no_time_accept": {
+        "ID": "threat_silver_no_time_accept",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Seems I have no choice then. I'll pay.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "accept_pay"
+        ],
+        "effectAmtParas": [
+          "need_silver"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_no_time_decline"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::HaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver_no_time",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver_no_time_decline": {
+        "ID": "threat_silver_no_time_decline",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Your demands are unnacceptable.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_no_time_accept"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver_no_time",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver_accept": {
+        "ID": "threat_silver_accept",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Fine. I'll pay.",
+        "descr": {
+          "Namespace": "",
+          "Key": "D7410B6344D8061A0A323C962F1BCFF1",
+          "SourceString": "Transfers Silver from your Treasury.",
+          "LocalizedString": "Transfers Silver from your Treasury."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "accept_pay"
+        ],
+        "effectAmtParas": [
+          "need_silver"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_refuse"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [
+          "accepted_threat"
+        ],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::HaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver_refuse": {
+        "ID": "threat_silver_refuse",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "You can stick your threats where the sun doesn't shine.",
+        "descr": {
+          "Namespace": "",
+          "Key": "C6C5820A4A3905DDCFD512B434B46684",
+          "SourceString": "Refuses the threat, provokes conflict.",
+          "LocalizedString": "Refuses the threat, provokes conflict."
+        },
+        "cost": 0,
+        "relations": -20,
+        "useOnlyOnce": false,
+        "Effects": [
+          "war_chance"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_accept",
+          "threat_silver_cant"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [
+          "refused_threat"
+        ],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "threat_silver_cant": {
+        "ID": "threat_silver_cant",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "My coffers are empty.",
+        "descr": {
+          "Namespace": "",
+          "Key": "18A70E754F591147C3EFABA99BCCEFD3",
+          "SourceString": "Refuses to pay, provokes conflict.",
+          "LocalizedString": "Refuses to pay, provokes conflict."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "war_chance"
+        ],
+        "effectAmtParas": [
+          "need_silver"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "threat_silver_refuse",
+          "threat_silver_accept"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [
+          "refused_threat"
+        ],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::NotHaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_threat_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_silver": {
+        "ID": "peace_silver",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "We can stop this bloodshed... For a price.",
+        "descr": {
+          "Namespace": "",
+          "Key": "08D4818D4CBC5764CB2D659102086110",
+          "SourceString": "Offers peace and abandoning all Claims towards the Recipient's Regions in return for Treasury.",
+          "LocalizedString": "Offers peace and abandoning all Claims towards the Recipient's Regions in return for Treasury."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "forceResponse_peace_silver"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_silver",
+          "peace_silver_offer"
+        ],
+        "requiredTags": [
+          "at_war"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::Amt",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "respond_peace_silver",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "peace_silver_accept",
+        "forceResponse_abortParas": [
+          "peace_silver_cant"
+        ],
+        "forceResponse_autoResponse": "peace_silver_refuse",
+        "score": 0.0
+      },
+      "peace_silver_accept": {
+        "ID": "peace_silver_accept",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "If that is the price of peace, I accept.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "peace",
+          "accept_pay"
+        ],
+        "effectAmtParas": [
+          "need_silver"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_silver_accept"
+        ],
+        "requiredTags": [
+          "at_war"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::HaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_silver_refuse": {
+        "ID": "peace_silver_refuse",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "I cannot accept such extortion.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_silver_accept",
+          "peace_silver_refuse"
+        ],
+        "requiredTags": [
+          "at_war"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_silver_cant": {
+        "ID": "peace_silver_cant",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Even if I wanted, I can't afford it.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [
+          "need_silver"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "peace_silver_accept",
+          "peace_silver_refuse"
+        ],
+        "requiredTags": [
+          "at_war"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::NotHaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_silver",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_silver_offer": {
+        "ID": "peace_silver_offer",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "forceResponse_peace_silver_offer"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "at_war"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::Amt",
+        "paraRequirements": [
+          "EParaRequirement::HaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "respond_peace_silver_offer",
+        "forbiddenRecipientQuest": "respond_peace_silver_offer",
+        "forceResponse": "peace_silver_offer_accept",
+        "forceResponse_abortParas": [
+          "peace_silver_offer_refuse",
+          "peace_silver_offer_accept"
+        ],
+        "forceResponse_autoResponse": "peace_silver_offer_refuse",
+        "score": 0.0
+      },
+      "peace_silver_offer_accept": {
+        "ID": "peace_silver_offer_accept",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "peace",
+          "accept_gift",
+          "withdraw_claims_challenges_sender"
+        ],
+        "effectAmtParas": [
+          "peace_silver_offer"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_silver_offer",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "peace_silver_offer_refuse": {
+        "ID": "peace_silver_offer_refuse",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "respond_peace_silver_offer",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "send_promised_cash": {
+        "ID": "send_promised_cash",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "I'm sending the money I promised.",
+        "descr": {
+          "Namespace": "",
+          "Key": "E675A27D4CD1CCA2737F79A9D9392B23",
+          "SourceString": "Sends previously agreed funds to the Recipient.",
+          "LocalizedString": "Sends previously agreed funds to the Recipient."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [
+          "need_silver"
+        ],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "cancel_promised_cash"
+        ],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [
+          "EParaRequirement::HaveEnoughFunds"
+        ],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "promised_to_pay",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "cancel_promised_cash": {
+        "ID": "cancel_promised_cash",
+        "Category": 1,
+        "numTextVariations": 1,
+        "Text": "Forget our deal, I can't send you any money.",
+        "descr": {
+          "Namespace": "",
+          "Key": "C050CADC4C78E5CA16BD64B7815B47EB",
+          "SourceString": "Stops previous deal.",
+          "LocalizedString": "Stops previous deal."
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [
+          "war_chance"
+        ],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [
+          "send_promised_cash"
+        ],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [
+          "requested_funds"
+        ],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "promised_to_pay",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "challenge_bandit_to_battle": {
+        "ID": "challenge_bandit_to_battle",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "challenge_bandit_to_battle",
+        "descr": {
+          "Namespace": "",
+          "Key": "AD8C993A40CAB6DA57C9D48AAEA49C08",
+          "SourceString": "challenge_bandit_to_battle_descr",
+          "LocalizedString": "challenge_bandit_to_battle_descr"
+        },
+        "cost": 0,
+        "relations": -100,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "acquainted",
+          "WIP"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [
+          "villain"
+        ],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "bandit_challenge_accepted",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "bandit_challenge_accepted",
+        "score": 0.0
+      },
+      "bandit_challenge_accepted": {
+        "ID": "bandit_challenge_accepted",
+        "Category": 2,
+        "numTextVariations": 1,
+        "Text": "challenge_accepted",
+        "descr": {
+          "Namespace": "",
+          "Key": "E9FA64C040D4FAF15A2ED1A880B2D69B",
+          "SourceString": "challenge_accepted_descr",
+          "LocalizedString": "challenge_accepted_descr"
+        },
+        "cost": 0,
+        "relations": 0,
+        "useOnlyOnce": false,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [],
+        "forbiddenInText": [],
+        "requiredTags": [
+          "acquainted"
+        ],
+        "forbiddenTags": [],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [
+          "villain"
+        ],
+        "requiredRecipientTraits": [],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "forceResponse_challenge_to_battle",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      },
+      "hope_rumors_not_true": {
+        "ID": "hope_rumors_not_true",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "I hope the rumors about you are not true.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": 10,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome"
+        ],
+        "forbiddenInText": [
+          "only_me",
+          "displeasure"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain",
+          "traitor"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [
+          "villain",
+          "traitor"
+        ],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "peace_offer_accept",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "peace_offer_reject",
+        "score": 0.0
+      },
+      "your_days_are_over": {
+        "ID": "your_days_are_over",
+        "Category": 0,
+        "numTextVariations": 1,
+        "Text": "The days of your villany are almost over.",
+        "descr": {
+          "CultureInvariantString": null
+        },
+        "cost": 0,
+        "relations": -10,
+        "useOnlyOnce": true,
+        "Effects": [],
+        "effectAmtParas": [],
+        "requiredInText": [
+          "welcome_bad"
+        ],
+        "forbiddenInText": [
+          "welcome",
+          "pleasure_too"
+        ],
+        "requiredTags": [],
+        "forbiddenTags": [
+          "acquainted"
+        ],
+        "addTagsWhenSent": [],
+        "removeTagsWhenSent": [],
+        "prevLetterMustContain": [],
+        "enabledIfPrevLetterContainsAny": [],
+        "minRelationship": -100,
+        "maxRelationship": 100,
+        "paraPick": "EParaPick::None",
+        "paraRequirements": [],
+        "forbiddenSenderTraits": [
+          "villain",
+          "traitor"
+        ],
+        "requiredSenderTraits": [],
+        "forbiddenRecipientTraits": [],
+        "requiredRecipientTraits": [
+          "villain",
+          "traitor"
+        ],
+        "addSenderTraitsWhenSent": [],
+        "addRecipientTraitsWhenSent": [],
+        "requiredSenderQuest": "None",
+        "requiredRecipientQuest": "None",
+        "forbiddenSenderQuest": "None",
+        "forbiddenRecipientQuest": "None",
+        "forceResponse": "None",
+        "forceResponse_abortParas": [],
+        "forceResponse_autoResponse": "None",
+        "score": 0.0
+      }
+    }
+  }
+]

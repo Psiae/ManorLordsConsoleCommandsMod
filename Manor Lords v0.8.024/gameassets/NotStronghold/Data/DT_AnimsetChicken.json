@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetChicken",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "chicken_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "chicken_walk",
+            "spd": 1.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "chicken_walk",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      }
+    }
+  }
+]

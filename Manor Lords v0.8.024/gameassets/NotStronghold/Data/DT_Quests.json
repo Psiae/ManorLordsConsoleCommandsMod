@@ -1,0 +1,1412 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Quests",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Quest'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "restoring_the_peace": {
+        "Name": "restoring_the_peace",
+        "descr": "restoring_the_peace_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "I_will_restore_peace"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 365,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "a",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "b",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "c",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "d",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "e",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": true
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": true,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "weapons_delivery_schedule": {
+        "Name": "weapons_delivery_schedule",
+        "descr": "",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "let_us_form_the_militia"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 30,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              3,
+              8
+            ],
+            "buildingToHaveAmt": 5,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": true,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              72,
+              99
+            ],
+            "buildingToHaveAmt": 1,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [
+              {
+                "Type": 133,
+                "amt": 20
+              },
+              {
+                "Type": 271,
+                "amt": 20
+              }
+            ],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          },
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [
+              "weapons_delivery_complete"
+            ],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "weapons_delivery_complete": {
+        "Name": "weapons_delivery",
+        "descr": "weapons_delivery_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "let_us_form_the_militia"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [
+          "None"
+        ],
+        "daysLeft": 30,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "victory_conquest_OLD": {
+        "Name": "victory_conquest",
+        "descr": "victory_conquest_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "I_will_unite_these_lands_under_my_rule"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 0,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": true
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": true,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "victory_conquest": {
+        "Name": "victory_conquest",
+        "descr": "victory_conquest_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "I_will_unite_these_lands_under_my_rule"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 2147483647,
+        "objectives": [
+          {
+            "Name": "objective_claim_all_of_the_regions",
+            "survive": true,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": true
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": true,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "victory_dominance": {
+        "Name": "victory_dominance",
+        "descr": "victory_dominance_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "I_will_unite_these_lands_under_my_rule"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 2147483647,
+        "objectives": [
+          {
+            "Name": "claim_all_opponents_regions",
+            "survive": true,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": true
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": true,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "victory_growth": {
+        "Name": "victory_growth",
+        "descr": "victory_growth_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "prosperity_awaits"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 2147483647,
+        "objectives": [
+          {
+            "Name": "objective_reach_large_town",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 100000,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": true
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": false,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": true,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "raiders_near": {
+        "Name": "raiders_near",
+        "descr": "raiders_near_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "track_them",
+          "ignore"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 365,
+        "objectives": [
+          {
+            "Name": "prepare_for_raids",
+            "survive": true,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": true
+      },
+      "---------old_baron": {
+        "Name": "",
+        "descr": "",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "accept",
+          "decline"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 30,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "restoring_the_peace_tut_storage": {
+        "Name": "restoring_the_peace_tut_storage",
+        "descr": "restoring_the_peace_tut_storage_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "I_will_do_what_you_ask_of_me",
+          "Let_me_do_things_my_way"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 60,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              4
+            ],
+            "buildingToHaveAmt": 1,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              80
+            ],
+            "buildingToHaveAmt": 1,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              72
+            ],
+            "buildingToHaveAmt": 1,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [
+              "restoring_the_peace_tut_residential"
+            ],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          }
+        ],
+        "Punishment": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "growth": 0.0,
+            "development": 0.0,
+            "Items": [],
+            "policyLock": [],
+            "techLock": [],
+            "forTime": 0,
+            "sendParas": [],
+            "startQuest": "restoring_the_peace_tut_residential",
+            "recipientSetupIndex": 1,
+            "breakSquads": []
+          }
+        ],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": true,
+        "signatureOverride": "signature_steward",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "restoring_the_peace_tut_residential": {
+        "Name": "restoring_the_peace_tut_residential",
+        "descr": "restoring_the_peace_tut_residential_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "The_settlement_will_flourish_soon",
+          "I_have_other_ideas"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 150,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              36
+            ],
+            "buildingToHaveAmt": 1,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              21
+            ],
+            "buildingToHaveAmt": 1,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          },
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [
+              3
+            ],
+            "buildingToHaveAmt": 5,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": true,
+        "signatureOverride": "signature_steward",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "msg_knight_intro": {
+        "Name": "No_Title",
+        "descr": "msg_knight_intro",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "I_accept_your_service",
+          "I_dont_need_your_advice"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 30,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": true,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [
+              "msg_knight_tutorial_01"
+            ],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          },
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [
+              "reginaldsRetinue"
+            ],
+            "triggerVictory": false
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": true,
+        "signatureOverride": "signature_knight",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "msg_knight_tutorial_01": {
+        "Name": "No_Title",
+        "descr": "knight_tracking",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "Let_us_finish_this_nuisance",
+          "I_need_to_look_to_other_matters_now"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 1,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": true,
+        "signatureOverride": "signature_knight",
+        "customAcceptTriggers": [
+          "robber_spawnCamp",
+          "robber_spawnKnight"
+        ],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "msg_baron_intro": {
+        "Name": "No_Title",
+        "descr": "msg_baron_intro",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "Let_us_be_friends",
+          "I_dont_trust_a_single_word_from_you"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 30,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [
+              "msg_knight_tutorial_01"
+            ],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": false,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": true,
+        "signatureOverride": "signature_robber",
+        "customAcceptTriggers": [
+          "addRelationshipTag_acquainted"
+        ],
+        "customRefuseTriggers": [
+          "addRelationshipTag_acquainted"
+        ],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "---------old_stuff": {
+        "Name": "",
+        "descr": "",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "accept",
+          "decline"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 30,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "techQuest_21_1": {
+        "Name": "develop_leatherworking",
+        "descr": "descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 0,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": false,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 4,
+              "amt": 25,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 0,
+        "focus": "None",
+        "bTracking": true,
+        "bTimed": false,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "restoring_the_peace_storyonly": {
+        "Name": "restoring_the_peace",
+        "descr": "restoring_the_peace_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "None",
+          "I_will_do_my_duty"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 30,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": false,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "spoils_of_war": {
+        "Name": "spoils_of_war",
+        "descr": "spoils_of_war_descr",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [
+          "return_resources_to_town",
+          "keep_spoils_for_yourself"
+        ],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": 0,
+        "objectives": [],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [
+          "spoils_of_war_resources"
+        ],
+        "customRefuseTriggers": [
+          "spoils_of_war_money"
+        ],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "spoils_of_war_resources": {
+        "Name": "",
+        "descr": "",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": -1,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": true,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      },
+      "spoils_of_war_money": {
+        "Name": "",
+        "descr": "",
+        "ID": 0,
+        "playedMessages": 0,
+        "choices": [],
+        "choicesDone": [],
+        "choiceQuestOverride": [],
+        "daysLeft": -1,
+        "objectives": [
+          {
+            "Name": "",
+            "survive": true,
+            "buildingToHaveType": [],
+            "buildingToHaveAmt": 0,
+            "populationToHave": 0,
+            "gatherResource": {
+              "Type": 0,
+              "amt": 0,
+              "belongsTo": null,
+              "belongsToUnit": null
+            },
+            "cashToHave": 0.0,
+            "winBattle": false,
+            "payTax": false,
+            "paraToSend": "None",
+            "controlRegion": "None",
+            "recipientSetupIndex": 0,
+            "markDone": false,
+            "Hidden": false,
+            "payCompanyID": -1
+          }
+        ],
+        "abortTriggers": [],
+        "Regions": [],
+        "regionLocations": [],
+        "rewards": [
+          {
+            "devPoints": 0,
+            "loyalty": 0.0,
+            "Prosperity": 0.0,
+            "Items": [],
+            "regionalWealth": 0,
+            "treasury": 0,
+            "policies": [],
+            "Tech": [],
+            "startQuests": [],
+            "spawnRaiderForce": 0,
+            "spawnFreeSquads": [],
+            "triggerVictory": false
+          }
+        ],
+        "Punishment": [],
+        "tier": 1,
+        "focus": "None",
+        "bTracking": false,
+        "bTimed": true,
+        "Hidden": true,
+        "opportunity": false,
+        "canRefuse": true,
+        "Status": "EQuestStatus::Active",
+        "issuedOnDay": 0,
+        "repeats": false,
+        "letterForm": false,
+        "signatureOverride": "None",
+        "customAcceptTriggers": [],
+        "customRefuseTriggers": [],
+        "adjustDaysLeftToIssuedDay": false
+      }
+    }
+  }
+]

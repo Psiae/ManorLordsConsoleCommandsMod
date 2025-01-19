@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetDeer",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Deer_IdleAnim",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Deer_Walk",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Deer_Run",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Deer_Death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "trot": {
+        "ID": 61,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Deer_Run",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UnitTemplates_OLD",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Squad'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "Axemen": {
+        "unitType": "None",
+        "squadType": "ESquadType::None",
+        "unitArr": [],
+        "Name": "Axemen",
+        "skills": [],
+        "Icon": 101,
+        "iconTexture": null,
+        "card": {
+          "ObjectName": "Texture2D'testArmyIcon'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/testArmyIcon.0"
+        },
+        "MaxSize": 60,
+        "ID": 0,
+        "Center": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "smoothCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "killTimes": [],
+        "deathTimes": [],
+        "targetSquad": 0,
+        "engagedSquads": [],
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "splitFromSquad": 0,
+        "arrivesIn": 0,
+        "payDay": 0,
+        "companyID": -1,
+        "spread": 120.0,
+        "line": {
+          "A": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "B": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "lastCommandedLine": {
+          "A": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "B": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "lastMergeLine": {
+          "A": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "B": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "currentRegion": null,
+        "targetRegion": null,
+        "originRegion": null,
+        "avgStats": {
+          "att": 0.0,
+          "def": 0.0,
+          "bLock": 0.0,
+          "rangedAtt": 0.0,
+          "Range": 0.0,
+          "shootingRange": 0.0,
+          "charge": 0.0,
+          "chargeStop": 0.0,
+          "Speed": 1.0,
+          "armorPierce": 0.0,
+          "stamina": 1.0,
+          "morale": 1.0,
+          "potential": 1.0,
+          "moraleEffects": []
+        },
+        "potentialFactors": [],
+        "avgPotential": 0.0,
+        "facingDir": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "equippedNum_body": [],
+        "equippedNum_helmet": [],
+        "prevAICommand": {
+          "Type": "None",
+          "squadID": 0,
+          "targetSquad": 0,
+          "Pos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "targetPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "score": 0.0,
+          "line": {
+            "A": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "B": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          },
+          "Close": false,
+          "bTags": [],
+          "isFlanking": false,
+          "bType": 0,
+          "Region": null,
+          "building": null,
+          "resType": 0
+        },
+        "lootValue": 0,
+        "visibleToPlayer": false,
+        "cohesion": 1.0,
+        "rallied": false,
+        "ralliedOnDay": 0,
+        "assignedRecruits": [],
+        "equippedRecruits": [],
+        "Control": "ESquadControl::Full",
+        "rallyingStatus": "ERallyingStatus::Rallied",
+        "enemySpotted": false,
+        "isEngaged": false,
+        "engagementPercentage": 0.0,
+        "camp": null,
+        "campLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "lastSquadAIUpdateTime": 0,
+        "audioTags": [],
+        "ownerPawn": null,
+        "ownerPawnSetupIndex": -1,
+        "concealmentLevel": 1,
+        "previousHornTime": 0.0,
+        "previousMoraleChangeTime": 0.0,
+        "pathMeshes": []
+      },
+      "Bowmen": {
+        "unitType": "None",
+        "squadType": "ESquadType::None",
+        "unitArr": [],
+        "Name": "Bowmen",
+        "skills": [],
+        "Icon": 101,
+        "iconTexture": null,
+        "card": {
+          "ObjectName": "Texture2D'testArmyIcon'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/testArmyIcon.0"
+        },
+        "MaxSize": 60,
+        "ID": 0,
+        "Center": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "smoothCenter": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "killTimes": [],
+        "deathTimes": [],
+        "targetSquad": 0,
+        "engagedSquads": [],
+        "TargetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "splitFromSquad": 0,
+        "arrivesIn": 0,
+        "payDay": 0,
+        "companyID": -1,
+        "spread": 120.0,
+        "line": {
+          "A": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "B": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "lastCommandedLine": {
+          "A": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "B": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "lastMergeLine": {
+          "A": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "B": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        "currentRegion": null,
+        "targetRegion": null,
+        "originRegion": null,
+        "avgStats": {
+          "att": 0.0,
+          "def": 0.0,
+          "bLock": 0.0,
+          "rangedAtt": 0.0,
+          "Range": 0.0,
+          "shootingRange": 0.0,
+          "charge": 0.0,
+          "chargeStop": 0.0,
+          "Speed": 1.0,
+          "armorPierce": 0.0,
+          "stamina": 1.0,
+          "morale": 1.0,
+          "potential": 1.0,
+          "moraleEffects": []
+        },
+        "potentialFactors": [],
+        "avgPotential": 0.0,
+        "facingDir": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "equippedNum_body": [],
+        "equippedNum_helmet": [],
+        "prevAICommand": {
+          "Type": "None",
+          "squadID": 0,
+          "targetSquad": 0,
+          "Pos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "targetPos": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "score": 0.0,
+          "line": {
+            "A": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "B": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          },
+          "Close": false,
+          "bTags": [],
+          "isFlanking": false,
+          "bType": 0,
+          "Region": null,
+          "building": null,
+          "resType": 0
+        },
+        "lootValue": 0,
+        "visibleToPlayer": false,
+        "cohesion": 1.0,
+        "rallied": false,
+        "ralliedOnDay": 0,
+        "assignedRecruits": [],
+        "equippedRecruits": [],
+        "Control": "ESquadControl::Full",
+        "rallyingStatus": "ERallyingStatus::Rallied",
+        "enemySpotted": false,
+        "isEngaged": false,
+        "engagementPercentage": 0.0,
+        "camp": null,
+        "campLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "lastSquadAIUpdateTime": 0,
+        "audioTags": [],
+        "ownerPawn": null,
+        "ownerPawnSetupIndex": -1,
+        "concealmentLevel": 1,
+        "previousHornTime": 0.0,
+        "previousMoraleChangeTime": 0.0,
+        "pathMeshes": []
+      }
+    }
+  }
+]

@@ -1,0 +1,972 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Upgrades",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Upgrade'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "0": {
+        "Name": "Nothing",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'gear-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/gear-hammer.0"
+        },
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "2": {
+        "Name": "peasant house",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 1,
+        "minimumProsperity": 4,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "4": {
+        "Name": "townhouse",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 3,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 12,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 269,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 2,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "6": {
+        "Name": "stone_church",
+        "descr": "loyalty buff",
+        "Icon": {
+          "ObjectName": "Texture2D'church'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/church.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 16,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 25,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 269,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "7": {
+        "Name": "storehouse lv2",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'wooden-crate'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wooden-crate.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 16,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "8": {
+        "Name": "granary_lv2",
+        "descr": "more storage",
+        "Icon": {
+          "ObjectName": "Texture2D'basket'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/basket.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 12,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 5,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "9": {
+        "Name": "manor_lv3",
+        "descr": "stuff",
+        "Icon": null,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 25,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 25,
+            "amt": 50,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "10": {
+        "Name": "trade_wagon",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Wagon_T'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Wagon_T.0"
+        },
+        "cost": [
+          {
+            "Type": 254,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "11": {
+        "Name": "Ploughing_station",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Advanced_Farming_T'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Advanced_Farming_T.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [
+          {
+            "ID": 54,
+            "tier": 0
+          }
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "12": {
+        "Name": "BPart",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'3dpeasant4'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/3dpeasant4.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "13": {
+        "Name": "order_oxen",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'oxIcon'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/oxIcon.0"
+        },
+        "cost": [],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "14": {
+        "Name": "upg to small stable",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'card_livestock_trader'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Cards/Old/card_livestock_trader.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "15": {
+        "Name": "herbs_garden",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Tex_herbs_04'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_herbs_04.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "16": {
+        "Name": "Rebuild",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'3d-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/3d-hammer.0"
+        },
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "17": {
+        "Name": "fence_up",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'pastureFence'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/pastureFence.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 5,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [
+          {
+            "ID": 12,
+            "tier": 0
+          }
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "18": {
+        "Name": "deep_mine",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Advanced_Mining'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Advanced_Mining.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 50,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [
+          {
+            "ID": 116,
+            "tier": 0
+          }
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "19": {
+        "Name": "order_horse",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Horse_Riding_1_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Horse_Riding_1_R.0"
+        },
+        "cost": [],
+        "regionalWealth": 30,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "20": {
+        "Name": "upg_to_work_camp",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "21": {
+        "Name": "order_mule",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Animal_Husbandry_R_mule'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Animal_Husbandry_R_mule.0"
+        },
+        "cost": [],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "22": {
+        "Name": "stone_well",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "23": {
+        "Name": "tavern_lv2",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "100": {
+        "Name": "extension0",
+        "descr": "clutter",
+        "Icon": null,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "101": {
+        "Name": "extension1",
+        "descr": "chicken coop",
+        "Icon": {
+          "ObjectName": "Texture2D'chicken'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/chicken.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 15,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "102": {
+        "Name": "extension2",
+        "descr": "goat shed",
+        "Icon": {
+          "ObjectName": "Texture2D'animalPengen'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/animalPengen.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "103": {
+        "Name": "extension3",
+        "descr": "smithy",
+        "Icon": {
+          "ObjectName": "Texture2D'sword-smithing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sword-smithing.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "104": {
+        "Name": "extension4",
+        "descr": "bakery",
+        "Icon": {
+          "ObjectName": "Texture2D'6881'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/6881.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [
+          {
+            "ID": 20,
+            "tier": 0
+          }
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "105": {
+        "Name": "extension5",
+        "descr": "brewery",
+        "Icon": {
+          "ObjectName": "Texture2D'7264'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/7264.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "106": {
+        "Name": "extension6",
+        "descr": "tailor",
+        "Icon": {
+          "ObjectName": "Texture2D'ni_t_08'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/ni_t_08.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "107": {
+        "Name": "extension7",
+        "descr": "cobbler",
+        "Icon": {
+          "ObjectName": "Texture2D'cobbler'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/cobbler.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "108": {
+        "Name": "extension8",
+        "descr": "vegetable_garden",
+        "Icon": {
+          "ObjectName": "Texture2D'carrot'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/carrot.0"
+        },
+        "cost": [],
+        "regionalWealth": 15,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "109": {
+        "Name": "extension9",
+        "descr": "joiner",
+        "Icon": {
+          "ObjectName": "Texture2D'item_woodenParts'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/item_woodenParts.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "110": {
+        "Name": "extension10",
+        "descr": "armorer",
+        "Icon": {
+          "ObjectName": "Texture2D'Banded_01_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Banded_01_R.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [
+          {
+            "ID": 87,
+            "tier": 0
+          }
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "111": {
+        "Name": "extension11",
+        "descr": "bowyer",
+        "Icon": {
+          "ObjectName": "Texture2D'Bows_04_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Bows_04_R.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "112": {
+        "Name": "extension12",
+        "descr": "orchard",
+        "Icon": {
+          "ObjectName": "Texture2D'apples'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/apples.0"
+        },
+        "cost": [],
+        "regionalWealth": 50,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [
+          {
+            "ID": 61,
+            "tier": 0
+          }
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 1,
+        "lockedInOutposts": false
+      },
+      "113": {
+        "Name": "extension13",
+        "descr": "butcher",
+        "Icon": {
+          "ObjectName": "Texture2D'butcher'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/butcher.0"
+        },
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false
+      },
+      "114": {
+        "Name": "order_pig",
+        "descr": "ext",
+        "Icon": {
+          "ObjectName": "Texture2D'pigIcon_semiGen'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/pigIcon_semiGen.0"
+        },
+        "cost": [],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      },
+      "115": {
+        "Name": "order_goat",
+        "descr": "ext",
+        "Icon": {
+          "ObjectName": "Texture2D'goaty'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/goaty.0"
+        },
+        "cost": [],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiresTech": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false
+      }
+    }
+  }
+]

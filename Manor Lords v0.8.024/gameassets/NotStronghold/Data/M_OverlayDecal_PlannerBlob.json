@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal_PlannerBlob",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "DecalBlendMode": "EDecalBlendMode::DBM_Emissive",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bTangentSpaceNormal": false,
+      "bUseMaterialAttributes": true,
+      "StateId": "85FA5FCB-B83229C7-978919F6-54E169B6",
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "RuntimeEntries": {
+        "ParameterInfoSet": [
+          {
+            "Name": "castleBlobOpacity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "opaMul",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          }
+        ]
+      },
+      "RuntimeEntries[1]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[2]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[3]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[4]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[5]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[6]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[7]": {
+        "ParameterInfoSet": []
+      },
+      "ScalarPrimitiveDataIndexValues": [
+        -1,
+        -1
+      ],
+      "VectorPrimitiveDataIndexValues": [],
+      "ScalarValues": [
+        0.01,
+        5.0
+      ],
+      "StaticSwitchValues": [],
+      "DynamicSwitchValues": [],
+      "VectorValues": [],
+      "DoubleVectorValues": [],
+      "TextureValues": [],
+      "FontValues": [],
+      "FontPageValues": [],
+      "RuntimeVirtualTextureValues": [],
+      "SparseVolumeTextureValues": [],
+      "ReferencedTextures": [
+        {
+          "ObjectName": "TextureRenderTarget2D'RT_castlePlannerBlob'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/RT_castlePlannerBlob.0"
+        }
+      ],
+      "FunctionInfos": [],
+      "FunctionInfosStateCRC": 4294967295,
+      "ParameterCollectionInfos": [],
+      "GrassTypes": [],
+      "MaterialLayers": {
+        "Layers": [],
+        "Blends": []
+      },
+      "DynamicParameterNames": [],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "bHasMaterialLayers": false,
+      "bHasRuntimeVirtualTextureOutput": false,
+      "bHasSceneColor": false,
+      "bHasPerInstanceCustomData": false,
+      "bHasPerInstanceRandom": false,
+      "bHasVertexInterpolator": false,
+      "PropertyConnectedMask": 387
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_castlePlannerBlob'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/RT_castlePlannerBlob.0"
+      }
+    ]
+  }
+]
