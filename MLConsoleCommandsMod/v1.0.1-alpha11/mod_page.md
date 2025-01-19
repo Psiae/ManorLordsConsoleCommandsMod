@@ -445,19 +445,19 @@ If you have question, ask it in the community discord server: [discord server](h
       - berry bush: `k.spawnResourceAtCursor berries`<br/><br/><br/><br/>
 
 
-- k.addDevelopmentPoint &nbsp;&nbsp; <amount>
+- k.addDevelopmentPoint &nbsp;&nbsp; \<amount>
     - Increase / Decrease **Development Point** by <ins>amount</ins> to **current region**<br/><br/>
 
 
-- k.addRegionalWealth &nbsp;&nbsp; <amount>
+- k.addRegionalWealth &nbsp;&nbsp; \<amount>
     - Increase / Decrease **Regional Wealth** by <ins>amount</ins> to **current region**<br/><br/>
 
 
-- k.setDevelopmentPoint &nbsp;&nbsp; <amount>
+- k.setDevelopmentPoint &nbsp;&nbsp; \<amount>
     - Set **Development Point** to <ins>amount</ins> to **current region**<br/><br/>
 
 
-- k.setRegionalWealth &nbsp;&nbsp; <amount>
+- k.setRegionalWealth &nbsp;&nbsp; \<amount>
     - Set **Regional Wealth** to <ins>amount</ins> to **current region**<br/><br/>
 
 
@@ -475,7 +475,7 @@ If you have question, ask it in the community discord server: [discord server](h
     - equivalent to command: `k.spawnRaider 1`<br/><br/><br/><br/>
 
 
-- k.spawnRaider &nbsp;&nbsp; <amount>
+- k.spawnRaider &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> raider somewhere on the map<br/><br/>
 
     - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
@@ -487,5 +487,167 @@ If you have question, ask it in the community discord server: [discord server](h
     - equivalent to command: `k.spawnRaiderRallyAtCursor 1`<br/><br/><br/><br/>
 
 
-- k.spawnRaiderRallyAtCursor  &nbsp;&nbsp; <amount>
+- k.spawnRaiderRallyAtCursor  &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> raider that will rally at location under **Player** cursor<br/><br/>
+
+
+- k.printMiscConsoleCommands
+    - Print Misc (Others) Console Commands to the console<br/><br/>
+
+
+- k.followUnitAtCursor
+    - Follow the Unit currently pointed by **Player** cursor<br/><br/>
+
+    - works on animals as well<br/><br/><br/><br/>
+
+- k.renameUnitAtCursor &nbsp;&nbsp; \<name>
+    - Rename the Unit current pointed by **Player** cursor to <ins>name</ins><br/><br/>
+
+    - works on animals as well<br/><br/><br/><br/>
+
+
+- k.printForeignSupply
+    - Print the current state of **Foreign Supply** to the console window<br/><br/>
+
+    - **Foreign Supply** Influence the market price
+    - default amount is 500, more supply means lower price, less supply means higher price<br/><br/><br/><br/>
+
+
+- k.teleportFollowingUnitToCursor
+    - Teleport the **Unit** the **Player** currently following to location under the **Player** cursor<br/><br/>
+
+
+- k.setGameSpeed &nbsp;&nbsp; \<amount>
+    - Set the **Game Speed** to <ins>amount</ins><br/><br/>
+
+
+- k.skipDay
+    - Skip 1 day<br/><br/>
+
+    - equivalent to command: `k.skipDay 1`<br/><br/><br/><br/>
+
+
+- k.skipDay &nbsp;&nbsp; \<amount>
+    - Skip <ins>amount</ins> day(s)<br/><br/>
+
+
+- k.printGameSetup
+    - Print the **GameSetup** to the console window<br/><br/>
+
+    - **Game Setup** is the game settings when you start a new game<br/><br/><br/><br/>
+
+
+- k.gameSetup_setAIAggressivenessIndex &nbsp;&nbsp; \<index>
+    - Set the **AI Aggressiveness** index to <ins>index</ins><br/><br/>
+
+    - **index**
+      - 0: Reactive 
+      - 1: Balanced
+      - 2: Aggressive<br/><br/>
+
+    - Irrelevant if **Baron Adversary** is Absent<br/><br/><br/><br/>
+
+
+- k.gameSetup_setApprovalLossIndex &nbsp;&nbsp; \<index>
+    - Set the **Approval Loss** index to <ins>index</ins><br/><br/>
+
+    - **index**
+        - 0: Low Penalty
+        - 1: Medium Penalty
+        - 2: High Penalty<br/><br/><br/><br/>
+
+
+- k.gameSetup_setRaidingFrequencyIndex &nbsp;&nbsp; \<index>
+    - Set the **Raiding Frequency** index to <ins>index</ins><br/><br/>
+
+    - **index**
+        - 0: None
+        - 1: Medium
+        - 2: Frequent<br/><br/><br/><br/>
+
+
+- k.gameSetup_setRandomBanditCampSpawnLimit &nbsp;&nbsp; \<amount>
+    - Set the **Random Bandit Camp Spawn Limit** to <ins>amount</ins><br/><br/>
+
+    - <ins>amount</ins> must be within 0 .. 255 inclusive<br/><br/><br/><br/>
+
+
+- k.gameSetup_setResidentialRequirementIndex &nbsp;&nbsp; \<index>
+    - Set the **Residential Requirement** index to <ins>index</ins><br/><br/>
+
+    - **index**
+        - 0: Demanding
+        - 1: Balanced
+        - 2: Tolerant<br/><br/><br/><br/>
+
+
+- k.gameSetup_setSpoilageIndex &nbsp;&nbsp; \<index>
+    - Set the **Spoilage** index to <ins>index</ins><br/><br/>
+
+    - **index**
+        - 0: No Spoilage
+        - 1: 50% Slower
+        - 2: Standard
+        - 3: Double Rate<br/><br/><br/><br/>
+
+
+- k.gameSetup_setWeatherDamageIndex &nbsp;&nbsp; \<index>
+    - Set the **Weather Damage** index to <ins>index</ins><br/><br/>
+
+    - **index**
+        - 0: None
+        - 1: Balanced
+        - 2: Difficult<br/><br/><br/><br/>
+
+
+- k.makeDrought
+    - Make Drought occur<br/><br/>
+
+    - Drought progression will be set to at least 10%<br/><br/><br/><br/>
+
+
+- k.makeDroughtInstantly
+    - Make Drought occur instantly<br/><br/>
+
+    - Drought progression will be set to 100%<br/><br/><br/><br/>
+
+
+- k.makeRain &nbsp;&nbsp; \<damaging>
+    - Make Rain occur, damaging: <ins>damaging</ins> <br/><br/>
+
+    - Rain Progression will be set to 10%<br/><br/><br/><br/>
+
+
+- k.makeRainInstantly &nbsp;&nbsp; \<damaging>
+    - Make Rain occur instantly, damaging: <ins>damaging</ins> <br/><br/>
+
+    - Rain Progression will be set to 100%<br/><br/><br/><br/>
+
+
+- k.skipDrought
+    - Skip Drought<br/><br/>
+
+
+- k.skipDroughtInstantly
+    - Skip Drought Instantly<br/><br/>
+
+
+- k.skipRain
+    - Skip Rain <br/><br/>
+
+
+- k.skipRainInstantly
+    - Skip Rain Instantly<br/><br/>
+
+
+- k.setRainMeter &nbsp;&nbsp; \<amount>
+    - Set the **Rain Meter** to <ins>amount</ins><br/><br/>
+
+    - **Rain Meter** is the indicator of possibility of rain
+      - threshold varies per season
+        - around -20 on **Spring**
+        - around -30 on **Summer**
+        - around -10 on **Autumn**
+      - decrease by 1 every day, if season is winter reset instead.
+      - when drought occur usually goes to 40
+      - when rain occur usually goes to 8</ins><br/><br/></ins><br/><br/>
