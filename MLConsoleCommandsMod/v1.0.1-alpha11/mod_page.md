@@ -42,14 +42,14 @@ If you have question, ask it in the community discord server: [discord server](h
     - Print Army related console commands to the console window <br/><br/>
 
 
-- k.addMilitiaToRegion &nbsp;&nbsp; <ins>\<militiaID></ins>
+- k.addMilitiaToRegion &nbsp;&nbsp; <militiaID>
     - Add militia by specified <ins>militiaID</ins> to **current region**<br/><br/>
 
     - <ins>militiaID</ins>: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
     - Translation: [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.js)<br/><br/>
     - example usage: 
       - Archer Militia (bowMilitia): `k.addMilitiaToRegion bowMilitia`
-      - Militia Footmen (militiaFoot): `k.addMilitiaToRegion militiaFoot`<br/><br/>
+      - Militia Footmen (militiaFoot): `k.addMilitiaToRegion militiaFoot`<br/><br/><br/><br/>
 
 
 - k.teleportSelectedSquadsToCursor
@@ -59,23 +59,23 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.releaseLockedMercenaryPool
     - Release locked mercenaries<br/><br/>
 
-    - You can use this when a Mercenary is not available for hire although not hired by any lord<br/><br/>
+    - You can use this when a Mercenary is not available for hire although not hired by any lord<br/><br/><br/><br/>
 
 
 - k.rerollHireMercenaries
     - Reroll the list of mercenaries available for hire<br/><br/>
 
 
-- k.setMercenaryForHireArrivalRegion &nbsp;&nbsp; <ins>\<index></ins>
+- k.setMercenaryForHireArrivalRegion &nbsp;&nbsp; \<index>
     - Set the Arrival Region of mercenary-for-hire at given <ins>index</ins> to **current region**<br/><br/>
 
     - <ins>index</ins> refer to the offset from the first option (card)
       - 1st card <ins>index</ins> is 0 
       - 2nd card <ins>index</ins> is 1
-      - 3rd card <ins>index</ins> is 2
+      - 3rd card <ins>index</ins> is 2<br/><br/><br/><br/>
 
 
-- k.setMercenaryForHireCost &nbsp;&nbsp; <ins>\<index></ins> &nbsp; <ins>\<amount></ins>
+- k.setMercenaryForHireCost &nbsp;&nbsp; \<index> &nbsp; \<amount>
     - Set the Cost of mercenary-for-hire at given <ins>index</ins> to <ins>amount</ins><br/><br/>
 
     - <ins>index</ins> refer to the offset from the first option (card)
@@ -84,10 +84,10 @@ If you have question, ask it in the community discord server: [discord server](h
       - 3rd card <ins>index</ins> is 2<br/><br/>
 
     - <ins>amount</ins> must be at least 1
-      - otherwise the UI will break<br/><br/>
+      - otherwise the UI will break<br/><br/><br/><br/>
 
 
-- k.retinueEditor_setArmorByID &nbsp;&nbsp; <ins>\<ID></ins>
+- k.retinueEditor_setArmorByID &nbsp;&nbsp; \<ID>
     - Set the Armor of currently selected Retainer in the Retinue Editor<br/><br/>
 
     - <ins>ID</ins> the id of the armor
@@ -97,10 +97,10 @@ If you have question, ask it in the community discord server: [discord server](h
       - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage: 
-      -  Retinue Tier 3 Armor (293): `k.retinueEditor_setArmorByID 293`<br/><br/>
+      -  Retinue Tier 3 Armor (293): `k.retinueEditor_setArmorByID 293`<br/><br/><br/><br/>
 
 
-- k.retinueEditor_setHelmetByID &nbsp;&nbsp; <ins>\<ID></ins>
+- k.retinueEditor_setHelmetByID &nbsp;&nbsp; \<ID>
     - Set the Helmet of currently selected Retainer in the Retinue Editor<br/><br/>
 
     - <ins>ID</ins> the id of the helmet
@@ -110,10 +110,10 @@ If you have question, ask it in the community discord server: [discord server](h
         - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
-        -  Retinue Tier 3 Helmet (294): `k.retinueEditor_setHelmetByID 294`<br/><br/>
+        -  Retinue Tier 3 Helmet (294): `k.retinueEditor_setHelmetByID 294`<br/><br/><br/><br/>
 
 
-- k.retinueEditor_setShieldByID &nbsp;&nbsp; <ins>\<ID></ins>
+- k.retinueEditor_setShieldByID &nbsp;&nbsp; \<ID>
     - Set the Shield of currently selected Retainer in the Retinue Editor<br/><br/>
 
     - <ins>ID</ins> the id of the shield (secondary weapon)
@@ -123,10 +123,10 @@ If you have question, ask it in the community discord server: [discord server](h
         - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
-        -  Retinue Tier 3 Shield (290): `k.retinueEditor_setShieldByID 290`<br/><br/>
+        -  Retinue Tier 3 Shield (290): `k.retinueEditor_setShieldByID 290`<br/><br/><br/><br/>
 
 
-- k.retinueEditor_setWeaponByID &nbsp;&nbsp; <ins>\<ID></ins>
+- k.retinueEditor_setWeaponByID &nbsp;&nbsp; \<ID>
     - Set the Weapon of currently selected Retainer in the Retinue Editor<br/><br/>
 
     - <ins>ID</ins> the id of the weapon (primary weapon)
@@ -137,4 +137,4 @@ If you have question, ask it in the community discord server: [discord server](h
 
     - example usage:
         -  Retinue Tier 3 Sidearm (278): `k.retinueEditor_setWeaponByID 278`
-        -  Retinue Tier 3 Polearm (250): `k.retinueEditor_setWeaponByID 250`<br/><br/>
+        -  Retinue Tier 3 Polearm (250): `k.retinueEditor_setWeaponByID 250`<br/><br/><br/><br/>
