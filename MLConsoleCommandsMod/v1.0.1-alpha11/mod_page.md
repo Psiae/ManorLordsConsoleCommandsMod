@@ -138,3 +138,99 @@ If you have question, ask it in the community discord server: [discord server](h
     - example usage:
         -  Retinue Tier 3 Sidearm (278): `k.retinueEditor_setWeaponByID 278`
         -  Retinue Tier 3 Polearm (250): `k.retinueEditor_setWeaponByID 250`<br/><br/><br/><br/>
+
+
+- k.printLordConsoleCommands
+    - Print Lord related console command to the console window<br/><br/>
+
+
+- k.addDaysLeftToChallenges &nbsp;&nbsp; \<amount>
+    - Increase / Decrease **daysLeft** by <ins>amount</ins> to challenges initiated by the **Player** against **any** **Lords**<br/><br/>
+
+    - equivalent to command `k.addDaysLeftToChallenges <amount> "player" "null"`<br/><br/><br/><br/>
+
+
+- k.addDaysLeftToChallenges &nbsp;&nbsp; \<amount> &nbsp; \<challengerLordID?>
+    - Increase / Decrease **daysLeft** by <ins>amount</ins> to challenges initiated by <ins>challengerLordID</ins> against **any** **Lords**<br/><br/>
+
+    - equivalent to command `k.addDaysLeftToChallenges <amount> <challengerLordID> "null"`<br/><br/><br/><br/>
+
+
+- k.addDaysLeftToChallenges &nbsp;&nbsp; \<amount> &nbsp; \<challengerLordID?> \<challengedLordID?>
+    - Increase / Decrease **daysLeft** by <ins>amount</ins> to challenges initiated by <ins>challengerLordID</ins> against <ins>challengedLordID</ins><br/><br/>
+
+    - **lordID?**:
+      - "player" 
+        - The player (You)
+      - "baron" 
+        - The baron (Hildebolt von Bereneute)
+      - "null" 
+        - any lord<br/><br/><br/><br/>
+
+
+- k.finalizeClaimOnAllRegion
+    - Finalize **Player** claims on all region<br/><br/>
+
+    - equivalent to command `k.finalizeClaimOnAllRegion "player"`<br/><br/><br/><br/>
+
+
+- k.finalizeClaimOnAllRegion &nbsp;&nbsp; \<lordID>
+    - Finalize <ins>lordID</ins> claims on all region<br/><br/>
+
+
+- k.finalizeClaimOnRegion
+    - Finalize **Player** claim on **current region**<br/><br/>
+
+    - equivalent to command `k.finalizeClaimOnRegion "player"`<br/><br/><br/><br/>
+
+
+- k.finalizeClaimOnRegion &nbsp;&nbsp; \<lordID>
+    - Finalize <ins>lordID</ins> claim on **current region**<br/><br/>
+
+    - **lordID**:
+      - "player"
+          - The player (You)
+      - ~~"baron"~~
+          - ~~The baron (Hildebolt von Bereneute)~~<br/><br/><br/><br/>
+
+
+- k.layRegionClaim
+    - Lay region claim for **Player** on **current region**<br/><br/>
+
+    - equivalent to command `k.layRegionClaim "player"`<br/><br/><br/><br/>
+
+
+- k.layRegionClaim &nbsp;&nbsp; \<lordID>
+    - Lay region claim for <ins>lordID</ins> on **current region**<br/><br/>
+
+    - **lordID**:
+        - "player"
+            - The player (You)
+        - "baron"
+            - The baron (Hildebolt von Bereneute)<br/><br/><br/><br/>
+
+
+- k.moveChallengesByRegionNameToCursor &nbsp;&nbsp; \<regionName>
+    - Move the **Battlefield** location of **Challenge** in regard to **Region** identified by <ins>regionName</ins> to the location under the **Player** cursor<br/><br/>
+
+    - <ins>regionName</ins> is case-sensitive
+    - Region name containing space can be wrapped with double quotes<br/><br/>
+
+    - example usage:
+      - `k.moveChallengesByRegionNameToCursor "An Der Dornlei"`<br/><br/><br/><br/>
+
+
+- k.addInfluence &nbsp;&nbsp; \<amount>
+    - Increase / Decrease **Player** Influence by <ins>amount</ins><br/><br/>
+
+
+- k.addTreasury &nbsp;&nbsp; \<amount>
+    - Increase / Decrease **Player** Treasury by <ins>amount</ins><br/><br/>
+
+
+- k.setInfluence &nbsp;&nbsp; \<amount>
+    - Set **Player** Influence to <ins>amount</ins><br/><br/>
+
+
+- k.setTreasury &nbsp;&nbsp; \<amount>
+    - Set **Player** Treasury to <ins>amount</ins><br/><br/>
