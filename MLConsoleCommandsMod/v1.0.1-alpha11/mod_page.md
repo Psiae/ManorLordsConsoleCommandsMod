@@ -147,7 +147,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.addDaysLeftToChallenges &nbsp;&nbsp; \<amount>
     - Increase / Decrease **daysLeft** by <ins>amount</ins> to challenges initiated by the **Player** against **any** **Lords**<br/><br/>
 
-    - equivalent to command `k.addDaysLeftToChallenges <amount> "player" "null"`<br/><br/><br/><br/>
+    - equivalent to command `k.addDaysLeftToChallenges <amount> player "null"`<br/><br/><br/><br/>
 
 
 - k.addDaysLeftToChallenges &nbsp;&nbsp; \<amount> &nbsp; \<challengerLordID?>
@@ -171,7 +171,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.finalizeClaimOnAllRegion
     - Finalize **Player** claims on all region<br/><br/>
 
-    - equivalent to command `k.finalizeClaimOnAllRegion "player"`<br/><br/><br/><br/>
+    - equivalent to command `k.finalizeClaimOnAllRegion player`<br/><br/><br/><br/>
 
 
 - k.finalizeClaimOnAllRegion &nbsp;&nbsp; \<lordID>
@@ -181,7 +181,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.finalizeClaimOnRegion
     - Finalize **Player** claim on **current region**<br/><br/>
 
-    - equivalent to command `k.finalizeClaimOnRegion "player"`<br/><br/><br/><br/>
+    - equivalent to command `k.finalizeClaimOnRegion player`<br/><br/><br/><br/>
 
 
 - k.finalizeClaimOnRegion &nbsp;&nbsp; \<lordID>
@@ -197,7 +197,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.layRegionClaim
     - Lay region claim for **Player** on **current region**<br/><br/>
 
-    - equivalent to command `k.layRegionClaim "player"`<br/><br/><br/><br/>
+    - equivalent to command `k.layRegionClaim player`<br/><br/><br/><br/>
 
 
 - k.layRegionClaim &nbsp;&nbsp; \<lordID>
@@ -234,3 +234,258 @@ If you have question, ask it in the community discord server: [discord server](h
 
 - k.setTreasury &nbsp;&nbsp; \<amount>
     - Set **Player** Treasury to <ins>amount</ins><br/><br/>
+
+
+- k.printRegionConsoleCommands
+    - Print Region related console commands to the console window<br/><br/>
+
+
+- k.skipLivestockOrderIntervalForRegion
+    - Skip the livestock trading interval<br/><br/>
+
+    - In Vanilla, you can only order Ox and Horse once every 30 days, this command will skip that<br/><br/><br/><br/>
+
+
+- k.spawnAnimalAtCursor &nbsp;&nbsp; \<animalID>
+    - Spawn 1 animal identified by given <ins>animalID</ins> to location under **Player** cursor<br/><br/>
+
+    - equivalent to command `k.spawnAnimalAtCursor <animalID> 1`<br/><br/><br/><br/>
+
+
+- k.spawnAnimalAtCursor &nbsp;&nbsp; \<animalID> &nbsp; \<amount>
+    - Spawn <ins>amount</ins> animal identified by given <ins>animalID</ins> to location under **Player** cursor<br/><br/>
+
+    - **animalID**
+      - "sheep"
+      - "lamb"
+      - "ox"
+      - "oxen"
+      - "horse"
+      - "mule"<br/><br/>
+
+    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
+
+- k.addResourceToSelectedBuildings &nbsp;&nbsp; \<itemID> &nbsp; \<amount>
+    - Increase / Decrease / Spawn **Item** identified by <ins>itemID</ins> by <ins>amount</ins><br/><br/>
+
+    - "selected buildings" is the building you select (building panel open), pin multiple to select multiple building<br/><br/>
+
+    - <ins>itemID</ins>
+      - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_Items.json)
+      - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+
+    - example usage:
+      - 100 Planks (17): `k.addResourceToSelectedBuildings 17 100`
+      - 50 Firewood (216): `k.addResourceToSelectedBuildings 216 50`<br/><br/><br/><br/>
+
+
+- k.placeHomelessTent
+    - Allows you to place the **Homeless People Tent**<br/><br/>
+
+    - can be used for `k.spawnNewFamily` command<br/><br/><br/><br/>
+
+
+- k.buildInstantly
+    - Put the building and instantly finish the construction<br/><br/>
+
+
+- k.addDepositAtCursor &nbsp;&nbsp; \<typeID> &nbsp; \<amount>
+    - Increase / Decrease the remaining amount in **Deposit** identified by <ins>typeID</ins> under **Player** cursor by <ins>amount</ins><br/><br/>
+
+    - **typeID**
+      - "iron"
+      - "clay"
+      - "salt"<br/><br/>
+
+    - example usage:
+      - increase salt by 500: `k.addDepositAtCursor salt 500`
+      - decrease iron by 500: `k.addDepositAtCursor iron -500`<br/><br/><br/><br/>
+
+
+- k.markNormalDepositAtCursor &nbsp;&nbsp; \<typeID>
+    - Mark Deposit identified by <ins>typeID</ins> under **Player** cursor as **Normal** Deposit<br/><br/>
+
+    - **typeID**
+      - "iron"
+      - "clay"
+      - "salt"<br/><br/><br/><br/>
+
+
+- k.markRichDepositAtCursor &nbsp;&nbsp; \<typeID>
+    - Mark Deposit identified by <ins>typeID</ins> under **Player** cursor as **Rich** Deposit<br/><br/>
+
+    - **typeID**
+      - "iron"
+      - "clay"
+      - "salt"<br/><br/><br/><br/>
+
+
+- k.spawnDepositAtCursor &nbsp;&nbsp; \<typeID> &nbsp; \<amount>
+    - Spawn Deposit identified by <ins>typeID</ins> with <ins>amount</ins> as initial amount to location under **Player** cursor<br/><br/>
+
+    - **typeID**
+      - "iron"
+      - "clay"
+      - "salt"<br/><br/>
+
+    - example usage:
+      - spawn iron deposit with 500 as initial amount: `k.spawnDepositAtCursor iron 500"`
+      - spawn clay deposit with 1000 as initial amount: `k.spawnDepositAtCursor clay 1000"`
+      - spawn salt deposit with 1500 as initial amount: `k.spawnDepositAtCursor salt 1500"`<br/><br/><br/><br/>
+
+
+- k.healDiseaseForRegionResidents
+    - Heal all possibly **sick** residents in **current region**<br/><br/>
+
+    - a resident is considered **sick** when their disease level goes over the threshold
+    - this command reset the disease level back to 0<br/><br/><br/><br/>
+
+
+- k.spawnNewFamily
+    - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
+
+    - equivalent to command: `k.spawnNewFamily 1`<br/><br/><br/><br/>
+
+
+- k.spawnNewFamily &nbsp;&nbsp; \<amount>
+    - Spawn <ins>amount</ins> new family to a **Homeless Tent** in **current region**<br/><br/>
+
+    - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
+
+    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
+- k.spawnNewFamilyToSelectedTent
+    - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
+
+    - equivalent to command: `k.spawnNewFamilyToSelectedTent 1`<br/><br/><br/><br/>
+
+
+- k.spawnNewFamilyToSelectedTent &nbsp;&nbsp; \<amount>
+    - Spawn <ins>amount</ins> new family to a **Player** selected **Homeless Tent**<br/><br/>
+
+    - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
+
+    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
+
+- k.spawnNewFamilyMember
+    - Spawn 1 new family member to families in **current region**<br/><br/>
+
+    - equivalent to command: `k.spawnNewFamilyMember 1`<br/><br/><br/><br/>
+
+
+- k.spawnNewFamilyMember &nbsp;&nbsp; \<amount>
+    - Spawn <ins>amount</ins> new family member to families in **current region**<br/><br/>
+
+    - new family member will be spawned in their home
+    - if the family is homeless, then any **Homeless Tent**
+    - if no **Homeless Tent** present, then no new family member for the family<br/><br/>
+
+    - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
+
+    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
+
+- k.emptyRegionResource &nbsp;&nbsp; \<resID>
+    - Empty all resource identified by given <ins>resID</ins> in **current region**<br/><br/>
+
+    - **resID**
+      - "berries"
+      - "fish"<br/><br/><br/><br/>
+
+
+- k.refillRegionResource &nbsp;&nbsp; \<resID>
+    - Fill all resource identified by given <ins>resID</ins> in **current region**<br/><br/>
+
+    - **resID**
+      - "berries"
+      - "fish"<br/><br/><br/><br/>
+
+
+- k.removeResourceAtCursor &nbsp;&nbsp; \<resID>
+    - Remove resource identified by given <ins>resID</ins> under **Player** cursor<br/><br/>
+
+    - **resID**
+      - "berries"
+      - ~~"tree"~~
+      - ~~"fish"~~<br/><br/><br/><br/>
+
+
+- k.removeResourceClumpAtCursor &nbsp;&nbsp; \<resID>
+    - Remove resource clump identified by given <ins>resID</ins> under **Player** cursor<br/><br/>
+
+    - **resID**
+      - "berries"
+      - ~~"tree"~~
+      - ~~"fish"~~<br/><br/><br/><br/>
+
+
+- k.removeToppledTreeAtCursor
+    - Remove toppled tree under **Player** cursor<br/><br/> 
+
+    - equivalent to command: `k.removeResourceAtCursor tree`<br/><br/>
+
+    - Cursor should be near the rotation center of the object, a fallen tree (still has branches) center is bottom part, a log center is the middle part.<br/><br/><br/><br/>
+
+- k.spawnResourceAtCursor &nbsp;&nbsp; \<resID>
+    - Spawn resource identified by given <ins>resID</ins> to location under **Player** cursor<br/><br/>
+
+    - **resID**
+      - "berries"
+      - ~~"tree"~~
+      - ~~"fish"~~<br/><br/>
+
+    - **resID="berries"**
+      - If the new bush is within 2500cm from existing clump, the bush will join that clump
+      - If the new bush is further than 2500cm from existing clump, a new clump will be made at that bush location
+      - For reference, that is the length of the **Logging Camp** building<br/><br/>
+
+    - example usages:
+      - berry bush: `k.spawnResourceAtCursor berries`<br/><br/><br/><br/>
+
+
+- k.addDevelopmentPoint &nbsp;&nbsp; <amount>
+    - Increase / Decrease **Development Point** by <ins>amount</ins> to **current region**<br/><br/>
+
+
+- k.addRegionalWealth &nbsp;&nbsp; <amount>
+    - Increase / Decrease **Regional Wealth** by <ins>amount</ins> to **current region**<br/><br/>
+
+
+- k.setDevelopmentPoint &nbsp;&nbsp; <amount>
+    - Set **Development Point** to <ins>amount</ins> to **current region**<br/><br/>
+
+
+- k.setRegionalWealth &nbsp;&nbsp; <amount>
+    - Set **Regional Wealth** to <ins>amount</ins> to **current region**<br/><br/>
+
+
+- k.spawnBanditCamp
+    - Spawn new Bandit Camp somewhere on the map<br/><br/>
+
+
+- k.spawnBanditCampAtCursor
+    - Spawn new Bandit Camp at location under **Player** cursor<br/><br/>
+
+
+- k.spawnRaider
+    - Spawn 1 raider somewhere on the map<br/><br/>
+
+    - equivalent to command: `k.spawnRaider 1`<br/><br/><br/><br/>
+
+
+- k.spawnRaider &nbsp;&nbsp; <amount>
+    - Spawn <ins>amount</ins> raider somewhere on the map<br/><br/>
+
+    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
+
+- k.spawnRaiderRallyAtCursor
+    - Spawn 1 raider that will rally at location under **Player** cursor<br/><br/>
+
+    - equivalent to command: `k.spawnRaiderRallyAtCursor 1`<br/><br/><br/><br/>
+
+
+- k.spawnRaiderRallyAtCursor  &nbsp;&nbsp; <amount>
+    - Spawn <ins>amount</ins> raider that will rally at location under **Player** cursor<br/><br/>
