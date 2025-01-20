@@ -280,6 +280,16 @@ If you have question, ask it in the community discord server: [discord server](h
       - 50 Firewood (216): `k.addResourceToSelectedBuildings 216 50`<br/><br/><br/><br/>
 
 
+- k.demolishSelectedBuildings
+    - Demolish **Player** selected building(s), and refund the construction cost<br/><br/>
+
+    - equivalent to command `k.demolishSelectedBuildings true`<br/><br/><br/><br/>
+
+
+- k.demolishSelectedBuildings &nbsp;&nbsp; \<refund>
+    - Demolish **Player** selected building(s), optionally <ins>refund</ins> the construction cost<br/><br/>
+
+
 - k.placeHomelessTent
     - Allows you to place the **Homeless People Tent**<br/><br/>
 
