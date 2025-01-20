@@ -356,7 +356,7 @@ If you have question, ask it in the community discord server: [discord server](h
     - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
 
 - k.spawnNewFamilyToSelectedTent
-    - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
+    - Spawn 1 new family to a **Player** selected **Homeless Tent**<br/><br/>
 
     - equivalent to command: `k.spawnNewFamilyToSelectedTent 1`<br/><br/><br/><br/>
 
