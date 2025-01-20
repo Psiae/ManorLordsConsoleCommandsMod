@@ -355,24 +355,37 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnNewFamily
     - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
 
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
+
     - equivalent to command: `k.spawnNewFamily 1`<br/><br/><br/><br/>
 
 
 - k.spawnNewFamily &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family to a **Homeless Tent** in **current region**<br/><br/>
 
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
+
     - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
 
-    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+  - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
 
 - k.spawnNewFamilyToSelectedTent
-    - Spawn 1 new family to a **Player** selected **Homeless Tent**<br/><br/>
+    - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
+
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
 
     - equivalent to command: `k.spawnNewFamilyToSelectedTent 1`<br/><br/><br/><br/>
 
 
 - k.spawnNewFamilyToSelectedTent &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family to a **Player** selected **Homeless Tent**<br/><br/>
+
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
 
     - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
 
