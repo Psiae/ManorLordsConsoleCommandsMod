@@ -340,9 +340,9 @@ If you have question, ask it in the community discord server: [discord server](h
       - "salt"<br/><br/>
 
     - example usage:
-      - spawn iron deposit with 500 as initial amount: `k.spawnDepositAtCursor iron 500"`
-      - spawn clay deposit with 1000 as initial amount: `k.spawnDepositAtCursor clay 1000"`
-      - spawn salt deposit with 1500 as initial amount: `k.spawnDepositAtCursor salt 1500"`<br/><br/><br/><br/>
+      - spawn iron deposit with 500 as initial amount: `k.spawnDepositAtCursor iron 500`
+      - spawn clay deposit with 1000 as initial amount: `k.spawnDepositAtCursor clay 1000`
+      - spawn salt deposit with 1500 as initial amount: `k.spawnDepositAtCursor salt 1500`<br/><br/><br/><br/>
 
 
 - k.healDiseaseForRegionResidents
