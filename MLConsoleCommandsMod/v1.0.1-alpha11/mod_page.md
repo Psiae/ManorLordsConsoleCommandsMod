@@ -276,8 +276,14 @@ If you have question, ask it in the community discord server: [discord server](h
       - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
-      - 100 Planks (17): `k.addResourceToSelectedBuildings 17 100`
-      - 50 Firewood (216): `k.addResourceToSelectedBuildings 216 50`<br/><br/><br/><br/>
+      
+      - 100 Planks (17)
+        - ![Screenshot_136](https://github.com/user-attachments/assets/a9c326fc-3f28-47d0-b750-57db26c08739)
+        - `k.addResourceToSelectedBuildings 17 100`<br/><br/>
+      - 50 Firewood (216)
+        - ![Screenshot_138](https://github.com/user-attachments/assets/702f2f78-5999-402d-b09a-555c9879714f)
+        - `k.addResourceToSelectedBuildings 216 50`<br/><br/><br/><br/>
+
 
 
 - k.demolishSelectedBuildings
