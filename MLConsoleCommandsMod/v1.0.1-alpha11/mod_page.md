@@ -276,8 +276,24 @@ If you have question, ask it in the community discord server: [discord server](h
       - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
-      - 100 Planks (17): `k.addResourceToSelectedBuildings 17 100`
-      - 50 Firewood (216): `k.addResourceToSelectedBuildings 216 50`<br/><br/><br/><br/>
+      
+      - 100 Planks (17)
+        - ![Screenshot_136](https://github.com/user-attachments/assets/a9c326fc-3f28-47d0-b750-57db26c08739)
+        - `k.addResourceToSelectedBuildings 17 100`<br/><br/>
+      - 50 Firewood (216)
+        - ![Screenshot_138](https://github.com/user-attachments/assets/702f2f78-5999-402d-b09a-555c9879714f)
+        - `k.addResourceToSelectedBuildings 216 50`<br/><br/><br/><br/>
+
+
+
+- k.demolishSelectedBuildings
+    - Demolish **Player** selected building(s), and refund the construction cost<br/><br/>
+
+    - equivalent to command `k.demolishSelectedBuildings true`<br/><br/><br/><br/>
+
+
+- k.demolishSelectedBuildings &nbsp;&nbsp; \<refund>
+    - Demolish **Player** selected building(s), optionally <ins>refund</ins> the construction cost<br/><br/>
 
 
 - k.placeHomelessTent
@@ -330,9 +346,9 @@ If you have question, ask it in the community discord server: [discord server](h
       - "salt"<br/><br/>
 
     - example usage:
-      - spawn iron deposit with 500 as initial amount: `k.spawnDepositAtCursor iron 500"`
-      - spawn clay deposit with 1000 as initial amount: `k.spawnDepositAtCursor clay 1000"`
-      - spawn salt deposit with 1500 as initial amount: `k.spawnDepositAtCursor salt 1500"`<br/><br/><br/><br/>
+      - spawn iron deposit with 500 as initial amount: `k.spawnDepositAtCursor iron 500`
+      - spawn clay deposit with 1000 as initial amount: `k.spawnDepositAtCursor clay 1000`
+      - spawn salt deposit with 1500 as initial amount: `k.spawnDepositAtCursor salt 1500`<br/><br/><br/><br/>
 
 
 - k.healDiseaseForRegionResidents
@@ -345,24 +361,37 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnNewFamily
     - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
 
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
+
     - equivalent to command: `k.spawnNewFamily 1`<br/><br/><br/><br/>
 
 
 - k.spawnNewFamily &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family to a **Homeless Tent** in **current region**<br/><br/>
 
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
+
     - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
 
-    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+  - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+
 
 - k.spawnNewFamilyToSelectedTent
     - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
+
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
 
     - equivalent to command: `k.spawnNewFamilyToSelectedTent 1`<br/><br/><br/><br/>
 
 
 - k.spawnNewFamilyToSelectedTent &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family to a **Player** selected **Homeless Tent**<br/><br/>
+
+    - **important**: make sure the space around the tent is not overcrowded
+      - otherwise the command will fail and must terminate<br/><br/>
 
     - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
 
