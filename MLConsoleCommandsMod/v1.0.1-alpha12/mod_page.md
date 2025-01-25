@@ -367,8 +367,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnNewFamily
     - Spawn 1 new family to a **Homeless Tent** in **current region**<br/><br/>
 
-    - **important**: make sure the space around the tent is not overcrowded
-      - otherwise the command will fail and must terminate<br/><br/>
+    - **warning**: command will fail with a warning if the spawn location is obstructed<br/><br/>
 
     - equivalent to command: `k.spawnNewFamily 1`<br/><br/><br/><br/>
 
@@ -376,8 +375,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnNewFamily &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family to a **Homeless Tent** in **current region**<br/><br/>
 
-    - **important**: make sure the space around the tent is not overcrowded
-      - otherwise the command will fail and must terminate<br/><br/>
+    - **warning**: command will fail with a warning if the spawn location is obstructed<br/><br/>
 
     - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
 
@@ -396,8 +394,7 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnNewFamilyToSelectedTent &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family to a **Player** selected **Homeless Tent**<br/><br/>
 
-    - **important**: make sure the space around the tent is not overcrowded
-      - otherwise the command will fail and must terminate<br/><br/>
+    - **warning**: command will fail with a warning if the spawn location is obstructed<br/><br/>
 
     - see `k.placeHomelessTent` to place Homeless Tent<br/><br/>
 
@@ -407,11 +404,15 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnNewFamilyMember
     - Spawn 1 new family member to families in **current region**<br/><br/>
 
+    - **warning**: command will fail with a warning if the spawn location is obstructed<br/><br/>
+
     - equivalent to command: `k.spawnNewFamilyMember 1`<br/><br/><br/><br/>
 
 
 - k.spawnNewFamilyMember &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> new family member to families in **current region**<br/><br/>
+
+    - **warning**: command will fail with a warning if the spawn location is obstructed<br/><br/>
 
     - new family member will be spawned in their home
     - if the family is homeless, then any **Homeless Tent**
