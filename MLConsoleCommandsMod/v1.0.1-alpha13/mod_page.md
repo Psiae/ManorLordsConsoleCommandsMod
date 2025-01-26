@@ -322,6 +322,14 @@ If you have question, ask it in the community discord server: [discord server](h
     - Skip the **Mourning Period** on any buildings in **current region**<br/><br/>
 
 
+- k.spawnConstructionResourcesToSelectedBuildings
+    - Spawn remaining construction resources to **Player** **selected buildings** 
+
+
+- k.spawnConstructionResourcesToRegionBuildings
+    - Spawn remaining construction resources to **current region** 
+
+
 - k.buildInstantly
     - Put the building and instantly finish the construction<br/><br/>
 
@@ -456,27 +464,21 @@ If you have question, ask it in the community discord server: [discord server](h
       - "berries"
       - "stone"<br/><br/><br/><br/>
 
+
+- markNormalResourceClumpAtCursor &nbsp;&nbsp; \<resID>
+    - Mark **Resource Clump** identified by given <ins>resID</ins> at location under **Player Cursor** as **Normal** type resource<br/><br/>
+
+    - **resID**
+        - "berries"
+        - "stone"<br/><br/><br/><br/>
+
+
 - k.refillRegionResource &nbsp;&nbsp; \<resID>
     - Fill all resource identified by given <ins>resID</ins> in **current region**<br/><br/>
 
     - **resID**
         - "berries"
         - "fish"<br/><br/><br/><br/>
-
-
-- markRichResourceClumpAtCursor &nbsp;&nbsp; \<resID>
-    - Mark **Resource Clump** identified by given <ins>resID</ins> at location under **Player Cursor** as **Rich** type resource<br/><br/>
-
-    - **resID**
-        - "berries"
-        - "stone"<br/><br/><br/><br/>
-
-- markRichResourceClumpAtCursor &nbsp;&nbsp; \<resID>
-    - Mark **Resource Clump** identified by given <ins>resID</ins> at location under **Player Cursor** as **Normal** type resource<br/><br/>
-
-    - **resID**
-        - "berries"
-        - "stone"<br/><br/><br/><br/>
 
 
 - k.removeResourceAtCursor &nbsp;&nbsp; \<resID>
