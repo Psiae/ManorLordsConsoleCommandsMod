@@ -457,7 +457,7 @@ If you have question, ask it in the community discord server: [discord server](h
         - "fish"<br/><br/><br/><br/>
 
 
-- markRichResourceClumpAtCursor &nbsp;&nbsp; \<resID>
+- k.markRichResourceClumpAtCursor &nbsp;&nbsp; \<resID>
    - Mark **Resource Clump** identified by given <ins>resID</ins> at location under **Player Cursor** as **Rich** type resource<br/><br/>
 
   - **resID**
@@ -465,7 +465,7 @@ If you have question, ask it in the community discord server: [discord server](h
       - "stone"<br/><br/><br/><br/>
 
 
-- markNormalResourceClumpAtCursor &nbsp;&nbsp; \<resID>
+- k.markNormalResourceClumpAtCursor &nbsp;&nbsp; \<resID>
     - Mark **Resource Clump** identified by given <ins>resID</ins> at location under **Player Cursor** as **Normal** type resource<br/><br/>
 
     - **resID**
