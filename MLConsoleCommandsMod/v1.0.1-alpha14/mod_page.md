@@ -386,8 +386,8 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.placeFishingPond
     - Allows you to place the **Fishing Pond**<br/><br/>
 
-    - To spawn the **Shoal Of Fish**, see `spawnShoalOfFishToFishingPondAtCursor` 
-    - To remove, see `removeFishingPondAtCursor`<br/><br/><br/><br/>
+    - To spawn the **Shoal Of Fish**, see `k.spawnShoalOfFishToFishingPondAtCursor` 
+    - To remove, see `k.removeFishingPondAtCursor`<br/><br/><br/><br/>
 
 
 - k.healDiseaseForRegionResidents
@@ -551,6 +551,10 @@ If you have question, ask it in the community discord server: [discord server](h
     - example usages:
         - berry bush: `k.spawnResourceAtCursor berries`
         - stone chunk: `k.spawnResourceAtCursor stone`<br/><br/><br/><br/>
+
+
+- k.spawnShoalOfFishToFishingPondAtCursor
+    - Spawn **Shoal Of Fish** to **Fishing Pond** at location under **Player Cursor**<br/><br/>
 
 
 - k.addDevelopmentPoint &nbsp;&nbsp; \<amount>
