@@ -9,6 +9,8 @@ Consider supporting to keep the mods updated.
 <br/><br/>
 If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)<br/><br/>
 
+[![Showcase](https://img.youtube.com/vi/zrVS79H7DVc/0.jpg)](https://www.youtube.com/watch?v=zrVS79H7DVc)
+
 #### How To Install:
 1. Go To [https://www.nexusmods.com/manorlords/mods/229](https://www.nexusmods.com/manorlords/mods/229).
 2. If you doesn't have **RE-UE4SS Mod Loader** installed, follow the **How To Install** section in that page.
