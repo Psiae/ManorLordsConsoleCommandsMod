@@ -335,6 +335,8 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.buildInstantly
     - Put the building and instantly finish the construction<br/><br/>
 
+    - enter the command instead of click when you want to place the building
+
 
 - k.manorPlanner_placeBuilding
     - Place the currently selected building in the **Manor Planner**, ignoring building limit<br/><br/>
