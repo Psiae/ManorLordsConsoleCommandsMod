@@ -228,6 +228,20 @@ If you have question, ask it in the community discord server: [discord server](h
         - `k.moveChallengesByRegionNameToCursor "An Der Dornlei"`<br/><br/><br/><br/>
 
 
+- k.withdrawClaimsAndChallenges &nbsp;&nbsp; \<fromLordID?> &nbsp; \<towardsLordID?>
+    - Withdraw any claims and challenges initiated by <ins>fromLordID?</ins> towards <ins>towardsLordID?</ins><br/><br/>
+
+    - **LordID**:
+        - "player"
+            - The player (you)
+        - "baron"
+            - The baron (Hildebolt von Bereneute)<br/><br/>
+
+    - example usage:
+        - withdraw any baron claims in regards to player (you) region
+          - `k.withdrawClaimsAndChallenges baron player`<br/><br/><br/><br/>
+
+
 - k.addInfluence &nbsp;&nbsp; \<amount>
     - Increase / Decrease **Player** Influence by <ins>amount</ins><br/><br/>
 
