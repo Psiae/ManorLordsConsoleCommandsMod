@@ -668,7 +668,7 @@ If you have question, ask it in the community discord server: [discord server](h
     - Remove a **Wild Animals** at location under **Player** cursor<br/><br/>
 
 
-- k.spawnDeerForWildAnimalsAtCursor  &nbsp;&nbsp; \<amount>
+- k.spawnDeerToWildAnimalsAtCursor  &nbsp;&nbsp; \<amount>
     - Spawn <ins>amount</ins> Deers to **Wild Animals** at location under **Player** cursor<br/><br/>
 
 
