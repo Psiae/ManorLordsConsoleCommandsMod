@@ -729,6 +729,8 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.skipDay &nbsp;&nbsp; \<amount>
     - Skip <ins>amount</ins> day(s)<br/><br/>
 
+    - forward the date / calendar, is NOT a fast-forward, useful for quickly testing stuff that happen every certain day.<br/><br/><br/><br/>
+
 
 - k.printGameSetup
     - Print the **GameSetup** to the console window<br/><br/>
