@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "Struct_Translation",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "BA719303-4A2CA4A1-F552818B-E4C164F0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "english_2_067882A64F9EB32AAD3BA7BCE1822B7F",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "german_6_018F97D74B6EEFC35EFE0FBB26644CD8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "english_2_067882A64F9EB32AAD3BA7BCE1822B7F": "",
+      "polish_4_FAC0A9B840141714A0A994BFF2FFBC7F": "",
+      "german_6_018F97D74B6EEFC35EFE0FBB26644CD8": ""
+    }
+  }
+]

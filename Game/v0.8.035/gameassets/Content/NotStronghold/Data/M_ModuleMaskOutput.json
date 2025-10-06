@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_ModuleMaskOutput",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bCanMaskedBeAssumedOpaque": true,
+      "PixelDepthOffsetMode": "EPixelDepthOffsetMode::PDOM_Legacy",
+      "StateId": "7256F452-A1D6F7DC-48182182-9CFFDC46",
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "RuntimeEntries": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[1]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[2]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[3]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[4]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[5]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[6]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[7]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[8]": {
+        "ParameterInfoSet": []
+      },
+      "ScalarPrimitiveDataIndexValues": [],
+      "VectorPrimitiveDataIndexValues": [],
+      "ScalarValues": [],
+      "StaticSwitchValues": [],
+      "DynamicSwitchValues": [],
+      "VectorValues": [],
+      "DoubleVectorValues": [],
+      "TextureValues": [],
+      "TextureCollectionValues": [],
+      "FontValues": [],
+      "FontPageValues": [],
+      "RuntimeVirtualTextureValues": [],
+      "SparseVolumeTextureValues": [],
+      "ReferencedTextures": [],
+      "ReferencedTextureCollections": [],
+      "FunctionInfos": [
+        {
+          "StateId": "CE8ACF6F-43E75FC5-98C8C79A-04CC3901",
+          "Function": {
+            "ObjectName": "MaterialFunction'SphereGradient-2D'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/SphereGradient-2D.0"
+          }
+        }
+      ],
+      "FunctionInfosStateCRC": 1737909073,
+      "ParameterCollectionInfos": [],
+      "GrassTypes": [],
+      "MaterialLayers": {
+        "Layers": [],
+        "Blends": [],
+        "tree": {
+          "Nodes": [],
+          "Payloads": [],
+          "Root": -1
+        }
+      },
+      "DynamicParameterNames": [],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "bHasMaterialLayers": false,
+      "bHasRuntimeVirtualTextureOutput": true,
+      "bHasFirstPersonOutput": false,
+      "bHasSceneColor": false,
+      "bHasPerInstanceCustomData": false,
+      "bHasPerInstanceRandom": false,
+      "bHasVertexInterpolator": false,
+      "bHasCustomizedUVs": false,
+      "bHasMeshPaintTexture": false,
+      "PropertyConnectedMask": 0
+    }
+  }
+]

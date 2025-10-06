@@ -1,0 +1,1147 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "techList",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Tech'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "locked": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "small_village": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "sheepbreeding": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "charcoal_burning": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "advanced_skinning": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "fertilization": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "forest_management": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "bakeries": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "beekeeping": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "heavy_plow": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "orchardry": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "advanced_beekeeping": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "basic_armormaking": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "advanced_armormaking": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "master_armormaking": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "irrigation": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "rye_cultivation": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "better_deals": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "foreign_suppliers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "pelt_extraction": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "trade_logistics": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "deep_mining": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "advanced_pondkeeping": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "trapping": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "medium_village": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "large_village": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "small_town": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "medium_town": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "large_town": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "orchardry_2": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "apfelkuchle": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "communal_lands": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "self_sufficient": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "village_green": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "family_millers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "pretzels": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "meat_pies": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "loyal_hounds": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "advanced_butchery": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "woodland_people": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "fairytales": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "woodland_wayshrines": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "forest_folklore": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "falconers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "master_herbalists": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "custodians_of_the_forest": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "learned_of_the_land": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "mead_brewing": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "fish_smokers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "fishing_homes": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "industrious": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "experienced_woodsmen": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "efficient_miners": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "industrial_festival": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "masterful_masons": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "firewood_foragers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "advanced_foresters": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "determined_quarriers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "famous_merchants": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "mercantile_dynasties": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "regular_traders": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "charismatic_negotiators": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "maritime_merchants": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "protective": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "welcoming": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "market_day": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devout_people": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devotion_to_john": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devotion_to_cecilia": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devotion_to_augustine": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devotion_to_paul": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devotion_to_maria": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "devotion_to_peter": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "masterful_church_architects": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "dedicated_pilgrims": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "franciscan_order": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "teutonic_order": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "dominican_order": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "benedictine_order": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "communion": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "expert_winemakers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "lords_of_libation": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "drunken_donators": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "hospitable_people": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "alewives": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "backyard_brewers": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      },
+      "local_brew": {
+        "PerkName": "",
+        "TechIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TechImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "requiredSettlementLevel": 0,
+        "Effects": []
+      }
+    }
+  }
+]

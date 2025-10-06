@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation_Growth",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LocalizedText'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "pop_growth": {
+        "en_US": "Monthly Migration",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "EGrowthModifier::NoBurgagePlotAvailability": {
+        "en_US": "No Burgage Plots available",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "EGrowthModifier::Approval": {
+        "en_US": "Approval",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "EGrowthModifier::Base": {
+        "en_US": "Fresh Settlement",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      }
+    }
+  }
+]

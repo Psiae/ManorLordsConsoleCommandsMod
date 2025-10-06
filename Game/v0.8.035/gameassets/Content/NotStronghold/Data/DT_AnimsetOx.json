@@ -1,0 +1,198 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetOx",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Ox_Idle",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Normal",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "putdown": {
+        "ID": 9,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Ox_Work",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "pickup": {
+        "ID": 17,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Ox_Work",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk_pulling": {
+        "ID": 18,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Pulling",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Pulling",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "die": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Die",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "gather": {
+        "ID": 149,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Ox_Work",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "pickup_box": {
+        "ID": 150,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Ox_Work",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "beingPet": {
+        "ID": 151,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Ox_BeingPet",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk_pulling_left_45": {
+        "ID": 196,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Pulling_45_Left",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk_pulling_right_45": {
+        "ID": 197,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Pulling_45_Right",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk_left_45": {
+        "ID": 198,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Normal_45_Left",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk_right_45": {
+        "ID": 199,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Walk_Normal_45_Right",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      }
+    }
+  }
+]

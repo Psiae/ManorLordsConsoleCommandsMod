@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetSheep",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Sheep_IdleGraze",
+            "spd": 0.9,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "ANIM_Sheep_IdleLookAround",
+            "spd": 0.8,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Sheep_Walk",
+            "spd": 2.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "run_0": {
+        "ID": 18,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Sheep_Run",
+            "spd": 0.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Sheep_Run",
+            "spd": 0.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "death": {
+        "ID": 19,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Sheep_Death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "death_0": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Sheep_Death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      }
+    }
+  }
+]

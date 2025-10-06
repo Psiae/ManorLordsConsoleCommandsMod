@@ -1,0 +1,1060 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildingSocketMeshData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'BuildingSocketMeshData'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "20": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_A.SMD_SG_Cottage_LV1_A",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "22": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/WoodcuttersCabin_SMD.WoodcuttersCabin_SMD",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "26": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TradingPost_Ubeam.SMD_SG_TradingPost_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "27": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Cottage_LV2_A_Ubeam.SMD_Cottage_LV2_A_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "33": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_MarketStall_Food.SMD_MarketStall_Food",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "35": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_FIreplace.SMD_FIreplace",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "43": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_windmillBase.SMD_windmillBase",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "44": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_Well_SMD.SG_Well_SMD",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "95": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Gatehouse_Lv1.SMD_SG_Gatehouse_Lv1",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "96": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Forager.SMD_SG_Forager",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "144": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Palace_LV1_UBeam.SMD_SG_Palace_LV1_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": true
+      },
+      "167": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_MainTower_Lv1_New.SMD_SG_Manor_MainTower_Lv1_New",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": true
+      },
+      "200": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Cottage_LV2_B_Ubeam.SMD_Cottage_LV2_B_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "245": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Granary_LV2_UBeam.SMD_SG_Granary_LV2_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "246": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_B.SMD_SG_Cottage_LV1_B",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "248": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_C.SMD_SG_Cottage_LV1_C",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "296": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Church_lv1_Ubeam.SMD_Church_lv1_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "249": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/smd_marketStall_firewood.smd_marketStall_firewood",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "250": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_MarketStall_Cloth.SMD_MarketStall_Cloth",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "308": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_HitchingPost.SMD_HitchingPost",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "400": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_OxShed.SMD_OxShed",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "401": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_FenceVertical_SMD.SG_FenceVertical_SMD",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "402": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_FarmCore.SMD_SG_FarmCore",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "405": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_FancyFenceSegment_SMD.SG_FancyFenceSegment_SMD",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "409": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_HunterTent.SMD_HunterTent",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "412": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_GranarySmol.SMD_GranarySmol",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "414": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Weaver_Workshop_Ubeam.SMD_SG_Weaver_Workshop_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "417": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Malthouse_Core.SMD_SG_Malthouse_Core",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "424": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV2_C_UBeam.SMD_SG_Cottage_LV2_C_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "426": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_PithouseA.SMD_SG_PithouseA",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "431": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Shed_Small_Planked_UBeam.SMD_SG_Shed_Small_Planked_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "433": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Weaver_Core_Ubeam.SMD_SG_Weaver_Core_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "434": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Tanner_LV1_Ubeam.SMD_SG_Tanner_LV1_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "436": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_CrudePlatformMine.SMD_CrudePlatformMine",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "443": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_FenceCheap.SMD_FenceCheap",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "444": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_StairsWooden_100.SMD_StairsWooden_100",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "445": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Church_lv1_BACKONLY.SMD_SG_Church_lv1_BACKONLY",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "447": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Church_lv2_core.SMD_Church_lv2_core",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "448": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Sawpit.SMD_SG_Sawpit",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "449": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Storehouse_Lv2_Ubeam.SMD_SG_Storehouse_Lv2_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "450": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TownhouseA.SMD_SG_TownhouseA",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "461": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TownhouseE.SMD_SG_TownhouseE",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "463": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_TownhouseH.SMD_SG_TownhouseH",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "470": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_PalisadeNarrow.SMD_PalisadeNarrow",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "471": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_WallPlatform.SMD_WallPlatform",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "475": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Sawpit_alt_ground.SMD_Sawpit_alt_ground",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "476": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_StoneWallPiece.SMD_StoneWallPiece",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "477": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_StoneWallPiece.SMD_StoneWallPiece",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "478": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SimplePond.SMD_SimplePond",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "482": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_House_LV2_Bpart_A.SMD_House_LV2_Bpart_A",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "483": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_House_LV2_Bpart_B.SMD_House_LV2_Bpart_B",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "484": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_House_LV2_Bpart_C.SMD_House_LV2_Bpart_C",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "485": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_BPart_A_UBeam.SMD_SG_Cottage_LV1_BPart_A_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "486": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_BPart_B_UBeam.SMD_SG_Cottage_LV1_BPart_B_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "487": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Cottage_LV1_BPart_C_UBeam.SMD_SG_Cottage_LV1_BPart_C_UBeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "489": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Tavern_LV2_BigShed.SMD_SG_Tavern_LV2_BigShed",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "490": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Tavern_LV2_Main.SMD_SG_Tavern_LV2_Main",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "491": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_WoodenBridgeWide.SMD_WoodenBridgeWide",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "429": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Tavern_main_Ubeam.SMD_SG_Tavern_main_Ubeam",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "492": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_VentilTower.SMD_SG_VentilTower",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": true
+      },
+      "493": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_MineEntry_Sand.SMD_SG_MineEntry_Sand",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "494": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_MineWindlass_Sand.SMD_SG_MineWindlass_Sand",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "495": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_TableTavern.SMD_TableTavern",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "496": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_ShedOpenSmall.SMD_ShedOpenSmall",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "497": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_Palace_LV2.SMD_SG_Manor_Palace_LV2",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": true
+      },
+      "498": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_MainTower_Lv2.SMD_SG_Manor_MainTower_Lv2",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": true
+      },
+      "499": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_CompatibleHandrail_stair_short.SMD_CompatibleHandrail_stair_short",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "500": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_GateHouse_LV2_Floor0.SMD_SG_Manor_GateHouse_LV2_Floor0",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_GateHouse_LV2_Floor1.SMD_SG_Manor_GateHouse_LV2_Floor1",
+          "SubPathString": ""
+        },
+        "floorRestriction": 1,
+        "allFloorObstacle": false
+      },
+      "501": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_Tower_LV2_Floor0.SMD_SG_Manor_Tower_LV2_Floor0",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_Tower_LV2_Floor1.SMD_SG_Manor_Tower_LV2_Floor1",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "502": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Manor_Tower_Corner_LV2.SMD_SG_Manor_Tower_Corner_LV2",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "503": {
+        "socketMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_WallPlatform_WalkwayPlank.SM_MERGED_WallPlatform_WalkwayPlank",
+          "SubPathString": ""
+        },
+        "floorRestriction": 1,
+        "allFloorObstacle": false
+      },
+      "504": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_WallRailing.SMD_WallRailing",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "505": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_LimeKiln.SMD_SG_LimeKiln",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "506": {
+        "socketMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "507": {
+        "socketMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "508": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SG_StickFenceSegment_SMD.SG_StickFenceSegment_SMD",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "509": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Bowyer.SMD_SG_Bowyer",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "510": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Blacksmith_Workshop.SMD_SG_Blacksmith_Workshop",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "511": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Blacksmith_Core.SMD_SG_Blacksmith_Core",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "162": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_Tailor.SMD_SG_Tailor",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "285": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_CobblerShed.SMD_SG_CobblerShed",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "512": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_ButcherShed.SMD_SG_ButcherShed",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "513": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_JoinerShed.SMD_SG_JoinerShed",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "514": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_SG_LimeKiln.SMD_SG_LimeKiln",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "515": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_cart.SMD_cart",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "516": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Manor_Lv1_Palace_Staircase_Part1.SMD_Manor_Lv1_Palace_Staircase_Part1",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      },
+      "517": {
+        "socketMesh": {
+          "AssetPathName": "/Game/ManorLords/Buildings/SocketMeshData/SMD_Manor_Lv1_Palace_Staircase_Part2.SMD_Manor_Lv1_Palace_Staircase_Part2",
+          "SubPathString": ""
+        },
+        "socketMesh_floor1": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "floorRestriction": 0,
+        "allFloorObstacle": false
+      }
+    }
+  }
+]

@@ -1,0 +1,1494 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Upgrades",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Upgrade'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "0": {
+        "Name": "Nothing",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'gear-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/gear-hammer.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "2": {
+        "Name": "peasant house",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 1,
+        "minimumProsperity": 4,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 8,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "4": {
+        "Name": "townhouse",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 3,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 12,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 269,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 2,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 60,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "6": {
+        "Name": "stone_church",
+        "descr": "loyalty buff",
+        "Icon": {
+          "ObjectName": "Texture2D'church'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/church.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 12,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 283,
+            "amt": 20,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 329,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 269,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 77,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "7": {
+        "Name": "storehouse lv2",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'wooden-crate'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wooden-crate.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 16,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 99,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "8": {
+        "Name": "granary_lv2",
+        "descr": "more storage",
+        "Icon": {
+          "ObjectName": "Texture2D'basket'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/basket.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 12,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 5,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 68,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "9": {
+        "Name": "manor_lv3",
+        "descr": "stuff",
+        "Icon": null,
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 25,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 25,
+            "amt": 50,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "10": {
+        "Name": "trade_wagon",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Wagon_T'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Wagon_T.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 254,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "11": {
+        "Name": "Ploughing_station",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Advanced_Farming_T'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Advanced_Farming_T.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [
+          "heavy_plow"
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "12": {
+        "Name": "BPart",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'3dpeasant4'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/3dpeasant4.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "13": {
+        "Name": "order_oxen",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'oxIcon'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/oxIcon.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": false,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "14": {
+        "Name": "upg to small stable",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'card_livestock_trader'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Cards/Old/card_livestock_trader.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 97,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "15": {
+        "Name": "herbs_garden",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Tex_herbs_04'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_herbs_04.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "16": {
+        "Name": "Rebuild",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'3d-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/3d-hammer.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": false,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "17": {
+        "Name": "fence_up",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'pastureFence'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/pastureFence.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 5,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [
+          "fertilization"
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "18": {
+        "Name": "deep_mine",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Advanced_Mining'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Advanced_Mining.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 50,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [
+          "deep_mining"
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 52,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "19": {
+        "Name": "order_horse",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Horse_Riding_1_R'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Horse_Riding_1_R.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 30,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": false,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "20": {
+        "Name": "upg_to_work_camp",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "21": {
+        "Name": "order_mule",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Animal_Husbandry_R_mule'",
+          "ObjectPath": "ManorLords/Content/TechnologyAndSkillIcons/Animal_Husbandry_R_mule.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": false,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "22": {
+        "Name": "stone_well",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 114,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "23": {
+        "Name": "tavern_lv2",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'houseUpgrade'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/houseUpgrade.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 16,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 15,
+            "amt": 10,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 116,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "24": {
+        "Name": "smallHolding",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'barrel'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/barrel.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "25": {
+        "Name": "smoking_shed",
+        "descr": "smoking shed",
+        "Icon": {
+          "ObjectName": "Texture2D'fishing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/fishing.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "26": {
+        "Name": "orderHuntingHound",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'wolf-howl'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/wolf-howl.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 25,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "27": {
+        "Name": "order_pig",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'pigIcon_semiGen'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/pigIcon_semiGen.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": [
+          "EAffinityType::Pannage"
+        ]
+      },
+      "28": {
+        "Name": "order_goat",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'goaty'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/goaty.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "29": {
+        "Name": "PlantBeetroots",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Beetroots'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Beetroots.0"
+        },
+        "bIsCostScalable": true,
+        "cost": [],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "30": {
+        "Name": "PlantCarrots",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'carrot'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/carrot.0"
+        },
+        "bIsCostScalable": true,
+        "cost": [],
+        "regionalWealth": 14,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "31": {
+        "Name": "PlantCabbages",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Cabbage'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Cabbage.0"
+        },
+        "bIsCostScalable": true,
+        "cost": [],
+        "regionalWealth": 18,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "32": {
+        "Name": "PlantQuinces",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Quince_Gen'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Quince_Gen.0"
+        },
+        "bIsCostScalable": true,
+        "cost": [],
+        "regionalWealth": 12,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "33": {
+        "Name": "PlantApples",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'apples'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/apples.0"
+        },
+        "bIsCostScalable": true,
+        "cost": [],
+        "regionalWealth": 24,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "34": {
+        "Name": "PlantPears",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'Pairs_Gen'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Pairs_Gen.0"
+        },
+        "bIsCostScalable": true,
+        "cost": [],
+        "regionalWealth": 36,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "ext": {
+        "Name": "------ EXTENSIONS ---------",
+        "descr": "",
+        "Icon": null,
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "100": {
+        "Name": "extension0",
+        "descr": "clutter",
+        "Icon": null,
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "101": {
+        "Name": "extension1",
+        "descr": "chicken coop",
+        "Icon": {
+          "ObjectName": "Texture2D'chicken'",
+          "ObjectPath": "ManorLords/Content/UWG/Assets/ui_textures/chicken.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "102": {
+        "Name": "extension2",
+        "descr": "animal pen",
+        "Icon": {
+          "ObjectName": "Texture2D'animalPengen'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/animalPengen.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "103": {
+        "Name": "extension3",
+        "descr": "smithy",
+        "Icon": {
+          "ObjectName": "Texture2D'sword-smithing'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/sword-smithing.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [
+          {
+            "Types": [
+              6
+            ],
+            "Frequency": 90
+          }
+        ],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::Botch",
+        "Affinities": []
+      },
+      "104": {
+        "Name": "extension4",
+        "descr": "bakery",
+        "Icon": {
+          "ObjectName": "Texture2D'6881'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/6881.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [
+          "bakeries"
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "105": {
+        "Name": "extension5",
+        "descr": "brewery",
+        "Icon": {
+          "ObjectName": "Texture2D'7264'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/7264.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "106": {
+        "Name": "extension6",
+        "descr": "tailor",
+        "Icon": {
+          "ObjectName": "Texture2D'ni_t_08'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/ni_t_08.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "107": {
+        "Name": "extension7",
+        "descr": "cobbler",
+        "Icon": {
+          "ObjectName": "Texture2D'cobbler'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/cobbler.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "108": {
+        "Name": "extension8",
+        "descr": "vegetable_garden",
+        "Icon": {
+          "ObjectName": "Texture2D'Vegetables'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Vegetables.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": [
+          "EAffinityType::Pollination"
+        ]
+      },
+      "109": {
+        "Name": "extension9",
+        "descr": "joiner",
+        "Icon": {
+          "ObjectName": "Texture2D'item_woodenParts'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/item_woodenParts.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "110": {
+        "Name": "extension10",
+        "descr": "armorer",
+        "Icon": {
+          "ObjectName": "Texture2D'Banded_01_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Banded_01_R.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 8,
+            "belongsTo": null,
+            "belongsToUnit": null
+          },
+          {
+            "Type": 6,
+            "amt": 1,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 20,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [
+          "basic_armormaking"
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [
+          {
+            "Types": [
+              6
+            ],
+            "Frequency": 90
+          }
+        ],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::Botch",
+        "Affinities": []
+      },
+      "111": {
+        "Name": "extension11",
+        "descr": "bowyer",
+        "Icon": {
+          "ObjectName": "Texture2D'Bows_04_R'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Bows_04_R.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "112": {
+        "Name": "extension12",
+        "descr": "orchard",
+        "Icon": {
+          "ObjectName": "Texture2D'Fruits'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Fruits.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 2,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [
+          "orchardry"
+        ],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 1,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": [
+          "EAffinityType::Pollination"
+        ]
+      },
+      "113": {
+        "Name": "extension13",
+        "descr": "butcher",
+        "Icon": {
+          "ObjectName": "Texture2D'butcher'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/butcher.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 6,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 10,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 2,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": []
+      },
+      "114": {
+        "Name": "extension14",
+        "descr": "apiary",
+        "Icon": {
+          "ObjectName": "Texture2D'Tex_reagent_03_honey1'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Colored/Tex_reagent_03_honey1.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [
+          {
+            "Type": 17,
+            "amt": 4,
+            "belongsTo": null,
+            "belongsToUnit": null
+          }
+        ],
+        "regionalWealth": 50,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0,
+        "lockedInOutposts": false,
+        "bUseOnlyOnce": true,
+        "upgradesInto": 0,
+        "maintenanceSupplies": [],
+        "maintenanceGoodEffect": "EMaintenanceGoodEffect::None",
+        "maintenanceBadEffect": "EMaintenanceBadEffect::None",
+        "Affinities": [
+          "EAffinityType::Wilding",
+          "EAffinityType::Apiation"
+        ]
+      }
+    }
+  }
+]

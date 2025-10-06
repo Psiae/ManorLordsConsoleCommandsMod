@@ -1,0 +1,1455 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetCombat",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "1h_idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Idle",
+            "spd": 1.1,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_oneHanded_Idle_LookAround",
+            "spd": 1.1,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_oneHanded_walk_C",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "build_ground": {
+        "ID": 6,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_construction_hammer",
+            "spd": 1.0,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 12,
+        "additionalRepetitions": 0
+      },
+      "shoot_bow_volley": {
+        "ID": 13,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_archer_volley",
+            "spd": 1.1,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_spear_idle": {
+        "ID": 15,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_idle_spear",
+            "spd": 0.7,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "combat_oneHanded_idle_spearB",
+            "spd": 0.8,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "equip": {
+        "ID": 20,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_withdrawSword",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_spear_walk": {
+        "ID": 25,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_spear",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_run",
+            "spd": 0.4,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_oneHanded_runB",
+            "spd": 0.4,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_battle_stance": {
+        "ID": 27,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_battleStance",
+            "spd": 0.6,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_combat_stance": {
+        "ID": 28,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_fightingStance",
+            "spd": 1.6,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_stabs": {
+        "ID": 29,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_AttackA_Spear",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "death_generic": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Common_DeathA",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_Common_DeathB",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_blockA": {
+        "ID": 33,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_defendA",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_taunt": {
+        "ID": 36,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_tauntA",
+            "spd": 0.85,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "combat_oneHanded_tauntB",
+            "spd": 0.85,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "combat_oneHanded_tauntC",
+            "spd": 0.85,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_battle_walk": {
+        "ID": 37,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_battleWalk",
+            "spd": 1.3,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_charge_run": {
+        "ID": 38,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_charge",
+            "spd": 0.4,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_oneHanded_chargeB_pierce",
+            "spd": 0.4,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_slashA": {
+        "ID": 41,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_attackA",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "sitting": {
+        "ID": 48,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_sitting",
+            "spd": 0.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 4,
+        "additionalRepetitions": 0
+      },
+      "2h_battle_loop": {
+        "ID": 67,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_battleStance",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_combat_loop": {
+        "ID": 68,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_fightingStance",
+            "spd": 1.4,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_battle_walk": {
+        "ID": 69,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_battleWalk",
+            "spd": 1.35,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "holsterCrossow_equipSword": {
+        "ID": 70,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Crossbow_withdrawSword",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "bow_aim_A": {
+        "ID": 73,
+        "Tag": "DEPREC",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "bow_aim_B": {
+        "ID": 74,
+        "Tag": "DEPREC",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "bow_release": {
+        "ID": 75,
+        "Tag": "DEPREC",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "die_trampled": {
+        "ID": 79,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_fallDown",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_charge_defense": {
+        "ID": 89,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_impact_heavy",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_charge_attack": {
+        "ID": 90,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_chargeImpact",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_run_stop": {
+        "ID": 92,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_runStop",
+            "spd": 1.3,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_pushed_back": {
+        "ID": 93,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_impact_light",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_Stab_Att": {
+        "ID": 94,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_stab_attack",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_Stab_Die": {
+        "ID": 95,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_stab_death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_combatB_Attack": {
+        "ID": 96,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Combo_AAD_attack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_combatB_Defense": {
+        "ID": 97,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Combo_AAD_defend",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_Kick_MaukGround_Attack": {
+        "ID": 98,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_kick_attack_slash",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_Kick_MaulGround_die": {
+        "ID": 99,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_kick_death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_MaulSide_Attack": {
+        "ID": 100,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_side_attack",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_MaulSide_Die": {
+        "ID": 101,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_side_death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_MaulGroundShort_Att_DEPREC": {
+        "ID": 102,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_finisher_MaulGroundShort_Die_DEPREC": {
+        "ID": 103,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_comboC_att": {
+        "ID": 104,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_combo_ADAD_attack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_comboC_def": {
+        "ID": 105,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_combo_ADAD_defend",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_spear_run": {
+        "ID": 106,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_run_spear",
+            "spd": 0.4,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_combatB_attack": {
+        "ID": 107,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_combo_AAD_spear_attack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_combatB_defense": {
+        "ID": 108,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Combo_AAD_spear_defend",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_combatC_attack": {
+        "ID": 109,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Combo_ADAD_Spear_Attack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_combatC_defense": {
+        "ID": 110,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Combo_ADAD_Spear_Defend",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_finisher_kick_attack": {
+        "ID": 111,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_kick_attack_stab",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_finisher_side_attack": {
+        "ID": 112,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_side_attack_shieldBash",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_finisher_side_die": {
+        "ID": 113,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_finisher_side_death",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_idle": {
+        "ID": 114,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_idle",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "combat_twoHanded_idle_shoulder",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "combat_twoHanded_idle_ground",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_walk": {
+        "ID": 115,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_walk_var1",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_twoHanded_walk_var3",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_twoHanded_walk_shoulder",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_run": {
+        "ID": 116,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twohanded_run",
+            "spd": 0.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_charge": {
+        "ID": 117,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_charge",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_twoHanded_chargeB",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_attacks": {
+        "ID": 118,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_attackA",
+            "spd": 1.3,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_blocks": {
+        "ID": 119,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_DefendA",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_comboB_att": {
+        "ID": 120,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_combo_AAD_attack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_comboB_def": {
+        "ID": 121,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_combo_AAD_defend",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_finisher_stab": {
+        "ID": 122,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_finisher_stab_attack",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_finisher_kick": {
+        "ID": 123,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_finisher_push_attack",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_finisher_side": {
+        "ID": 124,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_finisher_side_attack",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_comboC_att1": {
+        "ID": 125,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_combo_ADAD_attack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_comboC_def1": {
+        "ID": 126,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_combo_ADAD_defend",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_chargeAttack": {
+        "ID": 127,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_chargeAttack",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_kneeling_WIP": {
+        "ID": 128,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_kneeling_WIP": {
+        "ID": 129,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_taunt": {
+        "ID": 130,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_taunt",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_oneHanded_tauntB",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_oneHanded_tauntC",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_tired": {
+        "ID": 131,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_tired",
+            "spd": 1.0,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "spear_tired": {
+        "ID": 132,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_spear_tired",
+            "spd": 1.0,
+            "speedVariation": 0.5
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_tired": {
+        "ID": 133,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_idle_tired",
+            "spd": 1.0,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "retreatWalk": {
+        "ID": 134,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_battleWalk_backwards",
+            "spd": 1.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "retreatRun": {
+        "ID": 135,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_runBackwards",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "quickAttack_slash": {
+        "ID": 136,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_slashA",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_oneHanded_slashC",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "quickAttack_stab": {
+        "ID": 137,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_stabA",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_oneHanded_stabB",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "quickAttack_2h": {
+        "ID": 138,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_AttackA_Spear",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_twoHanded_slashA",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "combat_twoHanded_stabC",
+            "spd": 1.0,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "archer_Idle": {
+        "ID": 139,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Idle_LookAround",
+            "spd": 1.0,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "archer_walk": {
+        "ID": 140,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_archer",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "impaleAttack": {
+        "ID": 141,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "impaleDeath": {
+        "ID": 142,
+        "Tag": "None",
+        "variations": [],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "bow_quickshoot": {
+        "ID": 143,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_archer_shoot_at_will",
+            "spd": 1.25,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "strafeRight": {
+        "ID": 144,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_strafeRight",
+            "spd": 1.7,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "strafeLeft": {
+        "ID": 145,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_strafeLeft",
+            "spd": 1.7,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "retreatWalk2h": {
+        "ID": 146,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_battleWalk_Backwards",
+            "spd": 1.6,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "strafeRight2h": {
+        "ID": 147,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_strafeRight",
+            "spd": 1.7,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "strafeLeft2h": {
+        "ID": 148,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_strafeLeft",
+            "spd": 1.7,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "archersBattleStance": {
+        "ID": 149,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_battleStance_Bow",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_pavise_battle_stance": {
+        "ID": 150,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_battleStance",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "loot": {
+        "ID": 151,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "work_forage_bucket",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "torch": {
+        "ID": 152,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_common_throw_torch",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_idle_bludgeon": {
+        "ID": 153,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_idle",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_twoHanded_idle_shoulder",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_attacks_bludgeon": {
+        "ID": 154,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_attackA_slash",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_walkStop": {
+        "ID": 155,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_stop_idle",
+            "spd": 1.15,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "oneHanded_combat_walk_stop_idleFront",
+            "spd": 0.9,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_battleWalk_50_50": {
+        "ID": 156,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_fightingStance_moveForward",
+            "spd": 4.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_battleWalk_50_50": {
+        "ID": 157,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_twoHanded_fightingStance_moveForward",
+            "spd": 4.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "banner_idle": {
+        "ID": 158,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_Idle_LookAround_banner",
+            "spd": 1.5,
+            "speedVariation": 0.2
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "banner_walk": {
+        "ID": 159,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_banner",
+            "spd": 1.25,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "banner_run": {
+        "ID": 160,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_run_banner",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_walk_defeated": {
+        "ID": 161,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_walk_defeated",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_walk_defeatedB",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "2h_walk_defeated": {
+        "ID": 162,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_walk_defeated_twoHanded",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "1h_walk_bow": {
+        "ID": 190,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_oneHanded_walk_archer",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          },
+          {
+            "clipName": "combat_oneHanded_walk_C",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "shoot_crossbow": {
+        "ID": 191,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_crossbow_shoot",
+            "spd": 1.4,
+            "speedVariation": 0.15
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "crossbow_idle": {
+        "ID": 192,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Crossbow_idle",
+            "spd": 1.1,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "crossbow_walk": {
+        "ID": 193,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Crossbow_walk",
+            "spd": 1.15,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "crossbow_run": {
+        "ID": 194,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Crossbow_run",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "climbUp": {
+        "ID": 195,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Common_Ladder",
+            "spd": 3.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 3,
+        "additionalRepetitions": 0
+      },
+      "climbDown": {
+        "ID": 196,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "combat_Common_Ladder",
+            "spd": 3.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 3,
+        "additionalRepetitions": 0
+      }
+    }
+  }
+]

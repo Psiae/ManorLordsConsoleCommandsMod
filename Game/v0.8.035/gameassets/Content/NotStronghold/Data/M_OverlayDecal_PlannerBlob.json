@@ -1,0 +1,155 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal_PlannerBlob",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "DecalBlendMode": "EDecalBlendMode::DBM_Emissive",
+      "ShadingModel": "EMaterialShadingModel::MSM_Unlit",
+      "ShadingModels": {
+        "ShadingModelField": 1
+      },
+      "bTangentSpaceNormal": false,
+      "bUseMaterialAttributes": true,
+      "PixelDepthOffsetMode": "EPixelDepthOffsetMode::PDOM_Legacy",
+      "StateId": "019FB642-4C0A4BCB-13F633A6-60425A5F",
+      "bIncludedInBaseGame": true
+    },
+    "LoadedMaterialResources": [],
+    "CachedExpressionData": {
+      "RuntimeEntries": {
+        "ParameterInfoSet": [
+          {
+            "Name": "castleBlobOpacity",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "opaMul",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "mip",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          {
+            "Name": "stripesWorldXY",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          }
+        ]
+      },
+      "RuntimeEntries[1]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[2]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[3]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[4]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[5]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[6]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[7]": {
+        "ParameterInfoSet": []
+      },
+      "RuntimeEntries[8]": {
+        "ParameterInfoSet": []
+      },
+      "ScalarPrimitiveDataIndexValues": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "VectorPrimitiveDataIndexValues": [],
+      "ScalarValues": [
+        0.01,
+        5.0,
+        3.0,
+        700.0
+      ],
+      "StaticSwitchValues": [],
+      "DynamicSwitchValues": [],
+      "VectorValues": [],
+      "DoubleVectorValues": [],
+      "TextureValues": [],
+      "TextureCollectionValues": [],
+      "FontValues": [],
+      "FontPageValues": [],
+      "RuntimeVirtualTextureValues": [],
+      "SparseVolumeTextureValues": [],
+      "ReferencedTextures": [
+        {
+          "ObjectName": "TextureRenderTarget2D'RT_castlePlannerBlob'",
+          "ObjectPath": "ManorLords/Content/CPP_BP/RT_castlePlannerBlob.0"
+        },
+        {
+          "ObjectName": "Texture2D'stripesB'",
+          "ObjectPath": "ManorLords/Content/UWG/CoatOfArms/Patterns/stripesB.0"
+        }
+      ],
+      "ReferencedTextureCollections": [],
+      "FunctionInfos": [
+        {
+          "StateId": "A063D73F-4FCD4885-7EA80CB5-067E1F86",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldCoords-XY'",
+            "ObjectPath": "ManorLords/Content/KiteDemo/Material/WorldCoords-XY.0"
+          }
+        }
+      ],
+      "FunctionInfosStateCRC": 1303586885,
+      "ParameterCollectionInfos": [],
+      "GrassTypes": [],
+      "MaterialLayers": {
+        "Layers": [],
+        "Blends": [],
+        "tree": {
+          "Nodes": [],
+          "Payloads": [],
+          "Root": -1
+        }
+      },
+      "DynamicParameterNames": [],
+      "QualityLevelsUsed": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "bHasMaterialLayers": false,
+      "bHasRuntimeVirtualTextureOutput": false,
+      "bHasFirstPersonOutput": false,
+      "bHasSceneColor": false,
+      "bHasPerInstanceCustomData": false,
+      "bHasPerInstanceRandom": false,
+      "bHasVertexInterpolator": false,
+      "bHasCustomizedUVs": false,
+      "bHasMeshPaintTexture": false,
+      "PropertyConnectedMask": 387
+    },
+    "ReferencedTextures": [
+      {
+        "ObjectName": "Texture2D'stripesB'",
+        "ObjectPath": "ManorLords/Content/UWG/CoatOfArms/Patterns/stripesB.0"
+      },
+      {
+        "ObjectName": "TextureRenderTarget2D'RT_castlePlannerBlob'",
+        "ObjectPath": "ManorLords/Content/CPP_BP/RT_castlePlannerBlob.0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetCombined",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "work_idle": {
+        "ID": 0,
+        "Tag": "work_idle",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_walk_varA": {
+        "ID": 1,
+        "Tag": "work_walk_confident",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.95,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_construction_hammer": {
+        "ID": 6,
+        "Tag": "work_construction_hammer",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.9,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_hammer_standing": {
+        "ID": 21,
+        "Tag": "work_hammer_standing",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_sitting": {
+        "ID": 48,
+        "Tag": "work_sitting",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.33,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_conversation": {
+        "ID": 76,
+        "Tag": "work_conversationA",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.3,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_cross_arms": {
+        "ID": 148,
+        "Tag": "work_idle_Cross_Arms",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.45,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_pet_animal": {
+        "ID": 167,
+        "Tag": "work_pet_horse",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "work_conversationB": {
+        "ID": 171,
+        "Tag": "work_conversationB",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      }
+    }
+  }
+]

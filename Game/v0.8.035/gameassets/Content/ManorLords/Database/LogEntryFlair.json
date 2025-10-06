@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "LogEntryFlair",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "C32B17BC-4D640CFB-F187259A-F0DA5002"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "icon_2_92383A4B4030BEEC1B116D9629840733",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'Texture2D'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'SoundBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "tint_8_90BA1FC243A75A0E0830E791C6813D9B",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'LogEntryTint'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Database/LogEntryTint.0"
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "icon_2_92383A4B4030BEEC1B116D9629840733": null,
+      "sound_5_2CC91FA44CBF9CA320E22F96D3434F9B": null,
+      "tint_8_90BA1FC243A75A0E0830E791C6813D9B": "LogEntryTint::NewEnumerator0"
+    }
+  }
+]

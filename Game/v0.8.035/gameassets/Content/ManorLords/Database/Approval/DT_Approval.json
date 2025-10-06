@@ -1,0 +1,182 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Approval",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Approval'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "Reviled": {
+        "HigherApprovalRate": 4,
+        "ImpressionRowName": "approvalImpression_Reviled",
+        "Effects": [
+          {
+            "RowName": "approvalEffect_TaxCollection",
+            "Value": -100.0
+          },
+          {
+            "RowName": "approvalEffect_Families",
+            "Value": -3.0
+          },
+          {
+            "RowName": "approvalEffect_Influence",
+            "Value": -5.0
+          },
+          {
+            "RowName": "approvalEffect_MilitiaCannotForm",
+            "Value": 1.0
+          },
+          {
+            "RowName": "approvalEffect_PublicOrder",
+            "Value": -10.0
+          }
+        ],
+        "Color": {
+          "R": 0.348958,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "A00000"
+        }
+      },
+      "Despised": {
+        "HigherApprovalRate": 19,
+        "ImpressionRowName": "approvalImpression_Despised",
+        "Effects": [
+          {
+            "RowName": "approvalEffect_TaxCollection",
+            "Value": -50.0
+          },
+          {
+            "RowName": "approvalEffect_Families",
+            "Value": -1.0
+          },
+          {
+            "RowName": "approvalEffect_Influence",
+            "Value": -1.0
+          },
+          {
+            "RowName": "approvalEffect_Morale",
+            "Value": -10.0
+          }
+        ],
+        "Color": {
+          "R": 0.578125,
+          "G": 0.085,
+          "B": 0.064711,
+          "A": 1.0,
+          "Hex": "C85248"
+        }
+      },
+      "Disliked": {
+        "HigherApprovalRate": 44,
+        "ImpressionRowName": "approvalImpression_Disliked",
+        "Effects": [
+          {
+            "RowName": "approvalEffect_TaxCollection",
+            "Value": -20.0
+          }
+        ],
+        "Color": {
+          "R": 0.588542,
+          "G": 0.317506,
+          "B": 0.224426,
+          "A": 1.0,
+          "Hex": "CA9982"
+        }
+      },
+      "Respected": {
+        "HigherApprovalRate": 54,
+        "ImpressionRowName": "approvalImpression_Respected",
+        "Effects": [],
+        "Color": {
+          "R": 0.533338,
+          "G": 0.614583,
+          "B": 0.508951,
+          "A": 1.0,
+          "Hex": "C1CEBD"
+        }
+      },
+      "Liked": {
+        "HigherApprovalRate": 79,
+        "ImpressionRowName": "approvalImpression_Liked",
+        "Effects": [
+          {
+            "RowName": "approvalEffect_RegionalWealth_T3",
+            "Value": 1.0
+          },
+          {
+            "RowName": "approvalEffect_Families",
+            "Value": 1.0
+          }
+        ],
+        "Color": {
+          "R": 0.312856,
+          "G": 0.541667,
+          "B": 0.244176,
+          "A": 1.0,
+          "Hex": "98C388"
+        }
+      },
+      "Admired": {
+        "HigherApprovalRate": 94,
+        "ImpressionRowName": "approvalImpression_Admired",
+        "Effects": [
+          {
+            "RowName": "approvalEffect_RegionalWealth_T3_T2",
+            "Value": 1.0
+          },
+          {
+            "RowName": "approvalEffect_Families",
+            "Value": 2.0
+          },
+          {
+            "RowName": "approvalEffect_Influence",
+            "Value": 1.0
+          }
+        ],
+        "Color": {
+          "R": 0.183144,
+          "G": 0.609375,
+          "B": 0.080966,
+          "A": 1.0,
+          "Hex": "77CD50"
+        }
+      },
+      "Revered": {
+        "HigherApprovalRate": 100,
+        "ImpressionRowName": "approvalImpression_Revered",
+        "Effects": [
+          {
+            "RowName": "approvalEffect_RegionalWealth_All",
+            "Value": 1.0
+          },
+          {
+            "RowName": "approvalEffect_Families",
+            "Value": 3.0
+          },
+          {
+            "RowName": "approvalEffect_Influence",
+            "Value": 5.0
+          },
+          {
+            "RowName": "approvalEffect_Morale",
+            "Value": 10.0
+          }
+        ],
+        "Color": {
+          "R": 0.0,
+          "G": 0.291667,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "009300"
+        }
+      }
+    }
+  }
+]

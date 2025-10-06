@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "QuestDecorationData",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "F3B33E28-46DB0DEC-8E9F1A84-B050B18D"
+    },
+    "ChildProperties": [
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "backdropTexture_2_0AF9487E49F1565A92569CB144E0692C",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'Texture2D'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "openingSfx_5_7008C29346DCF8F2CD81A98B50607634",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'SoundBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "backdropMaterial_8_12EBB9064FACF0995090CEAFD4CE8714",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "backdropTexture_2_0AF9487E49F1565A92569CB144E0692C": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "openingSfx_5_7008C29346DCF8F2CD81A98B50607634": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "backdropMaterial_8_12EBB9064FACF0995090CEAFD4CE8714": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      }
+    }
+  }
+]

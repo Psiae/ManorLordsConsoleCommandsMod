@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Alerts",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AlertType'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "raiders": {
+        "SFX": {
+          "ObjectName": "SoundCue'raidersSighted_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/raidersSighted_cue.0"
+        },
+        "Icon": {
+          "ObjectName": "Texture2D'skull-crossed-bones'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/skull-crossed-bones.0"
+        }
+      },
+      "enemy": {
+        "SFX": {
+          "ObjectName": "SoundCue'enemyNear_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/enemyNear_cue.0"
+        },
+        "Icon": {
+          "ObjectName": "Texture2D'triangle'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/triangle.0"
+        }
+      },
+      "turned_to_bandit": {
+        "SFX": {
+          "ObjectName": "SoundCue'turned_to_bandit_cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/turned_to_bandit_cue.0"
+        },
+        "Icon": {
+          "ObjectName": "Texture2D'triangle'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/triangle.0"
+        }
+      },
+      "emigration": {
+        "SFX": {
+          "ObjectName": "SoundCue'emigration_Cue'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Alerts/emigration_Cue.0"
+        },
+        "Icon": {
+          "ObjectName": "Texture2D'triangle'",
+          "ObjectPath": "ManorLords/Content/UWG/ui_textures/triangle.0"
+        }
+      },
+      "botched": {
+        "SFX": {
+          "ObjectName": "SoundCue'Cue_BotchedCrafting'",
+          "ObjectPath": "ManorLords/Content/ManorLords/Audio/Cues/UI/Cue_BotchedCrafting.0"
+        },
+        "Icon": {
+          "ObjectName": "Texture2D'repair'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/repair.0"
+        }
+      }
+    }
+  }
+]

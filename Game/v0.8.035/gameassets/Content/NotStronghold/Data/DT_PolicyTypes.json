@@ -1,0 +1,216 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PolicyTypes",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Policy'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "0": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Unknown",
+        "descr": "Your peasants eat half as often,  loyalty falls by 1% every day.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'padlock'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/padlock.0"
+        }
+      },
+      "1": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Hardship",
+        "descr": "Your peasants eat half as often,  loyalty falls by 1% every day.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'fishbone'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/fishbone.0"
+        }
+      },
+      "2": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Hunting grounds",
+        "descr": "All wild animals breed twice as fast.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'paw'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/paw.0"
+        }
+      },
+      "3": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Craftsmanship",
+        "descr": "Custom orders from craftsmen are finished two times faster.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'3d-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/3d-hammer.0"
+        }
+      },
+      "4": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "nightwatch",
+        "descr": "[not implemented] Lowers the chance of a random fire breaking out. However, few workers will have to sleep it off, leaving a day at work (2 peasants/settlement level/day)",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'flame'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/flame.0"
+        }
+      },
+      "5": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "confession",
+        "descr": "",
+        "TimeLeft": 0,
+        "Icon": null
+      },
+      "6": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "light_punishment",
+        "descr": "WIP no effect yet",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'manacles'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/manacles.0"
+        }
+      },
+      "7": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "bathhouse pleasures",
+        "descr": "[not implemented] rises approval, lowers public order",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'nested-hearts'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/nested-hearts.0"
+        }
+      },
+      "8": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Weekly mass",
+        "descr": "[not implemented] 1/7 days peasants abandon work and visit the church. Lord can give a sermon, rising public order.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'cross_Church'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/cross_Church.0"
+        }
+      },
+      "9": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Smallholdings",
+        "descr": "No large scale farming allowed, but small per plot farms unlocked",
+        "TimeLeft": 0,
+        "Icon": null
+      },
+      "10": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Clean water",
+        "descr": "Tanning (and pooping into streams) is forbidden. Region sanitation and beer quality increases.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'drop'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/drop.0"
+        }
+      },
+      "11": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Small land tax",
+        "descr": "Transfers wealth from the Region to the Lord's Treasury: 1 silver per family, per month.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'two-coins'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/two-coins.0"
+        }
+      },
+      "12": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Strict fasting",
+        "descr": "Citizens skip every 5th meal. Reduces food consumption, decreases approval.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'fishbone'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/fishbone.0"
+        }
+      },
+      "13": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Forest preservation",
+        "descr": "Locks woodcutting, auto regrows forests, buffs berries etc?",
+        "TimeLeft": 0,
+        "Icon": null
+      },
+      "14": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Tithe",
+        "descr": "Gives back 10% of the surplus FOOD  to the church and coverts it to INFLUENCE.",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'church'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/church.0"
+        }
+      },
+      "15": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Coinage",
+        "descr": "+10% Taxes, -10% Regional Wealth",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'coins'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/coins.0"
+        }
+      },
+      "16": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Guild Brotherhoods",
+        "descr": "Craftsmen do not require any Church Level -25% Influence from this settlement",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'bleeding-eye'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/bleeding-eye.0"
+        }
+      },
+      "17": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Public Weapons Ban",
+        "descr": "+25% Proficiency for weapon craftsmen, -10 Approval",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'anvil-impact'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/anvil-impact.0"
+        }
+      },
+      "18": {
+        "ID": 0,
+        "tier": 0,
+        "Name": "Purchase Privilage",
+        "descr": "Raw resources (iron, leather, berries, etc) are paid for with 50% of the usual Regional Wealth cost. Tax generation reduced by 50%",
+        "TimeLeft": 0,
+        "Icon": {
+          "ObjectName": "Texture2D'pay-money'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/pay-money.0"
+        }
+      }
+    }
+  }
+]

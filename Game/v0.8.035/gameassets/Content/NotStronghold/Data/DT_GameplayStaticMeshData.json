@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GameplayStaticMeshData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PathData'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "SM_appleTree_old": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Environment/Foliage/Trees/Appl/Meshes/STC_appleTree_Adult.STC_appleTree_Adult",
+          "SubPathString": ""
+        }
+      },
+      "SM_appleTree_old_fruit": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Environment/Foliage/Trees/Appl/Meshes/STC_appleTree_Adult_Fruit.STC_appleTree_Adult_Fruit",
+          "SubPathString": ""
+        }
+      },
+      "SM_appleTree_young": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Environment/Foliage/Trees/Appl/Meshes/STC_appleTree_VeryYoung.STC_appleTree_VeryYoung",
+          "SubPathString": ""
+        }
+      },
+      "SM_appleTree_young_fruit": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Environment/Foliage/Trees/Appl/Meshes/STC_appleTree_VeryYoung_Fruit.STC_appleTree_VeryYoung_Fruit",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

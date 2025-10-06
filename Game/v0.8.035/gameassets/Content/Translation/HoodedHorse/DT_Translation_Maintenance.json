@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation_Maintenance",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LocalizedText'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "EMaintenanceRateModifier::MaintenanceRate_Double": {
+        "en_US": "Maintenance Rate: Double",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "EMaintenanceRateModifier::MaintenanceRate_Half": {
+        "en_US": "Maintenance Rate: Half",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "EMaintenanceRateModifier::Affinity_LocalHandymen": {
+        "en_US": "Affinity: Local Handymen",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "EMaintenanceRateModifier::Perk_ImprovedMineMaintenance": {
+        "en_US": "Perk: Nuremberg Prospectors",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      }
+    }
+  }
+]

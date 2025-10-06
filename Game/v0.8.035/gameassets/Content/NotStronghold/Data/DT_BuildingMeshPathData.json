@@ -1,0 +1,364 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BuildingMeshPathData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PathData'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "20": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Cottage_Lv1_A_v4_UBeamFoudnations.SM_MERGED_C_SG_Cottage_Lv1_A_v4_UBeamFoudnations",
+          "SubPathString": ""
+        }
+      },
+      "27": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_Cottage_LV2_A_1.SM_MERGED_C_SG_Cottage_LV2_A_1",
+          "SubPathString": ""
+        }
+      },
+      "33": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/backup/SM_MERGED_c_marketStallA_2.SM_MERGED_c_marketStallA_2",
+          "SubPathString": ""
+        }
+      },
+      "45": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townbuildingA.SM_MERGED_townbuildingA",
+          "SubPathString": ""
+        }
+      },
+      "50": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_bakeryAttachment.SM_MERGED_bakeryAttachment",
+          "SubPathString": ""
+        }
+      },
+      "57": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_Manor_Tower_Lv1.SM_MERGED_C_SG_Manor_Tower_Lv1",
+          "SubPathString": ""
+        }
+      },
+      "95": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/MergedPreviews/SM_MERGED_BM_SG_Manor_Lv1_Gatehouse_Centered.SM_MERGED_BM_SG_Manor_Lv1_Gatehouse_Centered",
+          "SubPathString": ""
+        }
+      },
+      "58": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_TaxCollectorProper.SM_MERGED_C_SG_TaxCollectorProper",
+          "SubPathString": ""
+        }
+      },
+      "98": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Manor_Lv1_Palace_Ubeam.SM_MERGED_C_SG_Manor_Lv1_Palace_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "104": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_bakeryAttachment.SM_MERGED_bakeryAttachment",
+          "SubPathString": ""
+        }
+      },
+      "160": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Environment/Foliage/Trees/Oak/stc_oak_photog_young_shrubA.stc_oak_photog_young_shrubA",
+          "SubPathString": ""
+        }
+      },
+      "157": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_TaxCollectorProper.SM_MERGED_C_SG_TaxCollectorProper",
+          "SubPathString": ""
+        }
+      },
+      "196": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Environment/Foliage/Trees/Oak/stc_oak_photog_young_shrubA.stc_oak_photog_young_shrubA",
+          "SubPathString": ""
+        }
+      },
+      "197": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_TaxCollectorProper.SM_MERGED_C_SG_TaxCollectorProper",
+          "SubPathString": ""
+        }
+      },
+      "246": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_Cottage_LV1_B_v3.SM_MERGED_C_SG_Cottage_LV1_B_v3",
+          "SubPathString": ""
+        }
+      },
+      "248": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_Cottage_LV1_C.SM_MERGED_C_SG_Cottage_LV1_C",
+          "SubPathString": ""
+        }
+      },
+      "249": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_c_MarketStallB.SM_MERGED_c_MarketStallB",
+          "SubPathString": ""
+        }
+      },
+      "250": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_c_MarketStallC.SM_MERGED_c_MarketStallC",
+          "SubPathString": ""
+        }
+      },
+      "252": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townbuildingB_wide_temp.SM_MERGED_townbuildingB_wide_temp",
+          "SubPathString": ""
+        }
+      },
+      "253": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townBuildingC2.SM_MERGED_townBuildingC2",
+          "SubPathString": ""
+        }
+      },
+      "254": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_TownBuildingD2.SM_MERGED_TownBuildingD2",
+          "SubPathString": ""
+        }
+      },
+      "255": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townBuildingE2_full.SM_MERGED_townBuildingE2_full",
+          "SubPathString": ""
+        }
+      },
+      "256": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townbuildingF_full.SM_MERGED_townbuildingF_full",
+          "SubPathString": ""
+        }
+      },
+      "257": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_Grave.SM_MERGED_C_Grave",
+          "SubPathString": ""
+        }
+      },
+      "258": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townbuildingG.SM_MERGED_townbuildingG",
+          "SubPathString": ""
+        }
+      },
+      "259": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townbuildingH_tiny2_1.SM_MERGED_townbuildingH_tiny2_1",
+          "SubPathString": ""
+        }
+      },
+      "260": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_townhouseI_tinyB2_GATE.SM_MERGED_townhouseI_tinyB2_GATE",
+          "SubPathString": ""
+        }
+      },
+      "266": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_clutterMediumA.SM_MERGED_clutterMediumA",
+          "SubPathString": ""
+        }
+      },
+      "267": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_ChickenCoop.SM_MERGED_C_ChickenCoop",
+          "SubPathString": ""
+        }
+      },
+      "269": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_Extension_Goat.SM_MERGED_C_Extension_Goat",
+          "SubPathString": ""
+        }
+      },
+      "271": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Fences/Stone/SG_TownWallSimplePillar.SG_TownWallSimplePillar",
+          "SubPathString": ""
+        }
+      },
+      "272": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/CommonAssets/Arches/StoneGateArchA/StoneGateA_Full_ForStonewall.StoneGateA_Full_ForStonewall",
+          "SubPathString": ""
+        }
+      },
+      "273": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_outhouseA.SM_MERGED_outhouseA",
+          "SubPathString": ""
+        }
+      },
+      "290": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_plotClutterA.SM_MERGED_plotClutterA",
+          "SubPathString": ""
+        }
+      },
+      "291": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_plotClutterB.SM_MERGED_plotClutterB",
+          "SubPathString": ""
+        }
+      },
+      "292": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_plotClutterC.SM_MERGED_plotClutterC",
+          "SubPathString": ""
+        }
+      },
+      "293": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_plotClutterD.SM_MERGED_plotClutterD",
+          "SubPathString": ""
+        }
+      },
+      "298": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_WoodenGateSimple.SM_MERGED_C_SG_WoodenGateSimple",
+          "SubPathString": ""
+        }
+      },
+      "300": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_ShedA.SM_MERGED_C_SG_ShedA",
+          "SubPathString": ""
+        }
+      },
+      "301": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/building_ZB/Generic/shrubMeshDispFinal.shrubMeshDispFinal",
+          "SubPathString": ""
+        }
+      },
+      "303": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_shedB.SM_MERGED_C_SG_shedB",
+          "SubPathString": ""
+        }
+      },
+      "305": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_ShedLargeCrude.SM_MERGED_C_SG_ShedLargeCrude",
+          "SubPathString": ""
+        }
+      },
+      "306": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_ShedC.SM_MERGED_C_SG_ShedC",
+          "SubPathString": ""
+        }
+      },
+      "400": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Buildings/Merged/SM_MERGED_C_SG_OxShed.SM_MERGED_C_SG_OxShed",
+          "SubPathString": ""
+        }
+      },
+      "416": {
+        "Path": {
+          "AssetPathName": "/Game/Megascans/3D_Plants/Blackberry_vkmofctha/Blackberry_LOD0_Var2_vkmofctha_2.Blackberry_LOD0_Var2_vkmofctha_2",
+          "SubPathString": ""
+        }
+      },
+      "424": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Cottage_LV2_C_UBeam.SM_MERGED_C_SG_Cottage_LV2_C_UBeam",
+          "SubPathString": ""
+        }
+      },
+      "425": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/CommonAssets/Doors/WoodenDoorA/J_SG_WoodenDoorA.J_SG_WoodenDoorA",
+          "SubPathString": ""
+        }
+      },
+      "426": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/WIP/SM_MERGED_C_SG_Townhouse_lv3_A.SM_MERGED_C_SG_Townhouse_lv3_A",
+          "SubPathString": ""
+        }
+      },
+      "427": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Townhouse_Lv3_C.SM_MERGED_C_SG_Townhouse_Lv3_C",
+          "SubPathString": ""
+        }
+      },
+      "428": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Townhouse_Lv3_B.SM_MERGED_C_SG_Townhouse_Lv3_B",
+          "SubPathString": ""
+        }
+      },
+      "429": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Townhouse_lv3_BPart_A.SM_MERGED_C_SG_Townhouse_lv3_BPart_A",
+          "SubPathString": ""
+        }
+      },
+      "430": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_SimpleGateB.SM_MERGED_C_SG_SimpleGateB",
+          "SubPathString": ""
+        }
+      },
+      "459": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Lv3GateWall_700.SM_MERGED_C_SG_Lv3GateWall_700",
+          "SubPathString": ""
+        }
+      },
+      "460": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Lv3GateWall_350.SM_MERGED_C_SG_Lv3GateWall_350",
+          "SubPathString": ""
+        }
+      },
+      "467": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Gate_Lv2_A_Rotated.SM_MERGED_C_SG_Gate_Lv2_A_Rotated",
+          "SubPathString": ""
+        }
+      },
+      "470": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_PalisadeWallNarrow_Ubeam.SM_MERGED_C_SG_PalisadeWallNarrow_Ubeam",
+          "SubPathString": ""
+        }
+      },
+      "472": {
+        "Path": {
+          "AssetPathName": "/Game/ManorLords/Buildings/Merged/SM_MERGED_C_SG_Manor_Tower_Lv1_00.SM_MERGED_C_SG_Manor_Tower_Lv1_00",
+          "SubPathString": ""
+        }
+      },
+      "473": {
+        "Path": {
+          "AssetPathName": "/Game/NotStronghold/Units/Posed/axeman/axeman.axeman",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

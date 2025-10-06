@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetHare",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Rabbit_Anim_Rabbit_A_GrazingOnSpot_1",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Rabbit_Anim_Rabbit_A_GrazingHopFast_F",
+            "spd": 1.33,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "Rabbit_Anim_Rabbit_A_RunFast_F",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      },
+      "death": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "RabbitDeath",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0,
+        "additionalRepetitions": 0
+      }
+    }
+  }
+]
