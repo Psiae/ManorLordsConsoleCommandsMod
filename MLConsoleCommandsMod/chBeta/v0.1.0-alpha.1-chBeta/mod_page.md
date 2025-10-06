@@ -112,8 +112,8 @@ If you have question, ask it in the community discord server: [discord server](h
     - "selected buildings" is the building you select (building panel open), pin multiple to select multiple building<br/><br/>
 
     - <ins>itemID</ins>
-        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.035/gameassets/Content/NotStronghold/Data/DT_Items.json)
-        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.035/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.035/gameassets/Content/NotStronghold/Data/DT_Items.json)
+        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.035/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
 
