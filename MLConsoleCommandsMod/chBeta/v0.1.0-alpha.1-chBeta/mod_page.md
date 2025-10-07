@@ -1,4 +1,4 @@
-### Mod Page (v0.1.0-alpha.1-chBeta)
+### Mod Page (v0.1.0-alpha.2-chBeta)
 <br/><br/>
 
 
@@ -49,6 +49,15 @@ If you have question, ask it in the community discord server: [discord server](h
     - Reroll the list of mercenaries available for hire<br/><br/>
 
 
+- k.teleportSelectedSquadsToCursor
+    - Teleport selected squad(s) to location under player cursor<br/><br/>
+
+    - warning: no collision check, select location wisely
+      - if unit can barely move try save game and load<br/><br/>
+      
+    - although you can teleport multiple at once, recommended to only teleport one by one
+
+
 
 - k.printLordConsoleCommands
     - Print Lord related console command to the console window<br/><br/>
@@ -60,6 +69,22 @@ If you have question, ask it in the community discord server: [discord server](h
 
 - k.addTreasury &nbsp;&nbsp; \<amount>
     - Increase / Decrease **Player** Treasury by <ins>amount</ins><br/><br/>
+    
+
+- k.addTreasury &nbsp;&nbsp; \<amount>
+    - Increase / Decrease **Player** Treasury by <ins>amount</ins><br/><br/>
+
+
+- k.layClaimOnRegion
+    - Lay region claim on **current region**<br/><br/>
+
+
+- k.finalizeClaimOnAllRegion
+    - Finalize all region claim by the player
+
+
+- k.finalizeClaimOnRegion
+    - Finalize region claim on **current region** by player
 
 
 - k.setInfluence &nbsp;&nbsp; \<amount>
@@ -172,6 +197,10 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.spawnBanditCamp
     - Spawn new Bandit Camp somewhere on the map<br/><br/>
 
+
+- k.spawnBanditCampAtCursor
+    - Spawn new Bandit Camp on location under player cursor<br/><br/>
+
     
 - k.spawnRaider
     - Spawn 1 raider somewhere on the map<br/><br/>
@@ -219,10 +248,71 @@ If you have question, ask it in the community discord server: [discord server](h
     - works on animals as well<br/><br/><br/><br/>
 
 
+- k.makeDrought
+    - Begin drought<br/><br/>
+
+    - Drought progression will be set to at least 10%<br/><br/><br/><br/>
+
+
+- k.makeDroughtInstantly
+    - Begin drought instantly<br/><br/>
+
+    - Drought progression will be set to 100% <br/><br/><br/><br/>
+
+
+- k.makeRain
+    - Begin rain, not damaging<br/><br/>
+
+    - equivalent to `k.makeRain false` <br/><br/><br/><br/>
+
+
+- k.makeRain &nbsp;&nbsp; \<isDamaging>
+    - Begin rain<br/><br/>
+
+    - <ins>isDamaging</ins>: whether the rain is damaging (soak or damage)<br/><br/>
+    - Rain progression will be set to at least 10% <br/><br/><br/><br/>
+  
+
+- k.makeRainInstantly
+    - Begin rain, not damaging, instantly<br/><br/>
+
+    - equivalent to `k.makeRainInstantly false` <br/><br/><br/><br/>
+
+
+- k.makeRainInstantly &nbsp;&nbsp; \<isDamaging>
+    - Begin rain instantly<br/><br/>
+
+    - <ins>isDamaging</ins>: whether the rain is damaging (soak or damage)<br/><br/>
+    - Rain progression will be set to 100% <br/><br/><br/><br/>
+
+
 - k.renameUnitAtCursor &nbsp;&nbsp; \<name>
     - Rename the Unit current pointed by **Player** cursor to <ins>name</ins><br/><br/>
 
     - works on animals as well<br/><br/><br/><br/>
+
+
+- k.skipDrought
+    - Skip Drought<br/><br/>
+
+    - drought will start progressing back to 0%<br/><br/><br/><br/>
+
+- k.skipDroughtInstantly
+    - Skip Drought Instantly<br/><br/>
+
+      - drought progression will be set to 0%<br/><br/><br/><br/>
+
+
+- k.skipRain
+    - Skip Rain <br/><br/>
+
+    - rain will start progressing back to 0%<br/><br/><br/><br/>
+
+
+- k.skipRainInstantly
+    - Skip Rain Instantly<br/><br/>
+
+    - rain progression will be set to 0%<br/><br/><br/><br/>
 
 
 - k.printForeignSupply
