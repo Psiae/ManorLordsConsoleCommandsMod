@@ -164,6 +164,8 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.instaBuild
     - Toggle insta build mode<br/><br/>
 
+    - note: doesn't work on burgage plotter<br/><br/><br/><br/>
+
 
 - k.skipMourningForRegionBuildings
     - Skip the **Mourning Period** on any buildings in **current region**<br/><br/>
