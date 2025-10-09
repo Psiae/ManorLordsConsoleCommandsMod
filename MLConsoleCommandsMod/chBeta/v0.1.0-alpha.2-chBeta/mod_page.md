@@ -122,7 +122,9 @@ If you have question, ask it in the community discord server: [discord server](h
         - "horse"
         - "mule"<br/><br/>
 
-    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/><br/><br/>
+    - <ins>amount</ins> is capped at 512 for safety reasons<br/><br/>
+
+    - for tradeable animal, it's recommended to have a **Trading Rule** active for said animal in the trading post, otherwise they might not get accomodated.<br/><br/><br/><br/>
 
 
 - k.addItemToSelectedBuildings &nbsp;&nbsp; \<itemID> &nbsp; \<amount>
