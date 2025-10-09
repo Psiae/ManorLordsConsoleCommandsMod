@@ -1,0 +1,33 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Upgrades",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Upgrade'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "0": {
+        "Name": "Nothing",
+        "descr": "",
+        "Icon": {
+          "ObjectName": "Texture2D'gear-hammer'",
+          "ObjectPath": "ManorLords/Content/ManorLords/UI/Icons/Flat/gear-hammer.0"
+        },
+        "bIsCostScalable": false,
+        "cost": [],
+        "regionalWealth": 0,
+        "treasury": 0,
+        "requiresBuilding": [],
+        "requiredPerks": [],
+        "minimumSettlementLevel": 0,
+        "minimumProsperity": 0,
+        "minimumHouseLv": 0
+      }
+    }
+  }
+]

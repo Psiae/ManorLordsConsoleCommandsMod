@@ -47,8 +47,8 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.addMilitiaToRegion &nbsp;&nbsp; <militiaID>
     - Add militia by specified <ins>militiaID</ins> to **current region**<br/><br/>
 
-    - <ins>militiaID</ins>: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-    - Translation: [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)<br/><br/>
+    - <ins>militiaID</ins>: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_UnitTemplates.json)
+    - Translation: [DT_Translation.UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)<br/><br/>
     - example usage:
         - Archer Militia (bowMilitia): `k.addMilitiaToRegion bowMilitia`
         - Militia Footmen (militiaFoot): `k.addMilitiaToRegion militiaFoot`<br/><br/><br/><br/>
@@ -99,10 +99,10 @@ If you have question, ask it in the community discord server: [discord server](h
     - Set the Armor of currently selected Retainer in the Retinue Editor<br/><br/>
 
     - <ins>ID</ins> the id of the armor
-        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
-        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_Items.json)
-        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_UnitTemplates.json)
+        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
+        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_Items.json)
+        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
         -  Retinue Tier 3 Armor (293): `k.retinueEditor_setArmorByID 293`<br/><br/><br/><br/>
@@ -111,11 +111,11 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.retinueEditor_setHelmetByID &nbsp;&nbsp; \<ID>
     - Set the Helmet of currently selected Retainer in the Retinue Editor<br/><br/>
 
-    - <ins>ID</ins> the id of the helmet
-        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
-        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_Items.json)
-        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+    - <ins>ID</ins> the id of the armor
+        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_UnitTemplates.json)
+        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
+        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_Items.json)
+        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
         -  Retinue Tier 3 Helmet (294): `k.retinueEditor_setHelmetByID 294`<br/><br/><br/><br/>
@@ -124,11 +124,11 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.retinueEditor_setShieldByID &nbsp;&nbsp; \<ID>
     - Set the Shield of currently selected Retainer in the Retinue Editor<br/><br/>
 
-    - <ins>ID</ins> the id of the shield (secondary weapon)
-        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
-        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_Items.json)
-        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+    - <ins>ID</ins> the id of the armor
+        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_UnitTemplates.json)
+        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
+        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_Items.json)
+        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
         -  Retinue Tier 3 Shield (290): `k.retinueEditor_setShieldByID 290`<br/><br/><br/><br/>
@@ -137,11 +137,11 @@ If you have question, ask it in the community discord server: [discord server](h
 - k.retinueEditor_setWeaponByID &nbsp;&nbsp; \<ID>
     - Set the Weapon of currently selected Retainer in the Retinue Editor<br/><br/>
 
-    - <ins>ID</ins> the id of the weapon (primary weapon)
-        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_UnitTemplates.json)
-        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
-        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_Items.json)
-        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+    - <ins>ID</ins> the id of the armor
+        - Templates: [DT_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_UnitTemplates.json)
+        - Templates translation: [DT_Translation_UnitTemplates.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_UnitTemplates.json)
+        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_Items.json)
+        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
         -  Retinue Tier 3 Sidearm (278): `k.retinueEditor_setWeaponByID 278`
@@ -300,8 +300,8 @@ If you have question, ask it in the community discord server: [discord server](h
     - "selected buildings" is the building you select (building panel open), pin multiple to select multiple building<br/><br/>
 
     - <ins>itemID</ins>
-        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/NotStronghold/Data/DT_Items.json)
-        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Manor%20Lords%20v0.8.024/gameassets/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
+        - Items: [DT_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/NotStronghold/Data/DT_Items.json)
+        - Items translation: [DT_Translation_Items.uasset](https://github.com/Psiae/ManorLordsConsoleCommandsMod/blob/main/Game/v0.8.029a/gameassets/Content/Translation/HoodedHorse/DT_Translation_Items.json)<br/><br/>
 
     - example usage:
 

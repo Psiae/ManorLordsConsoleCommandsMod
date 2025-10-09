@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "MapDataStruct",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "152852DE-4AFC9429-09742A8F-DC64A54B"
+    },
+    "ChildProperties": [
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "thumbnailTexture_8_05A4368448BE5524C33B62BDEA3C7498",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'Texture2D'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "SoftObjectProperty",
+        "Name": "parchmentTexture_9_9D3EC1734CCC8E32CFE00787B67745E8",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'Texture2D'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "thumbnailTexture_8_05A4368448BE5524C33B62BDEA3C7498": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "parchmentTexture_9_9D3EC1734CCC8E32CFE00787B67745E8": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      }
+    }
+  }
+]

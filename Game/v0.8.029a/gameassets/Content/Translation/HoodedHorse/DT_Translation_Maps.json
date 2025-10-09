@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Translation_Maps",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'LocalizedText'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "Mission01_ROBBER": {
+        "en_US": "Germanic Valley",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "High_Peaks": {
+        "en_US": "High Peaks",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      },
+      "Winding_River": {
+        "en_US": "Winding River",
+        "zh_CN": "",
+        "zh_TW": "",
+        "ja_JA": "",
+        "ko_KR": "",
+        "de_DE": "",
+        "es_ES": "",
+        "fr_FR": "",
+        "pt_BR": "",
+        "pl_PL": "",
+        "ru_RU": "",
+        "it_IT": "",
+        "tr_TR": "",
+        "cs_CZ": "",
+        "hu_HU": "",
+        "uk_UA": "",
+        "da_DK": "",
+        "nl_NL": "",
+        "sv_SE": ""
+      }
+    }
+  }
+]

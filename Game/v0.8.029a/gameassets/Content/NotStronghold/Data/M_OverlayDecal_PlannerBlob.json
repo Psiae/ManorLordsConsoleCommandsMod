@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal_PlannerBlob",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "DecalBlendMode": "EDecalBlendMode::DBM_Emissive",
+      "DisplacementFadeRange": {},
+      "bCastDynamicShadowAsMasked": false
+    },
+    "LoadedMaterialResources": []
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_ModuleMaskOutput",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Wireframe": true,
+      "PixelDepthOffsetMode": "EPixelDepthOffsetMode::82",
+      "UsageFlagWarnings": 3698480884
+    },
+    "LoadedMaterialResources": []
+  }
+]

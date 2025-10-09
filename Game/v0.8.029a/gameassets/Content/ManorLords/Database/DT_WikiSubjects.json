@@ -1,0 +1,520 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WikiSubjects",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'WikiSubjectData'",
+        "ObjectPath": "ManorLords/Content/ManorLords/Database/WikiSubjectData.0"
+      }
+    },
+    "Rows": {
+      "construction": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "construction",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "family": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "family",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "workplace": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "workplace",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "approval": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "approval",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "population_growth": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "population_growth",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "emigration": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "emigration",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "living_space": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "living_space",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "public_order": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "public_order",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "banditry": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "banditry",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "regional_wealth": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "regional_wealth",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "region": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "region",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "treasury": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "treasury",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "influence": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "influence",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "settlement_level": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "settlement_level",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "storage": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "storage",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "storage_buildings": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "storage_buildings",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "surplus_resources": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "surplus",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stock_resources": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stock",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "reserved_resources": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "reserved_resources",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "weather_damage": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "weather_damage",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "spoilage": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "spoilage",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "res_requirements": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "res_requirements",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "extension_slot": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "extension_slot",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "backyard_extension": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "backyard_extension",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "artisans": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "artisans",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "retinue": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "retinue",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "militia": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "militia",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Military'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Military.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "mercenaries": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "mercenaries",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Military'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Military.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "free_merchants": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "travelling_merchants",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "tradepoints": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "tradepoints",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_attack": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_attack",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_armor": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_armor",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_ranged_attack": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_ranged_attack",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_missile_range": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_missile_range",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_anti_armor": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_anti_armor",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_charge": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_charge",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_missileBlock": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_missileBlock",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "stat_impaling": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "stat_impaling",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_MainUI'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_MainUI.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "rallying": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "rallying",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Military'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Military.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "backstabbing": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "backstabbing",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Military'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Military.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "total_advantage": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "total_advantage",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Military'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Military.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "military",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "taxation": {
+        "translationKey_10_F64DDE5D4375D36901A70484C19DD807": "taxation",
+        "translationDT_5_93C3BA1A4B0DF14657C68ABC85F48318": {
+          "ObjectName": "DataTable'DT_Translation_Wiki'",
+          "ObjectPath": "ManorLords/Content/Translation/HoodedHorse/DT_Translation_Wiki.0"
+        },
+        "subjectCategory_9_E5B88971418AC557CEFDBDA82BCEBDA2": "economy",
+        "image_15_F97559E344418D02CBA5939639E0F84C": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetHorse",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "horse_Idle_lookaround",
+            "spd": 0.9,
+            "speedVariation": 0.1
+          },
+          {
+            "clipName": "horse_grazing",
+            "spd": 0.9,
+            "speedVariation": 0.1
+          }
+        ],
+        "repetitions": 0
+      },
+      "horse_action": {
+        "ID": 1,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "horse_action",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "centroid_horse_walk_processed",
+            "spd": 1.2,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run-canter": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.75,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "mounted_idle": {
+        "ID": 56,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "centroid_horse_idle_processed",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "mounted_walk": {
+        "ID": 57,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "centroid_horse_walk_processed",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "trot": {
+        "ID": 61,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 0.75,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "gallop": {
+        "ID": 84,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "None",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      }
+    }
+  }
+]

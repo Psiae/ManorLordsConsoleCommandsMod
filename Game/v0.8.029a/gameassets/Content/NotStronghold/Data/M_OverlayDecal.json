@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_OverlayDecal",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialDomain": "EMaterialDomain::MD_DeferredDecal",
+      "BlendMode": "EBlendMode::BLEND_Translucent",
+      "DisplacementFadeRange": {},
+      "bCastDynamicShadowAsMasked": false
+    },
+    "LoadedMaterialResources": []
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "QueuedEventMessage",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "6F6248B0-41C07A5F-F4FE4CAB-83D5893B"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "msgType_2_90FCEF6F4834E50A7C42A48C49533429",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "primaryTxt_5_3B27ED6D4695BD5254074B977E7608FA",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "secondaryTxt_7_3BD1EA044D99815424D9178774612B8D",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "StructFlags": 32768,
+    "DefaultProperties": {
+      "msgType_2_90FCEF6F4834E50A7C42A48C49533429": "None",
+      "primaryTxt_5_3B27ED6D4695BD5254074B977E7608FA": "",
+      "secondaryTxt_7_3BD1EA044D99815424D9178774612B8D": ""
+    }
+  }
+]

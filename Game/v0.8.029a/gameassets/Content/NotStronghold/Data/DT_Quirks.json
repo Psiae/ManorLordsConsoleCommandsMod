@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Quirks",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'Quirk'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "falcon": {
+        "conflictingQuirks": []
+      },
+      "afraid_horses": {
+        "conflictingQuirks": []
+      },
+      "relic": {
+        "conflictingQuirks": []
+      },
+      "devout": {
+        "conflictingQuirks": []
+      },
+      "musician": {
+        "conflictingQuirks": []
+      },
+      "gambler": {
+        "conflictingQuirks": []
+      },
+      "bookmaker": {
+        "conflictingQuirks": []
+      },
+      "scarred": {
+        "conflictingQuirks": []
+      },
+      "in_love": {
+        "conflictingQuirks": []
+      },
+      "clean": {
+        "conflictingQuirks": []
+      },
+      "vegetarian": {
+        "conflictingQuirks": []
+      },
+      "monk": {
+        "conflictingQuirks": []
+      },
+      "scholar": {
+        "conflictingQuirks": []
+      },
+      "animal_lover": {
+        "conflictingQuirks": []
+      },
+      "prankster": {
+        "conflictingQuirks": []
+      },
+      "joker": {
+        "conflictingQuirks": []
+      },
+      "thinker": {
+        "conflictingQuirks": []
+      },
+      "polyglot": {
+        "conflictingQuirks": []
+      },
+      "berserker": {
+        "conflictingQuirks": []
+      },
+      "twin": {
+        "conflictingQuirks": []
+      },
+      "poet": {
+        "conflictingQuirks": []
+      },
+      "pagan": {
+        "conflictingQuirks": []
+      },
+      "keen_eye": {
+        "conflictingQuirks": []
+      },
+      "thief": {
+        "conflictingQuirks": []
+      },
+      "charmer": {
+        "conflictingQuirks": []
+      },
+      "drunkard": {
+        "conflictingQuirks": []
+      },
+      "coward": {
+        "conflictingQuirks": []
+      },
+      "prosthetic": {
+        "conflictingQuirks": []
+      },
+      "chess": {
+        "conflictingQuirks": []
+      },
+      "philosopher": {
+        "conflictingQuirks": []
+      },
+      "glutton": {
+        "conflictingQuirks": []
+      },
+      "mute": {
+        "conflictingQuirks": []
+      },
+      "wanderer": {
+        "conflictingQuirks": []
+      },
+      "healer": {
+        "conflictingQuirks": []
+      },
+      "storyteller": {
+        "conflictingQuirks": []
+      },
+      "prophet": {
+        "conflictingQuirks": []
+      },
+      "artist": {
+        "conflictingQuirks": []
+      },
+      "sinner": {
+        "conflictingQuirks": []
+      },
+      "miracle": {
+        "conflictingQuirks": []
+      },
+      "betrayer": {
+        "conflictingQuirks": []
+      },
+      "veteran": {
+        "conflictingQuirks": []
+      },
+      "bastard": {
+        "conflictingQuirks": []
+      },
+      "foreigner": {
+        "conflictingQuirks": []
+      },
+      "arrogant": {
+        "conflictingQuirks": []
+      },
+      "peasant": {
+        "conflictingQuirks": []
+      },
+      "bandit": {
+        "conflictingQuirks": []
+      },
+      "mercenary": {
+        "conflictingQuirks": []
+      },
+      "chivalrious": {
+        "conflictingQuirks": []
+      },
+      "pilgrim": {
+        "conflictingQuirks": []
+      },
+      "hunter": {
+        "conflictingQuirks": []
+      },
+      "smith": {
+        "conflictingQuirks": []
+      },
+      "engineer": {
+        "conflictingQuirks": []
+      },
+      "brewer": {
+        "conflictingQuirks": []
+      }
+    }
+  }
+]

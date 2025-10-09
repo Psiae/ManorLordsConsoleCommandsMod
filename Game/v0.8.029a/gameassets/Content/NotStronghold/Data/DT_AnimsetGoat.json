@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AnimsetGoat",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AnimVariation'",
+        "ObjectPath": "/Script/ManorLords"
+      }
+    },
+    "Rows": {
+      "idle": {
+        "ID": 0,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Goat_IdleChew",
+            "spd": 0.8,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "ANIM_Goat_IdleGraze",
+            "spd": 0.8,
+            "speedVariation": 0.2
+          },
+          {
+            "clipName": "ANIM_Goat_IdleBreathe",
+            "spd": 0.8,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "walk": {
+        "ID": 5,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Goat_walk",
+            "spd": 1.1,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "run": {
+        "ID": 26,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "ANIM_Goat_Run_OriginalAsset",
+            "spd": 0.5,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death": {
+        "ID": 19,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "goatDeath",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      },
+      "death_0": {
+        "ID": 32,
+        "Tag": "None",
+        "variations": [
+          {
+            "clipName": "goatDeath",
+            "spd": 1.0,
+            "speedVariation": 0.0
+          }
+        ],
+        "repetitions": 0
+      }
+    }
+  }
+]
