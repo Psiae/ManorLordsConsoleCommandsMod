@@ -172,11 +172,11 @@ If you have question, ask it in the community discord server: [discord server](h
   
 
 - k.spawnConstructionResourcesToSelectedBuildings
-    - Skip the **Mourning Period** on any buildings in **current region**<br/><br/>
+    - Spawn construction resources to player selected buildings<br/><br/>
 
 
 - k.spawnConstructionResourcesToRegionBuildings
-    - Skip the **Mourning Period** on any buildings in **current region**<br/><br/>
+    - Spawn construction resources to buildings in **current region**<br/><br/>
 
     
 - k.boopMode
