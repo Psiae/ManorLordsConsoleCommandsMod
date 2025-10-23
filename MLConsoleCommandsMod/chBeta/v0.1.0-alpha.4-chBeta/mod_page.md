@@ -1,4 +1,4 @@
-### Mod Page (v0.1.0-alpha.3-chBeta)
+### Mod Page (v0.1.0-alpha.4-chBeta)
 <br/><br/>
 
 
@@ -201,6 +201,26 @@ If you have question, ask it in the community discord server: [discord server](h
         - "fish"
         - "mushroom"
         - "eel"<br/><br/><br/><br/>
+
+
+- k.removeResourceAtCursor &nbsp;&nbsp; \<resID>
+    - Remove resource identified by given <ins>resID</ins> at location under **player cursor**<br/><br/>
+
+    - **resID**
+        - "berries"
+        - "stone"
+        - "mushroom"<br/><br/><br/><br/>
+
+
+- k.spawnResourceAtCursor &nbsp;&nbsp; \<resID>
+    - Spawn resource identified by given <ins>resID</ins> in **current region**<br/><br/>
+
+    - **resID**
+        - "berries"
+        - "stone"
+        - "mushroom"<br/><br/>
+
+    - cannot spawn resource node yet<br/><br/><br/><br/>
 
 
 - k.addRegionalWealth &nbsp;&nbsp; \<amount>
