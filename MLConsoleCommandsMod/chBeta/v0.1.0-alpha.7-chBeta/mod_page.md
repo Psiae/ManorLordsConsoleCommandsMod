@@ -351,9 +351,10 @@ If you have question, ask it in the community discord server: [discord server](h
     - **Warning**: pause the game while modifying, save and load the game when done<br/><br/><br/><br/>
   
 
-- k.spawnRichWildAnimalsAtCursor  &nbsp;&nbsp; \<capacity>
+- k.spawnWildAnimalsAtCursor  &nbsp;&nbsp; \<capacity>
     - spawn **Wild Animals** with capacity of <ins>capacity</ins> at location under Player cursor<br/><br/>
 
+    - Require: at least **1** exising **Wild Animals**<br/><br/>
     - **Warning**: pause the game while modifying, save and load the game when done<br/><br/><br/><br/>
 
 <br/><br/>
