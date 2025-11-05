@@ -10,44 +10,71 @@ Consider supporting to keep the mods updated.
 - [YouTube](https://www.youtube.com/@psiaeli)
 
 <br/><br/>
-If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)<br/><br/>
+If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)
 
 <br/><br/>
-This mod version is for **Manor Lords** version `0.8.035` (beta)
+This Mod version is for **Manor Lords** version `0.8.035` (beta)
 
-<br/><br/>
-#### Please get used to reading
-- Whatever you need to get the mod working will be written
-- Specific mod version (and their dependencies) only works  with specific game version, please don't expect otherwise
+<br/>
+
+### Please get used to reading
+- Whatever you need to get the mod working will be written.
+- Specific mod version (and their dependencies) only works  with specific game version, please don't expect otherwise.
 - Some commands might not be intuitive to use, we do what we can to get them working with ease of use but sometimes user cooperation is required to get them working as soon as possible.
 
 <br/><br/>
+### Dependencies
+
+Dependencies must be installed unless stated otherwise
+
+Optional dependencies may be required to enable certain features.
+
+Make sure to install compatible version, game and mods update rather frequently.
+
+<br/>
+
+1. [RE-UE4SS Mod Loader](https://www.nexusmods.com/manorlords/mods/229)
+> Required to inject the mod code into the game.
+> 
+> To enable the console window make sure `ConsoleEnablerMod` is enabled.
+
+<br/><br/>
+### Recommended Tools
+1. [MLToolBox - Mod Manager](https://www.nexusmods.com/manorlords/mods/256)
+> Recommended to manage your mods.
+> 
+> By the same Author as this Mod.
+
+
+<br/><br/>
+#### Console Window
 The **Console Window** is built-in the game and enabled by **RE-UE4SS** `ConsoleEnablerMod`
 
 <br/><br/>
-#### How To Install:
+### How To Install:
 1. Go to [https://www.nexusmods.com/manorlords/mods/229](https://www.nexusmods.com/manorlords/mods/229).
 2. If you don't have **RE-UE4SS Mod Loader** installed, follow the **How To Install** section in that page.
-3. Install this mod by following the **How To Install Mod** section in that page.<br/><br/>
+3. Install this mod by following the **How To Install Mod** section in that page.
 
-#### How To Disable / re-Enable:
+<br/><br/>
+### How To Disable / re-Enable:
 - To disable the mod remove or rename the empty enabled.txt File in the mod folder
+- To enable the mod again bring back the enabled.txt File again or utilize the Mod Loader file
 
-- To enable the mod again bring back the enabled.txt File again or utilize the Mod Loader file<br/><br/>
-
-#### How To Use:
+<br/><br/>
+### How To Use:
 1. Make sure **RE-UE4SS** `ConsoleEnablerMod` is enabled (enabled by default)
 2. In game, open the console using the console keybind (`Tilde (~)` or `F10` or `F8` by default)
     - you can cycle the window mode by pressing the keybind again, `ESC` to close
-3. Now you can enter the commands available listed below to use it<br/><br/>
+3. Now you can enter the commands available listed below to use it
 
-
-#### Be a responsible mod user
+<br/><br/>
+### Be a responsible mod user
 - If you found a bug, please do not report it to the game developer without verifying that you can reproduce the bug on vanilla game.
-- Keep in mind that the game is still in early-access.<br/><br/>
+- Keep in mind that the game is still in early-access.
 
-
-#### Available Commands
+<br/><br/>
+### Available Commands
 
 <br/>
 
