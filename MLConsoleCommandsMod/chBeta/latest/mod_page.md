@@ -13,6 +13,9 @@ Consider supporting to keep the mods updated.
 
 <br/><br/>
 
+> [!INFO] This page is a backup, better version here: https://psiae.fun/mods/manorlords/mlconsolecommandsmod/chbeta/latest/mod-page
+
+
 If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)
 
 <br/><br/>
@@ -447,7 +450,7 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 >
 > > `k.addResourceToSelectedBuildings 216 -10`
 > >
-> > remove `10` `Firewoord (itemID_216)`
+> > remove `10` `Firewood (itemID_216)`
 > >
 > > ![Screenshot_138](https://github.com/user-attachments/assets/702f2f78-5999-402d-b09a-555c9879714f)
 
