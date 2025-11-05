@@ -13,7 +13,10 @@ Consider supporting to keep the mods updated.
 
 <br/><br/>
 
-> [!INFO] This page is a backup, better version here: https://psiae.fun/mods/manorlords/mlconsolecommandsmod/chbeta/latest/mod-page
+> [!NOTE]
+> This page is a backup. better version here:
+>
+> https://psiae.fun/mods/manorlords/mlconsolecommandsmod/chbeta/latest/mod-page
 
 
 If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)
