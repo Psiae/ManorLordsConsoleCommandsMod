@@ -1,18 +1,22 @@
 ### Mod Page (v0.1.0-alpha.7-chBeta)
+
 <br/><br/>
 
+[![Patreon](https://i.ibb.co.com/m8qh6Ph/support-me-on-patreon-300x81.png 'Support Me On Patreon')](https://www.patreon.com/Psiae)
 
-[<img src="https://i.ibb.co.com/m8qh6Ph/support-me-on-patreon-300x81.png">](https://www.patreon.com/Psiae)
 <br/><br/>
+
 Consider supporting to keep the mods updated.
 - [Patreon](https://www.patreon.com/psiae/membership)
 - [Throne](https://throne.com/psiae)
 - [YouTube](https://www.youtube.com/@psiaeli)
 
 <br/><br/>
+
 If you have question, ask it in the community discord server: [discord server](https://discord.gg/NTvCTaG6tg)
 
 <br/><br/>
+
 This Mod version is for **Manor Lords** version `0.8.035` (beta)
 
 <br/>
@@ -23,6 +27,7 @@ This Mod version is for **Manor Lords** version `0.8.035` (beta)
 - Some commands might not be intuitive to use, we do what we can to get them working with ease of use but sometimes user cooperation is required to get them working as soon as possible.
 
 <br/><br/>
+
 ### Dependencies
 
 Dependencies must be installed unless stated otherwise
@@ -36,23 +41,25 @@ Make sure to install compatible version, game and mods update rather frequently.
 1. [RE-UE4SS Mod Loader](https://www.nexusmods.com/manorlords/mods/229)
 
 > [!NOTE]
-> 
+>
 > Required to inject the mod code into the game.
-> 
+>
 > To enable the console window make sure `ConsoleEnablerMod` is enabled.
 
 <br/><br/>
+
 ### Recommended Tools
 1. [MLToolBox - Mod Manager](https://www.nexusmods.com/manorlords/mods/256)
 
 > [!NOTE]
 >
 > Recommended to manage your mods.
-> 
+>
 > By the same Author as this Mod.
 
 
 <br/><br/>
+
 #### Console Window
 The **Console Window** is built-in the game and enabled by **RE-UE4SS** `ConsoleEnablerMod`
 
@@ -63,11 +70,13 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 3. Install this mod by following the **How To Install Mod** section in that page.
 
 <br/><br/>
+
 ### How To Disable / re-Enable:
 - To disable the mod remove or rename the empty enabled.txt File in the mod folder
 - To enable the mod again bring back the enabled.txt File again or utilize the Mod Loader file
 
 <br/><br/>
+
 ### How To Use:
 1. Make sure **RE-UE4SS** `ConsoleEnablerMod` is enabled (enabled by default)
 2. In game, open the console using the console keybind (`Tilde (~)` or `F10` or `F8` by default)
@@ -75,11 +84,13 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 3. Now you can enter the commands available listed below to use it
 
 <br/><br/>
+
 ### Be a responsible mod user
 - If you found a bug, please do not report it to the game developer without verifying that you can reproduce the bug on vanilla game.
 - Keep in mind that the game is still in early-access.
 
 <br/><br/>
+
 ### Available Commands
 
 <br/>
@@ -163,8 +174,7 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 > 3. Enter the command
 > 4. Squads will be teleported when the game is resumed (not paused)
 
-<br/>
-<br/>
+<br/><br/>
 
 #### `k.printLordConsoleCommands`
 
@@ -648,7 +658,7 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 
 <br/>
 
-#### `k.removeDepositAtCursor` <depositID>
+#### `k.removeDepositAtCursor <depositID>`
 
 > [!NOTE]
 >
@@ -748,8 +758,8 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 >
 > `note:`
 > > **Stone** cannot replenish hence not included
+> > To remove stone see [k.removeResourceAtCursor \resId](#kremoveresourceatcursor-resid)
 > >
-> > To remove stone see [k.removeResourceAtCursor <resId>](#kremoveresourceatcursor-resid)
 >
 > <br/>
 >
@@ -841,11 +851,11 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 > `note:`
 > > **Stone** cannot replenish hence not included
 > >
-> > To spawn stone see [k.spawnResourceAtCursor <resId>](#kspawnresourceatcursor-resid)
+> > To spawn stone see [k.spawnResourceAtCursor \<resId>](#kspawnresourceatcursor-resid)
 >
 > <br/>
 >
-> <ins>resId</ins>:
+> <ins>resId</ins>\:
 > > - berries
 > > - fish
 > > - mushroom
@@ -897,6 +907,7 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 >
 > `Example usage:`
 > > `k.removeResourceAtCursor berries`
+>
 
 <br/>
 
@@ -939,6 +950,7 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 >
 > `Example usage:`
 > > `k.spawnResourceAtCursor berries`
+>
 
 <br/>
 
@@ -1201,11 +1213,11 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 > `Example usage:`
 > > relative path:
 > >
-> > `k.enterCommandsFromFile ue4ss\Mods\MLConsoleCommandsMod\myCommands.txt `<br/>
+> > `k.enterCommandsFromFile ue4ss/Mods/MLConsoleCommandsMod/myCommands.txt `<br/>
 >
 > > absoulute path:
 > >
-> > `k.enterCommandsFromFile "D:\Spaced Dir\SteamLibrary\steamapps\common\Manor Lords\ManorLords\Binaries\Win64\ue4ss\Mods\MLConsoleCommandsMod\myCommands.txt"`
+> > `k.enterCommandsFromFile "D:/Spaced Dir/SteamLibrary/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ue4ss/Mods/MLConsoleCommandsMod/myCommands.txt"`
 
 <br/>
 
@@ -1522,7 +1534,7 @@ You can use these commands if you have the console window open, even without thi
 > `How to use:`
 > 1. Enter the command
 
-<br/>
+<br/><br/>
 
 #### `slomo <amount>`
 
@@ -1619,3 +1631,4 @@ You can use these commands if you have the console window open, even without thi
 >
 > `How to use:`
 > 1. Enter the command
+>
