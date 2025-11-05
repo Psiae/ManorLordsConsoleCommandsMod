@@ -34,6 +34,9 @@ Make sure to install compatible version, game and mods update rather frequently.
 <br/>
 
 1. [RE-UE4SS Mod Loader](https://www.nexusmods.com/manorlords/mods/229)
+
+> [!NOTE]
+> 
 > Required to inject the mod code into the game.
 > 
 > To enable the console window make sure `ConsoleEnablerMod` is enabled.
@@ -41,6 +44,9 @@ Make sure to install compatible version, game and mods update rather frequently.
 <br/><br/>
 ### Recommended Tools
 1. [MLToolBox - Mod Manager](https://www.nexusmods.com/manorlords/mods/256)
+
+> [!NOTE]
+>
 > Recommended to manage your mods.
 > 
 > By the same Author as this Mod.
@@ -79,6 +85,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printCommands`
+
+> [!NOTE]
+>
 > Print the print-commands of this mod to the console window.<br/>
 >
 > The commands are grouped into `Lord`, `Army`, `Region`, and `Misc`.
@@ -92,6 +101,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printConsoleCommands`
+
+> [!NOTE]
+>
 > Print the print-commands of this mod to the console window.<br/>
 >
 > invokes [k.printCommands](#kprintcommands)
@@ -99,6 +111,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printArmyConsoleCommands`
+
+> [!NOTE]
+>
 > Print **Army** related console commands to the console window.<br/>
 >
 > <br/>
@@ -110,6 +125,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.rerollHireMercenaries`
+
+> [!NOTE]
+>
 > Reroll the list of mercenaries available for hire.<br/>
 >
 > Reroll (refresh) the available mercenaries in the **Hire Mercenaries** screen.
@@ -123,6 +141,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.teleportSelectedSquadsToCursor`
+
+> [!NOTE]
+>
 > Teleport all selected squads to location under player cursor<br/>
 >
 >
@@ -146,6 +167,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printLordConsoleCommands`
+
+> [!NOTE]
+>
 > Print **Lord** related console command to the console window<br/>
 >
 > <br/>
@@ -157,6 +181,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addInfluence <amount>`
+
+> [!NOTE]
+>
 > Add **Player** Influence by <ins>amount</ins><br/>
 >
 > `note:` Put negative <ins>amount</ins> to decrease
@@ -176,6 +203,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addTreasury <amount>`
+
+> [!NOTE]
+>
 > Add **Player** Treasury by <ins>amount</ins><br/>
 >
 > `note:` Put negative <ins>amount</ins> to decrease
@@ -195,6 +225,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.setInfluence <amount>`
+
+> [!NOTE]
+>
 > Set **Player** Influence to <ins>amount</ins><br/>
 >
 > <br/>
@@ -212,6 +245,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.setTreasury <amount>`
+
+> [!NOTE]
+>
 > Set **Player** Treasury to <ins>amount</ins><br/>
 >
 > <br/>
@@ -229,6 +265,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.layClaimOnRegion`
+
+> [!NOTE]
+>
 > Lay **Region Claim** on **current region**<br/>
 >
 > `note:` **current region** refer to the **Region** under player view
@@ -243,6 +282,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 
 
 #### `k.finalizeClaimOnAllRegion`
+
+> [!NOTE]
+>
 > Finalize all **region claim** initiated by the player<br/>
 >
 > <br/>
@@ -253,6 +295,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.finalizeClaimOnRegion`
+
+> [!NOTE]
+>
 > Finalize **region claim** on **current region** if initiated by the player<br/>
 >
 > <br/>
@@ -264,6 +309,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printRegionConsoleCommands`
+
+> [!NOTE]
+>
 > Print **Region** related console commands to the console window<br/>
 >
 > <br/>
@@ -275,6 +323,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipLivestockOrderIntervalForRegion`
+
+> [!NOTE]
+>
 > Skip the **livestock trading interval** in **current region**<br/>
 >
 > `note:` **Livestock trading interval** refer to the 30-day cooldown between ordering new Livestock in a Region
@@ -291,6 +342,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnAnimalAtCursor <animalId> <amount>`
+
+> [!NOTE]
+>
 > Spawn <ins>amount</ins> animal by given <ins>animalId</ins> to location under player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -333,6 +387,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnAnimalAtCursor <animalId>`
+
+> [!NOTE]
+>
 > Spawn 1 animal identified by given <ins>animalId</ins> to location under player cursor<br/>
 >
 > invokes [k.spawnAnimalAtCursor <ins>animalId</ins> 1](#kspawnanimalatcursor-animalid-amount)
@@ -340,6 +397,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addResourceToSelectedBuildings <itemId> <amount>`
+
+> [!NOTE]
+>
 > Add **Item** by <ins>itemId</ins> by <ins>amount</ins> to selected buildings<br/>
 >
 > `note:` Put negative <ins>amount</ins> to decrease
@@ -384,6 +444,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addItemToSelectedBuildings <itemId> <amount>`
+
+> [!NOTE]
+>
 > Add **Item** by <ins>itemId</ins> by <ins>amount</ins> to selected buildings<br/>
 >
 > invokes [k.addResourceToSelectedBuildings <ins>itemId</ins> <ins>amount</ins>](#kaddresourcetoselectedbuildings-itemid-amount)
@@ -391,6 +454,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.demolishSelectedBuildings <refund>`
+
+> [!NOTE]
+>
 > Demolish player selected buildings, optionally <ins>refund</ins> the construction cost<br/>
 >
 > `note:`
@@ -417,6 +483,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.instaBuild`
+
+> [!NOTE]
+>
 > Toggle **insta build** mode<br/>
 >
 > `note:` Does not work on **Burgage Plotter**
@@ -433,6 +502,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipMourningForRegionBuildings`
+
+> [!NOTE]
+>
 > Skip the **Mourning Period** on any buildings in **current region**<br/>
 >
 > `note:` **Current region** refer to the **Region** under player view
@@ -447,6 +519,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnConstructionResourcesToSelectedBuildings`
+
+> [!NOTE]
+>
 > Spawn remaining construction resources to player selected buildings<br/>
 >
 > `note:`
@@ -461,6 +536,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### k.spawnConstructionResourcesToRegionBuildings
+
+> [!NOTE]
+>
 > Spawn remaining construction resources to buildings in current region<br/>
 >
 > `note:` **Current region** refer to the **Region** under player view
@@ -475,6 +553,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addDepositAtCursor <depositId> <amount>`
+
+> [!NOTE]
+>
 > Add <ins>amount</ins> to deposit by <ins>depositId</ins> at location under player cursor<br/>
 >
 > `note:`
@@ -506,6 +587,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.markNormalDepositAtCursor <depositId>`
+
+> [!NOTE]
+>
 > Mark deposit by <ins>depositId</ins> at location under player cursor as **Normal** type deposit<br/>
 >
 > `note:`
@@ -534,6 +618,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.markRichDepositAtCursor <depositID>`
+
+> [!NOTE]
+>
 > Mark deposit by <ins>depositId</ins> at location under player cursor as **Rich** type deposit<br/>
 >
 > `note:`
@@ -562,6 +649,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.removeDepositAtCursor` <depositID>
+
+> [!NOTE]
+>
 > Remove deposit by <ins>depositId</ins> at location under player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -596,6 +686,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnDepositAtCursor <depositId> <amount>`
+
+> [!NOTE]
+>
 > Spawn deposit by <ins>depositId</ins> at location under player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -632,6 +725,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.boopMode`
+
+> [!NOTE]
+>
 > Toggle boop mode<br/>
 >
 > Boop mode is used to manually reset the task of a unit, if they are stuck this might help them to move somewhere else.
@@ -645,6 +741,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.emptyRegionResource <resId>`
+
+> [!NOTE]
+>
 > Empty all resource by given <ins>resId</ins> in **current region**<br/>
 >
 > `note:`
@@ -674,6 +773,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.markNormalResourceClumpAtCursor <resId>`
+
+> [!NOTE]
+>
 > Mark resource clump by <ins>resId</ins> at location under player cursor as **Normal** type resource<br/>
 >
 > `note:`
@@ -701,6 +803,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.markRichResourceClumpAtCursor <resId>`
+
+> [!NOTE]
+>
 > Mark resource clump by <ins>depositId</ins> at location under player cursor as **Rich** type resource<br/>
 >
 > `note:`
@@ -728,6 +833,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.refillRegionResource <resId>`
+
+> [!NOTE]
+>
 > Refill all resource by given <ins>resId</ins> in **current region**<br/>
 >
 > `note:`
@@ -757,6 +865,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.removeResourceAtCursor <resId>`
+
+> [!NOTE]
+>
 > Remove resource by given <ins>resId</ins> at location under player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -790,6 +901,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnResourceAtCursor <resId>`
+
+> [!NOTE]
+>
 > Spawn resource by given <ins>resId</ins> at location under player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -829,6 +943,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addRegionalWealth <amount>`
+
+> [!NOTE]
+>
 > Add **Regional Wealth** by <ins>amount</ins> to **current region**<br/>
 >
 > `note:` Put negative <ins>amount</ins> to decrease
@@ -849,6 +966,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 ### `k.setRegionalWealth <amount>`
+
+> [!NOTE]
+>
 > Set **Regional Wealth** to <ins>amount</ins> to **current region**<br/>
 >
 > `How to use:`
@@ -865,6 +985,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnBanditCamp`
+
+> [!NOTE]
+>
 > Spawn new Bandit Camp somewhere on the map<br/>
 >
 > `How to use:`
@@ -873,6 +996,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnBanditCampAtCursor`
+
+> [!NOTE]
+>
 > Spawn new Bandit Camp at location under player cursor<br/>
 >
 > `How to use:`
@@ -883,6 +1009,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnRaiderRallyAtCursor <amount>`
+
+> [!NOTE]
+>
 > Spawn <ins>amount</ins> group of raider that will rally at location under player cursor<br/>
 >
 > `note:` The raider will spawn at nearest border from the rally position
@@ -906,6 +1035,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnRaiderRallyAtCursor`
+
+> [!NOTE]
+>
 > Spawn 1 group of raider that will rally at location under **Player** cursor<br/><br/>
 >
 > Invokes [k.spawnRaiderRallyAtCursor 1](#kspawnraiderrallyatcursor-amount)
@@ -913,6 +1045,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.addCapacityToWildAnimalsAtCursor <amount>`
+
+> [!NOTE]
+>
 > Add capacity to **Wild Animals** under player cursor by <ins>amount</ins><br/>
 >
 > `note:` Put negative <ins>amount</ins> to decrease
@@ -936,6 +1071,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.breedWildAnimalsAtCursor`
+
+> [!NOTE]
+>
 > Breed the animals in **Wild Animals** under player cursor<br/>
 >
 > `How to use:`
@@ -946,6 +1084,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.markNormalWildAnimalsAtCursor`
+
+> [!NOTE]
+>
 > Mark **Wild Animals** at location under player cursor as **Normal** type<br/>
 >
 > `How to use:`
@@ -956,6 +1097,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.markRichWildAnimalsAtCursor`
+
+> [!NOTE]
+>
 > Mark **Wild Animals** at location under player cursor as **Rich** type<br/>
 >
 > `How to use:`
@@ -966,6 +1110,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.removeRichWildAnimalsAtCursor`
+
+> [!NOTE]
+>
 > Remove **Wild Animals** at location under Player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -984,6 +1131,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.spawnWildAnimalsAtCursor <capacity>`
+
+> [!NOTE]
+>
 > Spawn **Wild Animals** with <ins>capacity</ins> at location under player cursor<br/>
 >
 > <code style="color : orangered">warning:</code>
@@ -1014,6 +1164,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printMiscConsoleCommands`
+
+> [!NOTE]
+>
 > Print Misc (others) console commands to the console window<br/>
 >
 > <br/>
@@ -1025,6 +1178,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.enterCommandsFromFile <path>`
+
+> [!NOTE]
+>
 > Enter commands listed in the **File** at given <ins>path</ins><br/>
 >
 > `note:` commands is **new-line** separated
@@ -1054,6 +1210,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.followUnitAtCursor`
+
+> [!NOTE]
+>
 > Follow the Unit currently pointed by **Player** cursor<br/>
 >
 > `note:` work on animals
@@ -1068,6 +1227,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.makeDrought`
+
+> [!NOTE]
+>
 > Begin drought<br/>
 >
 > Drought progression will be set to at least 10%
@@ -1080,6 +1242,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.makeDroughtInstantly`
+
+> [!NOTE]
+>
 > Begin drought instantly<br/>
 >
 > Drought progression will be set to 100%
@@ -1092,6 +1257,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.makeRain <isDamaging>`
+
+> [!NOTE]
+>
 > Begin rain, <ins>isDamaging</ins><br/>
 >
 > Rain progression will be set to at least 10%
@@ -1111,6 +1279,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.makeRain`
+
+> [!NOTE]
+>
 > Begin rain, not damaging<br/>
 >
 > Invokes [k.makeRain false](#kmakeRain-isdamaging)
@@ -1118,6 +1289,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.makeRainInstantly <isDamaging>`
+
+> [!NOTE]
+>
 > Begin rain instantly, <ins>isDamaging</ins><br/>
 >
 > Rain progression will be set to 100%
@@ -1137,6 +1311,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.makeRainInstantly`
+
+> [!NOTE]
+>
 > Begin rain, instantly, not damaging<br/>
 >
 > Invokes [makeRainInstantly false](#kmakeRainInstantly-isdamaging)
@@ -1144,6 +1321,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.renameUnitAtCursor <name>`
+
+> [!NOTE]
+>
 > Rename the Unit current pointed by player cursor to <ins>name</ins><br/>
 >
 > `note:` work on animals
@@ -1167,6 +1347,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipDrought`
+
+> [!NOTE]
+>
 > Skip Drought<br/>
 >
 > Drought will start progressing back to 0%<br/>
@@ -1179,6 +1362,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipDroughtInstantly`
+
+> [!NOTE]
+>
 > Skip Drought Instantly<br/>
 >
 > Drought progression will be set to 0%<br/>
@@ -1191,6 +1377,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipRain`
+
+> [!NOTE]
+>
 > Skip Rain <br/>
 >
 > Rain will start progressing back to 0%<br/>
@@ -1203,6 +1392,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipRainInstantly`
+
+> [!NOTE]
+>
 > Skip Rain Instantly<br/>
 >
 > Rain progression will be set to 0%<br/>
@@ -1215,6 +1407,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.printForeignSupply`
+
+> [!NOTE]
+>
 > Print the current state of **Foreign Supply** to the console window<br/>
 >
 >  **Foreign Supply** Influence the market price
@@ -1230,6 +1425,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.setGameSpeed <amount>`
+
+> [!NOTE]
+>
 > Set the **Game Speed** to <ins>amount</ins><br/>
 >
 > <ins>amount</ins> must be an integer
@@ -1251,6 +1449,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipDay <amount>`
+
+> [!NOTE]
+>
 > Skip <ins>amount</ins> day(s)<br/>
 >
 > Forward the date / calendar, is **not** a fast-forward, useful for quickly testing stuff that happen every certain day.<br/>
@@ -1268,6 +1469,9 @@ The **Console Window** is built-in the game and enabled by **RE-UE4SS** `Console
 <br/>
 
 #### `k.skipDay`
+
+> [!NOTE]
+>
 > Skip 1 day<br/>
 >
 > Invokes [k.skipDay 1](#kskipday-amount)
@@ -1279,6 +1483,9 @@ You can use these commands if you have the console window open, even without thi
 
 
 #### `stat FPS`
+
+> [!NOTE]
+>
 > Toggle the Engine FPS counter<br/>
 >
 > <br/>
@@ -1289,6 +1496,9 @@ You can use these commands if you have the console window open, even without thi
 <br/>
 
 #### `stat Unit`
+
+> [!NOTE]
+>
 > Toggle the Engine metrics counter<br/>
 >
 > <br/>
@@ -1299,6 +1509,9 @@ You can use these commands if you have the console window open, even without thi
 <br/>
 
 #### `toggleDebugCamera`
+
+> [!NOTE]
+>
 > Enter the debug camera mode (free look)<br/>
 >
 > <code style="color: orangered">warning:</code>
@@ -1312,6 +1525,9 @@ You can use these commands if you have the console window open, even without thi
 <br/>
 
 #### `slomo <amount>`
+
+> [!NOTE]
+>
 > Speed up/down time passed in game by <ins>amount</ins> times<br/>
 >
 > [Slomo Docs](https://dev.epicgames.com/documentation/en-us/unreal-engine/BlueprintAPI/CheatManager/Slomo)
@@ -1336,12 +1552,18 @@ You can use these commands if you have the console window open, even without thi
 <br/>
 
 #### ~~shot~~
+
+> [!NOTE]
+>
 >  ~~Takes screenshot ignoring HUD~~
 >    - note: broken in UE 5.5<br/><br/>
 
 <br/>
 
 #### `t.maxFps <amount>`
+
+> [!NOTE]
+>
 > Set the maximum FPS to <ins>amount</ins><br/>
 >
 > <br/>
@@ -1358,6 +1580,9 @@ You can use these commands if you have the console window open, even without thi
 
 
 #### `addGood <itemId>`
+
+> [!NOTE]
+>
 > Add some amount of items by <ins>itemId</ins> to your settlement<br/>
 >
 > <ins>itemId</ins>:
@@ -1387,6 +1612,9 @@ You can use these commands if you have the console window open, even without thi
 <br/>
 
 #### plenty
+
+> [!NOTE]
+>
 > Add plenty of essential item to your settlement<br/>
 >
 > `How to use:`
